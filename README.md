@@ -18,6 +18,8 @@ To maintain modularity and atomic documentation, the configurations are divided 
     *   *Focus:* Proxmox VE installation settings, host networking, repository setup, and licensing adjustments.
 *   [**06_service_architecture.md**](docs/06_service_architecture.md)
     *   *Focus:* Network design for the Stalwart, FoundationDB, Redis, and MinIO microservices, including NUMA pinning targets.
+*   [**07_lxc_containers.md**](docs/07_lxc_containers.md)
+    *   *Focus:* Detailed provisioning runbooks, resource profiles, and installation status for individual LXC containers.
 
 ---
 *Created: July 2026*
