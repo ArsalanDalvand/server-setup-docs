@@ -1,0 +1,42 @@
+---
+title: "Managing Large Values and Blobs"
+source: "https://apple.github.io/foundationdb/largeval.html"
+source_format: official-rst
+language: "en"
+doc_slug: "largeval"
+category: "foundationdb"
+retrieved_at: "2026-07-26T14:40:29+00:00"
+tags:
+  - foundationdb
+  - official-documentation
+  - server-architecture
+aliases:
+  - "Managing Large Values and Blobs"
+---
+###############################
+Managing Large Values and Blobs
+###############################
+
+This tutorial illustrates techniques for storing and managing large values in FoundationDB. We'll look at using the blob (binary large object) layer, which provides a simple interface for storing unstructured data. We'll be drawing on [[data-modeling|data-modeling]] and [[api-python|api-python]], so you should take a look at those documents if you're not familiar with them.
+
+For an introductory tutorial that begins with "Hello world" and explains the basic concepts used in FoundationDB, take a look at our [[class-scheduling|class scheduling tutorial]].
+
+Although we'll be using Python, the concepts in this tutorial are also applicable to the other [[jozve/server-setup-docs/references/official/foundationdb-docs/api-reference|languages]] supported by FoundationDB.
+
+.. _largeval-modeling:
+
+Modeling large values
+=====================
+
+For key-value pairs stored in FoundationDB, values are limited to a size of 100 kB (see [[large-keys-and-values|Known Limitations]]). Furthermore, you'll usually get the best performance by keeping value sizes below 10 kb, as discussed in our [[data-modeling-performance-guidelines|performance guidelines]].
+
+.. _largeval-splitting:
+
+Splitting structured values
+---------------------------
+
+These factors lead to an obvious question: what should you do if your first cut at a data model results in values that are larger than those allowed by the above guidelines?
+
+The answer depends on the nature and size of your values. If your values have some internal structure, consider revising your data model to split the values across multiple keys. For example, suppose you'd like to store a serialized JSON object. Instead of storing the object as the value of a single key, you could construct a key for each path in the object, as described for [[data-modeling-documents|documents ]].
+
+.. note:: In general, you should consider splitting your values if their sizes are above 10kb, or if they are above 1kb and you only use a part of each value after reading it.

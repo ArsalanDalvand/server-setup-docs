@@ -1,0 +1,79 @@
+---
+title: "Sharing"
+source: "https://stalw.art/docs/collaboration/sharing"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "collaboration/sharing"
+category: "collaboration"
+retrieved_at: "2026-07-26T15:40:57+00:00"
+tags:
+  - stalwart
+  - mail-server
+  - official-documentation
+  - rust-network
+aliases:
+  - "Sharing"
+---
+# Sharing
+
+      
+
+Stalwart supports resource sharing across calendars, address books, and file storage. Sharing is available for team scheduling, centralised contact management, and document collaboration.
+
+Group calendars, shared address books, and shared file folders can be accessed and managed by multiple accounts with appropriate permissions. Individual accounts can also share personal calendars, address books, and files with other accounts on the server.
+
+Sharing is implemented using the JMAP Sharing extension for JMAP clients and the WebDAV ACL (Access Control List) extension for CalDAV, CardDAV, and WebDAV clients. Both interfaces allow fine-grained permissions (read-only through full access) to be assigned to other accounts or groups directly from the client, without server-side reconfiguration.
+
+## Group resources
+
+[Section titled “Group resources”](#group-resources)
+
+Shared calendars, address books, and file folders for teams or departments use group-based resources. A resource assigned to a group is automatically visible to every member.
+
+Enabling group resources requires only that the appropriate groups exist on the server and that accounts are added to them. Once membership is established, members see the group’s calendars, address books, or file folders alongside their personal resources on the next login through a supported CalDAV, CardDAV, or WebDAV client.
+
+Group resources behave like individual resources, but are accessible to every group member. Permissions are managed centrally, and updates made by one member are immediately visible to the rest of the group.
+
+No special configuration is required to enable group resource visibility: group membership alone grants access.
+
+## Sharing individual resources
+
+[Section titled “Sharing individual resources”](#sharing-individual-resources)
+
+In addition to group-based collaboration, Stalwart allows accounts to share their own calendars, address books, and file folders with other accounts on the server. This enables ad-hoc collaboration without administrative involvement, for example sharing a personal calendar with a colleague or granting a teammate access to a specific file directory.
+
+Sharing requires either a JMAP client with JMAP Sharing support or a CalDAV, CardDAV, or WebDAV client that supports the WebDAV ACL extension. Both interfaces allow the account holder to assign fine-grained permissions to other accounts or groups directly from the client interface.
+
+An important consideration is how users discover other accounts on the server. In groupware terminology, a principal is any entity that can be granted access to a resource (typically an account, group, or system-defined role). By default, for privacy and security reasons, Stalwart does not allow users to list all available principals. Existing contacts can therefore be shared with, but the full list of accounts or groups cannot be browsed or searched unless directory queries are permitted.
+
+Directory visibility is configured on the [[ref/object/sharing|Sharing]] singleton (found in the WebUI under  Settings ›  Files & Sharing › Sharing). Setting [[ref/object/sharing#allowdirectoryqueries|`allowDirectoryQueries`]] to `true` allows authenticated users to perform principal lookups through JMAP Sharing and WebDAV ACL, making it possible to discover and share resources with other accounts. This should only be enabled in controlled environments, either when all accounts belong to the same organisation or when they are isolated into clearly defined [[auth/authorization/tenants|tenants]]. Enabling directory queries in mixed environments may expose sensitive information.
+
+For finer control, [[auth/authorization/permissions|permissions]] can be used to decide who may browse the directory, view group membership, or discover principals across the server.
+
+## Sharing limits
+
+[Section titled “Sharing limits”](#sharing-limits)
+
+[[ref/object/sharing#maxshares|`maxShares`]] on the Sharing singleton defines the maximum number of sharees that can be added to a single shared item (calendar, address book, or file). The default is `10`. Raising this value allows broader sharing per item; lowering it keeps access lists small.
+
+## Share notification retention
+
+[Section titled “Share notification retention”](#share-notification-retention)
+
+JMAP Sharing records each sharing operation as a `ShareNotification`. Each notification captures who shared what with whom, the previous and new ACLs, and other contextual details. Retention of these records is controlled by [[ref/object/data-retention#expungesharenotifyafter|`expungeShareNotifyAfter`]] on the [[ref/object/data-retention|DataRetention]] singleton (found in the WebUI under  Settings ›  Storage › Data Retention › Archiving,  Settings ›  Storage › Data Retention › Data Cleanup,  Settings ›  Storage › Data Retention › Auto-Expunge,  Settings ›  Storage › Data Retention › Telemetry). The value is a duration; the default is `"30d"`, after which notifications are removed during the routine auto-expunge run.
+
+## WebDAV assisted discovery
+
+[Section titled “WebDAV assisted discovery”](#webdav-assisted-discovery)
+
+Stalwart organises account and group resources using a hierarchical path structure. Each principal (an account, group, or other addressable entity) has its own namespace under which resources are stored. For example, calendars for the account `john` live under `/dav/cal/john`, while the address book for a group named `sales` is under `/dav/card/sales`. Within each principal’s path, multiple collections can be created such as `/dav/cal/john/work` and `/dav/cal/john/personal`.
+
+To support standards-based client discovery, Stalwart lists every accessible calendar and address book collection in the `calendar-home-set` and `addressbook-home-set` properties of the authenticated principal, covering both personal and shared collections.
+
+Many CalDAV and CardDAV clients assume a simplified model where all resources are located under a single path, such as `/dav/cal/john`. This simpler assumption breaks support for shared or group resources, because the client treats the account’s own namespace as the only scope.
+
+To assist clients that rely on this simplified discovery model, Stalwart offers an optional feature known as WebDAV assisted discovery. It is controlled by [[ref/object/web-dav#enableassisteddiscovery|`enableAssistedDiscovery`]] on the [[ref/object/web-dav|WebDav]] singleton (found in the WebUI under  Settings ›  Network › WebDAV). When enabled, PROPFIND requests to `/dav/cal` and `/dav/card` with Depth 1 are treated as Depth 2, so the server returns every personal and shared collection available to the authenticated principal, even collections belonging to different principals or groups.
+
+Assisted discovery can help clients locate shared resources that they would otherwise miss, but it is not part of the WebDAV specification and may cause inconsistencies in clients that follow the specification strictly. The default is therefore to leave it disabled.
+
+Where a client has trouble showing shared resources, the long-term remedy is to ask the client developers to add support for WebDAV ACL and for discovery through `calendar-home-set` and `addressbook-home-set`.

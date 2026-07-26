@@ -1,0 +1,89 @@
+---
+title: "Redis Open Source version management"
+source: "https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "operate/oss_and_stack/install/version-mgmt"
+category: "operate"
+retrieved_at: "2026-07-26T15:48:53+00:00"
+tags:
+  - redis
+  - cache-store
+  - official-documentation
+  - in-memory-db
+aliases:
+  - "Redis Open Source version management"
+---
+# Redis Open Source version management
+
+Describes Redis Open Source supported database versions.
+
+            Redis Open Source
+          
+
+Redis Open Source provides comprehensive version management that prioritizes customer control over major changes.
+
+## Redis version structure
+
+Redis uses a MAJOR.MINOR.PATCH versioning scheme:
+
+Major versions: Significant changes that may include breaking changes (for example, Redis 7 â Redis 8).
+Minor versions: New features and improvements within a major version (for example, 8.2 â 8.4 â 8.6 â 8.8).
+Patch versions: Bug fixes and security updates (for example, 8.6.1 â 8.6.2).
+
+## Supported versions
+
+Note:
+We strongly recommend using the latest available version to benefit from the newest features, performance improvements, and security updates.
+
+Version
+Status
+EOL Date
+
+Redis 8.8
+GA
+TBD
+
+Redis 8.6
+GA
+TBD
+
+Redis 8.4
+GA
+TBD
+
+Redis 8.2
+GA
+September 1, 2030
+
+Redis 8.0
+GA
+December 1, 2026
+
+Redis 7.4
+GA
+December 1, 2029
+
+Redis 7.2
+GA
+December 1, 2029
+
+Redis 6.2
+GA
+April 1, 2027
+
+RATE THIS PAGE
+
+★
+
+★
+
+★
+
+★
+
+★
+
+[Back to top â](#)
+
+## On this page

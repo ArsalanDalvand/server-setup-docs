@@ -1,0 +1,188 @@
+---
+title: "Differences between the classic and Flink processors"
+source: "https://redis.io/docs/latest/integrate/redis-data-integration/architecture/classic-vs-flink/"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "integrate/redis-data-integration/architecture/classic-vs-flink"
+category: "integrate"
+retrieved_at: "2026-07-26T15:48:53+00:00"
+tags:
+  - redis
+  - cache-store
+  - official-documentation
+  - in-memory-db
+aliases:
+  - "Differences between the classic and Flink processors"
+---
+# Differences between the classic and Flink processors
+
+Compare the classic and Flink stream processor implementations.
+
+RDI ships with two stream processor implementations. Both consume the same
+source streams, share the same job-level configuration model, and write to
+the same Redis target, but they differ in architecture, supported features,
+configuration, observability, error handling, and performance.
+
+This page summarizes those differences. See
+[[integrate/redis-data-integration/faq#which-processor-should-i-use|Which processor should I use?]]
+in the FAQ for the recommendation, and
+[[integrate/redis-data-integration/installation/migration-classic-to-flink|Migrate from the classic processor to the Flink processor]]
+for a step-by-step migration guide.
+
+## At a glance
+
+Aspect
+Classic processor
+Flink processor
+
+Implementation
+Python
+Java on top of [Apache Flink](https://flink.apache.org/)
+
+Scaling
+Single replica
+Horizontal: TaskManager replicas Ã task slots per TaskManager
+
+Fault tolerance
+Source-stream consumer-group replay
+Source-stream consumer-group replay plus Flink checkpointing
+
+Metrics endpoint
+`rdi-metrics-exporter` service
+Flink JobManager `/metrics` (no metrics exporter)
+
+Metric naming
+`rdi_*` (e.g., `rdi_incoming_entries`)
+`flink_*` (e.g., `flink_jobmanager_job_operator_coordinator_stream_type_rdiRecords`)
+
+End-to-end latency
+Bounded by the per-batch read-process-write cycle
+Records flow through pipelined operator chains without a per-batch barrier
+
+Snapshot throughput
+Limited by single shared reader and writer
+Parallelized across all task slots
+
+Expression and `redis.lookup` result caching
+Not supported
+Optional, opt-in per transformation
+
+## Architecture and deployment
+
+The classic processor runs as a single pod managed by the operator
+and can be deployed on either VMs or Kubernetes through the RDI Helm
+chart.
+
+The Flink processor runs as an Apache Flink application cluster managed by
+RDI: one JobManager pod plus one or more TaskManager pods. Source,
+transformation, and sink operators run as parallel subtasks across
+all task slots in the cluster. The Flink processor scales
+horizontally by changing the number of TaskManager replicas
+(`advanced.resources.taskManager.replicas`); with adaptive
+parallelism, the default parallelism is the product of TaskManager
+replicas and task slots per TaskManager.
+
+Both processors retain at-least-once delivery semantics; the Flink
+processor adds Flink checkpointing on top of the shared
+consumer-group replay mechanism.
+
+See
+[[integrate/redis-data-integration/installation/install-k8s#configure-the-flink-processor|Configure the Flink processor]]
+for the Kubernetes Helm settings, and
+[[integrate/redis-data-integration/installation/install-vm#configure-the-flink-processor|Configure the Flink processor]]
+for VM installations.
+
+## Configuration
+
+The two processors share the same `config.yaml` envelope and the same
+`connections`, `sources`, `targets`, and `jobs` sections. The only
+differences are inside the `processors:` block, which is selected via
+`processors.type` (`classic` or `flink`, default `classic`). Properties
+that apply to only one implementation are annotated with
+Classic processor only. or Flink processor only. in the
+[pipeline configuration reference](/docs/latest/integrate/redis-data-integration/data-pipelines/pipeline-config/#processors),
+and are silently ignored by the other implementation. The Flink
+processor exposes additional fine-grained tuning under
+`processors.advanced.*`.
+
+## Transformation extensions
+
+The two processors support the same set of transformation blocks
+(`filter`, `map`, `add_field`, `remove_field`, `rename_field`,
+`redis.lookup`), the same expression languages (JMESPath and SQL),
+and the same data types in output blocks: `hash`, `json`, `set`,
+`sorted_set`, `stream`, and `string`. Pipelines written for one processor
+generally execute on the other without changes.
+
+The Flink processor adds three optional, performance-oriented
+extensions that are not available with the classic processor:
+
+Expression result caching through a per-expression `cache:`
+block on `filter`, `map`, `add_field`, and `redis.lookup` arguments.
+`redis.lookup` result caching through a `lookup_cache:` block.
+`redis.lookup` batching, which groups lookups into a single
+Redis pipeline. Batching is enabled by default with sensible
+defaults; the optional `batch:` block lets you override them.
+
+See
+[Caching expression results](/docs/latest/integrate/redis-data-integration/data-pipelines/transform-examples/caching-expression-results/)
+for examples and
+[[integrate/redis-data-integration/reference/data-transformation/lookup|`redis.lookup`]]
+for the full property list.
+
+## Metrics
+
+The two processors expose different Prometheus metric sets and use
+different naming schemes, so dashboards and alerts cannot be reused
+as-is between them. The classic processor exposes its metrics through
+the `rdi-metrics-exporter` service. The Flink processor emits metrics
+directly from the JobManager and TaskManager pods through Flink's
+native Prometheus reporter; no metrics exporter is deployed.
+
+See
+[[integrate/redis-data-integration/observability#flink-processor-metrics|Observability â Flink processor metrics]]
+for the customer-facing list of metrics.
+
+## Error handling and DLQ
+
+Both processors implement a dead-letter queue (DLQ) at
+`dlq:{stream_name}` and honor the same top-level `error_handling`
+(`dlq` or `ignore`) and `dlq_max_messages` properties. The Flink
+processor surfaces a few corner cases as DLQ entries that the classic
+processor logs and skips (for example, missing parent
+keys in nested writes and exceptions thrown by `when` expressions on
+`redis.lookup`). The DLQ entry field set and value encoding also
+differ: the classic processor uses Python-stringified values,
+while the Flink processor uses JSON.
+
+## Performance
+
+The Flink processor delivers significantly higher throughput during
+the initial snapshot and lower end-to-end latency in steady state.
+The classic processor uses a sequential read-process-write batching
+cycle, so each record waits for its batch to complete before being
+written to the target. The Flink processor pipelines records through
+operator chains without a per-batch barrier, and parallelizes work
+across all task slots, which both lowers per-record latency and
+raises throughput.
+
+The Flink processor has a larger baseline memory footprint (JVM plus
+Flink runtime overhead per TaskManager) but, for most pipelines, the
+performance gains and the additional features (horizontal scaling, caching)
+outweigh that cost.
+
+RATE THIS PAGE
+
+★
+
+★
+
+★
+
+★
+
+★
+
+[Back to top â](#)
+
+## On this page

@@ -1,0 +1,320 @@
+---
+title: "Docker"
+source: "https://stalw.art/docs/install/platform/docker"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "install/platform/docker"
+category: "install"
+retrieved_at: "2026-07-26T15:40:57+00:00"
+tags:
+  - stalwart
+  - mail-server
+  - official-documentation
+  - rust-network
+aliases:
+  - "Docker"
+---
+# Docker
+
+      
+
+Stalwart is distributed as a multi-architecture Docker image that bundles the server binary and a minimal Debian runtime, covering JMAP, IMAP, POP3, SMTP, WebDAV, and the management HTTP interface. The image is published to both Docker Hub and GitHub Container Registry.
+
+The `latest` tag tracks the newest release and moves forward as new versions ship. For production deployments, pin to a `v<major>.<minor>` tag such as `v0.16`. The CI publishes this short form in addition to the full `v<major>.<minor>.<patch>` tag and `edge` (latest build from the main branch), so picking the short form keeps deployments on a single minor series and avoids breaking semver changes on upgrade.
+
+Terminal window
+
+```
+$ docker pull stalwartlabs/stalwart:v0.16
+```
+
+Replace `v0.16` with the current stable release if a newer minor version has shipped. For installations that use FoundationDB as the main data store, see [FoundationDB](#foundationdb) under Additional topics below.
+
+## Start the container
+
+[Section titled “Start the container”](#start-the-container)
+
+The image declares two volumes for configuration and data persistence. The volume `/etc/stalwart` is intended for the configuration file, while `/var/lib/stalwart` is meant for application data.
+
+The data volume is only written to when Stalwart uses a local storage backend such as RocksDB. Deployments that rely exclusively on external stores (S3, PostgreSQL, MySQL, Redis, Azure Blob, NATS) can leave the data volume empty. Application logs are written to the container’s standard output and captured by Docker’s log driver, so no dedicated log volume is required.
+
+Create named Docker volumes and start the container with the full set of mail and management ports published to the host:
+
+Terminal window
+
+```
+$ docker volume create stalwart-etc$ docker volume create stalwart-data$ docker run -d --name stalwart \    --restart unless-stopped \    -p 443:443 -p 8080:8080 \    -p 25:25 -p 587:587 -p 465:465 \    -p 143:143 -p 993:993 \    -p 110:110 -p 995:995 \    -p 4190:4190 \    -v stalwart-etc:/etc/stalwart \    -v stalwart-data:/var/lib/stalwart \    stalwartlabs/stalwart:v0.16
+```
+
+Publishing every port is not required. Internal deployments that only need, for example, submission (`587`) and IMAPS (`993`) can prune the list accordingly. Refer to the [[install/security|securing your server]] documentation for guidance on which ports to expose.
+
+The image runs as an unprivileged `stalwart` user (UID 2000). Docker’s default capability set is sufficient for binding ports below 1024 on Linux: the binary carries the `cap_net_bind_service` file capability, so no `--cap-add` or `--privileged` flag is needed. Starting the container with `--cap-drop NET_BIND_SERVICE` causes the binary to fail at exec time.
+
+## Retrieve the administrator credentials
+
+[Section titled “Retrieve the administrator credentials”](#retrieve-the-administrator-credentials)
+
+After the container starts for the first time, Stalwart runs in bootstrap mode. A temporary administrator account is generated with a random password and the credentials are written to the container’s standard error. Bootstrap mode is a transient phase intended only to reach the setup wizard, after which a permanent administrator account is provisioned.
+
+Print the container logs and locate the bootstrap banner:
+
+Terminal window
+
+```
+$ docker logs stalwart 2>&1 | grep -A8 'bootstrap mode'
+```
+
+The block to look for looks like this:
+
+```
+════════════════════════════════════════════════════════════🔑 Stalwart bootstrap mode - temporary administrator account
+   username: admin   password: XXXXXXXXXXXXXXXX
+Use these credentials to complete the initial setup at the/admin web UI. Once setup is done, Stalwart will provision apermanent administrator and this temporary account will nolonger apply.════════════════════════════════════════════════════════════
+```
+
+Copy the 16-character password from the `password:` line. This is the only time the value appears in the logs.
+
+To avoid relying on a log-extracted temporary password, a fixed credential can be set at container start time. Pass the value via `-e`, for example `-e STALWART_RECOVERY_ADMIN=admin:mySecretPass`. The administrator credentials will match the configured value and no temporary password will be generated. The same variable can also be placed in a Docker Compose `environment:` block or sourced from a Compose `env_file:` entry.
+
+## Open the setup wizard
+
+[Section titled “Open the setup wizard”](#open-the-setup-wizard)
+
+With the bootstrap credentials in hand, open a web browser and navigate to:
+
+```
+http://<hostname>:8080/admin
+```
+
+Replace `<hostname>` with the hostname or IP address of the machine running Stalwart. On the machine itself, `http://127.0.0.1:8080/admin` works for local access. Sign in using `admin` as the username and the temporary password retrieved in the previous step; the setup wizard appears automatically.
+
+The wizard presents five screens plus a final confirmation. Every field has a sensible default, so most installations only need to enter their hostname and domain and click through the rest. Deployments that prefer to skip the wizard entirely and drive the same configuration from the CLI should consult [Non-interactive setup](#non-interactive-setup) under Additional topics below.
+
+### Step 1 of 5: Server identity
+
+[Section titled “Step 1 of 5: Server identity”](#step-1-of-5-server-identity)
+
+Two required fields plus two optional toggles.
+
+Server hostname:
+
+The public hostname this Stalwart server answers to, for example `mail.example.com`. This value appears in SMTP greetings, outgoing message headers, and TLS certificate requests. It must be a valid domain name resolving via public DNS to this server’s IP address. For test or internal deployments, Stalwart accepts the RFC 6761 reserved TLDs (`.test`, `.local`, `.localhost`, `.invalid`, `.example`); add the hostname to `/etc/hosts` or to the private DNS zone that serves the deployment.
+
+By default, this hostname also becomes the base URL published in OAuth, OIDC, and JMAP discovery documents, served over HTTPS on port `443`. Reverse-proxy deployments, custom HTTPS ports, and path-prefixed mounts should set [[configuration/environment-variables#public-urls|`STALWART_PUBLIC_URL`]] to override the published base URL; see [[server/reverse-proxy|Reverse proxy]].
+
+Default email domain:
+
+The primary domain this installation will serve, for example `example.com`. Must be a valid domain name. Additional domains can be added at any time after setup. For test deployments, use a `.test` domain (e.g. `example.test`).
+
+Automatically obtain TLS certificate:
+
+Leave enabled to have Stalwart request a free TLS certificate for the server hostname from Let’s Encrypt using the ACME protocol. This is the recommended option for most deployments, because mail and web clients can then connect securely on the very first start without any additional steps. Disable the checkbox only if a certificate will be uploaded manually later, or if TLS is terminated by a reverse proxy in front of Stalwart.
+
+Generate email signing keys:
+
+Leave enabled to have Stalwart generate DKIM signing keys for the default domain. DKIM cryptographically signs outgoing messages and significantly improves the chances that they are accepted by remote servers rather than classified as spam. Disable only when DKIM keys are managed externally.
+
+### Step 2 of 5: Storage
+
+[Section titled “Step 2 of 5: Storage”](#step-2-of-5-storage)
+
+Storage is split into four independent stores. All four default to RocksDB on local disk, which is the recommended configuration for single-node installations and requires no action. Each store can be moved to an external backend later through the WebUI without reinstalling.
+
+Main data storage:
+
+Where structured data lives: email metadata, calendar events, address book entries, mailbox state, and every server settings object. The default is RocksDB. PostgreSQL, MySQL, SQLite, and FoundationDB are available for larger deployments or when a specific database is mandated by operations policy.
+
+Attachment and file storage:
+
+Where the raw bytes of email messages, attachments, and other large files are stored. Leave set to Use Data Store to keep blobs alongside metadata; switch to a dedicated backend such as S3 or Azure Blob Storage for deployments with many attachments or when long-term object storage is preferable.
+
+Full-text search index:
+
+Where the full-text search index is kept so that users can search across message bodies and attachments. Leave set to Use Data Store for single-node deployments; point to a dedicated search backend (Elasticsearch or Meilisearch) when the search workload is large enough to warrant it.
+
+Cache and temporary data:
+
+Where short-lived state lives: session caches, rate-limit counters, authentication tokens. Leave set to Use Data Store for a single node; point to Redis for faster lookups and especially for multi-node deployments where cache state must be shared across the cluster.
+
+### Step 3 of 5: Account directory
+
+[Section titled “Step 3 of 5: Account directory”](#step-3-of-5-account-directory)
+
+Stalwart can source user accounts from its own internal directory or delegate authentication to an external identity provider.
+
+Directory type:
+
+Leave set to Use the Internal Directory for the simplest installation: accounts are created and managed through the WebUI, and the wizard generates an administrator credential on the final screen. Select an external directory (OIDC, LDAP, or SQL) for single sign-on or for integration with an existing identity system.
+
+The choice here affects the final screen. With the internal directory, a generated administrator credential is printed when the wizard finishes. With an external directory, no credential is generated; the administrator must be promoted after the first sign-in (see [External directory promotion](#external-directory-promotion) below for the procedure).
+
+### Step 4 of 5: Logging
+
+[Section titled “Step 4 of 5: Logging”](#step-4-of-5-logging)
+
+Log destination. Where the server writes log messages, traces, and diagnostic events.
+
+Log File writes rotating log files to disk under the data directory. This is appropriate whenever the server has persistent disk and rotation is handled directly by Stalwart.
+Console writes log lines to standard output. Select this for containerised deployments so the orchestrator’s log driver (Docker, Kubernetes, and so on) can capture them.
+
+Additional destinations (OpenTelemetry, journald, remote webhooks) can be added after setup through the [[ref/object/tracer|Tracer]] object.
+
+### Step 5 of 5: Automatic DNS management
+
+[Section titled “Step 5 of 5: Automatic DNS management”](#step-5-of-5-automatic-dns-management)
+
+The DNS records a mail server needs (SPF, DKIM, DMARC, MX, MTA-STS, autoconfig, and so on) can either be published manually by the operator or generated and maintained by Stalwart on the operator’s behalf.
+
+DNS server type. Leave set to Manual DNS Server Management to keep full control of the DNS records. Select a supported provider (Cloudflare, AWS Route 53, Google Cloud DNS, etc, or a BIND-compatible server via RFC 2136) to have Stalwart publish and update the zone entries automatically through the provider’s API. See [[server/dns|DNS provider integration]] for the supported providers and the credentials each one needs. The choice is not final; provider integration can be enabled, disabled, or changed later.
+
+#### Retrieving the DNS zone file
+
+[Section titled “Retrieving the DNS zone file”](#retrieving-the-dns-zone-file)
+
+When manual management is kept, Stalwart still generates the full set of records that must be published and makes them available as a ready-to-import zone file.
+
+From the WebUI, open the Domain list (found in the WebUI under  Management ›  Domains › Domains), click the three-dot menu next to the relevant domain, and select View DNS Zone file. The returned zone file can be pasted into the DNS provider’s control panel or imported as a zone template where the provider supports it. See [[install/dns|Setting up DNS]] for a per-record explanation of what each entry does.
+
+The same records can also be retrieved from the command line; see [Retrieving DNS records via CLI](#retrieving-dns-records-via-cli) under Additional topics below.
+
+### Setup complete
+
+[Section titled “Setup complete”](#setup-complete)
+
+The final screen confirms that the server has been configured. What happens next depends on the directory chosen in Step 3.
+
+Internal directory. The wizard prints an email address and a randomly generated password for the new administrator account, for example:
+
+```
+[email protected]onMjJfFMO83tQcCX
+```
+
+Write both down. The password is shown only on this screen and cannot be retrieved from the server logs afterwards. The credentials are used to sign in to the WebUI once the server has been restarted (see the platform-specific Restart section below).
+
+External directory (OIDC / LDAP / SQL). No administrator credential is generated here, because an account from the external directory does not exist locally until it has authenticated at least once. The administrator must be promoted manually after the first sign-in; see [External directory promotion](#external-directory-promotion) under Additional topics below for the procedure.
+
+## Restart the container
+
+[Section titled “Restart the container”](#restart-the-container)
+
+Once the wizard has been completed, restart the container so that the new configuration takes effect.
+
+For a container started with `docker run`:
+
+Terminal window
+
+```
+$ docker restart stalwart
+```
+
+For deployments managed with Docker Compose, restart only the Stalwart service:
+
+Terminal window
+
+```
+$ docker compose restart stalwart
+```
+
+## Continue setup
+
+[Section titled “Continue setup”](#continue-setup)
+
+After the restart, sign in at `https://<hostname>/admin` with the administrator credentials printed on the final wizard screen, where `<hostname>` is the value entered in Step 1. If TLS or DNS for that hostname is not in place yet, sign in at `http://<host>:8080/admin` instead and switch to the HTTPS URL once the production listener is reachable.
+
+## Next steps
+
+[Section titled “Next steps”](#next-steps)
+
+With the internal directory, additional user accounts can be added through the WebUI’s Account Manager, or directly by creating [[ref/object/account|Account]] objects through the WebUI administration console or the [[management/cli|CLI]]. See [[auth/principals/individual|Individual accounts]] for the full field reference. With an external directory (OIDC, LDAP, or SQL), accounts continue to be provisioned and authenticated through the identity provider; any Stalwart-specific overrides are set on the local Account record that is created on first sign-in.
+
+Diagnostic output is written to the log destination configured in Step 4 of the wizard, and can also be viewed live from the WebUI under Telemetry.
+
+Once `https://<hostname>/admin` is reachable and a permanent administrator is in use, disable the HTTP configuration listener so that `http://<host>:8080/admin` no longer accepts sign-ins. Remove the `STALWART_RECOVERY_ADMIN` environment variable, or delete the HTTP listener through the WebUI, then restart the service.
+
+If something does not behave as expected, consult [Troubleshooting](#troubleshooting) below. Further questions can be raised on the [community forum](https://support.stalw.art).
+
+## Setup demonstration
+
+[Section titled “Setup demonstration”](#setup-demonstration)
+
+## Troubleshooting
+
+[Section titled “Troubleshooting”](#troubleshooting)
+
+### Certificate warning on first sign-in
+
+[Section titled “Certificate warning on first sign-in”](#certificate-warning-on-first-sign-in)
+
+When automatically obtain TLS certificate was enabled in Step 1 of the wizard, the certificate from Let’s Encrypt can take a minute or two to be issued after the restart. While the request is still in flight, the browser may show a warning because the server is presenting a self-signed fallback certificate. Accepting that warning for the initial sign-in is safe; the warning disappears once the ACME certificate has been installed and the page is reloaded. When the certificate option was disabled, the self-signed fallback remains in place until a certificate is uploaded or a reverse proxy terminates TLS in front of the server.
+
+### HTTPS not yet reachable
+
+[Section titled “HTTPS not yet reachable”](#https-not-yet-reachable)
+
+If the configured hostname does not yet resolve in DNS, port `443` is not reachable from the browser, or the deployment cannot present a trusted certificate for any other reason, sign in at `http://<host>:8080/admin` for as long as `STALWART_RECOVERY_ADMIN` is set in the service environment. Once HTTPS is in place, switch to `https://<hostname>/admin` and disable the HTTP listener as described in [Next steps](#next-steps).
+
+If the HTTP listener has already been disabled and the deployment is locked out (for example because the configured hostname is no longer reachable, the external OIDC provider is down, or the administrator account was deleted), start the server in [[configuration/recovery-mode|recovery mode]] (`STALWART_RECOVERY_MODE=1`). Recovery mode re-enables the HTTP listener on port `8080` with the path-relative issuer used during bootstrap and accepts the credentials in `STALWART_RECOVERY_ADMIN`, regardless of the directory state. Restart without the flag once normal sign-in is restored.
+
+### Reverse proxy
+
+[Section titled “Reverse proxy”](#reverse-proxy)
+
+When Stalwart sits behind a reverse proxy (NGINX, Traefik, Caddy, HAProxy, or similar) and the wizard or first sign-in does not behave as expected, the issue is almost always that the URL Stalwart publishes in its OAuth and JMAP discovery documents does not match the URL clients reach the proxy on. Set [[configuration/environment-variables#public-urls|`STALWART_PUBLIC_URL`]] to the public-facing base URL (scheme, host, port if non-`443`, path if mounted under a prefix) and restart the server. For example, `STALWART_PUBLIC_URL=https://mail.example.com:8443` for a proxy listening on port `8443`, or `https://example.com/mail` for a path-prefixed mount. The full reverse-proxy model (HTTP vs HTTPS upstream, Proxy Protocol, and per-product configuration for NGINX / Caddy / Traefik / HAProxy) is documented under [[server/reverse-proxy|Reverse proxy › Overview]].
+
+### Further diagnostics
+
+[Section titled “Further diagnostics”](#further-diagnostics)
+
+For issues that go beyond initial setup (email delivery, DMARC, authentication, and so on), consult the general [[management/troubleshoot|troubleshooting]] guide or the [[faq|FAQ]].
+
+## Additional topics
+
+[Section titled “Additional topics”](#additional-topics)
+
+### External directory promotion
+
+[Section titled “External directory promotion”](#external-directory-promotion)
+
+When the wizard is completed with an external directory (OIDC, LDAP, or SQL), no administrator credential is generated on the final screen, because an account from the external directory does not exist locally until it has authenticated at least once. The administrator must be promoted manually after the first sign-in using the existing recovery admin credentials. The procedure, carried out after the platform-specific restart, is:
+
+Keep `STALWART_RECOVERY_ADMIN=<username>:<password>` set in the service environment. The variable is honoured while the server is running normally, so this does not require recovery mode.
+Have the account that will become the administrator sign in once through the WebUI. Any successful authentication against the directory provisions the account locally in Stalwart.
+Sign in as the recovery administrator in a separate browser session and assign the appropriate administrator role to the newly provisioned account, either through the WebUI or through the CLI.
+Sign in as the promoted account to confirm that the assignment took effect.
+Remove `STALWART_RECOVERY_ADMIN` from the service environment and restart the server so that the backdoor credential is no longer active.
+
+### FoundationDB
+
+[Section titled “FoundationDB”](#foundationdb)
+
+A separate build with FoundationDB support is available for installations that use FoundationDB as the main data store. The default build does not include FoundationDB because multiple FoundationDB client versions exist and a single default would break deployments that rely on a different client.
+
+Linux / macOS. Run the installation script with the `--fdb` flag:
+
+Terminal window
+
+```
+$ sudo sh install.sh --fdb
+```
+
+Docker. No pre-built FoundationDB image is published. To produce a FoundationDB-enabled image, use the `Dockerfile.fdb` file available in the [stalwartlabs/stalwart](https://github.com/stalwartlabs/stalwart) repository as a starting point.
+
+### Retrieving DNS records via CLI
+
+[Section titled “Retrieving DNS records via CLI”](#retrieving-dns-records-via-cli)
+
+When manual DNS management is in effect, the zone file generated by Stalwart can also be fetched from the command line. List the configured domains and read the [[ref/object/domain#dnszonefile|`dnsZoneFile`]] field on the desired one:
+
+Terminal window
+
+```
+$ stalwart-cli query domain$ stalwart-cli get domain <id> --fields dnsZoneFile
+```
+
+The returned zone file can be pasted into the DNS provider’s control panel or imported as a zone template where the provider supports it.
+
+### Non-interactive setup
+
+[Section titled “Non-interactive setup”](#non-interactive-setup)
+
+Deployments that prefer command-line or infrastructure-as-code workflows can skip the wizard entirely and drive the same configuration from the CLI; see [[configuration/bootstrap-mode|bootstrap mode]] and [[configuration/declarative-deployments|declarative deployments]].

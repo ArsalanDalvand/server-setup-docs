@@ -1,0 +1,23 @@
+{
+  "source": "https://support.hpe.com/",
+  "retrieved_at": "2026-07-26T16:03:15+00:00",
+  "page_count": 4,
+  "pages": [
+    {
+      "title": "HPE ProLiant Gen10 — AI Cheatsheet",
+      "path": "HPE_AI_CHEAT_SHEET.md"
+    },
+    {
+      "title": "iLO 5 User Guide",
+      "path": "user-guides/ilo5_user_guide.pdf"
+    },
+    {
+      "title": "UEFI Utilities Guide",
+      "path": "user-guides/uefi_utilities_guide.pdf"
+    },
+    {
+      "title": "DL360 Gen10 User Manual",
+      "path": "user-guides/dl360_gen10_manual.pdf"
+    }
+  ]
+}

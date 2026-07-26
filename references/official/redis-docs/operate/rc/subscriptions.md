@@ -1,0 +1,142 @@
+---
+title: "Manage subscriptions"
+source: "https://redis.io/docs/latest/operate/rc/subscriptions/"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "operate/rc/subscriptions"
+category: "operate"
+retrieved_at: "2026-07-26T15:48:53+00:00"
+tags:
+  - redis
+  - cache-store
+  - official-documentation
+  - in-memory-db
+aliases:
+  - "Manage subscriptions"
+---
+# Manage subscriptions
+
+            Redis Cloud
+          
+
+This page helps you manage your Redis Cloud subscriptions; it briefly compares available plans and shows where to find help with common tasks.
+
+## Subscription plans
+
+As of April 2024, Redis Cloud supports the following subscription plans:
+
+[Free Redis Cloud Essentials](#free-rce)
+[Paid Redis Cloud Essentials](#paid-rce)
+[Essentials with Redis Flex](#redis-flex)
+[Redis Cloud Pro](#redis-cloud-pro)
+
+Here's a quick comparison of each plan:
+
+Feature
+Redis Cloud Essentials (free)
+Redis Cloud Essentials (paid)
+Essentials with Redis Flex
+Redis Cloud Pro
+
+Memory size
+30 MB
+250 MB-12 GB
+1 GB-100GB
+50 TB
+
+Concurrent connections
+30
+256-10000
+1024-10000
+Unlimited
+
+Security
+Role-based auth
+Password protection
+Encryption in transit
+Role-based auth
+Password protection
+TLS auth
+Encryption in transit
+Role-based auth
+Password protection
+TLS auth
+Encryption in transit
+Role-based auth
+Password protection
+TLS auth
+Encryption in transit
+Encryption at rest
+Private Connectivity
+
+REST API
+No
+Yes
+Yes
+Yes
+
+Selected additional features
+ 
+ 
+
+Replication
+Auto-failover
+
+Replication
+Auto-failover
+
+Dedicated accounts
+Redis Flex
+Active/Active
+
+To learn more, see [Redis Cloud Pricing](https://redis.io/pricing/).
+
+### Free Redis Cloud Essentials
+
+Free plans are a type of Redis Cloud Essentials plans designed for training purposes and prototyping. They can be seamlessly upgraded to other Redis Cloud Essentials plans with no data loss.
+
+### Paid Redis Cloud Essentials
+
+Redis Cloud Essentials is cost-efficient and designed for low-throughput scenarios. It support a range of availability, persistence, and backup options.  Pricing supports low throughput workloads. See [[operate/rc/subscriptions/view-essentials-subscription/essentials-plan-details#redis-cloud-essentials-plans|Redis Cloud Essentials plans]] for a list of available plans.
+
+[[operate/rc/subscriptions/view-essentials-subscription|View and upgrade Essentials or Flex plan]]
+
+#### Essentials with Redis Flex
+
+You can select Redis Cloud Essentials plans that support a tiered solid state drive (SSD) and RAM architecture. Using SSDs instead of RAM significantly reduces infrastructure costs, which means developers can build applications that require large datasets using the same Redis API.
+
+Redis Flex is ideal when your:
+
+working set is significantly smaller than your dataset (high RAM hit rate)
+average key size is smaller than average value size (all key names are stored in RAM)
+most recent data is the most frequently used (high RAM hit rate)
+
+See [Create a Redis Flex database](/docs/latest/operate/rc/databases/create-database/create-flex-database/) to learn more about Redis Flex, and see [[operate/rc/subscriptions/view-essentials-subscription/essentials-plan-details#redis-flex-plans|Redis Flex plans]] for a list of available plans.
+
+[[operate/rc/subscriptions/view-essentials-subscription|View and upgrade Essentials or Flex plan]]
+
+### Redis Cloud Pro
+
+Redis Cloud Pro supports more databases, larger databases, greater throughput, and unlimited connections compared to Redis Cloud Essentials. Hosted in dedicated VPCs, they feature high-availability in a single or multi-AZ, Active-Active, clustering, data persistence, and configurable backups.  Pricing is "pay as you go" to support any dataset size or throughput. [Redis Flex](/docs/latest/operate/rc/databases/create-database/create-flex-database/) is also available on Redis Cloud Pro.
+
+Redis Cloud Pro annual plans support the same features as Redis Cloud Pro but at significant savings. Annual plans also provide Premium support. The underlying commitment applies to all workloads across multiple providers and regions.
+
+[[operate/rc/subscriptions/view-pro-subscription|View and edit Pro subscription]]
+[[operate/rc/subscriptions/upgrade-essentials-pro|Upgrade from Essentials to Pro]]
+[[operate/rc/subscriptions/maintenance|Subscription maintenance]]
+
+RATE THIS PAGE
+
+★
+
+★
+
+★
+
+★
+
+★
+
+[Back to top â](#)
+
+## On this page

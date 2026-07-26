@@ -1,0 +1,3346 @@
+{
+  "source": "https://stalw.art/docs/",
+  "retrieved_at": "2026-07-26T15:40:57+00:00",
+  "page_count": 477,
+  "pages": [
+    {
+      "slug": "auth",
+      "url": "https://stalw.art/docs/auth",
+      "title": "Overview",
+      "path": "auth.md",
+      "bytes": 1873
+    },
+    {
+      "slug": "auth/authentication",
+      "url": "https://stalw.art/docs/auth/authentication",
+      "title": "Overview",
+      "path": "auth/authentication.md",
+      "bytes": 1056
+    },
+    {
+      "slug": "auth/authentication/2fa",
+      "url": "https://stalw.art/docs/auth/authentication/2fa",
+      "title": "Two-Factor Authentication",
+      "path": "auth/authentication/2fa.md",
+      "bytes": 4961
+    },
+    {
+      "slug": "auth/authentication/api-key",
+      "url": "https://stalw.art/docs/auth/authentication/api-key",
+      "title": "API Keys",
+      "path": "auth/authentication/api-key.md",
+      "bytes": 4362
+    },
+    {
+      "slug": "auth/authentication/app-password",
+      "url": "https://stalw.art/docs/auth/authentication/app-password",
+      "title": "App Passwords",
+      "path": "auth/authentication/app-password.md",
+      "bytes": 3211
+    },
+    {
+      "slug": "auth/authentication/password",
+      "url": "https://stalw.art/docs/auth/authentication/password",
+      "title": "Passwords",
+      "path": "auth/authentication/password.md",
+      "bytes": 5396
+    },
+    {
+      "slug": "auth/authorization",
+      "url": "https://stalw.art/docs/auth/authorization",
+      "title": "Overview",
+      "path": "auth/authorization.md",
+      "bytes": 1161
+    },
+    {
+      "slug": "auth/authorization/administrator",
+      "url": "https://stalw.art/docs/auth/authorization/administrator",
+      "title": "Administrators",
+      "path": "auth/authorization/administrator.md",
+      "bytes": 2939
+    },
+    {
+      "slug": "auth/authorization/permissions",
+      "url": "https://stalw.art/docs/auth/authorization/permissions",
+      "title": "Permissions",
+      "path": "auth/authorization/permissions.md",
+      "bytes": 18395
+    },
+    {
+      "slug": "auth/authorization/quotas",
+      "url": "https://stalw.art/docs/auth/authorization/quotas",
+      "title": "Quotas",
+      "path": "auth/authorization/quotas.md",
+      "bytes": 5055
+    },
+    {
+      "slug": "auth/authorization/roles",
+      "url": "https://stalw.art/docs/auth/authorization/roles",
+      "title": "Roles",
+      "path": "auth/authorization/roles.md",
+      "bytes": 3661
+    },
+    {
+      "slug": "auth/authorization/tenants",
+      "url": "https://stalw.art/docs/auth/authorization/tenants",
+      "title": "Tenants",
+      "path": "auth/authorization/tenants.md",
+      "bytes": 3823
+    },
+    {
+      "slug": "auth/backend",
+      "url": "https://stalw.art/docs/auth/backend",
+      "title": "Overview",
+      "path": "auth/backend.md",
+      "bytes": 3837
+    },
+    {
+      "slug": "auth/backend/internal",
+      "url": "https://stalw.art/docs/auth/backend/internal",
+      "title": "Internal",
+      "path": "auth/backend/internal.md",
+      "bytes": 1884
+    },
+    {
+      "slug": "auth/backend/ldap",
+      "url": "https://stalw.art/docs/auth/backend/ldap",
+      "title": "LDAP Server",
+      "path": "auth/backend/ldap.md",
+      "bytes": 9574
+    },
+    {
+      "slug": "auth/backend/oidc",
+      "url": "https://stalw.art/docs/auth/backend/oidc",
+      "title": "OpenID Connect",
+      "path": "auth/backend/oidc.md",
+      "bytes": 5890
+    },
+    {
+      "slug": "auth/backend/sql",
+      "url": "https://stalw.art/docs/auth/backend/sql",
+      "title": "SQL Database",
+      "path": "auth/backend/sql.md",
+      "bytes": 7557
+    },
+    {
+      "slug": "auth/oauth",
+      "url": "https://stalw.art/docs/auth/oauth",
+      "title": "Overview",
+      "path": "auth/oauth.md",
+      "bytes": 1911
+    },
+    {
+      "slug": "auth/oauth/client-registration",
+      "url": "https://stalw.art/docs/auth/oauth/client-registration",
+      "title": "Dynamic Registration",
+      "path": "auth/oauth/client-registration.md",
+      "bytes": 6000
+    },
+    {
+      "slug": "auth/oauth/endpoints",
+      "url": "https://stalw.art/docs/auth/oauth/endpoints",
+      "title": "Endpoints",
+      "path": "auth/oauth/endpoints.md",
+      "bytes": 4513
+    },
+    {
+      "slug": "auth/oauth/flows",
+      "url": "https://stalw.art/docs/auth/oauth/flows",
+      "title": "Authorization Flows",
+      "path": "auth/oauth/flows.md",
+      "bytes": 4527
+    },
+    {
+      "slug": "auth/oauth/interoperability",
+      "url": "https://stalw.art/docs/auth/oauth/interoperability",
+      "title": "Interoperability",
+      "path": "auth/oauth/interoperability.md",
+      "bytes": 3334
+    },
+    {
+      "slug": "auth/oauth/oauth-client",
+      "url": "https://stalw.art/docs/auth/oauth/oauth-client",
+      "title": "OAuth Clients",
+      "path": "auth/oauth/oauth-client.md",
+      "bytes": 5110
+    },
+    {
+      "slug": "auth/oauth/tokens",
+      "url": "https://stalw.art/docs/auth/oauth/tokens",
+      "title": "Tokens",
+      "path": "auth/oauth/tokens.md",
+      "bytes": 5780
+    },
+    {
+      "slug": "auth/openid",
+      "url": "https://stalw.art/docs/auth/openid",
+      "title": "Overview",
+      "path": "auth/openid.md",
+      "bytes": 2707
+    },
+    {
+      "slug": "auth/openid/endpoints",
+      "url": "https://stalw.art/docs/auth/openid/endpoints",
+      "title": "Endpoints",
+      "path": "auth/openid/endpoints.md",
+      "bytes": 3068
+    },
+    {
+      "slug": "auth/openid/id-tokens",
+      "url": "https://stalw.art/docs/auth/openid/id-tokens",
+      "title": "ID Tokens",
+      "path": "auth/openid/id-tokens.md",
+      "bytes": 6445
+    },
+    {
+      "slug": "auth/openid/provider",
+      "url": "https://stalw.art/docs/auth/openid/provider",
+      "title": "OIDC Provider",
+      "path": "auth/openid/provider.md",
+      "bytes": 3808
+    },
+    {
+      "slug": "auth/principals",
+      "url": "https://stalw.art/docs/auth/principals",
+      "title": "Overview",
+      "path": "auth/principals.md",
+      "bytes": 2934
+    },
+    {
+      "slug": "auth/principals/group",
+      "url": "https://stalw.art/docs/auth/principals/group",
+      "title": "Group",
+      "path": "auth/principals/group.md",
+      "bytes": 3810
+    },
+    {
+      "slug": "auth/principals/individual",
+      "url": "https://stalw.art/docs/auth/principals/individual",
+      "title": "Individual",
+      "path": "auth/principals/individual.md",
+      "bytes": 3701
+    },
+    {
+      "slug": "cluster",
+      "url": "https://stalw.art/docs/cluster",
+      "title": "Overview",
+      "path": "cluster.md",
+      "bytes": 3661
+    },
+    {
+      "slug": "cluster/configuration",
+      "url": "https://stalw.art/docs/cluster/configuration",
+      "title": "Overview",
+      "path": "cluster/configuration.md",
+      "bytes": 1285
+    },
+    {
+      "slug": "cluster/configuration/coordination",
+      "url": "https://stalw.art/docs/cluster/configuration/coordination",
+      "title": "Coordination mechanism",
+      "path": "cluster/configuration/coordination.md",
+      "bytes": 1877
+    },
+    {
+      "slug": "cluster/configuration/load-balancing",
+      "url": "https://stalw.art/docs/cluster/configuration/load-balancing",
+      "title": "Load balancing",
+      "path": "cluster/configuration/load-balancing.md",
+      "bytes": 2327
+    },
+    {
+      "slug": "cluster/configuration/node-id",
+      "url": "https://stalw.art/docs/cluster/configuration/node-id",
+      "title": "Node ID",
+      "path": "cluster/configuration/node-id.md",
+      "bytes": 2830
+    },
+    {
+      "slug": "cluster/configuration/roles",
+      "url": "https://stalw.art/docs/cluster/configuration/roles",
+      "title": "Roles",
+      "path": "cluster/configuration/roles.md",
+      "bytes": 6486
+    },
+    {
+      "slug": "cluster/coordination",
+      "url": "https://stalw.art/docs/cluster/coordination",
+      "title": "Overview",
+      "path": "cluster/coordination.md",
+      "bytes": 5541
+    },
+    {
+      "slug": "cluster/coordination/kafka",
+      "url": "https://stalw.art/docs/cluster/coordination/kafka",
+      "title": "Apache Kafka / Redpanda",
+      "path": "cluster/coordination/kafka.md",
+      "bytes": 3281
+    },
+    {
+      "slug": "cluster/coordination/nats",
+      "url": "https://stalw.art/docs/cluster/coordination/nats",
+      "title": "NATS",
+      "path": "cluster/coordination/nats.md",
+      "bytes": 4258
+    },
+    {
+      "slug": "cluster/coordination/peer-to-peer",
+      "url": "https://stalw.art/docs/cluster/coordination/peer-to-peer",
+      "title": "Peer-to-Peer",
+      "path": "cluster/coordination/peer-to-peer.md",
+      "bytes": 3064
+    },
+    {
+      "slug": "cluster/coordination/redis",
+      "url": "https://stalw.art/docs/cluster/coordination/redis",
+      "title": "Redis",
+      "path": "cluster/coordination/redis.md",
+      "bytes": 3938
+    },
+    {
+      "slug": "cluster/deployment",
+      "url": "https://stalw.art/docs/cluster/deployment",
+      "title": "Overview",
+      "path": "cluster/deployment.md",
+      "bytes": 1532
+    },
+    {
+      "slug": "cluster/deployment/sizing",
+      "url": "https://stalw.art/docs/cluster/deployment/sizing",
+      "title": "Sizing",
+      "path": "cluster/deployment/sizing.md",
+      "bytes": 3453
+    },
+    {
+      "slug": "cluster/deployment/storage",
+      "url": "https://stalw.art/docs/cluster/deployment/storage",
+      "title": "Storage",
+      "path": "cluster/deployment/storage.md",
+      "bytes": 9835
+    },
+    {
+      "slug": "cluster/deployment/topology",
+      "url": "https://stalw.art/docs/cluster/deployment/topology",
+      "title": "Topology",
+      "path": "cluster/deployment/topology.md",
+      "bytes": 7976
+    },
+    {
+      "slug": "cluster/orchestration",
+      "url": "https://stalw.art/docs/cluster/orchestration",
+      "title": "Overview",
+      "path": "cluster/orchestration.md",
+      "bytes": 2074
+    },
+    {
+      "slug": "cluster/orchestration/apache-mesos",
+      "url": "https://stalw.art/docs/cluster/orchestration/apache-mesos",
+      "title": "Apache Mesos",
+      "path": "cluster/orchestration/apache-mesos.md",
+      "bytes": 4335
+    },
+    {
+      "slug": "cluster/orchestration/docker-swarm",
+      "url": "https://stalw.art/docs/cluster/orchestration/docker-swarm",
+      "title": "Docker Swarm",
+      "path": "cluster/orchestration/docker-swarm.md",
+      "bytes": 4922
+    },
+    {
+      "slug": "cluster/orchestration/kubernetes",
+      "url": "https://stalw.art/docs/cluster/orchestration/kubernetes",
+      "title": "Kubernetes",
+      "path": "cluster/orchestration/kubernetes.md",
+      "bytes": 27877
+    },
+    {
+      "slug": "collaboration",
+      "url": "https://stalw.art/docs/collaboration",
+      "title": "Overview",
+      "path": "collaboration.md",
+      "bytes": 2709
+    },
+    {
+      "slug": "collaboration/calendar",
+      "url": "https://stalw.art/docs/collaboration/calendar",
+      "title": "Calendar",
+      "path": "collaboration/calendar.md",
+      "bytes": 7301
+    },
+    {
+      "slug": "collaboration/contact",
+      "url": "https://stalw.art/docs/collaboration/contact",
+      "title": "Contacts",
+      "path": "collaboration/contact.md",
+      "bytes": 6257
+    },
+    {
+      "slug": "collaboration/file-storage",
+      "url": "https://stalw.art/docs/collaboration/file-storage",
+      "title": "File Storage",
+      "path": "collaboration/file-storage.md",
+      "bytes": 3295
+    },
+    {
+      "slug": "collaboration/notifications",
+      "url": "https://stalw.art/docs/collaboration/notifications",
+      "title": "Notifications",
+      "path": "collaboration/notifications.md",
+      "bytes": 6457
+    },
+    {
+      "slug": "collaboration/scheduling",
+      "url": "https://stalw.art/docs/collaboration/scheduling",
+      "title": "Scheduling",
+      "path": "collaboration/scheduling.md",
+      "bytes": 11826
+    },
+    {
+      "slug": "collaboration/sharing",
+      "url": "https://stalw.art/docs/collaboration/sharing",
+      "title": "Sharing",
+      "path": "collaboration/sharing.md",
+      "bytes": 7640
+    },
+    {
+      "slug": "collaboration/webdav",
+      "url": "https://stalw.art/docs/collaboration/webdav",
+      "title": "WebDAV",
+      "path": "collaboration/webdav.md",
+      "bytes": 5281
+    },
+    {
+      "slug": "configuration",
+      "url": "https://stalw.art/docs/configuration",
+      "title": "Overview",
+      "path": "configuration.md",
+      "bytes": 4649
+    },
+    {
+      "slug": "configuration/bootstrap-mode",
+      "url": "https://stalw.art/docs/configuration/bootstrap-mode",
+      "title": "Bootstrap mode",
+      "path": "configuration/bootstrap-mode.md",
+      "bytes": 3494
+    },
+    {
+      "slug": "configuration/declarative-deployments",
+      "url": "https://stalw.art/docs/configuration/declarative-deployments",
+      "title": "Declarative deployments",
+      "path": "configuration/declarative-deployments.md",
+      "bytes": 3256
+    },
+    {
+      "slug": "configuration/environment-variables",
+      "url": "https://stalw.art/docs/configuration/environment-variables",
+      "title": "Environment variables",
+      "path": "configuration/environment-variables.md",
+      "bytes": 4200
+    },
+    {
+      "slug": "configuration/expressions",
+      "url": "https://stalw.art/docs/configuration/expressions",
+      "title": "Overview",
+      "path": "configuration/expressions.md",
+      "bytes": 5956
+    },
+    {
+      "slug": "configuration/expressions/functions",
+      "url": "https://stalw.art/docs/configuration/expressions/functions",
+      "title": "Functions",
+      "path": "configuration/expressions/functions.md",
+      "bytes": 22339
+    },
+    {
+      "slug": "configuration/expressions/operators",
+      "url": "https://stalw.art/docs/configuration/expressions/operators",
+      "title": "Operators",
+      "path": "configuration/expressions/operators.md",
+      "bytes": 2282
+    },
+    {
+      "slug": "configuration/expressions/values",
+      "url": "https://stalw.art/docs/configuration/expressions/values",
+      "title": "Values",
+      "path": "configuration/expressions/values.md",
+      "bytes": 3545
+    },
+    {
+      "slug": "configuration/recovery-mode",
+      "url": "https://stalw.art/docs/configuration/recovery-mode",
+      "title": "Recovery mode",
+      "path": "configuration/recovery-mode.md",
+      "bytes": 3065
+    },
+    {
+      "slug": "configuration/variables",
+      "url": "https://stalw.art/docs/configuration/variables",
+      "title": "Variables",
+      "path": "configuration/variables.md",
+      "bytes": 9152
+    },
+    {
+      "slug": "development",
+      "url": "https://stalw.art/docs/development",
+      "title": "Development",
+      "path": "development.md",
+      "bytes": 471
+    },
+    {
+      "slug": "development/api",
+      "url": "https://stalw.art/docs/development/api",
+      "title": "API Endpoints",
+      "path": "development/api.md",
+      "bytes": 9565
+    },
+    {
+      "slug": "development/compile",
+      "url": "https://stalw.art/docs/development/compile",
+      "title": "Compiling Stalwart",
+      "path": "development/compile.md",
+      "bytes": 3525
+    },
+    {
+      "slug": "development/database",
+      "url": "https://stalw.art/docs/development/database",
+      "title": "Database Internals",
+      "path": "development/database.md",
+      "bytes": 3646
+    },
+    {
+      "slug": "development/rfcs",
+      "url": "https://stalw.art/docs/development/rfcs",
+      "title": "RFCs",
+      "path": "development/rfcs.md",
+      "bytes": 26096
+    },
+    {
+      "slug": "development/test",
+      "url": "https://stalw.art/docs/development/test",
+      "title": "Testing Stalwart",
+      "path": "development/test.md",
+      "bytes": 7412
+    },
+    {
+      "slug": "development/urn",
+      "url": "https://stalw.art/docs/development/urn",
+      "title": "URN Namespace",
+      "path": "development/urn.md",
+      "bytes": 4942
+    },
+    {
+      "slug": "domains",
+      "url": "https://stalw.art/docs/domains",
+      "title": "Overview",
+      "path": "domains.md",
+      "bytes": 5265
+    },
+    {
+      "slug": "domains/dkim-rotation",
+      "url": "https://stalw.art/docs/domains/dkim-rotation",
+      "title": "DKIM key rotation",
+      "path": "domains/dkim-rotation.md",
+      "bytes": 6222
+    },
+    {
+      "slug": "domains/dns-records",
+      "url": "https://stalw.art/docs/domains/dns-records",
+      "title": "DNS records",
+      "path": "domains/dns-records.md",
+      "bytes": 5698
+    },
+    {
+      "slug": "domains/tls-certificates",
+      "url": "https://stalw.art/docs/domains/tls-certificates",
+      "title": "TLS certificates",
+      "path": "domains/tls-certificates.md",
+      "bytes": 5803
+    },
+    {
+      "slug": "email",
+      "url": "https://stalw.art/docs/email",
+      "title": "Overview",
+      "path": "email.md",
+      "bytes": 4298
+    },
+    {
+      "slug": "email/management",
+      "url": "https://stalw.art/docs/email/management",
+      "title": "Management",
+      "path": "email/management.md",
+      "bytes": 419
+    },
+    {
+      "slug": "email/management/mailing-lists",
+      "url": "https://stalw.art/docs/email/management/mailing-lists",
+      "title": "Mailing lists",
+      "path": "email/management/mailing-lists.md",
+      "bytes": 5750
+    },
+    {
+      "slug": "email/management/masked-email",
+      "url": "https://stalw.art/docs/email/management/masked-email",
+      "title": "Masked email",
+      "path": "email/management/masked-email.md",
+      "bytes": 6120
+    },
+    {
+      "slug": "email/settings",
+      "url": "https://stalw.art/docs/email/settings",
+      "title": "Settings",
+      "path": "email/settings.md",
+      "bytes": 439
+    },
+    {
+      "slug": "email/settings/imap",
+      "url": "https://stalw.art/docs/email/settings/imap",
+      "title": "IMAP and POP3",
+      "path": "email/settings/imap.md",
+      "bytes": 3755
+    },
+    {
+      "slug": "email/settings/jmap",
+      "url": "https://stalw.art/docs/email/settings/jmap",
+      "title": "JMAP for Mail",
+      "path": "email/settings/jmap.md",
+      "bytes": 2421
+    },
+    {
+      "slug": "email/settings/maintenance",
+      "url": "https://stalw.art/docs/email/settings/maintenance",
+      "title": "Maintenance",
+      "path": "email/settings/maintenance.md",
+      "bytes": 3896
+    },
+    {
+      "slug": "email/settings/ratelimit",
+      "url": "https://stalw.art/docs/email/settings/ratelimit",
+      "title": "Rate limiting",
+      "path": "email/settings/ratelimit.md",
+      "bytes": 1718
+    },
+    {
+      "slug": "encryption",
+      "url": "https://stalw.art/docs/encryption",
+      "title": "Overview",
+      "path": "encryption.md",
+      "bytes": 3862
+    },
+    {
+      "slug": "encryption/manage",
+      "url": "https://stalw.art/docs/encryption/manage",
+      "title": "Management",
+      "path": "encryption/manage.md",
+      "bytes": 3843
+    },
+    {
+      "slug": "encryption/pgp",
+      "url": "https://stalw.art/docs/encryption/pgp",
+      "title": "OpenPGP",
+      "path": "encryption/pgp.md",
+      "bytes": 4429
+    },
+    {
+      "slug": "encryption/smime",
+      "url": "https://stalw.art/docs/encryption/smime",
+      "title": "S/MIME",
+      "path": "encryption/smime.md",
+      "bytes": 6480
+    },
+    {
+      "slug": "faq",
+      "url": "https://stalw.art/docs/faq",
+      "title": "FAQ",
+      "path": "faq.md",
+      "bytes": 18968
+    },
+    {
+      "slug": "http",
+      "url": "https://stalw.art/docs/http",
+      "title": "Overview",
+      "path": "http.md",
+      "bytes": 4976
+    },
+    {
+      "slug": "http/access-control",
+      "url": "https://stalw.art/docs/http/access-control",
+      "title": "Access Control",
+      "path": "http/access-control.md",
+      "bytes": 3334
+    },
+    {
+      "slug": "http/form-submission",
+      "url": "https://stalw.art/docs/http/form-submission",
+      "title": "Form Handling",
+      "path": "http/form-submission.md",
+      "bytes": 3844
+    },
+    {
+      "slug": "http/jmap",
+      "url": "https://stalw.art/docs/http/jmap",
+      "title": "Overview",
+      "path": "http/jmap.md",
+      "bytes": 2435
+    },
+    {
+      "slug": "http/jmap/protocol",
+      "url": "https://stalw.art/docs/http/jmap/protocol",
+      "title": "Protocol",
+      "path": "http/jmap/protocol.md",
+      "bytes": 2879
+    },
+    {
+      "slug": "http/jmap/push",
+      "url": "https://stalw.art/docs/http/jmap/push",
+      "title": "Push notifications",
+      "path": "http/jmap/push.md",
+      "bytes": 3780
+    },
+    {
+      "slug": "http/jmap/websockets",
+      "url": "https://stalw.art/docs/http/jmap/websockets",
+      "title": "WebSockets",
+      "path": "http/jmap/websockets.md",
+      "bytes": 2630
+    },
+    {
+      "slug": "http/ratelimit",
+      "url": "https://stalw.art/docs/http/ratelimit",
+      "title": "Rate limiting",
+      "path": "http/ratelimit.md",
+      "bytes": 1859
+    },
+    {
+      "slug": "http/security",
+      "url": "https://stalw.art/docs/http/security",
+      "title": "Security",
+      "path": "http/security.md",
+      "bytes": 2223
+    },
+    {
+      "slug": "http/settings",
+      "url": "https://stalw.art/docs/http/settings",
+      "title": "Settings",
+      "path": "http/settings.md",
+      "bytes": 2588
+    },
+    {
+      "slug": "http/webdav",
+      "url": "https://stalw.art/docs/http/webdav",
+      "title": "Overview",
+      "path": "http/webdav.md",
+      "bytes": 4016
+    },
+    {
+      "slug": "http/webdav/protocol",
+      "url": "https://stalw.art/docs/http/webdav/protocol",
+      "title": "Protocol",
+      "path": "http/webdav/protocol.md",
+      "bytes": 1413
+    },
+    {
+      "slug": "install",
+      "url": "https://stalw.art/docs/install",
+      "title": "Welcome to Stalwart",
+      "path": "install.md",
+      "bytes": 2709
+    },
+    {
+      "slug": "install/directory",
+      "url": "https://stalw.art/docs/install/directory",
+      "title": "Choosing a directory",
+      "path": "install/directory.md",
+      "bytes": 3074
+    },
+    {
+      "slug": "install/dns",
+      "url": "https://stalw.art/docs/install/dns",
+      "title": "Setting up DNS",
+      "path": "install/dns.md",
+      "bytes": 9813
+    },
+    {
+      "slug": "install/migrate",
+      "url": "https://stalw.art/docs/install/migrate",
+      "title": "Migrating from another system",
+      "path": "install/migrate.md",
+      "bytes": 1833
+    },
+    {
+      "slug": "install/performance",
+      "url": "https://stalw.art/docs/install/performance",
+      "title": "Performance tuning",
+      "path": "install/performance.md",
+      "bytes": 3017
+    },
+    {
+      "slug": "install/platform",
+      "url": "https://stalw.art/docs/install/platform",
+      "title": "Installation",
+      "path": "install/platform.md",
+      "bytes": 449
+    },
+    {
+      "slug": "install/platform/docker",
+      "url": "https://stalw.art/docs/install/platform/docker",
+      "title": "Docker",
+      "path": "install/platform/docker.md",
+      "bytes": 22563
+    },
+    {
+      "slug": "install/platform/linux",
+      "url": "https://stalw.art/docs/install/platform/linux",
+      "title": "Linux / MacOS",
+      "path": "install/platform/linux.md",
+      "bytes": 22237
+    },
+    {
+      "slug": "install/platform/windows",
+      "url": "https://stalw.art/docs/install/platform/windows",
+      "title": "Windows",
+      "path": "install/platform/windows.md",
+      "bytes": 22710
+    },
+    {
+      "slug": "install/requirements",
+      "url": "https://stalw.art/docs/install/requirements",
+      "title": "System Requirements",
+      "path": "install/requirements.md",
+      "bytes": 5450
+    },
+    {
+      "slug": "install/security",
+      "url": "https://stalw.art/docs/install/security",
+      "title": "Securing your server",
+      "path": "install/security.md",
+      "bytes": 9360
+    },
+    {
+      "slug": "install/store",
+      "url": "https://stalw.art/docs/install/store",
+      "title": "Choosing a database",
+      "path": "install/store.md",
+      "bytes": 2988
+    },
+    {
+      "slug": "install/upgrade",
+      "url": "https://stalw.art/docs/install/upgrade",
+      "title": "Upgrading",
+      "path": "install/upgrade.md",
+      "bytes": 2881
+    },
+    {
+      "slug": "management",
+      "url": "https://stalw.art/docs/management",
+      "title": "Overview",
+      "path": "management.md",
+      "bytes": 1184
+    },
+    {
+      "slug": "management/applications",
+      "url": "https://stalw.art/docs/management/applications",
+      "title": "Overview",
+      "path": "management/applications.md",
+      "bytes": 7548
+    },
+    {
+      "slug": "management/applications/update",
+      "url": "https://stalw.art/docs/management/applications/update",
+      "title": "Updates",
+      "path": "management/applications/update.md",
+      "bytes": 4509
+    },
+    {
+      "slug": "management/cli",
+      "url": "https://stalw.art/docs/management/cli",
+      "title": "Overview",
+      "path": "management/cli.md",
+      "bytes": 10788
+    },
+    {
+      "slug": "management/cli/apply",
+      "url": "https://stalw.art/docs/management/cli/apply",
+      "title": "Declarative bulk operations",
+      "path": "management/cli/apply.md",
+      "bytes": 45798
+    },
+    {
+      "slug": "management/cli/create",
+      "url": "https://stalw.art/docs/management/cli/create",
+      "title": "Creating objects",
+      "path": "management/cli/create.md",
+      "bytes": 6597
+    },
+    {
+      "slug": "management/cli/delete",
+      "url": "https://stalw.art/docs/management/cli/delete",
+      "title": "Removing objects",
+      "path": "management/cli/delete.md",
+      "bytes": 3477
+    },
+    {
+      "slug": "management/cli/describe",
+      "url": "https://stalw.art/docs/management/cli/describe",
+      "title": "Exploring the schema",
+      "path": "management/cli/describe.md",
+      "bytes": 6882
+    },
+    {
+      "slug": "management/cli/get",
+      "url": "https://stalw.art/docs/management/cli/get",
+      "title": "Fetching a single object",
+      "path": "management/cli/get.md",
+      "bytes": 5119
+    },
+    {
+      "slug": "management/cli/query",
+      "url": "https://stalw.art/docs/management/cli/query",
+      "title": "Searching and listing",
+      "path": "management/cli/query.md",
+      "bytes": 6882
+    },
+    {
+      "slug": "management/cli/snapshot",
+      "url": "https://stalw.art/docs/management/cli/snapshot",
+      "title": "Exporting server state",
+      "path": "management/cli/snapshot.md",
+      "bytes": 16891
+    },
+    {
+      "slug": "management/cli/update",
+      "url": "https://stalw.art/docs/management/cli/update",
+      "title": "Updating objects",
+      "path": "management/cli/update.md",
+      "bytes": 6247
+    },
+    {
+      "slug": "management/maintenance",
+      "url": "https://stalw.art/docs/management/maintenance",
+      "title": "Maintenance",
+      "path": "management/maintenance.md",
+      "bytes": 423
+    },
+    {
+      "slug": "management/maintenance/database",
+      "url": "https://stalw.art/docs/management/maintenance/database",
+      "title": "Database Console",
+      "path": "management/maintenance/database.md",
+      "bytes": 5348
+    },
+    {
+      "slug": "management/maintenance/migration",
+      "url": "https://stalw.art/docs/management/maintenance/migration",
+      "title": "Database Migration",
+      "path": "management/maintenance/migration.md",
+      "bytes": 5873
+    },
+    {
+      "slug": "management/tasks-actions",
+      "url": "https://stalw.art/docs/management/tasks-actions",
+      "title": "Overview",
+      "path": "management/tasks-actions.md",
+      "bytes": 3024
+    },
+    {
+      "slug": "management/tasks-actions/actions",
+      "url": "https://stalw.art/docs/management/tasks-actions/actions",
+      "title": "Actions",
+      "path": "management/tasks-actions/actions.md",
+      "bytes": 6064
+    },
+    {
+      "slug": "management/tasks-actions/tasks",
+      "url": "https://stalw.art/docs/management/tasks-actions/tasks",
+      "title": "Tasks",
+      "path": "management/tasks-actions/tasks.md",
+      "bytes": 11687
+    },
+    {
+      "slug": "management/troubleshoot",
+      "url": "https://stalw.art/docs/management/troubleshoot",
+      "title": "Troubleshooting",
+      "path": "management/troubleshoot.md",
+      "bytes": 4233
+    },
+    {
+      "slug": "management/webui",
+      "url": "https://stalw.art/docs/management/webui",
+      "title": "Overview",
+      "path": "management/webui.md",
+      "bytes": 7989
+    },
+    {
+      "slug": "management/webui/account-manager",
+      "url": "https://stalw.art/docs/management/webui/account-manager",
+      "title": "Account Manager",
+      "path": "management/webui/account-manager.md",
+      "bytes": 5624
+    },
+    {
+      "slug": "management/webui/branding",
+      "url": "https://stalw.art/docs/management/webui/branding",
+      "title": "Branding",
+      "path": "management/webui/branding.md",
+      "bytes": 1841
+    },
+    {
+      "slug": "migration",
+      "url": "https://stalw.art/docs/migration",
+      "title": "Overview",
+      "path": "migration.md",
+      "bytes": 4526
+    },
+    {
+      "slug": "migration/guide",
+      "url": "https://stalw.art/docs/migration/guide",
+      "title": "Overview",
+      "path": "migration/guide.md",
+      "bytes": 7002
+    },
+    {
+      "slug": "migration/guide/configure-new",
+      "url": "https://stalw.art/docs/migration/guide/configure-new",
+      "title": "Configuring the new deployment",
+      "path": "migration/guide/configure-new.md",
+      "bytes": 9785
+    },
+    {
+      "slug": "migration/guide/configure-proxy",
+      "url": "https://stalw.art/docs/migration/guide/configure-proxy",
+      "title": "Configuring the proxy",
+      "path": "migration/guide/configure-proxy.md",
+      "bytes": 7791
+    },
+    {
+      "slug": "migration/guide/configure-source",
+      "url": "https://stalw.art/docs/migration/guide/configure-source",
+      "title": "Overview",
+      "path": "migration/guide/configure-source.md",
+      "bytes": 3376
+    },
+    {
+      "slug": "migration/guide/configure-source/dovecot-postfix",
+      "url": "https://stalw.art/docs/migration/guide/configure-source/dovecot-postfix",
+      "title": "Dovecot and Postfix",
+      "path": "migration/guide/configure-source/dovecot-postfix.md",
+      "bytes": 11399
+    },
+    {
+      "slug": "migration/guide/configure-source/stalwart-old",
+      "url": "https://stalw.art/docs/migration/guide/configure-source/stalwart-old",
+      "title": "Older Stalwart server",
+      "path": "migration/guide/configure-source/stalwart-old.md",
+      "bytes": 10204
+    },
+    {
+      "slug": "migration/guide/cutover",
+      "url": "https://stalw.art/docs/migration/guide/cutover",
+      "title": "Starting the proxy",
+      "path": "migration/guide/cutover.md",
+      "bytes": 11911
+    },
+    {
+      "slug": "migration/guide/finalize",
+      "url": "https://stalw.art/docs/migration/guide/finalize",
+      "title": "Finalizing the migration",
+      "path": "migration/guide/finalize.md",
+      "bytes": 5115
+    },
+    {
+      "slug": "migration/guide/migrate-accounts",
+      "url": "https://stalw.art/docs/migration/guide/migrate-accounts",
+      "title": "Migrating accounts",
+      "path": "migration/guide/migrate-accounts.md",
+      "bytes": 19988
+    },
+    {
+      "slug": "migration/guide/preparation",
+      "url": "https://stalw.art/docs/migration/guide/preparation",
+      "title": "Preparation",
+      "path": "migration/guide/preparation.md",
+      "bytes": 4724
+    },
+    {
+      "slug": "migration/guide/troubleshooting",
+      "url": "https://stalw.art/docs/migration/guide/troubleshooting",
+      "title": "Troubleshooting",
+      "path": "migration/guide/troubleshooting.md",
+      "bytes": 14989
+    },
+    {
+      "slug": "migration/import-export",
+      "url": "https://stalw.art/docs/migration/import-export",
+      "title": "Overview",
+      "path": "migration/import-export.md",
+      "bytes": 4055
+    },
+    {
+      "slug": "migration/import-export/backup",
+      "url": "https://stalw.art/docs/migration/import-export/backup",
+      "title": "Backup",
+      "path": "migration/import-export/backup.md",
+      "bytes": 6050
+    },
+    {
+      "slug": "migration/import-export/export",
+      "url": "https://stalw.art/docs/migration/import-export/export",
+      "title": "Export",
+      "path": "migration/import-export/export.md",
+      "bytes": 5995
+    },
+    {
+      "slug": "migration/import-export/import",
+      "url": "https://stalw.art/docs/migration/import-export/import",
+      "title": "Overview",
+      "path": "migration/import-export/import.md",
+      "bytes": 4798
+    },
+    {
+      "slug": "migration/import-export/import/caldav",
+      "url": "https://stalw.art/docs/migration/import-export/import/caldav",
+      "title": "CalDAV",
+      "path": "migration/import-export/import/caldav.md",
+      "bytes": 5107
+    },
+    {
+      "slug": "migration/import-export/import/carddav",
+      "url": "https://stalw.art/docs/migration/import-export/import/carddav",
+      "title": "CardDAV",
+      "path": "migration/import-export/import/carddav.md",
+      "bytes": 11297
+    },
+    {
+      "slug": "migration/import-export/import/exchange-ews",
+      "url": "https://stalw.art/docs/migration/import-export/import/exchange-ews",
+      "title": "Microsoft Exchange (EWS)",
+      "path": "migration/import-export/import/exchange-ews.md",
+      "bytes": 6190
+    },
+    {
+      "slug": "migration/import-export/import/exchange-graph",
+      "url": "https://stalw.art/docs/migration/import-export/import/exchange-graph",
+      "title": "Microsoft Exchange (Graph)",
+      "path": "migration/import-export/import/exchange-graph.md",
+      "bytes": 5428
+    },
+    {
+      "slug": "migration/import-export/import/imap",
+      "url": "https://stalw.art/docs/migration/import-export/import/imap",
+      "title": "IMAP",
+      "path": "migration/import-export/import/imap.md",
+      "bytes": 6376
+    },
+    {
+      "slug": "migration/import-export/import/jmap",
+      "url": "https://stalw.art/docs/migration/import-export/import/jmap",
+      "title": "JMAP",
+      "path": "migration/import-export/import/jmap.md",
+      "bytes": 5519
+    },
+    {
+      "slug": "migration/import-export/import/maildir",
+      "url": "https://stalw.art/docs/migration/import-export/import/maildir",
+      "title": "Maildir",
+      "path": "migration/import-export/import/maildir.md",
+      "bytes": 9267
+    },
+    {
+      "slug": "migration/import-export/import/managesieve",
+      "url": "https://stalw.art/docs/migration/import-export/import/managesieve",
+      "title": "ManageSieve",
+      "path": "migration/import-export/import/managesieve.md",
+      "bytes": 8251
+    },
+    {
+      "slug": "migration/import-export/import/takeout",
+      "url": "https://stalw.art/docs/migration/import-export/import/takeout",
+      "title": "Google Takeout",
+      "path": "migration/import-export/import/takeout.md",
+      "bytes": 8923
+    },
+    {
+      "slug": "migration/import-export/import/webdav",
+      "url": "https://stalw.art/docs/migration/import-export/import/webdav",
+      "title": "WebDAV",
+      "path": "migration/import-export/import/webdav.md",
+      "bytes": 11922
+    },
+    {
+      "slug": "migration/import-export/installation",
+      "url": "https://stalw.art/docs/migration/import-export/installation",
+      "title": "Installation",
+      "path": "migration/import-export/installation.md",
+      "bytes": 3256
+    },
+    {
+      "slug": "migration/import-export/usage",
+      "url": "https://stalw.art/docs/migration/import-export/usage",
+      "title": "Usage",
+      "path": "migration/import-export/usage.md",
+      "bytes": 6493
+    },
+    {
+      "slug": "migration/proxy",
+      "url": "https://stalw.art/docs/migration/proxy",
+      "title": "Overview",
+      "path": "migration/proxy.md",
+      "bytes": 4153
+    },
+    {
+      "slug": "migration/proxy/configuration",
+      "url": "https://stalw.art/docs/migration/proxy/configuration",
+      "title": "Configuration",
+      "path": "migration/proxy/configuration.md",
+      "bytes": 7545
+    },
+    {
+      "slug": "migration/proxy/destinations",
+      "url": "https://stalw.art/docs/migration/proxy/destinations",
+      "title": "Destinations",
+      "path": "migration/proxy/destinations.md",
+      "bytes": 9141
+    },
+    {
+      "slug": "migration/proxy/examples",
+      "url": "https://stalw.art/docs/migration/proxy/examples",
+      "title": "Overview",
+      "path": "migration/proxy/examples.md",
+      "bytes": 1600
+    },
+    {
+      "slug": "migration/proxy/examples/cluster",
+      "url": "https://stalw.art/docs/migration/proxy/examples/cluster",
+      "title": "Cluster cache-locality routing",
+      "path": "migration/proxy/examples/cluster.md",
+      "bytes": 5184
+    },
+    {
+      "slug": "migration/proxy/examples/dovecot",
+      "url": "https://stalw.art/docs/migration/proxy/examples/dovecot",
+      "title": "Migrating from Dovecot",
+      "path": "migration/proxy/examples/dovecot.md",
+      "bytes": 9646
+    },
+    {
+      "slug": "migration/proxy/examples/stalwart-upgrade",
+      "url": "https://stalw.art/docs/migration/proxy/examples/stalwart-upgrade",
+      "title": "Upgrading Stalwart",
+      "path": "migration/proxy/examples/stalwart-upgrade.md",
+      "bytes": 11176
+    },
+    {
+      "slug": "migration/proxy/installation",
+      "url": "https://stalw.art/docs/migration/proxy/installation",
+      "title": "Installation",
+      "path": "migration/proxy/installation.md",
+      "bytes": 6291
+    },
+    {
+      "slug": "migration/proxy/listeners",
+      "url": "https://stalw.art/docs/migration/proxy/listeners",
+      "title": "Listeners",
+      "path": "migration/proxy/listeners.md",
+      "bytes": 8944
+    },
+    {
+      "slug": "migration/proxy/management",
+      "url": "https://stalw.art/docs/migration/proxy/management",
+      "title": "Overview",
+      "path": "migration/proxy/management.md",
+      "bytes": 3998
+    },
+    {
+      "slug": "migration/proxy/management/api",
+      "url": "https://stalw.art/docs/migration/proxy/management/api",
+      "title": "Management API",
+      "path": "migration/proxy/management/api.md",
+      "bytes": 7979
+    },
+    {
+      "slug": "migration/proxy/management/cache",
+      "url": "https://stalw.art/docs/migration/proxy/management/cache",
+      "title": "Cache invalidation",
+      "path": "migration/proxy/management/cache.md",
+      "bytes": 3765
+    },
+    {
+      "slug": "migration/proxy/management/observability",
+      "url": "https://stalw.art/docs/migration/proxy/management/observability",
+      "title": "Observability",
+      "path": "migration/proxy/management/observability.md",
+      "bytes": 3794
+    },
+    {
+      "slug": "migration/proxy/management/troubleshooting",
+      "url": "https://stalw.art/docs/migration/proxy/management/troubleshooting",
+      "title": "Troubleshooting",
+      "path": "migration/proxy/management/troubleshooting.md",
+      "bytes": 6912
+    },
+    {
+      "slug": "migration/proxy/mappings",
+      "url": "https://stalw.art/docs/migration/proxy/mappings",
+      "title": "Overview",
+      "path": "migration/proxy/mappings.md",
+      "bytes": 5879
+    },
+    {
+      "slug": "migration/proxy/mappings/file",
+      "url": "https://stalw.art/docs/migration/proxy/mappings/file",
+      "title": "File source",
+      "path": "migration/proxy/mappings/file.md",
+      "bytes": 2929
+    },
+    {
+      "slug": "migration/proxy/mappings/redis",
+      "url": "https://stalw.art/docs/migration/proxy/mappings/redis",
+      "title": "Redis source",
+      "path": "migration/proxy/mappings/redis.md",
+      "bytes": 2704
+    },
+    {
+      "slug": "migration/proxy/mappings/sql",
+      "url": "https://stalw.art/docs/migration/proxy/mappings/sql",
+      "title": "SQL source",
+      "path": "migration/proxy/mappings/sql.md",
+      "bytes": 4117
+    },
+    {
+      "slug": "migration/proxy/routing",
+      "url": "https://stalw.art/docs/migration/proxy/routing",
+      "title": "Overview",
+      "path": "migration/proxy/routing.md",
+      "bytes": 9932
+    },
+    {
+      "slug": "migration/proxy/routing/http",
+      "url": "https://stalw.art/docs/migration/proxy/routing/http",
+      "title": "HTTP",
+      "path": "migration/proxy/routing/http.md",
+      "bytes": 5571
+    },
+    {
+      "slug": "migration/proxy/routing/imap",
+      "url": "https://stalw.art/docs/migration/proxy/routing/imap",
+      "title": "IMAP",
+      "path": "migration/proxy/routing/imap.md",
+      "bytes": 3716
+    },
+    {
+      "slug": "migration/proxy/routing/managesieve",
+      "url": "https://stalw.art/docs/migration/proxy/routing/managesieve",
+      "title": "ManageSieve",
+      "path": "migration/proxy/routing/managesieve.md",
+      "bytes": 2657
+    },
+    {
+      "slug": "migration/proxy/routing/pop3",
+      "url": "https://stalw.art/docs/migration/proxy/routing/pop3",
+      "title": "POP3",
+      "path": "migration/proxy/routing/pop3.md",
+      "bytes": 2875
+    },
+    {
+      "slug": "migration/proxy/routing/smtp",
+      "url": "https://stalw.art/docs/migration/proxy/routing/smtp",
+      "title": "SMTP and submission",
+      "path": "migration/proxy/routing/smtp.md",
+      "bytes": 4239
+    },
+    {
+      "slug": "mta",
+      "url": "https://stalw.art/docs/mta",
+      "title": "Overview",
+      "path": "mta.md",
+      "bytes": 5202
+    },
+    {
+      "slug": "mta/authentication",
+      "url": "https://stalw.art/docs/mta/authentication",
+      "title": "Sender Authentication",
+      "path": "mta/authentication.md",
+      "bytes": 480
+    },
+    {
+      "slug": "mta/authentication/arc",
+      "url": "https://stalw.art/docs/mta/authentication/arc",
+      "title": "ARC",
+      "path": "mta/authentication/arc.md",
+      "bytes": 2255
+    },
+    {
+      "slug": "mta/authentication/dkim",
+      "url": "https://stalw.art/docs/mta/authentication/dkim",
+      "title": "Overview",
+      "path": "mta/authentication/dkim.md",
+      "bytes": 1408
+    },
+    {
+      "slug": "mta/authentication/dkim/sign",
+      "url": "https://stalw.art/docs/mta/authentication/dkim/sign",
+      "title": "Signing",
+      "path": "mta/authentication/dkim/sign.md",
+      "bytes": 7647
+    },
+    {
+      "slug": "mta/authentication/dkim/verify",
+      "url": "https://stalw.art/docs/mta/authentication/dkim/verify",
+      "title": "Verifying",
+      "path": "mta/authentication/dkim/verify.md",
+      "bytes": 1896
+    },
+    {
+      "slug": "mta/authentication/dmarc",
+      "url": "https://stalw.art/docs/mta/authentication/dmarc",
+      "title": "DMARC",
+      "path": "mta/authentication/dmarc.md",
+      "bytes": 1750
+    },
+    {
+      "slug": "mta/authentication/iprev",
+      "url": "https://stalw.art/docs/mta/authentication/iprev",
+      "title": "Reverse IP",
+      "path": "mta/authentication/iprev.md",
+      "bytes": 1665
+    },
+    {
+      "slug": "mta/authentication/spf",
+      "url": "https://stalw.art/docs/mta/authentication/spf",
+      "title": "SPF",
+      "path": "mta/authentication/spf.md",
+      "bytes": 2385
+    },
+    {
+      "slug": "mta/filter",
+      "url": "https://stalw.art/docs/mta/filter",
+      "title": "Overview",
+      "path": "mta/filter.md",
+      "bytes": 1402
+    },
+    {
+      "slug": "mta/filter/milter",
+      "url": "https://stalw.art/docs/mta/filter/milter",
+      "title": "Milter filters",
+      "path": "mta/filter/milter.md",
+      "bytes": 7634
+    },
+    {
+      "slug": "mta/filter/mtahooks",
+      "url": "https://stalw.art/docs/mta/filter/mtahooks",
+      "title": "MTA Hooks",
+      "path": "mta/filter/mtahooks.md",
+      "bytes": 13996
+    },
+    {
+      "slug": "mta/filter/sieve",
+      "url": "https://stalw.art/docs/mta/filter/sieve",
+      "title": "Sieve scripting",
+      "path": "mta/filter/sieve.md",
+      "bytes": 1273
+    },
+    {
+      "slug": "mta/filter/spam",
+      "url": "https://stalw.art/docs/mta/filter/spam",
+      "title": "Spam filter",
+      "path": "mta/filter/spam.md",
+      "bytes": 1047
+    },
+    {
+      "slug": "mta/inbound",
+      "url": "https://stalw.art/docs/mta/inbound",
+      "title": "Overview",
+      "path": "mta/inbound.md",
+      "bytes": 2212
+    },
+    {
+      "slug": "mta/inbound/auth",
+      "url": "https://stalw.art/docs/mta/inbound/auth",
+      "title": "AUTH stage",
+      "path": "mta/inbound/auth.md",
+      "bytes": 3040
+    },
+    {
+      "slug": "mta/inbound/connect",
+      "url": "https://stalw.art/docs/mta/inbound/connect",
+      "title": "Connect stage",
+      "path": "mta/inbound/connect.md",
+      "bytes": 2187
+    },
+    {
+      "slug": "mta/inbound/data",
+      "url": "https://stalw.art/docs/mta/inbound/data",
+      "title": "DATA stage",
+      "path": "mta/inbound/data.md",
+      "bytes": 6380
+    },
+    {
+      "slug": "mta/inbound/ehlo",
+      "url": "https://stalw.art/docs/mta/inbound/ehlo",
+      "title": "EHLO stage",
+      "path": "mta/inbound/ehlo.md",
+      "bytes": 6743
+    },
+    {
+      "slug": "mta/inbound/mail",
+      "url": "https://stalw.art/docs/mta/inbound/mail",
+      "title": "MAIL stage",
+      "path": "mta/inbound/mail.md",
+      "bytes": 2842
+    },
+    {
+      "slug": "mta/inbound/rcpt",
+      "url": "https://stalw.art/docs/mta/inbound/rcpt",
+      "title": "RCPT stage",
+      "path": "mta/inbound/rcpt.md",
+      "bytes": 9533
+    },
+    {
+      "slug": "mta/management",
+      "url": "https://stalw.art/docs/mta/management",
+      "title": "Management",
+      "path": "mta/management.md",
+      "bytes": 3532
+    },
+    {
+      "slug": "mta/outbound",
+      "url": "https://stalw.art/docs/mta/outbound",
+      "title": "Overview",
+      "path": "mta/outbound.md",
+      "bytes": 1708
+    },
+    {
+      "slug": "mta/outbound/connection",
+      "url": "https://stalw.art/docs/mta/outbound/connection",
+      "title": "Connection",
+      "path": "mta/outbound/connection.md",
+      "bytes": 4158
+    },
+    {
+      "slug": "mta/outbound/queue",
+      "url": "https://stalw.art/docs/mta/outbound/queue",
+      "title": "Queues",
+      "path": "mta/outbound/queue.md",
+      "bytes": 3889
+    },
+    {
+      "slug": "mta/outbound/quota",
+      "url": "https://stalw.art/docs/mta/outbound/quota",
+      "title": "Quotas",
+      "path": "mta/outbound/quota.md",
+      "bytes": 3193
+    },
+    {
+      "slug": "mta/outbound/rate-limit",
+      "url": "https://stalw.art/docs/mta/outbound/rate-limit",
+      "title": "Rate limits",
+      "path": "mta/outbound/rate-limit.md",
+      "bytes": 6248
+    },
+    {
+      "slug": "mta/outbound/routing",
+      "url": "https://stalw.art/docs/mta/outbound/routing",
+      "title": "Routing",
+      "path": "mta/outbound/routing.md",
+      "bytes": 7981
+    },
+    {
+      "slug": "mta/outbound/schedule",
+      "url": "https://stalw.art/docs/mta/outbound/schedule",
+      "title": "Scheduling",
+      "path": "mta/outbound/schedule.md",
+      "bytes": 9787
+    },
+    {
+      "slug": "mta/outbound/strategy",
+      "url": "https://stalw.art/docs/mta/outbound/strategy",
+      "title": "Strategies",
+      "path": "mta/outbound/strategy.md",
+      "bytes": 5032
+    },
+    {
+      "slug": "mta/outbound/tls",
+      "url": "https://stalw.art/docs/mta/outbound/tls",
+      "title": "TLS",
+      "path": "mta/outbound/tls.md",
+      "bytes": 7909
+    },
+    {
+      "slug": "mta/reports",
+      "url": "https://stalw.art/docs/mta/reports",
+      "title": "Overview",
+      "path": "mta/reports.md",
+      "bytes": 4061
+    },
+    {
+      "slug": "mta/reports/analysis",
+      "url": "https://stalw.art/docs/mta/reports/analysis",
+      "title": "Analysis",
+      "path": "mta/reports/analysis.md",
+      "bytes": 2313
+    },
+    {
+      "slug": "mta/reports/dkim",
+      "url": "https://stalw.art/docs/mta/reports/dkim",
+      "title": "DKIM",
+      "path": "mta/reports/dkim.md",
+      "bytes": 2494
+    },
+    {
+      "slug": "mta/reports/dmarc",
+      "url": "https://stalw.art/docs/mta/reports/dmarc",
+      "title": "DMARC",
+      "path": "mta/reports/dmarc.md",
+      "bytes": 5470
+    },
+    {
+      "slug": "mta/reports/dsn",
+      "url": "https://stalw.art/docs/mta/reports/dsn",
+      "title": "Delivery Notifications",
+      "path": "mta/reports/dsn.md",
+      "bytes": 1606
+    },
+    {
+      "slug": "mta/reports/spf",
+      "url": "https://stalw.art/docs/mta/reports/spf",
+      "title": "SPF",
+      "path": "mta/reports/spf.md",
+      "bytes": 2353
+    },
+    {
+      "slug": "mta/reports/tls",
+      "url": "https://stalw.art/docs/mta/reports/tls",
+      "title": "TLS",
+      "path": "mta/reports/tls.md",
+      "bytes": 2972
+    },
+    {
+      "slug": "mta/rewrite",
+      "url": "https://stalw.art/docs/mta/rewrite",
+      "title": "Overview",
+      "path": "mta/rewrite.md",
+      "bytes": 1295
+    },
+    {
+      "slug": "mta/rewrite/address",
+      "url": "https://stalw.art/docs/mta/rewrite/address",
+      "title": "Envelope",
+      "path": "mta/rewrite/address.md",
+      "bytes": 5573
+    },
+    {
+      "slug": "mta/rewrite/content",
+      "url": "https://stalw.art/docs/mta/rewrite/content",
+      "title": "Body & Attachments",
+      "path": "mta/rewrite/content.md",
+      "bytes": 4015
+    },
+    {
+      "slug": "mta/rewrite/headers",
+      "url": "https://stalw.art/docs/mta/rewrite/headers",
+      "title": "Headers",
+      "path": "mta/rewrite/headers.md",
+      "bytes": 3908
+    },
+    {
+      "slug": "mta/transport-security",
+      "url": "https://stalw.art/docs/mta/transport-security",
+      "title": "Overview",
+      "path": "mta/transport-security.md",
+      "bytes": 1887
+    },
+    {
+      "slug": "mta/transport-security/dane",
+      "url": "https://stalw.art/docs/mta/transport-security/dane",
+      "title": "DANE",
+      "path": "mta/transport-security/dane.md",
+      "bytes": 2570
+    },
+    {
+      "slug": "mta/transport-security/mta-sts",
+      "url": "https://stalw.art/docs/mta/transport-security/mta-sts",
+      "title": "MTA-STS",
+      "path": "mta/transport-security/mta-sts.md",
+      "bytes": 4067
+    },
+    {
+      "slug": "ref",
+      "url": "https://stalw.art/docs/ref",
+      "title": "Overview",
+      "path": "ref.md",
+      "bytes": 13617
+    },
+    {
+      "slug": "ref/enum/dns-server-bootstrap-type",
+      "url": "https://stalw.art/docs/ref/enum/dns-server-bootstrap-type",
+      "title": "DnsServerBootstrapType",
+      "path": "ref/enum/dns-server-bootstrap-type.md",
+      "bytes": 1887
+    },
+    {
+      "slug": "ref/enum/dns-server-type",
+      "url": "https://stalw.art/docs/ref/enum/dns-server-type",
+      "title": "DnsServerType",
+      "path": "ref/enum/dns-server-type.md",
+      "bytes": 1804
+    },
+    {
+      "slug": "ref/enum/key",
+      "url": "https://stalw.art/docs/ref/enum/key",
+      "title": "Key",
+      "path": "ref/enum/key.md",
+      "bytes": 1581
+    },
+    {
+      "slug": "ref/enum/locale",
+      "url": "https://stalw.art/docs/ref/enum/locale",
+      "title": "Locale",
+      "path": "ref/enum/locale.md",
+      "bytes": 14433
+    },
+    {
+      "slug": "ref/enum/time-zone",
+      "url": "https://stalw.art/docs/ref/enum/time-zone",
+      "title": "TimeZone",
+      "path": "ref/enum/time-zone.md",
+      "bytes": 18598
+    },
+    {
+      "slug": "ref/events",
+      "url": "https://stalw.art/docs/ref/events",
+      "title": "Events",
+      "path": "ref/events.md",
+      "bytes": 92282
+    },
+    {
+      "slug": "ref/expression/constant/mta-aggregate-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-aggregate-constant",
+      "title": "MtaAggregateConstant",
+      "path": "ref/expression/constant/mta-aggregate-constant.md",
+      "bytes": 596
+    },
+    {
+      "slug": "ref/expression/constant/mta-auth-type-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-auth-type-constant",
+      "title": "MtaAuthTypeConstant",
+      "path": "ref/expression/constant/mta-auth-type-constant.md",
+      "bytes": 600
+    },
+    {
+      "slug": "ref/expression/constant/mta-ip-strategy-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-ip-strategy-constant",
+      "title": "MtaIpStrategyConstant",
+      "path": "ref/expression/constant/mta-ip-strategy-constant.md",
+      "bytes": 648
+    },
+    {
+      "slug": "ref/expression/constant/mta-priority-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-priority-constant",
+      "title": "MtaPriorityConstant",
+      "path": "ref/expression/constant/mta-priority-constant.md",
+      "bytes": 578
+    },
+    {
+      "slug": "ref/expression/constant/mta-require-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-require-constant",
+      "title": "MtaRequireConstant",
+      "path": "ref/expression/constant/mta-require-constant.md",
+      "bytes": 578
+    },
+    {
+      "slug": "ref/expression/constant/mta-verify-constant",
+      "url": "https://stalw.art/docs/ref/expression/constant/mta-verify-constant",
+      "title": "MtaVerifyConstant",
+      "path": "ref/expression/constant/mta-verify-constant.md",
+      "bytes": 568
+    },
+    {
+      "slug": "ref/expression/variable/http-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/http-variable",
+      "title": "HttpVariable",
+      "path": "ref/expression/variable/http-variable.md",
+      "bytes": 672
+    },
+    {
+      "slug": "ref/expression/variable/mta-connection-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-connection-variable",
+      "title": "MtaConnectionVariable",
+      "path": "ref/expression/variable/mta-connection-variable.md",
+      "bytes": 704
+    },
+    {
+      "slug": "ref/expression/variable/mta-ehlo-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-ehlo-variable",
+      "title": "MtaEhloVariable",
+      "path": "ref/expression/variable/mta-ehlo-variable.md",
+      "bytes": 692
+    },
+    {
+      "slug": "ref/expression/variable/mta-mail-from-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-mail-from-variable",
+      "title": "MtaMailFromVariable",
+      "path": "ref/expression/variable/mta-mail-from-variable.md",
+      "bytes": 770
+    },
+    {
+      "slug": "ref/expression/variable/mta-queue-host-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-queue-host-variable",
+      "title": "MtaQueueHostVariable",
+      "path": "ref/expression/variable/mta-queue-host-variable.md",
+      "bytes": 948
+    },
+    {
+      "slug": "ref/expression/variable/mta-queue-rcpt-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-queue-rcpt-variable",
+      "title": "MtaQueueRcptVariable",
+      "path": "ref/expression/variable/mta-queue-rcpt-variable.md",
+      "bytes": 904
+    },
+    {
+      "slug": "ref/expression/variable/mta-queue-sender-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-queue-sender-variable",
+      "title": "MtaQueueSenderVariable",
+      "path": "ref/expression/variable/mta-queue-sender-variable.md",
+      "bytes": 724
+    },
+    {
+      "slug": "ref/expression/variable/mta-rcpt-domain-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-rcpt-domain-variable",
+      "title": "MtaRcptDomainVariable",
+      "path": "ref/expression/variable/mta-rcpt-domain-variable.md",
+      "bytes": 572
+    },
+    {
+      "slug": "ref/expression/variable/mta-rcpt-to-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-rcpt-to-variable",
+      "title": "MtaRcptToVariable",
+      "path": "ref/expression/variable/mta-rcpt-to-variable.md",
+      "bytes": 856
+    },
+    {
+      "slug": "ref/expression/variable/mta-rcpt-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/mta-rcpt-variable",
+      "title": "MtaRcptVariable",
+      "path": "ref/expression/variable/mta-rcpt-variable.md",
+      "bytes": 520
+    },
+    {
+      "slug": "ref/expression/variable/spam-default-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-default-variable",
+      "title": "SpamDefaultVariable",
+      "path": "ref/expression/variable/spam-default-variable.md",
+      "bytes": 1326
+    },
+    {
+      "slug": "ref/expression/variable/spam-email-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-email-variable",
+      "title": "SpamEmailVariable",
+      "path": "ref/expression/variable/spam-email-variable.md",
+      "bytes": 1382
+    },
+    {
+      "slug": "ref/expression/variable/spam-generic-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-generic-variable",
+      "title": "SpamGenericVariable",
+      "path": "ref/expression/variable/spam-generic-variable.md",
+      "bytes": 1338
+    },
+    {
+      "slug": "ref/expression/variable/spam-header-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-header-variable",
+      "title": "SpamHeaderVariable",
+      "path": "ref/expression/variable/spam-header-variable.md",
+      "bytes": 1438
+    },
+    {
+      "slug": "ref/expression/variable/spam-ip-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-ip-variable",
+      "title": "SpamIpVariable",
+      "path": "ref/expression/variable/spam-ip-variable.md",
+      "bytes": 1396
+    },
+    {
+      "slug": "ref/expression/variable/spam-url-variable",
+      "url": "https://stalw.art/docs/ref/expression/variable/spam-url-variable",
+      "title": "SpamUrlVariable",
+      "path": "ref/expression/variable/spam-url-variable.md",
+      "bytes": 1428
+    },
+    {
+      "slug": "ref/metrics",
+      "url": "https://stalw.art/docs/ref/metrics",
+      "title": "Metrics",
+      "path": "ref/metrics.md",
+      "bytes": 23664
+    },
+    {
+      "slug": "ref/object/account-password",
+      "url": "https://stalw.art/docs/ref/object/account-password",
+      "title": "AccountPassword",
+      "path": "ref/object/account-password.md",
+      "bytes": 3879
+    },
+    {
+      "slug": "ref/object/account-settings",
+      "url": "https://stalw.art/docs/ref/object/account-settings",
+      "title": "AccountSettings",
+      "path": "ref/object/account-settings.md",
+      "bytes": 4959
+    },
+    {
+      "slug": "ref/object/account",
+      "url": "https://stalw.art/docs/ref/object/account",
+      "title": "Account",
+      "path": "ref/object/account.md",
+      "bytes": 18779
+    },
+    {
+      "slug": "ref/object/acme-provider",
+      "url": "https://stalw.art/docs/ref/object/acme-provider",
+      "title": "AcmeProvider",
+      "path": "ref/object/acme-provider.md",
+      "bytes": 8107
+    },
+    {
+      "slug": "ref/object/action",
+      "url": "https://stalw.art/docs/ref/object/action",
+      "title": "Action",
+      "path": "ref/object/action.md",
+      "bytes": 14178
+    },
+    {
+      "slug": "ref/object/address-book",
+      "url": "https://stalw.art/docs/ref/object/address-book",
+      "title": "AddressBook",
+      "path": "ref/object/address-book.md",
+      "bytes": 3947
+    },
+    {
+      "slug": "ref/object/ai-model",
+      "url": "https://stalw.art/docs/ref/object/ai-model",
+      "title": "AiModel",
+      "path": "ref/object/ai-model.md",
+      "bytes": 9177
+    },
+    {
+      "slug": "ref/object/alert",
+      "url": "https://stalw.art/docs/ref/object/alert",
+      "title": "Alert",
+      "path": "ref/object/alert.md",
+      "bytes": 8126
+    },
+    {
+      "slug": "ref/object/allowed-ip",
+      "url": "https://stalw.art/docs/ref/object/allowed-ip",
+      "title": "AllowedIp",
+      "path": "ref/object/allowed-ip.md",
+      "bytes": 5755
+    },
+    {
+      "slug": "ref/object/api-key",
+      "url": "https://stalw.art/docs/ref/object/api-key",
+      "title": "ApiKey",
+      "path": "ref/object/api-key.md",
+      "bytes": 7127
+    },
+    {
+      "slug": "ref/object/app-password",
+      "url": "https://stalw.art/docs/ref/object/app-password",
+      "title": "AppPassword",
+      "path": "ref/object/app-password.md",
+      "bytes": 7297
+    },
+    {
+      "slug": "ref/object/application",
+      "url": "https://stalw.art/docs/ref/object/application",
+      "title": "Application",
+      "path": "ref/object/application.md",
+      "bytes": 6347
+    },
+    {
+      "slug": "ref/object/archived-item",
+      "url": "https://stalw.art/docs/ref/object/archived-item",
+      "title": "ArchivedItem",
+      "path": "ref/object/archived-item.md",
+      "bytes": 12535
+    },
+    {
+      "slug": "ref/object/arf-external-report",
+      "url": "https://stalw.art/docs/ref/object/arf-external-report",
+      "title": "ArfExternalReport",
+      "path": "ref/object/arf-external-report.md",
+      "bytes": 12451
+    },
+    {
+      "slug": "ref/object/asn",
+      "url": "https://stalw.art/docs/ref/object/asn",
+      "title": "Asn",
+      "path": "ref/object/asn.md",
+      "bytes": 7467
+    },
+    {
+      "slug": "ref/object/authentication",
+      "url": "https://stalw.art/docs/ref/object/authentication",
+      "title": "Authentication",
+      "path": "ref/object/authentication.md",
+      "bytes": 6325
+    },
+    {
+      "slug": "ref/object/blob-store",
+      "url": "https://stalw.art/docs/ref/object/blob-store",
+      "title": "BlobStore",
+      "path": "ref/object/blob-store.md",
+      "bytes": 27862
+    },
+    {
+      "slug": "ref/object/blocked-ip",
+      "url": "https://stalw.art/docs/ref/object/blocked-ip",
+      "title": "BlockedIp",
+      "path": "ref/object/blocked-ip.md",
+      "bytes": 6147
+    },
+    {
+      "slug": "ref/object/bootstrap",
+      "url": "https://stalw.art/docs/ref/object/bootstrap",
+      "title": "Bootstrap",
+      "path": "ref/object/bootstrap.md",
+      "bytes": 110925
+    },
+    {
+      "slug": "ref/object/cache",
+      "url": "https://stalw.art/docs/ref/object/cache",
+      "title": "Cache",
+      "path": "ref/object/cache.md",
+      "bytes": 6880
+    },
+    {
+      "slug": "ref/object/calendar-alarm",
+      "url": "https://stalw.art/docs/ref/object/calendar-alarm",
+      "title": "CalendarAlarm",
+      "path": "ref/object/calendar-alarm.md",
+      "bytes": 4403
+    },
+    {
+      "slug": "ref/object/calendar-scheduling",
+      "url": "https://stalw.art/docs/ref/object/calendar-scheduling",
+      "title": "CalendarScheduling",
+      "path": "ref/object/calendar-scheduling.md",
+      "bytes": 4881
+    },
+    {
+      "slug": "ref/object/calendar",
+      "url": "https://stalw.art/docs/ref/object/calendar",
+      "title": "Calendar",
+      "path": "ref/object/calendar.md",
+      "bytes": 4814
+    },
+    {
+      "slug": "ref/object/certificate",
+      "url": "https://stalw.art/docs/ref/object/certificate",
+      "title": "Certificate",
+      "path": "ref/object/certificate.md",
+      "bytes": 8695
+    },
+    {
+      "slug": "ref/object/cluster-node",
+      "url": "https://stalw.art/docs/ref/object/cluster-node",
+      "title": "ClusterNode",
+      "path": "ref/object/cluster-node.md",
+      "bytes": 6049
+    },
+    {
+      "slug": "ref/object/cluster-role",
+      "url": "https://stalw.art/docs/ref/object/cluster-role",
+      "title": "ClusterRole",
+      "path": "ref/object/cluster-role.md",
+      "bytes": 8437
+    },
+    {
+      "slug": "ref/object/coordinator",
+      "url": "https://stalw.art/docs/ref/object/coordinator",
+      "title": "Coordinator",
+      "path": "ref/object/coordinator.md",
+      "bytes": 14022
+    },
+    {
+      "slug": "ref/object/data-retention",
+      "url": "https://stalw.art/docs/ref/object/data-retention",
+      "title": "DataRetention",
+      "path": "ref/object/data-retention.md",
+      "bytes": 8031
+    },
+    {
+      "slug": "ref/object/data-store",
+      "url": "https://stalw.art/docs/ref/object/data-store",
+      "title": "DataStore",
+      "path": "ref/object/data-store.md",
+      "bytes": 12670
+    },
+    {
+      "slug": "ref/object/directory",
+      "url": "https://stalw.art/docs/ref/object/directory",
+      "title": "Directory",
+      "path": "ref/object/directory.md",
+      "bytes": 25335
+    },
+    {
+      "slug": "ref/object/dkim-report-settings",
+      "url": "https://stalw.art/docs/ref/object/dkim-report-settings",
+      "title": "DkimReportSettings",
+      "path": "ref/object/dkim-report-settings.md",
+      "bytes": 5849
+    },
+    {
+      "slug": "ref/object/dkim-signature",
+      "url": "https://stalw.art/docs/ref/object/dkim-signature",
+      "title": "DkimSignature",
+      "path": "ref/object/dkim-signature.md",
+      "bytes": 17487
+    },
+    {
+      "slug": "ref/object/dmarc-external-report",
+      "url": "https://stalw.art/docs/ref/object/dmarc-external-report",
+      "title": "DmarcExternalReport",
+      "path": "ref/object/dmarc-external-report.md",
+      "bytes": 18628
+    },
+    {
+      "slug": "ref/object/dmarc-internal-report",
+      "url": "https://stalw.art/docs/ref/object/dmarc-internal-report",
+      "title": "DmarcInternalReport",
+      "path": "ref/object/dmarc-internal-report.md",
+      "bytes": 18288
+    },
+    {
+      "slug": "ref/object/dmarc-report-settings",
+      "url": "https://stalw.art/docs/ref/object/dmarc-report-settings",
+      "title": "DmarcReportSettings",
+      "path": "ref/object/dmarc-report-settings.md",
+      "bytes": 9039
+    },
+    {
+      "slug": "ref/object/dns-resolver",
+      "url": "https://stalw.art/docs/ref/object/dns-resolver",
+      "title": "DnsResolver",
+      "path": "ref/object/dns-resolver.md",
+      "bytes": 10478
+    },
+    {
+      "slug": "ref/object/dns-server",
+      "url": "https://stalw.art/docs/ref/object/dns-server",
+      "title": "DnsServer",
+      "path": "ref/object/dns-server.md",
+      "bytes": 115259
+    },
+    {
+      "slug": "ref/object/domain",
+      "url": "https://stalw.art/docs/ref/object/domain",
+      "title": "Domain",
+      "path": "ref/object/domain.md",
+      "bytes": 15792
+    },
+    {
+      "slug": "ref/object/dsn-report-settings",
+      "url": "https://stalw.art/docs/ref/object/dsn-report-settings",
+      "title": "DsnReportSettings",
+      "path": "ref/object/dsn-report-settings.md",
+      "bytes": 5255
+    },
+    {
+      "slug": "ref/object/email",
+      "url": "https://stalw.art/docs/ref/object/email",
+      "title": "Email",
+      "path": "ref/object/email.md",
+      "bytes": 6746
+    },
+    {
+      "slug": "ref/object/enterprise",
+      "url": "https://stalw.art/docs/ref/object/enterprise",
+      "title": "Enterprise",
+      "path": "ref/object/enterprise.md",
+      "bytes": 5014
+    },
+    {
+      "slug": "ref/object/event-tracing-level",
+      "url": "https://stalw.art/docs/ref/object/event-tracing-level",
+      "title": "EventTracingLevel",
+      "path": "ref/object/event-tracing-level.md",
+      "bytes": 5900
+    },
+    {
+      "slug": "ref/object/file-storage",
+      "url": "https://stalw.art/docs/ref/object/file-storage",
+      "title": "FileStorage",
+      "path": "ref/object/file-storage.md",
+      "bytes": 3405
+    },
+    {
+      "slug": "ref/object/http-form",
+      "url": "https://stalw.art/docs/ref/object/http-form",
+      "title": "HttpForm",
+      "path": "ref/object/http-form.md",
+      "bytes": 5461
+    },
+    {
+      "slug": "ref/object/http-lookup",
+      "url": "https://stalw.art/docs/ref/object/http-lookup",
+      "title": "HttpLookup",
+      "path": "ref/object/http-lookup.md",
+      "bytes": 7846
+    },
+    {
+      "slug": "ref/object/http",
+      "url": "https://stalw.art/docs/ref/object/http",
+      "title": "Http",
+      "path": "ref/object/http.md",
+      "bytes": 6061
+    },
+    {
+      "slug": "ref/object/imap",
+      "url": "https://stalw.art/docs/ref/object/imap",
+      "title": "Imap",
+      "path": "ref/object/imap.md",
+      "bytes": 4836
+    },
+    {
+      "slug": "ref/object/in-memory-store",
+      "url": "https://stalw.art/docs/ref/object/in-memory-store",
+      "title": "InMemoryStore",
+      "path": "ref/object/in-memory-store.md",
+      "bytes": 15988
+    },
+    {
+      "slug": "ref/object/jmap",
+      "url": "https://stalw.art/docs/ref/object/jmap",
+      "title": "Jmap",
+      "path": "ref/object/jmap.md",
+      "bytes": 10408
+    },
+    {
+      "slug": "ref/object/log",
+      "url": "https://stalw.art/docs/ref/object/log",
+      "title": "Log",
+      "path": "ref/object/log.md",
+      "bytes": 5906
+    },
+    {
+      "slug": "ref/object/mailing-list",
+      "url": "https://stalw.art/docs/ref/object/mailing-list",
+      "title": "MailingList",
+      "path": "ref/object/mailing-list.md",
+      "bytes": 7583
+    },
+    {
+      "slug": "ref/object/masked-email",
+      "url": "https://stalw.art/docs/ref/object/masked-email",
+      "title": "MaskedEmail",
+      "path": "ref/object/masked-email.md",
+      "bytes": 7461
+    },
+    {
+      "slug": "ref/object/memory-lookup-key-value",
+      "url": "https://stalw.art/docs/ref/object/memory-lookup-key-value",
+      "title": "MemoryLookupKeyValue",
+      "path": "ref/object/memory-lookup-key-value.md",
+      "bytes": 6261
+    },
+    {
+      "slug": "ref/object/memory-lookup-key",
+      "url": "https://stalw.art/docs/ref/object/memory-lookup-key",
+      "title": "MemoryLookupKey",
+      "path": "ref/object/memory-lookup-key.md",
+      "bytes": 6168
+    },
+    {
+      "slug": "ref/object/metric",
+      "url": "https://stalw.art/docs/ref/object/metric",
+      "title": "Metric",
+      "path": "ref/object/metric.md",
+      "bytes": 6467
+    },
+    {
+      "slug": "ref/object/metrics-store",
+      "url": "https://stalw.art/docs/ref/object/metrics-store",
+      "title": "MetricsStore",
+      "path": "ref/object/metrics-store.md",
+      "bytes": 11546
+    },
+    {
+      "slug": "ref/object/metrics",
+      "url": "https://stalw.art/docs/ref/object/metrics",
+      "title": "Metrics",
+      "path": "ref/object/metrics.md",
+      "bytes": 9369
+    },
+    {
+      "slug": "ref/object/mta-connection-strategy",
+      "url": "https://stalw.art/docs/ref/object/mta-connection-strategy",
+      "title": "MtaConnectionStrategy",
+      "path": "ref/object/mta-connection-strategy.md",
+      "bytes": 7948
+    },
+    {
+      "slug": "ref/object/mta-delivery-schedule",
+      "url": "https://stalw.art/docs/ref/object/mta-delivery-schedule",
+      "title": "MtaDeliverySchedule",
+      "path": "ref/object/mta-delivery-schedule.md",
+      "bytes": 9399
+    },
+    {
+      "slug": "ref/object/mta-extensions",
+      "url": "https://stalw.art/docs/ref/object/mta-extensions",
+      "title": "MtaExtensions",
+      "path": "ref/object/mta-extensions.md",
+      "bytes": 8486
+    },
+    {
+      "slug": "ref/object/mta-hook",
+      "url": "https://stalw.art/docs/ref/object/mta-hook",
+      "title": "MtaHook",
+      "path": "ref/object/mta-hook.md",
+      "bytes": 10329
+    },
+    {
+      "slug": "ref/object/mta-inbound-session",
+      "url": "https://stalw.art/docs/ref/object/mta-inbound-session",
+      "title": "MtaInboundSession",
+      "path": "ref/object/mta-inbound-session.md",
+      "bytes": 4990
+    },
+    {
+      "slug": "ref/object/mta-inbound-throttle",
+      "url": "https://stalw.art/docs/ref/object/mta-inbound-throttle",
+      "title": "MtaInboundThrottle",
+      "path": "ref/object/mta-inbound-throttle.md",
+      "bytes": 7948
+    },
+    {
+      "slug": "ref/object/mta-milter",
+      "url": "https://stalw.art/docs/ref/object/mta-milter",
+      "title": "MtaMilter",
+      "path": "ref/object/mta-milter.md",
+      "bytes": 9279
+    },
+    {
+      "slug": "ref/object/mta-outbound-strategy",
+      "url": "https://stalw.art/docs/ref/object/mta-outbound-strategy",
+      "title": "MtaOutboundStrategy",
+      "path": "ref/object/mta-outbound-strategy.md",
+      "bytes": 5838
+    },
+    {
+      "slug": "ref/object/mta-outbound-throttle",
+      "url": "https://stalw.art/docs/ref/object/mta-outbound-throttle",
+      "title": "MtaOutboundThrottle",
+      "path": "ref/object/mta-outbound-throttle.md",
+      "bytes": 8022
+    },
+    {
+      "slug": "ref/object/mta-queue-quota",
+      "url": "https://stalw.art/docs/ref/object/mta-queue-quota",
+      "title": "MtaQueueQuota",
+      "path": "ref/object/mta-queue-quota.md",
+      "bytes": 7537
+    },
+    {
+      "slug": "ref/object/mta-route",
+      "url": "https://stalw.art/docs/ref/object/mta-route",
+      "title": "MtaRoute",
+      "path": "ref/object/mta-route.md",
+      "bytes": 10072
+    },
+    {
+      "slug": "ref/object/mta-stage-auth",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-auth",
+      "title": "MtaStageAuth",
+      "path": "ref/object/mta-stage-auth.md",
+      "bytes": 6074
+    },
+    {
+      "slug": "ref/object/mta-stage-connect",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-connect",
+      "title": "MtaStageConnect",
+      "path": "ref/object/mta-stage-connect.md",
+      "bytes": 5081
+    },
+    {
+      "slug": "ref/object/mta-stage-data",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-data",
+      "title": "MtaStageData",
+      "path": "ref/object/mta-stage-data.md",
+      "bytes": 8058
+    },
+    {
+      "slug": "ref/object/mta-stage-ehlo",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-ehlo",
+      "title": "MtaStageEhlo",
+      "path": "ref/object/mta-stage-ehlo.md",
+      "bytes": 5246
+    },
+    {
+      "slug": "ref/object/mta-stage-mail",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-mail",
+      "title": "MtaStageMail",
+      "path": "ref/object/mta-stage-mail.md",
+      "bytes": 5160
+    },
+    {
+      "slug": "ref/object/mta-stage-rcpt",
+      "url": "https://stalw.art/docs/ref/object/mta-stage-rcpt",
+      "title": "MtaStageRcpt",
+      "path": "ref/object/mta-stage-rcpt.md",
+      "bytes": 5807
+    },
+    {
+      "slug": "ref/object/mta-sts",
+      "url": "https://stalw.art/docs/ref/object/mta-sts",
+      "title": "MtaSts",
+      "path": "ref/object/mta-sts.md",
+      "bytes": 3550
+    },
+    {
+      "slug": "ref/object/mta-tls-strategy",
+      "url": "https://stalw.art/docs/ref/object/mta-tls-strategy",
+      "title": "MtaTlsStrategy",
+      "path": "ref/object/mta-tls-strategy.md",
+      "bytes": 7018
+    },
+    {
+      "slug": "ref/object/mta-virtual-queue",
+      "url": "https://stalw.art/docs/ref/object/mta-virtual-queue",
+      "title": "MtaVirtualQueue",
+      "path": "ref/object/mta-virtual-queue.md",
+      "bytes": 5974
+    },
+    {
+      "slug": "ref/object/network-listener",
+      "url": "https://stalw.art/docs/ref/object/network-listener",
+      "title": "NetworkListener",
+      "path": "ref/object/network-listener.md",
+      "bytes": 10056
+    },
+    {
+      "slug": "ref/object/o-auth-client",
+      "url": "https://stalw.art/docs/ref/object/o-auth-client",
+      "title": "OAuthClient",
+      "path": "ref/object/o-auth-client.md",
+      "bytes": 6729
+    },
+    {
+      "slug": "ref/object/oidc-provider",
+      "url": "https://stalw.art/docs/ref/object/oidc-provider",
+      "title": "OidcProvider",
+      "path": "ref/object/oidc-provider.md",
+      "bytes": 7920
+    },
+    {
+      "slug": "ref/object/public-key",
+      "url": "https://stalw.art/docs/ref/object/public-key",
+      "title": "PublicKey",
+      "path": "ref/object/public-key.md",
+      "bytes": 6253
+    },
+    {
+      "slug": "ref/object/queued-message",
+      "url": "https://stalw.art/docs/ref/object/queued-message",
+      "title": "QueuedMessage",
+      "path": "ref/object/queued-message.md",
+      "bytes": 13221
+    },
+    {
+      "slug": "ref/object/report-settings",
+      "url": "https://stalw.art/docs/ref/object/report-settings",
+      "title": "ReportSettings",
+      "path": "ref/object/report-settings.md",
+      "bytes": 5158
+    },
+    {
+      "slug": "ref/object/role",
+      "url": "https://stalw.art/docs/ref/object/role",
+      "title": "Role",
+      "path": "ref/object/role.md",
+      "bytes": 6359
+    },
+    {
+      "slug": "ref/object/search-store",
+      "url": "https://stalw.art/docs/ref/object/search-store",
+      "title": "SearchStore",
+      "path": "ref/object/search-store.md",
+      "bytes": 15458
+    },
+    {
+      "slug": "ref/object/search",
+      "url": "https://stalw.art/docs/ref/object/search",
+      "title": "Search",
+      "path": "ref/object/search.md",
+      "bytes": 6417
+    },
+    {
+      "slug": "ref/object/security",
+      "url": "https://stalw.art/docs/ref/object/security",
+      "title": "Security",
+      "path": "ref/object/security.md",
+      "bytes": 5207
+    },
+    {
+      "slug": "ref/object/sender-auth",
+      "url": "https://stalw.art/docs/ref/object/sender-auth",
+      "title": "SenderAuth",
+      "path": "ref/object/sender-auth.md",
+      "bytes": 7659
+    },
+    {
+      "slug": "ref/object/sharing",
+      "url": "https://stalw.art/docs/ref/object/sharing",
+      "title": "Sharing",
+      "path": "ref/object/sharing.md",
+      "bytes": 3355
+    },
+    {
+      "slug": "ref/object/sieve-system-interpreter",
+      "url": "https://stalw.art/docs/ref/object/sieve-system-interpreter",
+      "title": "SieveSystemInterpreter",
+      "path": "ref/object/sieve-system-interpreter.md",
+      "bytes": 7127
+    },
+    {
+      "slug": "ref/object/sieve-system-script",
+      "url": "https://stalw.art/docs/ref/object/sieve-system-script",
+      "title": "SieveSystemScript",
+      "path": "ref/object/sieve-system-script.md",
+      "bytes": 6061
+    },
+    {
+      "slug": "ref/object/sieve-user-interpreter",
+      "url": "https://stalw.art/docs/ref/object/sieve-user-interpreter",
+      "title": "SieveUserInterpreter",
+      "path": "ref/object/sieve-user-interpreter.md",
+      "bytes": 9184
+    },
+    {
+      "slug": "ref/object/sieve-user-script",
+      "url": "https://stalw.art/docs/ref/object/sieve-user-script",
+      "title": "SieveUserScript",
+      "path": "ref/object/sieve-user-script.md",
+      "bytes": 5999
+    },
+    {
+      "slug": "ref/object/spam-classifier",
+      "url": "https://stalw.art/docs/ref/object/spam-classifier",
+      "title": "SpamClassifier",
+      "path": "ref/object/spam-classifier.md",
+      "bytes": 8342
+    },
+    {
+      "slug": "ref/object/spam-dnsbl-server",
+      "url": "https://stalw.art/docs/ref/object/spam-dnsbl-server",
+      "title": "SpamDnsblServer",
+      "path": "ref/object/spam-dnsbl-server.md",
+      "bytes": 13784
+    },
+    {
+      "slug": "ref/object/spam-dnsbl-settings",
+      "url": "https://stalw.art/docs/ref/object/spam-dnsbl-settings",
+      "title": "SpamDnsblSettings",
+      "path": "ref/object/spam-dnsbl-settings.md",
+      "bytes": 3701
+    },
+    {
+      "slug": "ref/object/spam-file-extension",
+      "url": "https://stalw.art/docs/ref/object/spam-file-extension",
+      "title": "SpamFileExtension",
+      "path": "ref/object/spam-file-extension.md",
+      "bytes": 6275
+    },
+    {
+      "slug": "ref/object/spam-llm",
+      "url": "https://stalw.art/docs/ref/object/spam-llm",
+      "title": "SpamLlm",
+      "path": "ref/object/spam-llm.md",
+      "bytes": 4808
+    },
+    {
+      "slug": "ref/object/spam-pyzor",
+      "url": "https://stalw.art/docs/ref/object/spam-pyzor",
+      "title": "SpamPyzor",
+      "path": "ref/object/spam-pyzor.md",
+      "bytes": 4195
+    },
+    {
+      "slug": "ref/object/spam-rule",
+      "url": "https://stalw.art/docs/ref/object/spam-rule",
+      "title": "SpamRule",
+      "path": "ref/object/spam-rule.md",
+      "bytes": 12680
+    },
+    {
+      "slug": "ref/object/spam-settings",
+      "url": "https://stalw.art/docs/ref/object/spam-settings",
+      "title": "SpamSettings",
+      "path": "ref/object/spam-settings.md",
+      "bytes": 4513
+    },
+    {
+      "slug": "ref/object/spam-tag",
+      "url": "https://stalw.art/docs/ref/object/spam-tag",
+      "title": "SpamTag",
+      "path": "ref/object/spam-tag.md",
+      "bytes": 6105
+    },
+    {
+      "slug": "ref/object/spam-training-sample",
+      "url": "https://stalw.art/docs/ref/object/spam-training-sample",
+      "title": "SpamTrainingSample",
+      "path": "ref/object/spam-training-sample.md",
+      "bytes": 6707
+    },
+    {
+      "slug": "ref/object/spf-report-settings",
+      "url": "https://stalw.art/docs/ref/object/spf-report-settings",
+      "title": "SpfReportSettings",
+      "path": "ref/object/spf-report-settings.md",
+      "bytes": 5935
+    },
+    {
+      "slug": "ref/object/store-lookup",
+      "url": "https://stalw.art/docs/ref/object/store-lookup",
+      "title": "StoreLookup",
+      "path": "ref/object/store-lookup.md",
+      "bytes": 20550
+    },
+    {
+      "slug": "ref/object/system-settings",
+      "url": "https://stalw.art/docs/ref/object/system-settings",
+      "title": "SystemSettings",
+      "path": "ref/object/system-settings.md",
+      "bytes": 7057
+    },
+    {
+      "slug": "ref/object/task-manager",
+      "url": "https://stalw.art/docs/ref/object/task-manager",
+      "title": "TaskManager",
+      "path": "ref/object/task-manager.md",
+      "bytes": 4885
+    },
+    {
+      "slug": "ref/object/task",
+      "url": "https://stalw.art/docs/ref/object/task",
+      "title": "Task",
+      "path": "ref/object/task.md",
+      "bytes": 26998
+    },
+    {
+      "slug": "ref/object/tenant",
+      "url": "https://stalw.art/docs/ref/object/tenant",
+      "title": "Tenant",
+      "path": "ref/object/tenant.md",
+      "bytes": 8695
+    },
+    {
+      "slug": "ref/object/tls-external-report",
+      "url": "https://stalw.art/docs/ref/object/tls-external-report",
+      "title": "TlsExternalReport",
+      "path": "ref/object/tls-external-report.md",
+      "bytes": 11398
+    },
+    {
+      "slug": "ref/object/tls-internal-report",
+      "url": "https://stalw.art/docs/ref/object/tls-internal-report",
+      "title": "TlsInternalReport",
+      "path": "ref/object/tls-internal-report.md",
+      "bytes": 11431
+    },
+    {
+      "slug": "ref/object/tls-report-settings",
+      "url": "https://stalw.art/docs/ref/object/tls-report-settings",
+      "title": "TlsReportSettings",
+      "path": "ref/object/tls-report-settings.md",
+      "bytes": 6821
+    },
+    {
+      "slug": "ref/object/trace",
+      "url": "https://stalw.art/docs/ref/object/trace",
+      "title": "Trace",
+      "path": "ref/object/trace.md",
+      "bytes": 10077
+    },
+    {
+      "slug": "ref/object/tracer",
+      "url": "https://stalw.art/docs/ref/object/tracer",
+      "title": "Tracer",
+      "path": "ref/object/tracer.md",
+      "bytes": 15469
+    },
+    {
+      "slug": "ref/object/tracing-store",
+      "url": "https://stalw.art/docs/ref/object/tracing-store",
+      "title": "TracingStore",
+      "path": "ref/object/tracing-store.md",
+      "bytes": 11546
+    },
+    {
+      "slug": "ref/object/web-dav",
+      "url": "https://stalw.art/docs/ref/object/web-dav",
+      "title": "WebDav",
+      "path": "ref/object/web-dav.md",
+      "bytes": 4469
+    },
+    {
+      "slug": "ref/object/web-hook",
+      "url": "https://stalw.art/docs/ref/object/web-hook",
+      "title": "WebHook",
+      "path": "ref/object/web-hook.md",
+      "bytes": 10615
+    },
+    {
+      "slug": "ref/permissions",
+      "url": "https://stalw.art/docs/ref/permissions",
+      "title": "Permissions",
+      "path": "ref/permissions.md",
+      "bytes": 44688
+    },
+    {
+      "slug": "server",
+      "url": "https://stalw.art/docs/server",
+      "title": "Server settings",
+      "path": "server.md",
+      "bytes": 633
+    },
+    {
+      "slug": "server/ai-models",
+      "url": "https://stalw.art/docs/server/ai-models",
+      "title": "AI Models",
+      "path": "server/ai-models.md",
+      "bytes": 2528
+    },
+    {
+      "slug": "server/asn",
+      "url": "https://stalw.art/docs/server/asn",
+      "title": "ASN and GeoIP",
+      "path": "server/asn.md",
+      "bytes": 4273
+    },
+    {
+      "slug": "server/auto-ban",
+      "url": "https://stalw.art/docs/server/auto-ban",
+      "title": "Auto-banning",
+      "path": "server/auto-ban.md",
+      "bytes": 4924
+    },
+    {
+      "slug": "server/autoconfig",
+      "url": "https://stalw.art/docs/server/autoconfig",
+      "title": "Autoconfig",
+      "path": "server/autoconfig.md",
+      "bytes": 4478
+    },
+    {
+      "slug": "server/cache",
+      "url": "https://stalw.art/docs/server/cache",
+      "title": "Caching",
+      "path": "server/cache.md",
+      "bytes": 4445
+    },
+    {
+      "slug": "server/dns",
+      "url": "https://stalw.art/docs/server/dns",
+      "title": "Overview",
+      "path": "server/dns.md",
+      "bytes": 3017
+    },
+    {
+      "slug": "server/dns/provider",
+      "url": "https://stalw.art/docs/server/dns/provider",
+      "title": "DNS Providers",
+      "path": "server/dns/provider.md",
+      "bytes": 1582
+    },
+    {
+      "slug": "server/dns/resolver",
+      "url": "https://stalw.art/docs/server/dns/resolver",
+      "title": "DNS Resolver",
+      "path": "server/dns/resolver.md",
+      "bytes": 3197
+    },
+    {
+      "slug": "server/enterprise",
+      "url": "https://stalw.art/docs/server/enterprise",
+      "title": "Enterprise License",
+      "path": "server/enterprise.md",
+      "bytes": 4654
+    },
+    {
+      "slug": "server/general",
+      "url": "https://stalw.art/docs/server/general",
+      "title": "General",
+      "path": "server/general.md",
+      "bytes": 3348
+    },
+    {
+      "slug": "server/listener",
+      "url": "https://stalw.art/docs/server/listener",
+      "title": "Listeners",
+      "path": "server/listener.md",
+      "bytes": 4966
+    },
+    {
+      "slug": "server/reverse-proxy",
+      "url": "https://stalw.art/docs/server/reverse-proxy",
+      "title": "Overview",
+      "path": "server/reverse-proxy.md",
+      "bytes": 9931
+    },
+    {
+      "slug": "server/reverse-proxy/caddy",
+      "url": "https://stalw.art/docs/server/reverse-proxy/caddy",
+      "title": "Caddy",
+      "path": "server/reverse-proxy/caddy.md",
+      "bytes": 5978
+    },
+    {
+      "slug": "server/reverse-proxy/haproxy",
+      "url": "https://stalw.art/docs/server/reverse-proxy/haproxy",
+      "title": "HAProxy",
+      "path": "server/reverse-proxy/haproxy.md",
+      "bytes": 4104
+    },
+    {
+      "slug": "server/reverse-proxy/nginx",
+      "url": "https://stalw.art/docs/server/reverse-proxy/nginx",
+      "title": "NGINX",
+      "path": "server/reverse-proxy/nginx.md",
+      "bytes": 3007
+    },
+    {
+      "slug": "server/reverse-proxy/proxy-protocol",
+      "url": "https://stalw.art/docs/server/reverse-proxy/proxy-protocol",
+      "title": "Proxy Protocol",
+      "path": "server/reverse-proxy/proxy-protocol.md",
+      "bytes": 2375
+    },
+    {
+      "slug": "server/reverse-proxy/traefik",
+      "url": "https://stalw.art/docs/server/reverse-proxy/traefik",
+      "title": "Traefik",
+      "path": "server/reverse-proxy/traefik.md",
+      "bytes": 8874
+    },
+    {
+      "slug": "server/tls",
+      "url": "https://stalw.art/docs/server/tls",
+      "title": "Overview",
+      "path": "server/tls.md",
+      "bytes": 4081
+    },
+    {
+      "slug": "server/tls/acme",
+      "url": "https://stalw.art/docs/server/tls/acme",
+      "title": "Overview",
+      "path": "server/tls/acme.md",
+      "bytes": 1747
+    },
+    {
+      "slug": "server/tls/acme/challenges",
+      "url": "https://stalw.art/docs/server/tls/acme/challenges",
+      "title": "Challenge Types",
+      "path": "server/tls/acme/challenges.md",
+      "bytes": 8292
+    },
+    {
+      "slug": "server/tls/acme/configuration",
+      "url": "https://stalw.art/docs/server/tls/acme/configuration",
+      "title": "Configuration",
+      "path": "server/tls/acme/configuration.md",
+      "bytes": 5082
+    },
+    {
+      "slug": "server/tls/certificates",
+      "url": "https://stalw.art/docs/server/tls/certificates",
+      "title": "Certificates",
+      "path": "server/tls/certificates.md",
+      "bytes": 2967
+    },
+    {
+      "slug": "sieve",
+      "url": "https://stalw.art/docs/sieve",
+      "title": "Overview",
+      "path": "sieve.md",
+      "bytes": 4071
+    },
+    {
+      "slug": "sieve/examples",
+      "url": "https://stalw.art/docs/sieve/examples",
+      "title": "Examples",
+      "path": "sieve/examples.md",
+      "bytes": 4595
+    },
+    {
+      "slug": "sieve/expressions",
+      "url": "https://stalw.art/docs/sieve/expressions",
+      "title": "Expressions",
+      "path": "sieve/expressions.md",
+      "bytes": 7747
+    },
+    {
+      "slug": "sieve/interpreter",
+      "url": "https://stalw.art/docs/sieve/interpreter",
+      "title": "Overview",
+      "path": "sieve/interpreter.md",
+      "bytes": 2140
+    },
+    {
+      "slug": "sieve/interpreter/trusted",
+      "url": "https://stalw.art/docs/sieve/interpreter/trusted",
+      "title": "Trusted Interpreter",
+      "path": "sieve/interpreter/trusted.md",
+      "bytes": 5510
+    },
+    {
+      "slug": "sieve/interpreter/untrusted",
+      "url": "https://stalw.art/docs/sieve/interpreter/untrusted",
+      "title": "Untrusted Interpreter",
+      "path": "sieve/interpreter/untrusted.md",
+      "bytes": 8057
+    },
+    {
+      "slug": "sieve/jmap",
+      "url": "https://stalw.art/docs/sieve/jmap",
+      "title": "JMAP for Sieve",
+      "path": "sieve/jmap.md",
+      "bytes": 938
+    },
+    {
+      "slug": "sieve/llm",
+      "url": "https://stalw.art/docs/sieve/llm",
+      "title": "LLM Integration",
+      "path": "sieve/llm.md",
+      "bytes": 10070
+    },
+    {
+      "slug": "sieve/managesieve",
+      "url": "https://stalw.art/docs/sieve/managesieve",
+      "title": "ManageSieve",
+      "path": "sieve/managesieve.md",
+      "bytes": 1743
+    },
+    {
+      "slug": "sieve/reference",
+      "url": "https://stalw.art/docs/sieve/reference",
+      "title": "Reference",
+      "path": "sieve/reference.md",
+      "bytes": 26705
+    },
+    {
+      "slug": "sieve/variables",
+      "url": "https://stalw.art/docs/sieve/variables",
+      "title": "Variables",
+      "path": "sieve/variables.md",
+      "bytes": 3452
+    },
+    {
+      "slug": "spamfilter",
+      "url": "https://stalw.art/docs/spamfilter",
+      "title": "Overview",
+      "path": "spamfilter.md",
+      "bytes": 3837
+    },
+    {
+      "slug": "spamfilter/classifier",
+      "url": "https://stalw.art/docs/spamfilter/classifier",
+      "title": "Overview",
+      "path": "spamfilter/classifier.md",
+      "bytes": 11157
+    },
+    {
+      "slug": "spamfilter/classifier/autolearn",
+      "url": "https://stalw.art/docs/spamfilter/classifier/autolearn",
+      "title": "Learning",
+      "path": "spamfilter/classifier/autolearn.md",
+      "bytes": 5641
+    },
+    {
+      "slug": "spamfilter/classifier/hyperparameters",
+      "url": "https://stalw.art/docs/spamfilter/classifier/hyperparameters",
+      "title": "Hyperparameters",
+      "path": "spamfilter/classifier/hyperparameters.md",
+      "bytes": 7086
+    },
+    {
+      "slug": "spamfilter/classifier/training",
+      "url": "https://stalw.art/docs/spamfilter/classifier/training",
+      "title": "Training",
+      "path": "spamfilter/classifier/training.md",
+      "bytes": 8001
+    },
+    {
+      "slug": "spamfilter/digests",
+      "url": "https://stalw.art/docs/spamfilter/digests",
+      "title": "Collaborative digests",
+      "path": "spamfilter/digests.md",
+      "bytes": 2586
+    },
+    {
+      "slug": "spamfilter/dmarc",
+      "url": "https://stalw.art/docs/spamfilter/dmarc",
+      "title": "DMARC analysis",
+      "path": "spamfilter/dmarc.md",
+      "bytes": 2206
+    },
+    {
+      "slug": "spamfilter/dnsbl",
+      "url": "https://stalw.art/docs/spamfilter/dnsbl",
+      "title": "DNS blocklists",
+      "path": "spamfilter/dnsbl.md",
+      "bytes": 6268
+    },
+    {
+      "slug": "spamfilter/greylist",
+      "url": "https://stalw.art/docs/spamfilter/greylist",
+      "title": "Greylisting",
+      "path": "spamfilter/greylist.md",
+      "bytes": 2116
+    },
+    {
+      "slug": "spamfilter/llm",
+      "url": "https://stalw.art/docs/spamfilter/llm",
+      "title": "LLM classifier",
+      "path": "spamfilter/llm.md",
+      "bytes": 7626
+    },
+    {
+      "slug": "spamfilter/phishing",
+      "url": "https://stalw.art/docs/spamfilter/phishing",
+      "title": "Phishing protection",
+      "path": "spamfilter/phishing.md",
+      "bytes": 6126
+    },
+    {
+      "slug": "spamfilter/rules",
+      "url": "https://stalw.art/docs/spamfilter/rules",
+      "title": "Rules",
+      "path": "spamfilter/rules.md",
+      "bytes": 3555
+    },
+    {
+      "slug": "spamfilter/settings",
+      "url": "https://stalw.art/docs/spamfilter/settings",
+      "title": "Settings",
+      "path": "spamfilter/settings.md",
+      "bytes": 468
+    },
+    {
+      "slug": "spamfilter/settings/domain-lists",
+      "url": "https://stalw.art/docs/spamfilter/settings/domain-lists",
+      "title": "Domain lists",
+      "path": "spamfilter/settings/domain-lists.md",
+      "bytes": 2856
+    },
+    {
+      "slug": "spamfilter/settings/general",
+      "url": "https://stalw.art/docs/spamfilter/settings/general",
+      "title": "Overview",
+      "path": "spamfilter/settings/general.md",
+      "bytes": 4875
+    },
+    {
+      "slug": "spamfilter/settings/mime-types",
+      "url": "https://stalw.art/docs/spamfilter/settings/mime-types",
+      "title": "MIME types",
+      "path": "spamfilter/settings/mime-types.md",
+      "bytes": 2850
+    },
+    {
+      "slug": "spamfilter/settings/scores",
+      "url": "https://stalw.art/docs/spamfilter/settings/scores",
+      "title": "Scores",
+      "path": "spamfilter/settings/scores.md",
+      "bytes": 1962
+    },
+    {
+      "slug": "spamfilter/spamtrap",
+      "url": "https://stalw.art/docs/spamfilter/spamtrap",
+      "title": "Spamtrap",
+      "path": "spamfilter/spamtrap.md",
+      "bytes": 2110
+    },
+    {
+      "slug": "spamfilter/trusted",
+      "url": "https://stalw.art/docs/spamfilter/trusted",
+      "title": "Trusted senders",
+      "path": "spamfilter/trusted.md",
+      "bytes": 4201
+    },
+    {
+      "slug": "storage",
+      "url": "https://stalw.art/docs/storage",
+      "title": "Overview",
+      "path": "storage.md",
+      "bytes": 4687
+    },
+    {
+      "slug": "storage/backends",
+      "url": "https://stalw.art/docs/storage/backends",
+      "title": "Overview",
+      "path": "storage/backends.md",
+      "bytes": 1431
+    },
+    {
+      "slug": "storage/backends/azure",
+      "url": "https://stalw.art/docs/storage/backends/azure",
+      "title": "Azure Blob Storage",
+      "path": "storage/backends/azure.md",
+      "bytes": 1987
+    },
+    {
+      "slug": "storage/backends/composite",
+      "url": "https://stalw.art/docs/storage/backends/composite",
+      "title": "Overview",
+      "path": "storage/backends/composite.md",
+      "bytes": 1444
+    },
+    {
+      "slug": "storage/backends/composite/sharded-blob",
+      "url": "https://stalw.art/docs/storage/backends/composite/sharded-blob",
+      "title": "Sharded Blob Store",
+      "path": "storage/backends/composite/sharded-blob.md",
+      "bytes": 1618
+    },
+    {
+      "slug": "storage/backends/composite/sharded-in-memory",
+      "url": "https://stalw.art/docs/storage/backends/composite/sharded-in-memory",
+      "title": "Sharded In-Memory Store",
+      "path": "storage/backends/composite/sharded-in-memory.md",
+      "bytes": 1617
+    },
+    {
+      "slug": "storage/backends/composite/sql-replica",
+      "url": "https://stalw.art/docs/storage/backends/composite/sql-replica",
+      "title": "SQL Read Replicas",
+      "path": "storage/backends/composite/sql-replica.md",
+      "bytes": 1512
+    },
+    {
+      "slug": "storage/backends/elasticsearch",
+      "url": "https://stalw.art/docs/storage/backends/elasticsearch",
+      "title": "ElasticSearch",
+      "path": "storage/backends/elasticsearch.md",
+      "bytes": 2675
+    },
+    {
+      "slug": "storage/backends/filesystem",
+      "url": "https://stalw.art/docs/storage/backends/filesystem",
+      "title": "Filesystem",
+      "path": "storage/backends/filesystem.md",
+      "bytes": 1161
+    },
+    {
+      "slug": "storage/backends/foundationdb",
+      "url": "https://stalw.art/docs/storage/backends/foundationdb",
+      "title": "FoundationDB",
+      "path": "storage/backends/foundationdb.md",
+      "bytes": 2096
+    },
+    {
+      "slug": "storage/backends/meilisearch",
+      "url": "https://stalw.art/docs/storage/backends/meilisearch",
+      "title": "Meilisearch",
+      "path": "storage/backends/meilisearch.md",
+      "bytes": 6548
+    },
+    {
+      "slug": "storage/backends/mysql",
+      "url": "https://stalw.art/docs/storage/backends/mysql",
+      "title": "MySQL / MariaDB",
+      "path": "storage/backends/mysql.md",
+      "bytes": 5514
+    },
+    {
+      "slug": "storage/backends/postgresql",
+      "url": "https://stalw.art/docs/storage/backends/postgresql",
+      "title": "PostgreSQL",
+      "path": "storage/backends/postgresql.md",
+      "bytes": 5812
+    },
+    {
+      "slug": "storage/backends/redis",
+      "url": "https://stalw.art/docs/storage/backends/redis",
+      "title": "Redis",
+      "path": "storage/backends/redis.md",
+      "bytes": 3938
+    },
+    {
+      "slug": "storage/backends/rocksdb",
+      "url": "https://stalw.art/docs/storage/backends/rocksdb",
+      "title": "RocksDB",
+      "path": "storage/backends/rocksdb.md",
+      "bytes": 1980
+    },
+    {
+      "slug": "storage/backends/s3",
+      "url": "https://stalw.art/docs/storage/backends/s3",
+      "title": "S3-compatible",
+      "path": "storage/backends/s3.md",
+      "bytes": 3033
+    },
+    {
+      "slug": "storage/backends/sqlite",
+      "url": "https://stalw.art/docs/storage/backends/sqlite",
+      "title": "SQLite",
+      "path": "storage/backends/sqlite.md",
+      "bytes": 1409
+    },
+    {
+      "slug": "storage/blob",
+      "url": "https://stalw.art/docs/storage/blob",
+      "title": "Blob store",
+      "path": "storage/blob.md",
+      "bytes": 3785
+    },
+    {
+      "slug": "storage/data",
+      "url": "https://stalw.art/docs/storage/data",
+      "title": "Data store",
+      "path": "storage/data.md",
+      "bytes": 2965
+    },
+    {
+      "slug": "storage/fts",
+      "url": "https://stalw.art/docs/storage/fts",
+      "title": "Search store",
+      "path": "storage/fts.md",
+      "bytes": 5921
+    },
+    {
+      "slug": "storage/in-memory",
+      "url": "https://stalw.art/docs/storage/in-memory",
+      "title": "In-memory store",
+      "path": "storage/in-memory.md",
+      "bytes": 6566
+    },
+    {
+      "slug": "storage/lookup",
+      "url": "https://stalw.art/docs/storage/lookup",
+      "title": "Overview",
+      "path": "storage/lookup.md",
+      "bytes": 1830
+    },
+    {
+      "slug": "storage/lookup/local",
+      "url": "https://stalw.art/docs/storage/lookup/local",
+      "title": "Local",
+      "path": "storage/lookup/local.md",
+      "bytes": 2378
+    },
+    {
+      "slug": "storage/lookup/remote",
+      "url": "https://stalw.art/docs/storage/lookup/remote",
+      "title": "Remote",
+      "path": "storage/lookup/remote.md",
+      "bytes": 3313
+    },
+    {
+      "slug": "telemetry",
+      "url": "https://stalw.art/docs/telemetry",
+      "title": "Overview",
+      "path": "telemetry.md",
+      "bytes": 1993
+    },
+    {
+      "slug": "telemetry/alerts",
+      "url": "https://stalw.art/docs/telemetry/alerts",
+      "title": "Alerts",
+      "path": "telemetry/alerts.md",
+      "bytes": 4088
+    },
+    {
+      "slug": "telemetry/events",
+      "url": "https://stalw.art/docs/telemetry/events",
+      "title": "Events",
+      "path": "telemetry/events.md",
+      "bytes": 37212
+    },
+    {
+      "slug": "telemetry/history",
+      "url": "https://stalw.art/docs/telemetry/history",
+      "title": "History",
+      "path": "telemetry/history.md",
+      "bytes": 3070
+    },
+    {
+      "slug": "telemetry/live",
+      "url": "https://stalw.art/docs/telemetry/live",
+      "title": "Live Telemetry",
+      "path": "telemetry/live.md",
+      "bytes": 3081
+    },
+    {
+      "slug": "telemetry/management",
+      "url": "https://stalw.art/docs/telemetry/management",
+      "title": "Management",
+      "path": "telemetry/management.md",
+      "bytes": 2742
+    },
+    {
+      "slug": "telemetry/metrics",
+      "url": "https://stalw.art/docs/telemetry/metrics",
+      "title": "Overview",
+      "path": "telemetry/metrics.md",
+      "bytes": 2712
+    },
+    {
+      "slug": "telemetry/metrics/opentelemetry",
+      "url": "https://stalw.art/docs/telemetry/metrics/opentelemetry",
+      "title": "OpenTelemetry",
+      "path": "telemetry/metrics/opentelemetry.md",
+      "bytes": 2567
+    },
+    {
+      "slug": "telemetry/metrics/prometheus",
+      "url": "https://stalw.art/docs/telemetry/metrics/prometheus",
+      "title": "Prometheus",
+      "path": "telemetry/metrics/prometheus.md",
+      "bytes": 2604
+    },
+    {
+      "slug": "telemetry/tracing",
+      "url": "https://stalw.art/docs/telemetry/tracing",
+      "title": "Overview",
+      "path": "telemetry/tracing.md",
+      "bytes": 3068
+    },
+    {
+      "slug": "telemetry/tracing/console",
+      "url": "https://stalw.art/docs/telemetry/tracing/console",
+      "title": "Console",
+      "path": "telemetry/tracing/console.md",
+      "bytes": 1461
+    },
+    {
+      "slug": "telemetry/tracing/journal",
+      "url": "https://stalw.art/docs/telemetry/tracing/journal",
+      "title": "Journal",
+      "path": "telemetry/tracing/journal.md",
+      "bytes": 1764
+    },
+    {
+      "slug": "telemetry/tracing/log",
+      "url": "https://stalw.art/docs/telemetry/tracing/log",
+      "title": "Log file",
+      "path": "telemetry/tracing/log.md",
+      "bytes": 1676
+    },
+    {
+      "slug": "telemetry/tracing/opentelemetry",
+      "url": "https://stalw.art/docs/telemetry/tracing/opentelemetry",
+      "title": "OpenTelemetry",
+      "path": "telemetry/tracing/opentelemetry.md",
+      "bytes": 3344
+    },
+    {
+      "slug": "telemetry/webhooks",
+      "url": "https://stalw.art/docs/telemetry/webhooks",
+      "title": "Webhooks",
+      "path": "telemetry/webhooks.md",
+      "bytes": 4785
+    }
+  ]
+}

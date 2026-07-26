@@ -1,0 +1,1666 @@
+{
+  "source": "https://www.debian.org/doc/manuals/",
+  "retrieved_at": "2026-07-26T15:27:59+00:00",
+  "page_count": 237,
+  "pages": [
+    {
+      "slug": "apt-guide/ch1.en",
+      "url": "https://www.debian.org/doc/manuals/apt-guide/ch1.en.html",
+      "title": "Next",
+      "path": "apt-guide/ch1.en.md",
+      "bytes": 3132
+    },
+    {
+      "slug": "apt-guide/ch2.en",
+      "url": "https://www.debian.org/doc/manuals/apt-guide/ch2.en.html",
+      "title": "2. apt-get",
+      "path": "apt-guide/ch2.en.md",
+      "bytes": 3250
+    },
+    {
+      "slug": "apt-guide/ch3.en",
+      "url": "https://www.debian.org/doc/manuals/apt-guide/ch3.en.html",
+      "title": "3. DSelect",
+      "path": "apt-guide/ch3.en.md",
+      "bytes": 3265
+    },
+    {
+      "slug": "apt-guide/ch4.en",
+      "url": "https://www.debian.org/doc/manuals/apt-guide/ch4.en.html",
+      "title": "4.4. Dpkg",
+      "path": "apt-guide/ch4.en.md",
+      "bytes": 11406
+    },
+    {
+      "slug": "apt-guide/index",
+      "url": "https://www.debian.org/doc/manuals/apt-guide/index.en.html",
+      "title": "APT User's Guide",
+      "path": "apt-guide/index.md",
+      "bytes": 1257
+    },
+    {
+      "slug": "debian-handbook/advanced-administration.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/advanced-administration.en.html",
+      "title": "12.1.3. RAID or LVM?",
+      "path": "debian-handbook/advanced-administration.en.md",
+      "bytes": 59383
+    },
+    {
+      "slug": "debian-handbook/apt.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/apt.en.html",
+      "title": "6.1.6. Caching Proxy for Debian Packages",
+      "path": "debian-handbook/apt.en.md",
+      "bytes": 28046
+    },
+    {
+      "slug": "debian-handbook/basic-configuration.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/basic-configuration.en.html",
+      "title": "8.1.3. Migrating to UTF-8",
+      "path": "debian-handbook/basic-configuration.en.md",
+      "bytes": 16407
+    },
+    {
+      "slug": "debian-handbook/case-study.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/case-study.en.html",
+      "title": "2.1. Fast Growing IT Needs",
+      "path": "debian-handbook/case-study.en.md",
+      "bytes": 3262
+    },
+    {
+      "slug": "debian-handbook/conclusion.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/conclusion.en.html",
+      "title": "16.1. Upcoming Developments",
+      "path": "debian-handbook/conclusion.en.md",
+      "bytes": 4238
+    },
+    {
+      "slug": "debian-handbook/debian-packaging.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/debian-packaging.en.html",
+      "title": "15.1.3. Starting the Rebuild",
+      "path": "debian-handbook/debian-packaging.en.md",
+      "bytes": 15358
+    },
+    {
+      "slug": "debian-handbook/derivative-distributions.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/derivative-distributions.en.html",
+      "title": "A.1. Census and Cooperation",
+      "path": "debian-handbook/derivative-distributions.en.md",
+      "bytes": 2048
+    },
+    {
+      "slug": "debian-handbook/existing-setup.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/existing-setup.en.html",
+      "title": "3.1.3. Integration with Other Linux/Unix Machines",
+      "path": "debian-handbook/existing-setup.en.md",
+      "bytes": 4614
+    },
+    {
+      "slug": "debian-handbook/foreword.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/foreword.en.html",
+      "title": "1. Why This Book?",
+      "path": "debian-handbook/foreword.en.md",
+      "bytes": 4380
+    },
+    {
+      "slug": "debian-handbook/index",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/index.en.html",
+      "title": "The Debian Administrator's Handbook",
+      "path": "debian-handbook/index.md",
+      "bytes": 33023
+    },
+    {
+      "slug": "debian-handbook/installation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/installation.en.html",
+      "title": "4.1.4. Other Installation Methods",
+      "path": "debian-handbook/installation.en.md",
+      "bytes": 11610
+    },
+    {
+      "slug": "debian-handbook/network-infrastructure.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/network-infrastructure.en.html",
+      "title": "10.1. Gateway",
+      "path": "debian-handbook/network-infrastructure.en.md",
+      "bytes": 9765
+    },
+    {
+      "slug": "debian-handbook/network-services.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/network-services.en.html",
+      "title": "11.1.8. Authenticated SMTP",
+      "path": "debian-handbook/network-services.en.md",
+      "bytes": 57352
+    },
+    {
+      "slug": "debian-handbook/packaging-system.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/packaging-system.en.html",
+      "title": "5.1. Structure of a Binary Package",
+      "path": "debian-handbook/packaging-system.en.md",
+      "bytes": 7883
+    },
+    {
+      "slug": "debian-handbook/preface.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/preface.en.html",
+      "title": "NextPreface",
+      "path": "debian-handbook/preface.en.md",
+      "bytes": 3092
+    },
+    {
+      "slug": "debian-handbook/sect.acknowledgments.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.acknowledgments.en.html",
+      "title": "6.5. Personal Acknowledgments from Roland",
+      "path": "debian-handbook/sect.acknowledgments.en.md",
+      "bytes": 10807
+    },
+    {
+      "slug": "debian-handbook/sect.administration-interfaces.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.administration-interfaces.en.html",
+      "title": "9.4.2. Configuring Packages:debconf",
+      "path": "debian-handbook/sect.administration-interfaces.en.md",
+      "bytes": 7199
+    },
+    {
+      "slug": "debian-handbook/sect.after-first-boot.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.after-first-boot.en.html",
+      "title": "4.3.2. Upgrading the System",
+      "path": "debian-handbook/sect.after-first-boot.en.md",
+      "bytes": 4513
+    },
+    {
+      "slug": "debian-handbook/sect.apparmor.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.apparmor.en.html",
+      "title": "14.4.3. Creating a new profile",
+      "path": "debian-handbook/sect.apparmor.en.md",
+      "bytes": 12613
+    },
+    {
+      "slug": "debian-handbook/sect.apt-cache.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.apt-cache.en.html",
+      "title": "6.3.1. Theapt-cache policyCommand",
+      "path": "debian-handbook/sect.apt-cache.en.md",
+      "bytes": 7104
+    },
+    {
+      "slug": "debian-handbook/sect.apt-file.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.apt-file.en.html",
+      "title": "6.4. Theapt-fileCommand",
+      "path": "debian-handbook/sect.apt-file.en.md",
+      "bytes": 2572
+    },
+    {
+      "slug": "debian-handbook/sect.apt-frontends.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.apt-frontends.en.html",
+      "title": "6.5.2.synaptic",
+      "path": "debian-handbook/sect.apt-frontends.en.md",
+      "bytes": 9943
+    },
+    {
+      "slug": "debian-handbook/sect.apt-get.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.apt-get.en.html",
+      "title": "6.2.8. APT Patterns",
+      "path": "debian-handbook/sect.apt-get.en.md",
+      "bytes": 30309
+    },
+    {
+      "slug": "debian-handbook/sect.aptosid.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.aptosid.en.html",
+      "title": "A.5. Aptosid and Siduction",
+      "path": "debian-handbook/sect.aptosid.en.md",
+      "bytes": 1244
+    },
+    {
+      "slug": "debian-handbook/sect.asynchronous-task-scheduling-anacron.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.asynchronous-task-scheduling-anacron.en.html",
+      "title": "9.8. Scheduling Asynchronous Tasks:anacron",
+      "path": "debian-handbook/sect.asynchronous-task-scheduling-anacron.en.md",
+      "bytes": 3400
+    },
+    {
+      "slug": "debian-handbook/sect.automated-installation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.automated-installation.en.html",
+      "title": "12.3.3. Simple-CDD: The All-In-One Solution",
+      "path": "debian-handbook/sect.automated-installation.en.md",
+      "bytes": 22243
+    },
+    {
+      "slug": "debian-handbook/sect.automatic-upgrades.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.automatic-upgrades.en.html",
+      "title": "6.9.5. The Miracle Combination",
+      "path": "debian-handbook/sect.automatic-upgrades.en.md",
+      "bytes": 5206
+    },
+    {
+      "slug": "debian-handbook/sect.backup.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.backup.en.html",
+      "title": "9.10.2. Restoring Machines without Backups",
+      "path": "debian-handbook/sect.backup.en.md",
+      "bytes": 9886
+    },
+    {
+      "slug": "debian-handbook/sect.becoming-package-maintainer.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.becoming-package-maintainer.en.html",
+      "title": "15.4.2. Acceptance Process",
+      "path": "debian-handbook/sect.becoming-package-maintainer.en.md",
+      "bytes": 17729
+    },
+    {
+      "slug": "debian-handbook/sect.book-structure.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.book-structure.en.html",
+      "title": "4. Book Structure",
+      "path": "debian-handbook/sect.book-structure.en.md",
+      "bytes": 5602
+    },
+    {
+      "slug": "debian-handbook/sect.building-first-package.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.building-first-package.en.html",
+      "title": "15.2.2. Simple File Archive",
+      "path": "debian-handbook/sect.building-first-package.en.md",
+      "bytes": 12992
+    },
+    {
+      "slug": "debian-handbook/sect.coexistence-with-other-packaging-systems.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.coexistence-with-other-packaging-systems.en.html",
+      "title": "5.5. Coexistence with Other Packaging Systems",
+      "path": "debian-handbook/sect.coexistence-with-other-packaging-systems.en.md",
+      "bytes": 5831
+    },
+    {
+      "slug": "debian-handbook/sect.common-procedures.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.common-procedures.en.html",
+      "title": "7.2.4. Reporting a Bug When a Problem Is Too Difficult",
+      "path": "debian-handbook/sect.common-procedures.en.md",
+      "bytes": 10588
+    },
+    {
+      "slug": "debian-handbook/sect.computer-layers.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.computer-layers.en.html",
+      "title": "B.3.4. The User Space",
+      "path": "debian-handbook/sect.computer-layers.en.md",
+      "bytes": 9761
+    },
+    {
+      "slug": "debian-handbook/sect.config-bootloader.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.config-bootloader.en.html",
+      "title": "8.8.3. Using GRUB with EFI andSecure Boot",
+      "path": "debian-handbook/sect.config-bootloader.en.md",
+      "bytes": 17478
+    },
+    {
+      "slug": "debian-handbook/sect.config-misc.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.config-misc.en.html",
+      "title": "8.9.6.locateandupdatedb",
+      "path": "debian-handbook/sect.config-misc.en.md",
+      "bytes": 20216
+    },
+    {
+      "slug": "debian-handbook/sect.config-printing.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.config-printing.en.html",
+      "title": "8.7. Printer Configuration",
+      "path": "debian-handbook/sect.config-printing.en.md",
+      "bytes": 3911
+    },
+    {
+      "slug": "debian-handbook/sect.contributing.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.contributing.en.html",
+      "title": "5. Contributing",
+      "path": "debian-handbook/sect.contributing.en.md",
+      "bytes": 1346
+    },
+    {
+      "slug": "debian-handbook/sect.creating-accounts.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.creating-accounts.en.html",
+      "title": "8.5. Creating Accounts",
+      "path": "debian-handbook/sect.creating-accounts.en.md",
+      "bytes": 3620
+    },
+    {
+      "slug": "debian-handbook/sect.customizing-graphical-interface.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.customizing-graphical-interface.en.html",
+      "title": "13.2.3. Menu Management",
+      "path": "debian-handbook/sect.customizing-graphical-interface.en.md",
+      "bytes": 6625
+    },
+    {
+      "slug": "debian-handbook/sect.dealing-with-compromised-machine.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.dealing-with-compromised-machine.en.html",
+      "title": "14.7.6. Reconstituting the Attack Scenario",
+      "path": "debian-handbook/sect.dealing-with-compromised-machine.en.md",
+      "bytes": 13971
+    },
+    {
+      "slug": "debian-handbook/sect.debian-internals.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.debian-internals.en.html",
+      "title": "1.3.3. Teams, Blends, and Sub-Projects",
+      "path": "debian-handbook/sect.debian-internals.en.md",
+      "bytes": 40146
+    },
+    {
+      "slug": "debian-handbook/sect.development.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.development.en.html",
+      "title": "13.6.2. Tools for Qt",
+      "path": "debian-handbook/sect.development.en.md",
+      "bytes": 1911
+    },
+    {
+      "slug": "debian-handbook/sect.devuan.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.devuan.en.html",
+      "title": "A.9. Devuan",
+      "path": "debian-handbook/sect.devuan.en.md",
+      "bytes": 1011
+    },
+    {
+      "slug": "debian-handbook/sect.dhcp.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.dhcp.en.html",
+      "title": "10.8.2. DHCP and DNS",
+      "path": "debian-handbook/sect.dhcp.en.md",
+      "bytes": 4883
+    },
+    {
+      "slug": "debian-handbook/sect.dist-upgrade.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.dist-upgrade.en.html",
+      "title": "6.7.3. Cleaning Up after an Upgrade",
+      "path": "debian-handbook/sect.dist-upgrade.en.md",
+      "bytes": 12928
+    },
+    {
+      "slug": "debian-handbook/sect.domain-name-servers.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.domain-name-servers.en.html",
+      "title": "10.7.2. Configuring bind",
+      "path": "debian-handbook/sect.domain-name-servers.en.md",
+      "bytes": 7906
+    },
+    {
+      "slug": "debian-handbook/sect.doudoulinux.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.doudoulinux.en.html",
+      "title": "A.10. DoudouLinux",
+      "path": "debian-handbook/sect.doudoulinux.en.md",
+      "bytes": 1370
+    },
+    {
+      "slug": "debian-handbook/sect.dynamic-routing.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.dynamic-routing.en.html",
+      "title": "10.5. Dynamic Routing",
+      "path": "debian-handbook/sect.dynamic-routing.en.md",
+      "bytes": 3291
+    },
+    {
+      "slug": "debian-handbook/sect.filesystem-hierarchy.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.filesystem-hierarchy.en.html",
+      "title": "B.2.2. The User's Home Directory",
+      "path": "debian-handbook/sect.filesystem-hierarchy.en.md",
+      "bytes": 5135
+    },
+    {
+      "slug": "debian-handbook/sect.firewall-packet-filtering.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.firewall-packet-filtering.en.html",
+      "title": "14.2.4. Installing the Rules at Each Boot",
+      "path": "debian-handbook/sect.firewall-packet-filtering.en.md",
+      "bytes": 17059
+    },
+    {
+      "slug": "debian-handbook/sect.follow-debian-news.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.follow-debian-news.en.html",
+      "title": "1.4. Follow Debian News",
+      "path": "debian-handbook/sect.follow-debian-news.en.md",
+      "bytes": 5330
+    },
+    {
+      "slug": "debian-handbook/sect.foundation-documents.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.foundation-documents.en.html",
+      "title": "1.2.2. The Debian Free Software Guidelines",
+      "path": "debian-handbook/sect.foundation-documents.en.md",
+      "bytes": 16005
+    },
+    {
+      "slug": "debian-handbook/sect.ftp-file-server.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.ftp-file-server.en.html",
+      "title": "11.3. FTP File Server",
+      "path": "debian-handbook/sect.ftp-file-server.en.md",
+      "bytes": 3865
+    },
+    {
+      "slug": "debian-handbook/sect.future-of-debian.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.future-of-debian.en.html",
+      "title": "16.2. Debian's Future",
+      "path": "debian-handbook/sect.future-of-debian.en.md",
+      "bytes": 2430
+    },
+    {
+      "slug": "debian-handbook/sect.future-of-this-book.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.future-of-this-book.en.html",
+      "title": "16.3. Future of this Book",
+      "path": "debian-handbook/sect.future-of-this-book.en.md",
+      "bytes": 2459
+    },
+    {
+      "slug": "debian-handbook/sect.graphical-desktops.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.graphical-desktops.en.html",
+      "title": "13.3.4. Other Desktop Environments",
+      "path": "debian-handbook/sect.graphical-desktops.en.md",
+      "bytes": 6064
+    },
+    {
+      "slug": "debian-handbook/sect.grml.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.grml.en.html",
+      "title": "A.6. Grml",
+      "path": "debian-handbook/sect.grml.en.md",
+      "bytes": 1031
+    },
+    {
+      "slug": "debian-handbook/sect.hostname-name-service.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.hostname-name-service.en.html",
+      "title": "8.3.1. Name Resolution",
+      "path": "debian-handbook/sect.hostname-name-service.en.md",
+      "bytes": 6222
+    },
+    {
+      "slug": "debian-handbook/sect.hotplug.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.hotplug.en.html",
+      "title": "9.11.4. A concrete example",
+      "path": "debian-handbook/sect.hotplug.en.md",
+      "bytes": 9359
+    },
+    {
+      "slug": "debian-handbook/sect.how-to-migrate.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.how-to-migrate.en.html",
+      "title": "3.2.5. Installing and Configuring the Selected Services",
+      "path": "debian-handbook/sect.how-to-migrate.en.md",
+      "bytes": 11097
+    },
+    {
+      "slug": "debian-handbook/sect.http-ftp-proxy.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.http-ftp-proxy.en.html",
+      "title": "11.6.3. Configuring a Filter",
+      "path": "debian-handbook/sect.http-ftp-proxy.en.md",
+      "bytes": 4633
+    },
+    {
+      "slug": "debian-handbook/sect.http-web-server.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.http-web-server.en.html",
+      "title": "11.2.5. Log Analyzers",
+      "path": "debian-handbook/sect.http-web-server.en.md",
+      "bytes": 20155
+    },
+    {
+      "slug": "debian-handbook/sect.inetd.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.inetd.en.html",
+      "title": "9.6. TheinetdSuper-Server",
+      "path": "debian-handbook/sect.inetd.en.md",
+      "bytes": 5456
+    },
+    {
+      "slug": "debian-handbook/sect.installation-steps.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.installation-steps.en.html",
+      "title": "4.2.19. Finishing the Installation and Rebooting",
+      "path": "debian-handbook/sect.installation-steps.en.md",
+      "bytes": 38733
+    },
+    {
+      "slug": "debian-handbook/sect.ipv6.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.ipv6.en.html",
+      "title": "10.6.1. Tunneling",
+      "path": "debian-handbook/sect.ipv6.en.md",
+      "bytes": 5405
+    },
+    {
+      "slug": "debian-handbook/sect.kali.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.kali.en.html",
+      "title": "A.8. Kali Linux",
+      "path": "debian-handbook/sect.kali.en.md",
+      "bytes": 1023
+    },
+    {
+      "slug": "debian-handbook/sect.kernel-compilation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.kernel-compilation.en.html",
+      "title": "8.10.6. Applying a Kernel Patch",
+      "path": "debian-handbook/sect.kernel-compilation.en.md",
+      "bytes": 19645
+    },
+    {
+      "slug": "debian-handbook/sect.kernel-installation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.kernel-installation.en.html",
+      "title": "8.11.2. Installing withdpkg",
+      "path": "debian-handbook/sect.kernel-installation.en.md",
+      "bytes": 3267
+    },
+    {
+      "slug": "debian-handbook/sect.kernel-role-and-tasks.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.kernel-role-and-tasks.en.html",
+      "title": "B.4.5. Rights Management",
+      "path": "debian-handbook/sect.kernel-role-and-tasks.en.md",
+      "bytes": 10636
+    },
+    {
+      "slug": "debian-handbook/sect.knoppix.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.knoppix.en.html",
+      "title": "A.4. Knoppix",
+      "path": "debian-handbook/sect.knoppix.en.md",
+      "bytes": 2075
+    },
+    {
+      "slug": "debian-handbook/sect.ldap-directory.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.ldap-directory.en.html",
+      "title": "11.7.3. Managing Accounts with LDAP",
+      "path": "debian-handbook/sect.ldap-directory.en.md",
+      "bytes": 18933
+    },
+    {
+      "slug": "debian-handbook/sect.linux-mint.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.linux-mint.en.html",
+      "title": "A.3. Linux Mint",
+      "path": "debian-handbook/sect.linux-mint.en.md",
+      "bytes": 1761
+    },
+    {
+      "slug": "debian-handbook/sect.main-desktop-tools.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.main-desktop-tools.en.html",
+      "title": "13.4.3. Thunderbird",
+      "path": "debian-handbook/sect.main-desktop-tools.en.md",
+      "bytes": 3452
+    },
+    {
+      "slug": "debian-handbook/sect.manipulating-packages-with-dpkg.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.manipulating-packages-with-dpkg.en.html",
+      "title": "5.4.5. Multi-Arch Support",
+      "path": "debian-handbook/sect.manipulating-packages-with-dpkg.en.md",
+      "bytes": 23344
+    },
+    {
+      "slug": "debian-handbook/sect.master-plan.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.master-plan.en.html",
+      "title": "2.2. Master Plan",
+      "path": "debian-handbook/sect.master-plan.en.md",
+      "bytes": 1762
+    },
+    {
+      "slug": "debian-handbook/sect.monitoring.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.monitoring.en.html",
+      "title": "12.4.2. Setting Up Nagios",
+      "path": "debian-handbook/sect.monitoring.en.md",
+      "bytes": 17817
+    },
+    {
+      "slug": "debian-handbook/sect.network-config.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.network-config.en.html",
+      "title": "8.2.5. Automatic Network Configuration for Roaming Users",
+      "path": "debian-handbook/sect.network-config.en.md",
+      "bytes": 20659
+    },
+    {
+      "slug": "debian-handbook/sect.network-diagnosis-tools.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.network-diagnosis-tools.en.html",
+      "title": "10.9.3. Sniffers:tcpdumpandwireshark",
+      "path": "debian-handbook/sect.network-diagnosis-tools.en.md",
+      "bytes": 11893
+    },
+    {
+      "slug": "debian-handbook/sect.nfs-file-server.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.nfs-file-server.en.html",
+      "title": "11.4.3. NFS Client",
+      "path": "debian-handbook/sect.nfs-file-server.en.md",
+      "bytes": 8856
+    },
+    {
+      "slug": "debian-handbook/sect.office-suites.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.office-suites.en.html",
+      "title": "13.7. Office Suites",
+      "path": "debian-handbook/sect.office-suites.en.md",
+      "bytes": 3086
+    },
+    {
+      "slug": "debian-handbook/sect.other-derivatives.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.other-derivatives.en.html",
+      "title": "A.14. And Many More",
+      "path": "debian-handbook/sect.other-derivatives.en.md",
+      "bytes": 1254
+    },
+    {
+      "slug": "debian-handbook/sect.other-security-considerations.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.other-security-considerations.en.html",
+      "title": "14.6.7. Legal Liability",
+      "path": "debian-handbook/sect.other-security-considerations.en.md",
+      "bytes": 14391
+    },
+    {
+      "slug": "debian-handbook/sect.package-authentication.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.package-authentication.en.html",
+      "title": "6.6. Checking Package Authenticity",
+      "path": "debian-handbook/sect.package-authentication.en.md",
+      "bytes": 6435
+    },
+    {
+      "slug": "debian-handbook/sect.package-meta-information.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.package-meta-information.en.html",
+      "title": "5.2.3. Checksums, List of Configuration Files, et al.",
+      "path": "debian-handbook/sect.package-meta-information.en.md",
+      "bytes": 33641
+    },
+    {
+      "slug": "debian-handbook/sect.power-management.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.power-management.en.html",
+      "title": "9.12. Power Management: Advanced Configuration and Power Interface (ACPI)",
+      "path": "debian-handbook/sect.power-management.en.md",
+      "bytes": 2115
+    },
+    {
+      "slug": "debian-handbook/sect.pureos.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.pureos.en.html",
+      "title": "A.12. PureOS",
+      "path": "debian-handbook/sect.pureos.en.md",
+      "bytes": 1076
+    },
+    {
+      "slug": "debian-handbook/sect.quality-of-service.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.quality-of-service.en.html",
+      "title": "10.4.2. Configuring and Implementing",
+      "path": "debian-handbook/sect.quality-of-service.en.md",
+      "bytes": 5700
+    },
+    {
+      "slug": "debian-handbook/sect.quotas.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.quotas.en.html",
+      "title": "9.9. Quotas",
+      "path": "debian-handbook/sect.quotas.en.md",
+      "bytes": 4457
+    },
+    {
+      "slug": "debian-handbook/sect.raspbian.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.raspbian.en.html",
+      "title": "A.11. Raspbian",
+      "path": "debian-handbook/sect.raspbian.en.md",
+      "bytes": 1246
+    },
+    {
+      "slug": "debian-handbook/sect.regular-upgrades.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.regular-upgrades.en.html",
+      "title": "6.8. Keeping a System Up to Date",
+      "path": "debian-handbook/sect.regular-upgrades.en.md",
+      "bytes": 5292
+    },
+    {
+      "slug": "debian-handbook/sect.release-lifecycle.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.release-lifecycle.en.html",
+      "title": "1.6.5. TheOldstableandOldoldstableStatus",
+      "path": "debian-handbook/sect.release-lifecycle.en.md",
+      "bytes": 15269
+    },
+    {
+      "slug": "debian-handbook/sect.remote-login.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.remote-login.en.html",
+      "title": "9.2.2. Using Remote Graphical Desktops",
+      "path": "debian-handbook/sect.remote-login.en.md",
+      "bytes": 18328
+    },
+    {
+      "slug": "debian-handbook/sect.rights-management.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.rights-management.en.html",
+      "title": "9.3.2. ACLs - Access Control Lists",
+      "path": "debian-handbook/sect.rights-management.en.md",
+      "bytes": 11641
+    },
+    {
+      "slug": "debian-handbook/sect.role-of-distributions.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.role-of-distributions.en.html",
+      "title": "1.5.2. The Software Library",
+      "path": "debian-handbook/sect.role-of-distributions.en.md",
+      "bytes": 2992
+    },
+    {
+      "slug": "debian-handbook/sect.rtc-clients.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.rtc-clients.en.html",
+      "title": "13.9. Real-Time Communications software",
+      "path": "debian-handbook/sect.rtc-clients.en.md",
+      "bytes": 4594
+    },
+    {
+      "slug": "debian-handbook/sect.rtc-services.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.rtc-services.en.html",
+      "title": "11.8.6. Adding WebRTC",
+      "path": "debian-handbook/sect.rtc-services.en.md",
+      "bytes": 11615
+    },
+    {
+      "slug": "debian-handbook/sect.searching-packages.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.searching-packages.en.html",
+      "title": "6.10. Searching for Packages",
+      "path": "debian-handbook/sect.searching-packages.en.md",
+      "bytes": 7400
+    },
+    {
+      "slug": "debian-handbook/sect.selected-approach.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.selected-approach.en.html",
+      "title": "3. General Approach",
+      "path": "debian-handbook/sect.selected-approach.en.md",
+      "bytes": 1354
+    },
+    {
+      "slug": "debian-handbook/sect.selinux.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.selinux.en.html",
+      "title": "14.5.4. Adapting the Rules",
+      "path": "debian-handbook/sect.selinux.en.md",
+      "bytes": 25770
+    },
+    {
+      "slug": "debian-handbook/sect.setup-apt-package-repository.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.setup-apt-package-repository.en.html",
+      "title": "15.3. Creating a Package Repository for APT",
+      "path": "debian-handbook/sect.setup-apt-package-repository.en.md",
+      "bytes": 7627
+    },
+    {
+      "slug": "debian-handbook/sect.shell-environment.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.shell-environment.en.html",
+      "title": "8.6. Shell Environment",
+      "path": "debian-handbook/sect.shell-environment.en.md",
+      "bytes": 5670
+    },
+    {
+      "slug": "debian-handbook/sect.source-package-structure.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.source-package-structure.en.html",
+      "title": "5.3.2. Usage within Debian",
+      "path": "debian-handbook/sect.source-package-structure.en.md",
+      "bytes": 9888
+    },
+    {
+      "slug": "debian-handbook/sect.steamos.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.steamos.en.html",
+      "title": "A.13. SteamOS",
+      "path": "debian-handbook/sect.steamos.en.md",
+      "bytes": 1015
+    },
+    {
+      "slug": "debian-handbook/sect.supervision.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.supervision.en.html",
+      "title": "14.3.5. Detecting Intrusion (IDS/NIDS)",
+      "path": "debian-handbook/sect.supervision.en.md",
+      "bytes": 21706
+    },
+    {
+      "slug": "debian-handbook/sect.syslog.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.syslog.en.html",
+      "title": "9.5.2. The Configuration File",
+      "path": "debian-handbook/sect.syslog.en.md",
+      "bytes": 6124
+    },
+    {
+      "slug": "debian-handbook/sect.tails.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.tails.en.html",
+      "title": "A.7. Tails",
+      "path": "debian-handbook/sect.tails.en.md",
+      "bytes": 991
+    },
+    {
+      "slug": "debian-handbook/sect.task-scheduling-cron-atd.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.task-scheduling-cron-atd.en.html",
+      "title": "9.7.2. Using theatCommand",
+      "path": "debian-handbook/sect.task-scheduling-cron-atd.en.md",
+      "bytes": 8622
+    },
+    {
+      "slug": "debian-handbook/sect.ubuntu.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.ubuntu.en.html",
+      "title": "A.2. Ubuntu",
+      "path": "debian-handbook/sect.ubuntu.en.md",
+      "bytes": 3408
+    },
+    {
+      "slug": "debian-handbook/sect.user-group-databases.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.user-group-databases.en.html",
+      "title": "8.4.5. Group List:/etc/group",
+      "path": "debian-handbook/sect.user-group-databases.en.md",
+      "bytes": 10835
+    },
+    {
+      "slug": "debian-handbook/sect.user-space.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.user-space.en.html",
+      "title": "B.5.4. Libraries",
+      "path": "debian-handbook/sect.user-space.en.md",
+      "bytes": 10839
+    },
+    {
+      "slug": "debian-handbook/sect.virtual-private-network.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.virtual-private-network.en.html",
+      "title": "10.3.4. PPTP",
+      "path": "debian-handbook/sect.virtual-private-network.en.md",
+      "bytes": 17513
+    },
+    {
+      "slug": "debian-handbook/sect.virtualization.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.virtualization.en.html",
+      "title": "12.2.3. Virtualization with KVM",
+      "path": "debian-handbook/sect.virtualization.en.md",
+      "bytes": 45559
+    },
+    {
+      "slug": "debian-handbook/sect.web-browsers.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.web-browsers.en.html",
+      "title": "13.5. Web Browsers",
+      "path": "debian-handbook/sect.web-browsers.en.md",
+      "bytes": 4675
+    },
+    {
+      "slug": "debian-handbook/sect.who-is-this-book-for.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.who-is-this-book-for.en.html",
+      "title": "2. Who Is this Book For?",
+      "path": "debian-handbook/sect.who-is-this-book-for.en.md",
+      "bytes": 1789
+    },
+    {
+      "slug": "debian-handbook/sect.why-debian-stable.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.why-debian-stable.en.html",
+      "title": "2.5. Why Debian Bullseye?",
+      "path": "debian-handbook/sect.why-debian-stable.en.md",
+      "bytes": 1495
+    },
+    {
+      "slug": "debian-handbook/sect.why-debian.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.why-debian.en.html",
+      "title": "2.4.1. Commercial and Community Driven Distributions",
+      "path": "debian-handbook/sect.why-debian.en.md",
+      "bytes": 5285
+    },
+    {
+      "slug": "debian-handbook/sect.why-gnu-linux.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.why-gnu-linux.en.html",
+      "title": "2.3. Why a GNU/Linux Distribution?",
+      "path": "debian-handbook/sect.why-gnu-linux.en.md",
+      "bytes": 4883
+    },
+    {
+      "slug": "debian-handbook/sect.windows-emulation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.windows-emulation.en.html",
+      "title": "13.8. Emulating Windows: Wine",
+      "path": "debian-handbook/sect.windows-emulation.en.md",
+      "bytes": 5059
+    },
+    {
+      "slug": "debian-handbook/sect.windows-file-server-with-samba.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.windows-file-server-with-samba.en.html",
+      "title": "11.5.2. Samba Client",
+      "path": "debian-handbook/sect.windows-file-server-with-samba.en.md",
+      "bytes": 8401
+    },
+    {
+      "slug": "debian-handbook/sect.x509-cert.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/sect.x509-cert.en.html",
+      "title": "10.2.2. Public Key Infrastructure:easy-rsa",
+      "path": "debian-handbook/sect.x509-cert.en.md",
+      "bytes": 17846
+    },
+    {
+      "slug": "debian-handbook/security.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/security.en.html",
+      "title": "14.1. Defining a Security Policy",
+      "path": "debian-handbook/security.en.md",
+      "bytes": 10085
+    },
+    {
+      "slug": "debian-handbook/short-remedial-course.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/short-remedial-course.en.html",
+      "title": "B.1.5. System Information: Memory, Disk Space, Identity",
+      "path": "debian-handbook/short-remedial-course.en.md",
+      "bytes": 7822
+    },
+    {
+      "slug": "debian-handbook/solving-problems.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/solving-problems.en.html",
+      "title": "7.1.5. Tutorials (HOWTO)",
+      "path": "debian-handbook/solving-problems.en.md",
+      "bytes": 16458
+    },
+    {
+      "slug": "debian-handbook/the-debian-project.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/the-debian-project.en.html",
+      "title": "1.1.3. The Legal Framework: A Non-Profit Organization",
+      "path": "debian-handbook/the-debian-project.en.md",
+      "bytes": 12512
+    },
+    {
+      "slug": "debian-handbook/unix-services.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/unix-services.en.html",
+      "title": "9.1.2. The SystemÂ V init system",
+      "path": "debian-handbook/unix-services.en.md",
+      "bytes": 29603
+    },
+    {
+      "slug": "debian-handbook/workstation.en",
+      "url": "https://www.debian.org/doc/manuals/debian-handbook/workstation.en.html",
+      "title": "13.1. Configuring the X11 Server",
+      "path": "debian-handbook/workstation.en.md",
+      "bytes": 7209
+    },
+    {
+      "slug": "debian-reference/apa.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/apa.en.html",
+      "title": "A.3. Document format",
+      "path": "debian-reference/apa.en.md",
+      "bytes": 5368
+    },
+    {
+      "slug": "debian-reference/ch01.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch01.en.html",
+      "title": "List of script snippets for piping commands",
+      "path": "debian-reference/ch01.en.md",
+      "bytes": 108490
+    },
+    {
+      "slug": "debian-reference/ch02.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch02.en.html",
+      "title": "List of the proxy tools specially for Debian archive",
+      "path": "debian-reference/ch02.en.md",
+      "bytes": 122419
+    },
+    {
+      "slug": "debian-reference/ch03.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch03.en.html",
+      "title": "List of other monitoring command snippets undersystemd",
+      "path": "debian-reference/ch03.en.md",
+      "bytes": 43379
+    },
+    {
+      "slug": "debian-reference/ch04.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch04.en.html",
+      "title": "List of tools to provide extra security measures",
+      "path": "debian-reference/ch04.en.md",
+      "bytes": 34498
+    },
+    {
+      "slug": "debian-reference/ch05.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch05.en.html",
+      "title": "List of firewall tools",
+      "path": "debian-reference/ch05.en.md",
+      "bytes": 38013
+    },
+    {
+      "slug": "debian-reference/ch06.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch06.en.html",
+      "title": "List of popular RFCs",
+      "path": "debian-reference/ch06.en.md",
+      "bytes": 52308
+    },
+    {
+      "slug": "debian-reference/ch07.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch07.en.html",
+      "title": "List of programs related to manipulating character clipboard",
+      "path": "debian-reference/ch07.en.md",
+      "bytes": 45764
+    },
+    {
+      "slug": "debian-reference/ch08.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch08.en.html",
+      "title": "List of Fcitx5 and its plugin packages",
+      "path": "debian-reference/ch08.en.md",
+      "bytes": 28899
+    },
+    {
+      "slug": "debian-reference/ch09.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch09.en.html",
+      "title": "List of virtualization tools",
+      "path": "debian-reference/ch09.en.md",
+      "bytes": 161603
+    },
+    {
+      "slug": "debian-reference/ch10.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch10.en.html",
+      "title": "List of other version control system tools",
+      "path": "debian-reference/ch10.en.md",
+      "bytes": 82176
+    },
+    {
+      "slug": "debian-reference/ch11.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch11.en.html",
+      "title": "List of miscellaneous data conversion tools",
+      "path": "debian-reference/ch11.en.md",
+      "bytes": 68009
+    },
+    {
+      "slug": "debian-reference/ch12.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/ch12.en.html",
+      "title": "List of source code translation tools",
+      "path": "debian-reference/ch12.en.md",
+      "bytes": 61753
+    },
+    {
+      "slug": "debian-reference/index",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/index.en.html",
+      "title": "Debian Reference",
+      "path": "debian-reference/index.md",
+      "bytes": 53467
+    },
+    {
+      "slug": "debian-reference/pr01.en",
+      "url": "https://www.debian.org/doc/manuals/debian-reference/pr01.en.html",
+      "title": "Pr01.En",
+      "path": "debian-reference/pr01.en.md",
+      "bytes": 15218
+    },
+    {
+      "slug": "securing-debian-manual/after-compromise.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/after-compromise.en.html",
+      "title": "11.1. General behavior",
+      "path": "securing-debian-manual/after-compromise.en.md",
+      "bytes": 4333
+    },
+    {
+      "slug": "securing-debian-manual/apb.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/apb.en.html",
+      "title": "B.1. The hardening process step by step",
+      "path": "securing-debian-manual/apb.en.md",
+      "bytes": 6623
+    },
+    {
+      "slug": "securing-debian-manual/automatic-harden.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/automatic-harden.en.html",
+      "title": "6.1. Harden",
+      "path": "securing-debian-manual/automatic-harden.en.md",
+      "bytes": 4155
+    },
+    {
+      "slug": "securing-debian-manual/bind-chuser.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/bind-chuser.en.html",
+      "title": "B.5. Sample script to change the default Bind installation.",
+      "path": "securing-debian-manual/bind-chuser.en.md",
+      "bytes": 6257
+    },
+    {
+      "slug": "securing-debian-manual/bios-boot.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/bios-boot.en.html",
+      "title": "4.3. Change the BIOS (again)",
+      "path": "securing-debian-manual/bios-boot.en.md",
+      "bytes": 1457
+    },
+    {
+      "slug": "securing-debian-manual/bpp-lower-privs.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/bpp-lower-privs.en.html",
+      "title": "9.2. Creating users and groups for software daemons",
+      "path": "securing-debian-manual/bpp-lower-privs.en.md",
+      "bytes": 5847
+    },
+    {
+      "slug": "securing-debian-manual/bridge-fw.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/bridge-fw.en.html",
+      "title": "B.4.3. Basic IPtables rules",
+      "path": "securing-debian-manual/bridge-fw.en.md",
+      "bytes": 6907
+    },
+    {
+      "slug": "securing-debian-manual/ch01s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch01s03.en.html",
+      "title": "1.3. Organizational notes/feedback",
+      "path": "securing-debian-manual/ch01s03.en.md",
+      "bytes": 1548
+    },
+    {
+      "slug": "securing-debian-manual/ch01s05.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch01s05.en.html",
+      "title": "1.5. Things that need to be written (FIXME/TODO)",
+      "path": "securing-debian-manual/ch01s05.en.md",
+      "bytes": 7818
+    },
+    {
+      "slug": "securing-debian-manual/ch02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch02.en.html",
+      "title": "2.1. What do you want this system for?",
+      "path": "securing-debian-manual/ch02.en.md",
+      "bytes": 1949
+    },
+    {
+      "slug": "securing-debian-manual/ch02s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch02s03.en.html",
+      "title": "2.3. How does Debian handle security?",
+      "path": "securing-debian-manual/ch02s03.en.md",
+      "bytes": 3568
+    },
+    {
+      "slug": "securing-debian-manual/ch03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03.en.html",
+      "title": "3.1. Choose a BIOS password",
+      "path": "securing-debian-manual/ch03.en.md",
+      "bytes": 2345
+    },
+    {
+      "slug": "securing-debian-manual/ch03s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s02.en.html",
+      "title": "3.2.2. Selecting the appropriate file systems",
+      "path": "securing-debian-manual/ch03s02.en.md",
+      "bytes": 6431
+    },
+    {
+      "slug": "securing-debian-manual/ch03s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s03.en.html",
+      "title": "3.3. Do not plug to the Internet until ready",
+      "path": "securing-debian-manual/ch03s03.en.md",
+      "bytes": 2220
+    },
+    {
+      "slug": "securing-debian-manual/ch03s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s04.en.html",
+      "title": "3.4. Set a root password",
+      "path": "securing-debian-manual/ch03s04.en.md",
+      "bytes": 1483
+    },
+    {
+      "slug": "securing-debian-manual/ch03s05.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s05.en.html",
+      "title": "3.5.2. Disablinginetdor its services",
+      "path": "securing-debian-manual/ch03s05.en.md",
+      "bytes": 9067
+    },
+    {
+      "slug": "securing-debian-manual/ch03s06.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s06.en.html",
+      "title": "3.6.1. Removing Perl",
+      "path": "securing-debian-manual/ch03s06.en.md",
+      "bytes": 7467
+    },
+    {
+      "slug": "securing-debian-manual/ch03s07.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch03s07.en.html",
+      "title": "3.7. Read the Debian security mailing lists",
+      "path": "securing-debian-manual/ch03s07.en.md",
+      "bytes": 1919
+    },
+    {
+      "slug": "securing-debian-manual/ch04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04.en.html",
+      "title": "4.1. Subscribe to the Debian Security Announce mailing list",
+      "path": "securing-debian-manual/ch04.en.md",
+      "bytes": 6909
+    },
+    {
+      "slug": "securing-debian-manual/ch04s10.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s10.en.html",
+      "title": "4.10.2. Setting /usr read-only",
+      "path": "securing-debian-manual/ch04s10.en.md",
+      "bytes": 5632
+    },
+    {
+      "slug": "securing-debian-manual/ch04s11.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s11.en.html",
+      "title": "4.11.22. Logging off idle users",
+      "path": "securing-debian-manual/ch04s11.en.md",
+      "bytes": 39918
+    },
+    {
+      "slug": "securing-debian-manual/ch04s15.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s15.en.html",
+      "title": "4.15.2. Testing programs for overflows",
+      "path": "securing-debian-manual/ch04s15.en.md",
+      "bytes": 4335
+    },
+    {
+      "slug": "securing-debian-manual/ch04s16.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s16.en.html",
+      "title": "4.16. Secure file transfers",
+      "path": "securing-debian-manual/ch04s16.en.md",
+      "bytes": 2130
+    },
+    {
+      "slug": "securing-debian-manual/ch04s17.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s17.en.html",
+      "title": "4.17.4. Setting up setuid check",
+      "path": "securing-debian-manual/ch04s17.en.md",
+      "bytes": 11036
+    },
+    {
+      "slug": "securing-debian-manual/ch04s20.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch04s20.en.html",
+      "title": "4.20.1. Do not use software depending on svgalib",
+      "path": "securing-debian-manual/ch04s20.en.md",
+      "bytes": 1097
+    },
+    {
+      "slug": "securing-debian-manual/ch05s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s02.en.html",
+      "title": "5.2. Securing Squid",
+      "path": "securing-debian-manual/ch05s02.en.md",
+      "bytes": 4718
+    },
+    {
+      "slug": "securing-debian-manual/ch05s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s04.en.html",
+      "title": "5.4.1. Check your display manager",
+      "path": "securing-debian-manual/ch05s04.en.md",
+      "bytes": 4196
+    },
+    {
+      "slug": "securing-debian-manual/ch05s05.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s05.en.html",
+      "title": "5.5. Securing printing access (the lpd and lprng issue)",
+      "path": "securing-debian-manual/ch05s05.en.md",
+      "bytes": 3708
+    },
+    {
+      "slug": "securing-debian-manual/ch05s06.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s06.en.html",
+      "title": "5.6.3. Receiving mail securely",
+      "path": "securing-debian-manual/ch05s06.en.md",
+      "bytes": 7682
+    },
+    {
+      "slug": "securing-debian-manual/ch05s08.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s08.en.html",
+      "title": "5.8.3. Published web files",
+      "path": "securing-debian-manual/ch05s08.en.md",
+      "bytes": 4022
+    },
+    {
+      "slug": "securing-debian-manual/ch05s09.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s09.en.html",
+      "title": "5.9. Securing finger",
+      "path": "securing-debian-manual/ch05s09.en.md",
+      "bytes": 1584
+    },
+    {
+      "slug": "securing-debian-manual/ch05s11.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s11.en.html",
+      "title": "5.11. General cleartext password paranoia",
+      "path": "securing-debian-manual/ch05s11.en.md",
+      "bytes": 1474
+    },
+    {
+      "slug": "securing-debian-manual/ch05s12.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch05s12.en.html",
+      "title": "5.12. Disabling NIS",
+      "path": "securing-debian-manual/ch05s12.en.md",
+      "bytes": 1495
+    },
+    {
+      "slug": "securing-debian-manual/ch06s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch06s02.en.html",
+      "title": "6.2. Bastille Linux",
+      "path": "securing-debian-manual/ch06s02.en.md",
+      "bytes": 1718
+    },
+    {
+      "slug": "securing-debian-manual/ch07.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch07.en.html",
+      "title": "7.1. The Debian Security Team",
+      "path": "securing-debian-manual/ch07.en.md",
+      "bytes": 3436
+    },
+    {
+      "slug": "securing-debian-manual/ch07s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch07s03.en.html",
+      "title": "7.3. Security Tracker",
+      "path": "securing-debian-manual/ch07s03.en.md",
+      "bytes": 1468
+    },
+    {
+      "slug": "securing-debian-manual/ch07s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch07s04.en.html",
+      "title": "7.4.1. Developer's guide to security updates",
+      "path": "securing-debian-manual/ch07s04.en.md",
+      "bytes": 3905
+    },
+    {
+      "slug": "securing-debian-manual/ch08s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s02.en.html",
+      "title": "8.2. Network scanner tools",
+      "path": "securing-debian-manual/ch08s02.en.md",
+      "bytes": 2265
+    },
+    {
+      "slug": "securing-debian-manual/ch08s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s03.en.html",
+      "title": "8.3. Internal audits",
+      "path": "securing-debian-manual/ch08s03.en.md",
+      "bytes": 897
+    },
+    {
+      "slug": "securing-debian-manual/ch08s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s04.en.html",
+      "title": "8.4. Auditing source code",
+      "path": "securing-debian-manual/ch08s04.en.md",
+      "bytes": 871
+    },
+    {
+      "slug": "securing-debian-manual/ch08s06.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s06.en.html",
+      "title": "8.6. Public Key Infrastructure (PKI)",
+      "path": "securing-debian-manual/ch08s06.en.md",
+      "bytes": 2484
+    },
+    {
+      "slug": "securing-debian-manual/ch08s07.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s07.en.html",
+      "title": "8.7. SSL Infrastructure",
+      "path": "securing-debian-manual/ch08s07.en.md",
+      "bytes": 1131
+    },
+    {
+      "slug": "securing-debian-manual/ch08s08.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch08s08.en.html",
+      "title": "8.8. Antivirus tools",
+      "path": "securing-debian-manual/ch08s08.en.md",
+      "bytes": 6044
+    },
+    {
+      "slug": "securing-debian-manual/ch09.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch09.en.html",
+      "title": "9.1. Best practices for security review and design",
+      "path": "securing-debian-manual/ch09.en.md",
+      "bytes": 5752
+    },
+    {
+      "slug": "securing-debian-manual/ch10.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch10.en.html",
+      "title": "10.1.5. Automatic updates in a Debian GNU/Linux system",
+      "path": "securing-debian-manual/ch10.en.md",
+      "bytes": 23122
+    },
+    {
+      "slug": "securing-debian-manual/ch10s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch10s04.en.html",
+      "title": "10.4.2. Detecting root-kits",
+      "path": "securing-debian-manual/ch10s04.en.md",
+      "bytes": 4867
+    },
+    {
+      "slug": "securing-debian-manual/ch10s05.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch10s05.en.html",
+      "title": "10.5.1. Building a honeypot",
+      "path": "securing-debian-manual/ch10s05.en.md",
+      "bytes": 8484
+    },
+    {
+      "slug": "securing-debian-manual/ch11s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch11s02.en.html",
+      "title": "11.2. Backing up the system",
+      "path": "securing-debian-manual/ch11s02.en.md",
+      "bytes": 1714
+    },
+    {
+      "slug": "securing-debian-manual/ch11s03.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch11s03.en.html",
+      "title": "11.3. Contact your local CERT",
+      "path": "securing-debian-manual/ch11s03.en.md",
+      "bytes": 3520
+    },
+    {
+      "slug": "securing-debian-manual/ch11s04.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch11s04.en.html",
+      "title": "11.4. Forensic analysis",
+      "path": "securing-debian-manual/ch11s04.en.md",
+      "bytes": 3030
+    },
+    {
+      "slug": "securing-debian-manual/ch11s05.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch11s05.en.html",
+      "title": "11.5. Analysis of malware",
+      "path": "securing-debian-manual/ch11s05.en.md",
+      "bytes": 1839
+    },
+    {
+      "slug": "securing-debian-manual/ch12.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch12.en.html",
+      "title": "12.1.2. My system is vulnerable! (Are you sure?)",
+      "path": "securing-debian-manual/ch12.en.md",
+      "bytes": 41423
+    },
+    {
+      "slug": "securing-debian-manual/ch12s02.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ch12s02.en.html",
+      "title": "12.2.2. After installingportsentry, there are a lot of ports open.",
+      "path": "securing-debian-manual/ch12s02.en.md",
+      "bytes": 1236
+    },
+    {
+      "slug": "securing-debian-manual/changelog_history.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/changelog_history.en.html",
+      "title": "A. Changelog/History",
+      "path": "securing-debian-manual/changelog_history.en.md",
+      "bytes": 35241
+    },
+    {
+      "slug": "securing-debian-manual/checklist.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/checklist.en.html",
+      "title": "B.2. Configuration checklist",
+      "path": "securing-debian-manual/checklist.en.md",
+      "bytes": 7418
+    },
+    {
+      "slug": "securing-debian-manual/chroot-ssh-env.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/chroot-ssh-env.en.html",
+      "title": "B.7.4. See also",
+      "path": "securing-debian-manual/chroot-ssh-env.en.md",
+      "bytes": 41643
+    },
+    {
+      "slug": "securing-debian-manual/chroot.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/chroot.en.html",
+      "title": "5.10.1. Making chrooted environments automatically",
+      "path": "securing-debian-manual/chroot.en.md",
+      "bytes": 4406
+    },
+    {
+      "slug": "securing-debian-manual/credits.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/credits.en.html",
+      "title": "1.6. Credits and thanks!",
+      "path": "securing-debian-manual/credits.en.md",
+      "bytes": 2270
+    },
+    {
+      "slug": "securing-debian-manual/deb-pack-sign.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/deb-pack-sign.en.html",
+      "title": "7.5.5. Alternative per-package signing scheme",
+      "path": "securing-debian-manual/deb-pack-sign.en.md",
+      "bytes": 36576
+    },
+    {
+      "slug": "securing-debian-manual/debian-sec-team-faq.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/debian-sec-team-faq.en.html",
+      "title": "12.3. Questions regarding the Debian security team",
+      "path": "securing-debian-manual/debian-sec-team-faq.en.md",
+      "bytes": 1011
+    },
+    {
+      "slug": "securing-debian-manual/dsa.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/dsa.en.html",
+      "title": "7.2.2. CVE compatibility",
+      "path": "securing-debian-manual/dsa.en.md",
+      "bytes": 6549
+    },
+    {
+      "slug": "securing-debian-manual/firewall-setup.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/firewall-setup.en.html",
+      "title": "5.14.3. Setting up a firewall",
+      "path": "securing-debian-manual/firewall-setup.en.md",
+      "bytes": 21547
+    },
+    {
+      "slug": "securing-debian-manual/ftp-secure.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/ftp-secure.en.html",
+      "title": "5.3. Securing FTP",
+      "path": "securing-debian-manual/ftp-secure.en.md",
+      "bytes": 2559
+    },
+    {
+      "slug": "securing-debian-manual/fw-security-update.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/fw-security-update.en.html",
+      "title": "B.6. Security update protected by a firewall",
+      "path": "securing-debian-manual/fw-security-update.en.md",
+      "bytes": 5007
+    },
+    {
+      "slug": "securing-debian-manual/gpg-agent.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/gpg-agent.en.html",
+      "title": "8.9. GPG agent",
+      "path": "securing-debian-manual/gpg-agent.en.md",
+      "bytes": 3395
+    },
+    {
+      "slug": "securing-debian-manual/guideformats.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/guideformats.en.html",
+      "title": "1.2. Where to get the manual (and available formats)",
+      "path": "securing-debian-manual/guideformats.en.md",
+      "bytes": 2794
+    },
+    {
+      "slug": "securing-debian-manual/index",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/index.en.html",
+      "title": "Securing Debian Manual",
+      "path": "securing-debian-manual/index.md",
+      "bytes": 13686
+    },
+    {
+      "slug": "securing-debian-manual/intro.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/intro.en.html",
+      "title": "NextChapterÂ 1.Â Introduction",
+      "path": "securing-debian-manual/intro.en.md",
+      "bytes": 3787
+    },
+    {
+      "slug": "securing-debian-manual/intrusion-detect.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/intrusion-detect.en.html",
+      "title": "10.3.2. Host based intrusion detection",
+      "path": "securing-debian-manual/intrusion-detect.en.md",
+      "bytes": 5480
+    },
+    {
+      "slug": "securing-debian-manual/kernel-initramfs-prompt.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/kernel-initramfs-prompt.en.html",
+      "title": "4.5. Disable root prompt on the initramfs",
+      "path": "securing-debian-manual/kernel-initramfs-prompt.en.md",
+      "bytes": 1595
+    },
+    {
+      "slug": "securing-debian-manual/kernel-patches.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/kernel-patches.en.html",
+      "title": "4.14. Adding kernel patches",
+      "path": "securing-debian-manual/kernel-patches.en.md",
+      "bytes": 6318
+    },
+    {
+      "slug": "securing-debian-manual/kernel-root-prompt.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/kernel-root-prompt.en.html",
+      "title": "4.6. Remove root prompt on the kernel",
+      "path": "securing-debian-manual/kernel-root-prompt.en.md",
+      "bytes": 1913
+    },
+    {
+      "slug": "securing-debian-manual/lilo-passwd.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/lilo-passwd.en.html",
+      "title": "4.4. Set a LILO or GRUB password",
+      "path": "securing-debian-manual/lilo-passwd.en.md",
+      "bytes": 3014
+    },
+    {
+      "slug": "securing-debian-manual/log-alerts.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/log-alerts.en.html",
+      "title": "4.13.4. Log file permissions",
+      "path": "securing-debian-manual/log-alerts.en.md",
+      "bytes": 9542
+    },
+    {
+      "slug": "securing-debian-manual/network-secure.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/network-secure.en.html",
+      "title": "4.18.6. Protecting against ARP attacks",
+      "path": "securing-debian-manual/network-secure.en.md",
+      "bytes": 15742
+    },
+    {
+      "slug": "securing-debian-manual/periodic-integrity.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/periodic-integrity.en.html",
+      "title": "10.2. Do periodic integrity checks",
+      "path": "securing-debian-manual/periodic-integrity.en.md",
+      "bytes": 2740
+    },
+    {
+      "slug": "securing-debian-manual/references.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/references.en.html",
+      "title": "1.4. Prior knowledge",
+      "path": "securing-debian-manual/references.en.md",
+      "bytes": 1211
+    },
+    {
+      "slug": "securing-debian-manual/restrict-console-login.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/restrict-console-login.en.html",
+      "title": "4.7. Restricting console login access",
+      "path": "securing-debian-manual/restrict-console-login.en.md",
+      "bytes": 3070
+    },
+    {
+      "slug": "securing-debian-manual/restrict-reboots.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/restrict-reboots.en.html",
+      "title": "4.8. Restricting system reboots through the console",
+      "path": "securing-debian-manual/restrict-reboots.en.md",
+      "bytes": 2745
+    },
+    {
+      "slug": "securing-debian-manual/restrict-sysrq.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/restrict-sysrq.en.html",
+      "title": "4.9. Restricting the use of the Magic SysRq key",
+      "path": "securing-debian-manual/restrict-sysrq.en.md",
+      "bytes": 2504
+    },
+    {
+      "slug": "securing-debian-manual/rpc.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/rpc.en.html",
+      "title": "5.13.2. Limiting access to RPC services",
+      "path": "securing-debian-manual/rpc.en.md",
+      "bytes": 4224
+    },
+    {
+      "slug": "securing-debian-manual/sec-bind.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/sec-bind.en.html",
+      "title": "5.7.3. Chrooting the name server",
+      "path": "securing-debian-manual/sec-bind.en.md",
+      "bytes": 14603
+    },
+    {
+      "slug": "securing-debian-manual/sec-services.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/sec-services.en.html",
+      "title": "5.1.4. Restricing access to file transfer only",
+      "path": "securing-debian-manual/sec-services.en.md",
+      "bytes": 10360
+    },
+    {
+      "slug": "securing-debian-manual/sec-tools.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/sec-tools.en.html",
+      "title": "8.1. Remote vulnerability assessment tools",
+      "path": "securing-debian-manual/sec-tools.en.md",
+      "bytes": 3268
+    },
+    {
+      "slug": "securing-debian-manual/security-update.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/security-update.en.html",
+      "title": "4.2.2. Security update of the kernel",
+      "path": "securing-debian-manual/security-update.en.md",
+      "bytes": 9700
+    },
+    {
+      "slug": "securing-debian-manual/securityreferences.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/securityreferences.en.html",
+      "title": "2.2. Be aware of general security problems",
+      "path": "securing-debian-manual/securityreferences.en.md",
+      "bytes": 6830
+    },
+    {
+      "slug": "securing-debian-manual/snapshot.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/snapshot.en.html",
+      "title": "4.19. Taking a snapshot of the system",
+      "path": "securing-debian-manual/snapshot.en.md",
+      "bytes": 4597
+    },
+    {
+      "slug": "securing-debian-manual/snort-box.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/snort-box.en.html",
+      "title": "B.3. Setting up a stand-alone IDS",
+      "path": "securing-debian-manual/snort-box.en.md",
+      "bytes": 3860
+    },
+    {
+      "slug": "securing-debian-manual/tcpwrappers.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/tcpwrappers.en.html",
+      "title": "4.12. Using tcpwrappers",
+      "path": "securing-debian-manual/tcpwrappers.en.md",
+      "bytes": 3392
+    },
+    {
+      "slug": "securing-debian-manual/vpn.en",
+      "url": "https://www.debian.org/doc/manuals/securing-debian-manual/vpn.en.html",
+      "title": "8.5.1. Point to Point tunneling",
+      "path": "securing-debian-manual/vpn.en.md",
+      "bytes": 3872
+    }
+  ]
+}

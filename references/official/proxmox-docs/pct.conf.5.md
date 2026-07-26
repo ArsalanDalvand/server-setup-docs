@@ -1,0 +1,441 @@
+---
+title: "pct.conf(5)"
+source: "https://pve.proxmox.com/pve-docs/pct.conf.5.html"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "pct.conf.5"
+category: "proxmox"
+retrieved_at: "2026-07-26T15:55:48+00:00"
+tags:
+  - proxmox
+  - hypervisor
+  - lxc-virtualization
+  - official-documentation
+aliases:
+  - "pct.conf(5)"
+---
+[â](#)
+
+## NAME
+
+pct.conf - Proxmox VE Container Configuration
+
+## SYNOPSIS
+
+/etc/pve/lxc/<CTID>.conf
+
+## DESCRIPTION
+
+The /etc/pve/lxc/<CTID>.conf files stores container configuration,
+where CTID is the numeric ID of the given container.
+
+IDs < 100 are reserved for internal purposes.
+
+## File Format
+
+The file uses a simple colon separated key/value format. Each line has
+the following format:
+
+```bash
+OPTION: value
+```
+
+Blank lines in the file are ignored, and lines starting with a #
+character are treated as comments and are also ignored.
+
+One can use the pct command to generate and modify those files.
+
+It is also possible to add low-level LXC-style configuration directly, for
+example:
+
+```bash
+lxc.init_cmd: /sbin/my_own_init
+```
+
+or
+
+```bash
+lxc.init_cmd = /sbin/my_own_init
+```
+
+Those settings are directly passed to the LXC low-level tools.
+
+## Options
+
+arch: <amd64 | arm64 | armhf | i386 | riscv32 | riscv64> (default = amd64)
+
+OS architecture type.
+
+cmode: <console | shell | tty> (default = tty)
+
+Console mode. By default, the console command tries to open a connection to one of the available tty devices. By setting cmode to console it tries to attach to /dev/console instead. If you set cmode to shell, it simply invokes a shell inside the container (no login).
+
+console: <boolean> (default = 1)
+
+Attach a console device (/dev/console) to the container.
+
+cores: <integer> (1 - 8192)
+
+The number of cores assigned to the container. A container can use all available cores by default.
+
+cpulimit: <number> (0 - 8192) (default = 0)
+
+Limit of CPU usage.
+
+If the computer has 2 CPUs, it has a total of 2 CPU time. Value 0 indicates no CPU limit.
+
+cpuunits: <integer> (0 - 500000) (default = cgroup v1: 1024, cgroup v2: 100)
+
+CPU weight for a container. Argument is used in the kernel fair scheduler. The larger the number is, the more CPU time this container gets. Number is relative to the weights of all the other running guests.
+
+debug: <boolean> (default = 0)
+
+Try to be more verbose. For now this only enables debug log-level on start.
+
+description: <string>
+
+Description for the Container. Shown in the web-interface CT’s summary. This is saved as comment inside the configuration file.
+
+dev[n]: [[path=]<Path>] [,deny-write=<1|0>] [,gid=<integer>] [,mode=<Octal access mode>] [,uid=<integer>]
+
+Device to pass through to the container
+
+deny-write=<boolean> (default = 0)
+
+Deny the container to write to the device
+
+gid=<integer> (0 - N)
+
+Group ID to be assigned to the device node
+
+mode=<Octal access mode>
+
+Access mode to be set on the device node
+
+path=<Path>
+
+Path to the device to pass through to the container
+
+uid=<integer> (0 - N)
+
+User ID to be assigned to the device node
+
+entrypoint: (?^:[^\x00-\x08\x0a-\x1F\x7F]+) (default = /sbin/init)
+
+Command to run as init, optionally with arguments; may start with an absolute path, relative path, or a binary in $PATH.
+
+env: (?^:(?:\w+=[^\x00-\x08\x0a-\x1F\x7F]*)(?:\0\w+=[^\x00-\x08\x0a-\x1F\x7F]*)*)
+
+The container runtime environment as NUL-separated list. Replaces any lxc.environment.runtime entries in the config.
+
+features: [force_rw_sys=<1|0>] [,fuse=<1|0>] [,keyctl=<1|0>] [,mknod=<1|0>] [,mount=<fstype;fstype;...>] [,nesting=<1|0>]
+
+Allow containers access to advanced features.
+
+force_rw_sys=<boolean> (default = 0)
+
+Mount /sys in unprivileged containers as rw instead of mixed. This can break networking under newer (>= v245) systemd-network use.
+
+fuse=<boolean> (default = 0)
+
+Allow using fuse file systems in a container. Note that interactions between fuse and the freezer cgroup can potentially cause I/O deadlocks.
+
+keyctl=<boolean> (default = 0)
+
+For unprivileged containers only: Allow the use of the keyctl() system call. This is required to use docker inside a container. By default unprivileged containers will see this system call as non-existent. This is mostly a workaround for systemd-networkd, as it will treat it as a fatal error when some keyctl() operations are denied by the kernel due to lacking permissions. Essentially, you can choose between running systemd-networkd or docker.
+
+mknod=<boolean> (default = 0)
+
+Allow unprivileged containers to use mknod() to add certain device nodes. This requires a kernel with seccomp trap to user space support (5.3 or newer). This is experimental.
+
+mount=<fstype;fstype;...>
+
+Allow mounting file systems of specific types. This should be a list of file system types as used with the mount command. Note that this can have negative effects on the container’s security. With access to a loop device, mounting a file can circumvent the mknod permission of the devices cgroup, mounting an NFS file system can block the host’s I/O completely and prevent it from rebooting, etc.
+
+nesting=<boolean> (default = 0)
+
+Allow nesting. Best used with unprivileged containers with additional id mapping. Note that this will expose procfs and sysfs contents of the host to the guest. This is also required by systemd to isolate services.
+
+hookscript: <string>
+
+Script that will be executed during various steps in the containers lifetime.
+
+hostname: <string>
+
+Set a host name for the container.
+
+lock: <backup | create | destroyed | disk | fstrim | migrate | mounted | rollback | snapshot | snapshot-delete>
+
+Lock/unlock the container.
+
+memory: <integer> (16 - N) (default = 512)
+
+Amount of RAM for the container in MB.
+
+mp[n]: [volume=]<volume> ,mp=<Path> [,acl=<1|0>] [,backup=<1|0>] [,idmap=<type:container:disk:range-size[;type:container:disk:range-size;...]>] [,keepattrs=<1|0>] [,mountoptions=<opt[;opt...]>] [,quota=<1|0>] [,replicate=<1|0>] [,ro=<1|0>] [,shared=<1|0>] [,size=<DiskSize>]
+
+Use volume as container mount point. Use the special syntax STORAGE_ID:SIZE_IN_GiB to allocate a new volume.
+
+acl=<boolean>
+
+Explicitly enable or disable ACL support.
+
+backup=<boolean>
+
+Whether to include the mount point in backups (only used for volume mount points).
+
+idmap=<type:container:disk:range-size[;type:container:disk:range-size;...]>
+
+Customize UID/GID mappings that override the container’s lxc.idmap for this mount point. Accepts a semicolon-separated list of type:container:disk:range-size entries.
+
+type is u for UID or g for GID.
+
+container is the first ID as seen inside the container.
+
+disk is the first corresponding ID on the underlying filesystem.
+
+range-size is the number of consecutive IDs to map.
+
+Unmapped IDs fall back to the container’s lxc.idmap.
+
+Example 1: u:123:456:1 maps UID 123 in the container to UID 456 on the disk. Files owned by UID 456 on the disk will appear as UID 123 inside the container.
+
+Example 2: g:100:50:5 maps 5 consecutive GIDs, such that GIDs 100-104 in the container are mapped to GIDs 50-54 on the disk.
+
+Example 3: passthrough identity-maps all UIDs and GIDs, meaning IDs inside the container will match the IDs on the disk.
+
+keepattrs=<boolean> (default = 0)
+
+Inherit UID, GID and access mode from the mount point directory, if it exists already.
+
+mountoptions=<opt[;opt...]>
+
+Extra mount options for rootfs/mps.
+
+mp=<Path>
+
+Path to the mount point as seen from inside the container.
+
+Must not contain any symlinks for security reasons.
+
+quota=<boolean>
+
+Enable user quotas inside the container (not supported with zfs subvolumes)
+
+replicate=<boolean> (default = 1)
+
+Will include this volume to a storage replica job.
+
+ro=<boolean>
+
+Read-only mount point
+
+shared=<boolean> (default = 0)
+
+Mark this non-volume mount point as available on all nodes.
+
+This option does not share the mount point automatically, it assumes it is shared already!
+
+size=<DiskSize>
+
+Volume size (read only value).
+
+volume=<volume>
+
+Volume, device or directory to mount into the container.
+
+nameserver: <string>
+
+Sets DNS server IP address for a container. Create will automatically use the setting from the host if you neither set searchdomain nor nameserver.
+
+net[n]: name=<string> [,bridge=<bridge>] [,firewall=<1|0>] [,gw=<GatewayIPv4>] [,gw6=<GatewayIPv6>] [,host-managed=<1|0>] [,hwaddr=<XX:XX:XX:XX:XX:XX>] [,ip=<(IPv4/CIDR|dhcp|manual)>] [,ip6=<(IPv6/CIDR|auto|dhcp|manual)>] [,link_down=<1|0>] [,mtu=<integer>] [,rate=<mbps>] [,tag=<integer>] [,trunks=<vlanid[;vlanid...]>] [,type=<veth>]
+
+Specifies network interfaces for the container.
+
+bridge=<bridge>
+
+Bridge to attach the network device to.
+
+firewall=<boolean>
+
+Controls whether this interface’s firewall rules should be used.
+
+gw=<GatewayIPv4>
+
+Default gateway for IPv4 traffic.
+
+gw6=<GatewayIPv6>
+
+Default gateway for IPv6 traffic.
+
+host-managed=<boolean>
+
+Whether this interface’s IP configuration should be managed by the host. When enabled, the host (rather than the container) is responsible for the interface’s IP configuration. The container should not run its own DHCP client or network manager on this interface. This is useful for containers that lack an internal network management stack, like many application containers.
+
+hwaddr=<XX:XX:XX:XX:XX:XX>
+
+A common MAC address with the I/G (Individual/Group) bit not set.
+
+ip=<(IPv4/CIDR|dhcp|manual)>
+
+IPv4 address in CIDR format.
+
+ip6=<(IPv6/CIDR|auto|dhcp|manual)>
+
+IPv6 address in CIDR format.
+
+link_down=<boolean>
+
+Whether this interface should be disconnected (like pulling the plug).
+
+mtu=<integer> (64 - 65535)
+
+Maximum transfer unit of the interface. (lxc.network.mtu)
+
+name=<string>
+
+Name of the network device as seen from inside the container. (lxc.network.name)
+
+rate=<mbps>
+
+Apply rate limiting to the interface
+
+tag=<integer> (1 - 4094)
+
+VLAN tag for this interface.
+
+trunks=<vlanid[;vlanid...]>
+
+VLAN ids to pass through the interface
+
+type=<veth>
+
+Network interface type.
+
+onboot: <boolean> (default = 0)
+
+Specifies whether a container will be started during system bootup.
+
+ostype: <alpine | archlinux | centos | debian | devuan | fedora | gentoo | nixos | opensuse | ubuntu | unmanaged>
+
+OS type. This is used to setup configuration inside the container, and corresponds to lxc setup scripts in /usr/share/lxc/config/<ostype>.common.conf. Value unmanaged can be used to skip and OS specific setup.
+
+protection: <boolean> (default = 0)
+
+Sets the protection flag of the container. This will prevent the CT or CT’s disk remove/update operation.
+
+rootfs: [volume=]<volume> [,acl=<1|0>] [,idmap=<type:container:disk:range-size[;type:container:disk:range-size;...]>] [,mountoptions=<opt[;opt...]>] [,quota=<1|0>] [,replicate=<1|0>] [,ro=<1|0>] [,shared=<1|0>] [,size=<DiskSize>]
+
+Use volume as container root.
+
+acl=<boolean>
+
+Explicitly enable or disable ACL support.
+
+idmap=<type:container:disk:range-size[;type:container:disk:range-size;...]>
+
+Customize UID/GID mappings that override the container’s lxc.idmap for this mount point. Accepts a semicolon-separated list of type:container:disk:range-size entries.
+
+type is u for UID or g for GID.
+
+container is the first ID as seen inside the container.
+
+disk is the first corresponding ID on the underlying filesystem.
+
+range-size is the number of consecutive IDs to map.
+
+Unmapped IDs fall back to the container’s lxc.idmap.
+
+Example 1: u:123:456:1 maps UID 123 in the container to UID 456 on the disk. Files owned by UID 456 on the disk will appear as UID 123 inside the container.
+
+Example 2: g:100:50:5 maps 5 consecutive GIDs, such that GIDs 100-104 in the container are mapped to GIDs 50-54 on the disk.
+
+Example 3: passthrough identity-maps all UIDs and GIDs, meaning IDs inside the container will match the IDs on the disk.
+
+mountoptions=<opt[;opt...]>
+
+Extra mount options for rootfs/mps.
+
+quota=<boolean>
+
+Enable user quotas inside the container (not supported with zfs subvolumes)
+
+replicate=<boolean> (default = 1)
+
+Will include this volume to a storage replica job.
+
+ro=<boolean>
+
+Read-only mount point
+
+shared=<boolean> (default = 0)
+
+Mark this non-volume mount point as available on all nodes.
+
+This option does not share the mount point automatically, it assumes it is shared already!
+
+size=<DiskSize>
+
+Volume size (read only value).
+
+volume=<volume>
+
+Volume, device or directory to mount into the container.
+
+searchdomain: <string>
+
+Sets DNS search domains for a container. Create will automatically use the setting from the host if you neither set searchdomain nor nameserver.
+
+startup: `[[order=]\d+] [,up=\d+] [,down=\d+] ` 
+
+Startup and shutdown behavior. Order is a non-negative number defining the general startup order. Shutdown in done with reverse ordering. Additionally you can set the up or down delay in seconds, which specifies a delay to wait before the next VM is started or stopped.
+
+swap: <integer> (0 - N) (default = 512)
+
+Amount of SWAP for the container in MB.
+
+tags: <string>
+
+Tags of the Container. This is only meta information.
+
+template: <boolean> (default = 0)
+
+Enable/disable Template.
+
+timezone: <string>
+
+Time zone to use in the container. If option isn’t set, then nothing will be done. Can be set to host to match the host time zone, or an arbitrary time zone option from /usr/share/zoneinfo/zone.tab
+
+tty: <integer> (0 - 6) (default = 2)
+
+Specify the number of tty available to the container
+
+unprivileged: <boolean> (default = 0)
+
+Makes the container run as unprivileged user. For creation, the default is 1. For restore, the default is the value from the backup. (Should not be modified manually.)
+
+unused[n]: [volume=]<volume>
+
+Reference to unused volumes. This is used internally, and should not be modified manually.
+
+volume=<volume>
+
+The volume that is not used currently.
+
+## Copyright and Disclaimer
+
+Copyright © 2007-2022 Proxmox Server Solutions GmbH
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as
+published by the Free Software Foundation, either version 3 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public
+License along with this program.  If not, see
+[https://www.gnu.org/licenses/](https://www.gnu.org/licenses/)

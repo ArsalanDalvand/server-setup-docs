@@ -1,0 +1,3584 @@
+{
+  "source": "https://redis.io/docs/latest/",
+  "retrieved_at": "2026-07-26T15:48:53+00:00",
+  "page_count": 511,
+  "pages": [
+    {
+      "slug": "apis",
+      "url": "https://redis.io/docs/latest/apis/",
+      "title": "APIs",
+      "path": "apis.md",
+      "bytes": 3579
+    },
+    {
+      "slug": "commands",
+      "url": "https://redis.io/docs/latest/commands/",
+      "title": "Commands",
+      "path": "commands.md",
+      "bytes": 77069
+    },
+    {
+      "slug": "develop",
+      "url": "https://redis.io/docs/latest/develop/",
+      "title": "Develop with Redis",
+      "path": "develop.md",
+      "bytes": 4468
+    },
+    {
+      "slug": "develop/clients",
+      "url": "https://redis.io/docs/latest/develop/clients/",
+      "title": "Connect with Redis client API libraries",
+      "path": "develop/clients.md",
+      "bytes": 14488
+    },
+    {
+      "slug": "develop/clients/client-side-caching",
+      "url": "https://redis.io/docs/latest/develop/clients/client-side-caching/",
+      "title": "Client-side caching introduction",
+      "path": "develop/clients/client-side-caching.md",
+      "bytes": 9320
+    },
+    {
+      "slug": "develop/clients/error-handling",
+      "url": "https://redis.io/docs/latest/develop/clients/error-handling/",
+      "title": "Error handling",
+      "path": "develop/clients/error-handling.md",
+      "bytes": 11637
+    },
+    {
+      "slug": "develop/clients/failover",
+      "url": "https://redis.io/docs/latest/develop/clients/failover/",
+      "title": "Client-side geographic failover",
+      "path": "develop/clients/failover.md",
+      "bytes": 5539
+    },
+    {
+      "slug": "develop/clients/hiredis",
+      "url": "https://redis.io/docs/latest/develop/clients/hiredis/",
+      "title": "hiredis guide (C)",
+      "path": "develop/clients/hiredis.md",
+      "bytes": 6016
+    },
+    {
+      "slug": "develop/clients/hiredis/connect",
+      "url": "https://redis.io/docs/latest/develop/clients/hiredis/connect/",
+      "title": "Connect",
+      "path": "develop/clients/hiredis/connect.md",
+      "bytes": 4365
+    },
+    {
+      "slug": "develop/clients/hiredis/issue-commands",
+      "url": "https://redis.io/docs/latest/develop/clients/hiredis/issue-commands/",
+      "title": "Issue commands",
+      "path": "develop/clients/hiredis/issue-commands.md",
+      "bytes": 7190
+    },
+    {
+      "slug": "develop/clients/hiredis/transpipe",
+      "url": "https://redis.io/docs/latest/develop/clients/hiredis/transpipe/",
+      "title": "Pipelines and transactions",
+      "path": "develop/clients/hiredis/transpipe.md",
+      "bytes": 4121
+    },
+    {
+      "slug": "develop/clients/observability",
+      "url": "https://redis.io/docs/latest/develop/clients/observability/",
+      "title": "Observability",
+      "path": "develop/clients/observability.md",
+      "bytes": 47221
+    },
+    {
+      "slug": "develop/clients/om-clients",
+      "url": "https://redis.io/docs/latest/develop/clients/om-clients/",
+      "title": "Object-Mapper libraries",
+      "path": "develop/clients/om-clients.md",
+      "bytes": 1124
+    },
+    {
+      "slug": "develop/clients/patterns",
+      "url": "https://redis.io/docs/latest/develop/clients/patterns/",
+      "title": "Coding patterns",
+      "path": "develop/clients/patterns.md",
+      "bytes": 1353
+    },
+    {
+      "slug": "develop/clients/patterns/bulk-loading",
+      "url": "https://redis.io/docs/latest/develop/clients/patterns/bulk-loading/",
+      "title": "Bulk loading",
+      "path": "develop/clients/patterns/bulk-loading.md",
+      "bytes": 5714
+    },
+    {
+      "slug": "develop/clients/patterns/distributed-locks",
+      "url": "https://redis.io/docs/latest/develop/clients/patterns/distributed-locks/",
+      "title": "Distributed Locks with Redis",
+      "path": "develop/clients/patterns/distributed-locks.md",
+      "bytes": 21426
+    },
+    {
+      "slug": "develop/clients/patterns/twitter-clone",
+      "url": "https://redis.io/docs/latest/develop/clients/patterns/twitter-clone/",
+      "title": "Redis patterns example",
+      "path": "develop/clients/patterns/twitter-clone.md",
+      "bytes": 27820
+    },
+    {
+      "slug": "develop/clients/pools-and-muxing",
+      "url": "https://redis.io/docs/latest/develop/clients/pools-and-muxing/",
+      "title": "Connection pools and multiplexing",
+      "path": "develop/clients/pools-and-muxing.md",
+      "bytes": 3372
+    },
+    {
+      "slug": "develop/clients/redis-py",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/",
+      "title": "redis-py guide (Python)",
+      "path": "develop/clients/redis-py.md",
+      "bytes": 5694
+    },
+    {
+      "slug": "develop/clients/redis-py/amr",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/amr/",
+      "title": "Connect to Azure Managed Redis",
+      "path": "develop/clients/redis-py/amr.md",
+      "bytes": 5361
+    },
+    {
+      "slug": "develop/clients/redis-py/async",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/async/",
+      "title": "Asynchronous operations with redis-py",
+      "path": "develop/clients/redis-py/async.md",
+      "bytes": 13220
+    },
+    {
+      "slug": "develop/clients/redis-py/connect",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/connect/",
+      "title": "Connect to the server",
+      "path": "develop/clients/redis-py/connect.md",
+      "bytes": 10990
+    },
+    {
+      "slug": "develop/clients/redis-py/error-handling",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/error-handling/",
+      "title": "Error handling",
+      "path": "develop/clients/redis-py/error-handling.md",
+      "bytes": 4749
+    },
+    {
+      "slug": "develop/clients/redis-py/failover",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/failover/",
+      "title": "Client-side geographic failover",
+      "path": "develop/clients/redis-py/failover.md",
+      "bytes": 20802
+    },
+    {
+      "slug": "develop/clients/redis-py/observability",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/observability/",
+      "title": "Observability",
+      "path": "develop/clients/redis-py/observability.md",
+      "bytes": 9069
+    },
+    {
+      "slug": "develop/clients/redis-py/prob",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/prob/",
+      "title": "Probabilistic data types",
+      "path": "develop/clients/redis-py/prob.md",
+      "bytes": 15940
+    },
+    {
+      "slug": "develop/clients/redis-py/produsage",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/produsage/",
+      "title": "Production usage",
+      "path": "develop/clients/redis-py/produsage.md",
+      "bytes": 8071
+    },
+    {
+      "slug": "develop/clients/redis-py/queryjson",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/queryjson/",
+      "title": "Index and query documents",
+      "path": "develop/clients/redis-py/queryjson.md",
+      "bytes": 51398
+    },
+    {
+      "slug": "develop/clients/redis-py/scaniter",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/scaniter/",
+      "title": "Scan iteration",
+      "path": "develop/clients/redis-py/scaniter.md",
+      "bytes": 3973
+    },
+    {
+      "slug": "develop/clients/redis-py/transpipe",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/transpipe/",
+      "title": "Pipelines and transactions",
+      "path": "develop/clients/redis-py/transpipe.md",
+      "bytes": 6414
+    },
+    {
+      "slug": "develop/clients/redis-py/vecsearch",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/vecsearch/",
+      "title": "Index and query vectors",
+      "path": "develop/clients/redis-py/vecsearch.md",
+      "bytes": 14212
+    },
+    {
+      "slug": "develop/clients/redis-py/vecsets",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-py/vecsets/",
+      "title": "Vector set embeddings",
+      "path": "develop/clients/redis-py/vecsets.md",
+      "bytes": 12581
+    },
+    {
+      "slug": "develop/clients/redis-vl",
+      "url": "https://redis.io/docs/latest/develop/clients/redis-vl/",
+      "title": "Redis vector library guide (Python)",
+      "path": "develop/clients/redis-vl.md",
+      "bytes": 651
+    },
+    {
+      "slug": "develop/clients/sch",
+      "url": "https://redis.io/docs/latest/develop/clients/sch/",
+      "title": "Smart client handoffs",
+      "path": "develop/clients/sch.md",
+      "bytes": 5690
+    },
+    {
+      "slug": "develop/clients/version-support",
+      "url": "https://redis.io/docs/latest/develop/clients/version-support/",
+      "title": "Client library support and versioning policy",
+      "path": "develop/clients/version-support.md",
+      "bytes": 4359
+    },
+    {
+      "slug": "develop/get-started",
+      "url": "https://redis.io/docs/latest/develop/get-started/",
+      "title": "Quick starts",
+      "path": "develop/get-started.md",
+      "bytes": 978
+    },
+    {
+      "slug": "develop/get-started/data-store",
+      "url": "https://redis.io/docs/latest/develop/get-started/data-store/",
+      "title": "Redis as an in-memory data structure store quick start guide",
+      "path": "develop/get-started/data-store.md",
+      "bytes": 59611
+    },
+    {
+      "slug": "develop/get-started/document-database",
+      "url": "https://redis.io/docs/latest/develop/get-started/document-database/",
+      "title": "Redis as a document database quick start guide",
+      "path": "develop/get-started/document-database.md",
+      "bytes": 41607
+    },
+    {
+      "slug": "develop/get-started/faq",
+      "url": "https://redis.io/docs/latest/develop/get-started/faq/",
+      "title": "Redis FAQ",
+      "path": "develop/get-started/faq.md",
+      "bytes": 9991
+    },
+    {
+      "slug": "develop/get-started/rag",
+      "url": "https://redis.io/docs/latest/develop/get-started/rag/",
+      "title": "RAG with Redis",
+      "path": "develop/get-started/rag.md",
+      "bytes": 5906
+    },
+    {
+      "slug": "develop/get-started/redis-in-ai",
+      "url": "https://redis.io/docs/latest/develop/get-started/redis-in-ai/",
+      "title": "Redis for GenAI apps",
+      "path": "develop/get-started/redis-in-ai.md",
+      "bytes": 4720
+    },
+    {
+      "slug": "develop/get-started/vector-database",
+      "url": "https://redis.io/docs/latest/develop/get-started/vector-database/",
+      "title": "Redis as a vector database quick start guide",
+      "path": "develop/get-started/vector-database.md",
+      "bytes": 27524
+    },
+    {
+      "slug": "develop/programmability",
+      "url": "https://redis.io/docs/latest/develop/programmability/",
+      "title": "Redis programmability",
+      "path": "develop/programmability.md",
+      "bytes": 8994
+    },
+    {
+      "slug": "develop/programmability/eval-intro",
+      "url": "https://redis.io/docs/latest/develop/programmability/eval-intro/",
+      "title": "Scripting with Lua",
+      "path": "develop/programmability/eval-intro.md",
+      "bytes": 28224
+    },
+    {
+      "slug": "develop/programmability/functions-intro",
+      "url": "https://redis.io/docs/latest/develop/programmability/functions-intro/",
+      "title": "Redis functions",
+      "path": "develop/programmability/functions-intro.md",
+      "bytes": 22736
+    },
+    {
+      "slug": "develop/programmability/lua-api",
+      "url": "https://redis.io/docs/latest/develop/programmability/lua-api/",
+      "title": "Redis Lua API reference",
+      "path": "develop/programmability/lua-api.md",
+      "bytes": 40018
+    },
+    {
+      "slug": "develop/programmability/lua-debugging",
+      "url": "https://redis.io/docs/latest/develop/programmability/lua-debugging/",
+      "title": "Debugging Lua scripts in Redis",
+      "path": "develop/programmability/lua-debugging.md",
+      "bytes": 12526
+    },
+    {
+      "slug": "develop/pubsub",
+      "url": "https://redis.io/docs/latest/develop/pubsub/",
+      "title": "Redis Pub/sub",
+      "path": "develop/pubsub.md",
+      "bytes": 9632
+    },
+    {
+      "slug": "develop/pubsub/keyspace-notifications",
+      "url": "https://redis.io/docs/latest/develop/pubsub/keyspace-notifications/",
+      "title": "Redis keyspace notifications",
+      "path": "develop/pubsub/keyspace-notifications.md",
+      "bytes": 15604
+    },
+    {
+      "slug": "develop/pubsub/subkeyspace-notifications",
+      "url": "https://redis.io/docs/latest/develop/pubsub/subkeyspace-notifications/",
+      "title": "Redis subkey notifications",
+      "path": "develop/pubsub/subkeyspace-notifications.md",
+      "bytes": 5977
+    },
+    {
+      "slug": "develop/reference",
+      "url": "https://redis.io/docs/latest/develop/reference/",
+      "title": "Redis reference",
+      "path": "develop/reference.md",
+      "bytes": 459
+    },
+    {
+      "slug": "develop/reference/client-side-caching",
+      "url": "https://redis.io/docs/latest/develop/reference/client-side-caching/",
+      "title": "Client-side caching reference",
+      "path": "develop/reference/client-side-caching.md",
+      "bytes": 21298
+    },
+    {
+      "slug": "develop/reference/clients",
+      "url": "https://redis.io/docs/latest/develop/reference/clients/",
+      "title": "Redis client handling",
+      "path": "develop/reference/clients.md",
+      "bytes": 13512
+    },
+    {
+      "slug": "develop/reference/command-arguments",
+      "url": "https://redis.io/docs/latest/develop/reference/command-arguments/",
+      "title": "Redis command arguments",
+      "path": "develop/reference/command-arguments.md",
+      "bytes": 6735
+    },
+    {
+      "slug": "develop/reference/command-tips",
+      "url": "https://redis.io/docs/latest/develop/reference/command-tips/",
+      "title": "Redis command tips",
+      "path": "develop/reference/command-tips.md",
+      "bytes": 7749
+    },
+    {
+      "slug": "develop/reference/eviction",
+      "url": "https://redis.io/docs/latest/develop/reference/eviction/",
+      "title": "Key eviction",
+      "path": "develop/reference/eviction.md",
+      "bytes": 17374
+    },
+    {
+      "slug": "develop/reference/gopher",
+      "url": "https://redis.io/docs/latest/develop/reference/gopher/",
+      "title": "Redis and the Gopher protocol",
+      "path": "develop/reference/gopher.md",
+      "bytes": 2822
+    },
+    {
+      "slug": "develop/reference/key-specs",
+      "url": "https://redis.io/docs/latest/develop/reference/key-specs/",
+      "title": "Command key specifications",
+      "path": "develop/reference/key-specs.md",
+      "bytes": 11934
+    },
+    {
+      "slug": "develop/reference/protocol-spec",
+      "url": "https://redis.io/docs/latest/develop/reference/protocol-spec/",
+      "title": "Redis serialization protocol specification",
+      "path": "develop/reference/protocol-spec.md",
+      "bytes": 32611
+    },
+    {
+      "slug": "develop/reference/sentinel-clients",
+      "url": "https://redis.io/docs/latest/develop/reference/sentinel-clients/",
+      "title": "Sentinel client spec",
+      "path": "develop/reference/sentinel-clients.md",
+      "bytes": 9447
+    },
+    {
+      "slug": "develop/tools",
+      "url": "https://redis.io/docs/latest/develop/tools/",
+      "title": "Client tools",
+      "path": "develop/tools.md",
+      "bytes": 2631
+    },
+    {
+      "slug": "develop/tools/cli",
+      "url": "https://redis.io/docs/latest/develop/tools/cli/",
+      "title": "Redis CLI",
+      "path": "develop/tools/cli.md",
+      "bytes": 46309
+    },
+    {
+      "slug": "develop/using-commands",
+      "url": "https://redis.io/docs/latest/develop/using-commands/",
+      "title": "Using Redis commands",
+      "path": "develop/using-commands.md",
+      "bytes": 3471
+    },
+    {
+      "slug": "develop/using-commands/keyspace",
+      "url": "https://redis.io/docs/latest/develop/using-commands/keyspace/",
+      "title": "Keys and values",
+      "path": "develop/using-commands/keyspace.md",
+      "bytes": 10070
+    },
+    {
+      "slug": "develop/using-commands/multi-key-operations",
+      "url": "https://redis.io/docs/latest/develop/using-commands/multi-key-operations/",
+      "title": "Multi-key operations",
+      "path": "develop/using-commands/multi-key-operations.md",
+      "bytes": 7323
+    },
+    {
+      "slug": "develop/using-commands/pipelining",
+      "url": "https://redis.io/docs/latest/develop/using-commands/pipelining/",
+      "title": "Redis pipelining",
+      "path": "develop/using-commands/pipelining.md",
+      "bytes": 8497
+    },
+    {
+      "slug": "develop/using-commands/transactions",
+      "url": "https://redis.io/docs/latest/develop/using-commands/transactions/",
+      "title": "Transactions",
+      "path": "develop/using-commands/transactions.md",
+      "bytes": 12358
+    },
+    {
+      "slug": "develop/whats-new",
+      "url": "https://redis.io/docs/latest/develop/whats-new/",
+      "title": "What's new?",
+      "path": "develop/whats-new.md",
+      "bytes": 18705
+    },
+    {
+      "slug": "develop/whats-new/6-2",
+      "url": "https://redis.io/docs/latest/develop/whats-new/6-2/",
+      "title": "Redis 6.2",
+      "path": "develop/whats-new/6-2.md",
+      "bytes": 4276
+    },
+    {
+      "slug": "develop/whats-new/7-2",
+      "url": "https://redis.io/docs/latest/develop/whats-new/7-2/",
+      "title": "Redis 7.2",
+      "path": "develop/whats-new/7-2.md",
+      "bytes": 4715
+    },
+    {
+      "slug": "develop/whats-new/7-4",
+      "url": "https://redis.io/docs/latest/develop/whats-new/7-4/",
+      "title": "Redis 7.4",
+      "path": "develop/whats-new/7-4.md",
+      "bytes": 3665
+    },
+    {
+      "slug": "develop/whats-new/8-0",
+      "url": "https://redis.io/docs/latest/develop/whats-new/8-0/",
+      "title": "Redis 8.0",
+      "path": "develop/whats-new/8-0.md",
+      "bytes": 5504
+    },
+    {
+      "slug": "develop/whats-new/8-2",
+      "url": "https://redis.io/docs/latest/develop/whats-new/8-2/",
+      "title": "Redis 8.2",
+      "path": "develop/whats-new/8-2.md",
+      "bytes": 6190
+    },
+    {
+      "slug": "develop/whats-new/8-4",
+      "url": "https://redis.io/docs/latest/develop/whats-new/8-4/",
+      "title": "Redis 8.4",
+      "path": "develop/whats-new/8-4.md",
+      "bytes": 6737
+    },
+    {
+      "slug": "develop/whats-new/8-6",
+      "url": "https://redis.io/docs/latest/develop/whats-new/8-6/",
+      "title": "Redis 8.6",
+      "path": "develop/whats-new/8-6.md",
+      "bytes": 8107
+    },
+    {
+      "slug": "develop/whats-new/8-8",
+      "url": "https://redis.io/docs/latest/develop/whats-new/8-8/",
+      "title": "Redis 8.8",
+      "path": "develop/whats-new/8-8.md",
+      "bytes": 10211
+    },
+    {
+      "slug": "develop/whats-new/redis-feature-sets",
+      "url": "https://redis.io/docs/latest/develop/whats-new/redis-feature-sets/",
+      "title": "Redis feature sets",
+      "path": "develop/whats-new/redis-feature-sets.md",
+      "bytes": 5237
+    },
+    {
+      "slug": "docs/latest",
+      "url": "https://redis.io/docs/latest/",
+      "title": "Docs",
+      "path": "docs/latest.md",
+      "bytes": 5007
+    },
+    {
+      "slug": "get-started",
+      "url": "https://redis.io/docs/latest/get-started/",
+      "title": "Open Source",
+      "path": "get-started.md",
+      "bytes": 5613
+    },
+    {
+      "slug": "glossary",
+      "url": "https://redis.io/docs/latest/glossary/",
+      "title": "Glossary",
+      "path": "glossary.md",
+      "bytes": 31551
+    },
+    {
+      "slug": "integrate",
+      "url": "https://redis.io/docs/latest/integrate/",
+      "title": "Libraries and tools",
+      "path": "integrate.md",
+      "bytes": 11941
+    },
+    {
+      "slug": "integrate/amazon-bedrock",
+      "url": "https://redis.io/docs/latest/integrate/amazon-bedrock/",
+      "title": "Amazon Bedrock",
+      "path": "integrate/amazon-bedrock.md",
+      "bytes": 2432
+    },
+    {
+      "slug": "integrate/amazon-bedrock/create-agent",
+      "url": "https://redis.io/docs/latest/integrate/amazon-bedrock/create-agent/",
+      "title": "Create a Bedrock agent",
+      "path": "integrate/amazon-bedrock/create-agent.md",
+      "bytes": 3032
+    },
+    {
+      "slug": "integrate/amazon-bedrock/create-knowledge-base",
+      "url": "https://redis.io/docs/latest/integrate/amazon-bedrock/create-knowledge-base/",
+      "title": "Create a Bedrock knowledge base",
+      "path": "integrate/amazon-bedrock/create-knowledge-base.md",
+      "bytes": 3953
+    },
+    {
+      "slug": "integrate/amazon-bedrock/set-up-redis",
+      "url": "https://redis.io/docs/latest/integrate/amazon-bedrock/set-up-redis/",
+      "title": "Set up Redis for Bedrock",
+      "path": "integrate/amazon-bedrock/set-up-redis.md",
+      "bytes": 12671
+    },
+    {
+      "slug": "integrate/fastapi",
+      "url": "https://redis.io/docs/latest/integrate/fastapi/",
+      "title": "Redis with FastAPI",
+      "path": "integrate/fastapi.md",
+      "bytes": 11077
+    },
+    {
+      "slug": "integrate/fusioncache",
+      "url": "https://redis.io/docs/latest/integrate/fusioncache/",
+      "title": "FusionCache for C#/.NET",
+      "path": "integrate/fusioncache.md",
+      "bytes": 4489
+    },
+    {
+      "slug": "integrate/go-redis",
+      "url": "https://redis.io/docs/latest/integrate/go-redis/",
+      "title": "Go client for Redis",
+      "path": "integrate/go-redis.md",
+      "bytes": 1468
+    },
+    {
+      "slug": "integrate/google-adk",
+      "url": "https://redis.io/docs/latest/integrate/google-adk/",
+      "title": "Redis with Google Agent Development Kit (ADK)",
+      "path": "integrate/google-adk.md",
+      "bytes": 5204
+    },
+    {
+      "slug": "integrate/google-adk/integration-patterns",
+      "url": "https://redis.io/docs/latest/integrate/google-adk/integration-patterns/",
+      "title": "Memory integration patterns",
+      "path": "integrate/google-adk/integration-patterns.md",
+      "bytes": 5384
+    },
+    {
+      "slug": "integrate/google-adk/redis-agent-memory",
+      "url": "https://redis.io/docs/latest/integrate/google-adk/redis-agent-memory/",
+      "title": "Redis Agent Memory",
+      "path": "integrate/google-adk/redis-agent-memory.md",
+      "bytes": 8847
+    },
+    {
+      "slug": "integrate/google-adk/search-tools",
+      "url": "https://redis.io/docs/latest/integrate/google-adk/search-tools/",
+      "title": "Redis search tools",
+      "path": "integrate/google-adk/search-tools.md",
+      "bytes": 8004
+    },
+    {
+      "slug": "integrate/google-adk/semantic-caching",
+      "url": "https://redis.io/docs/latest/integrate/google-adk/semantic-caching/",
+      "title": "Semantic caching",
+      "path": "integrate/google-adk/semantic-caching.md",
+      "bytes": 4109
+    },
+    {
+      "slug": "integrate/heroku-redis",
+      "url": "https://redis.io/docs/latest/integrate/heroku-redis/",
+      "title": "Redis Cloud on Heroku",
+      "path": "integrate/heroku-redis.md",
+      "bytes": 1630
+    },
+    {
+      "slug": "integrate/hiredis",
+      "url": "https://redis.io/docs/latest/integrate/hiredis/",
+      "title": "C client for Redis",
+      "path": "integrate/hiredis.md",
+      "bytes": 1444
+    },
+    {
+      "slug": "integrate/jedis",
+      "url": "https://redis.io/docs/latest/integrate/jedis/",
+      "title": "Java client for Redis",
+      "path": "integrate/jedis.md",
+      "bytes": 1556
+    },
+    {
+      "slug": "integrate/langchain-redis",
+      "url": "https://redis.io/docs/latest/integrate/langchain-redis/",
+      "title": "Redis with LangChain",
+      "path": "integrate/langchain-redis.md",
+      "bytes": 1739
+    },
+    {
+      "slug": "integrate/lettuce",
+      "url": "https://redis.io/docs/latest/integrate/lettuce/",
+      "title": "Java client for Redis",
+      "path": "integrate/lettuce.md",
+      "bytes": 690
+    },
+    {
+      "slug": "integrate/n8n-vector-store",
+      "url": "https://redis.io/docs/latest/integrate/n8n-vector-store/",
+      "title": "n8n Redis vector store",
+      "path": "integrate/n8n-vector-store.md",
+      "bytes": 5059
+    },
+    {
+      "slug": "integrate/node-redis",
+      "url": "https://redis.io/docs/latest/integrate/node-redis/",
+      "title": "Node.js client for Redis",
+      "path": "integrate/node-redis.md",
+      "bytes": 716
+    },
+    {
+      "slug": "integrate/nredisstack",
+      "url": "https://redis.io/docs/latest/integrate/nredisstack/",
+      "title": "C#/.NET client for Redis",
+      "path": "integrate/nredisstack.md",
+      "bytes": 1468
+    },
+    {
+      "slug": "integrate/php-redis",
+      "url": "https://redis.io/docs/latest/integrate/php-redis/",
+      "title": "PHP client for Redis",
+      "path": "integrate/php-redis.md",
+      "bytes": 1459
+    },
+    {
+      "slug": "integrate/railway-redis",
+      "url": "https://redis.io/docs/latest/integrate/railway-redis/",
+      "title": "Redis on Railway",
+      "path": "integrate/railway-redis.md",
+      "bytes": 3187
+    },
+    {
+      "slug": "integrate/redis-data-integration",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/",
+      "title": "Redis Data Integration",
+      "path": "integrate/redis-data-integration.md",
+      "bytes": 6269
+    },
+    {
+      "slug": "integrate/redis-data-integration/architecture",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/architecture/",
+      "title": "Architecture",
+      "path": "integrate/redis-data-integration/architecture.md",
+      "bytes": 10130
+    },
+    {
+      "slug": "integrate/redis-data-integration/architecture/classic-vs-flink",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/architecture/classic-vs-flink/",
+      "title": "Differences between the classic and Flink processors",
+      "path": "integrate/redis-data-integration/architecture/classic-vs-flink.md",
+      "bytes": 7179
+    },
+    {
+      "slug": "integrate/redis-data-integration/faq",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/faq/",
+      "title": "FAQ",
+      "path": "integrate/redis-data-integration/faq.md",
+      "bytes": 8714
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/",
+      "title": "Install and upgrade",
+      "path": "integrate/redis-data-integration/installation.md",
+      "bytes": 969
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation/ha-test",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/ha-test/",
+      "title": "Test HA failover",
+      "path": "integrate/redis-data-integration/installation/ha-test.md",
+      "bytes": 3435
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation/install-k8s",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/install-k8s/",
+      "title": "Install on Kubernetes",
+      "path": "integrate/redis-data-integration/installation/install-k8s.md",
+      "bytes": 22998
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation/install-vm",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/install-vm/",
+      "title": "Install on VMs",
+      "path": "integrate/redis-data-integration/installation/install-vm.md",
+      "bytes": 16305
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation/migration-classic-to-flink",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/migration-classic-to-flink/",
+      "title": "Migrate from the classic processor to the Flink processor",
+      "path": "integrate/redis-data-integration/installation/migration-classic-to-flink.md",
+      "bytes": 6318
+    },
+    {
+      "slug": "integrate/redis-data-integration/installation/reqsummary",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/installation/reqsummary/",
+      "title": "Requirements summary",
+      "path": "integrate/redis-data-integration/installation/reqsummary.md",
+      "bytes": 4762
+    },
+    {
+      "slug": "integrate/redis-data-integration/observability",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/observability/",
+      "title": "Observability",
+      "path": "integrate/redis-data-integration/observability.md",
+      "bytes": 26863
+    },
+    {
+      "slug": "integrate/redis-data-integration/rdi-archive",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/rdi-archive/",
+      "title": "Preview version",
+      "path": "integrate/redis-data-integration/rdi-archive.md",
+      "bytes": 858
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/",
+      "title": "Reference",
+      "path": "integrate/redis-data-integration/reference.md",
+      "bytes": 858
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/api-migration",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/api-migration/",
+      "title": "Migrate from RDI API v1 to v2",
+      "path": "integrate/redis-data-integration/reference/api-migration.md",
+      "bytes": 7225
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/api-reference",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/api-reference/",
+      "title": "Redis Data Integration API",
+      "path": "integrate/redis-data-integration/reference/api-reference.md",
+      "bytes": 448
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/",
+      "title": "CLI reference",
+      "path": "integrate/redis-data-integration/reference/cli.md",
+      "bytes": 7131
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/previous-cli-comparison",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/previous-cli-comparison/",
+      "title": "Compare the previous and current RDI CLI",
+      "path": "integrate/redis-data-integration/reference/cli/previous-cli-comparison.md",
+      "bytes": 7945
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-completion",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-completion/",
+      "title": "redis-di completion",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-completion.md",
+      "bytes": 1004
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-configure-rdi",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-configure-rdi/",
+      "title": "redis-di configure-rdi",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-configure-rdi.md",
+      "bytes": 1561
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-delete-context",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-delete-context/",
+      "title": "redis-di delete-context",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-delete-context.md",
+      "bytes": 1057
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-delete-secret",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-delete-secret/",
+      "title": "redis-di delete-secret",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-delete-secret.md",
+      "bytes": 1285
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-delete",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-delete/",
+      "title": "redis-di delete",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-delete.md",
+      "bytes": 1223
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-deploy",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-deploy/",
+      "title": "redis-di deploy",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-deploy.md",
+      "bytes": 1910
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-describe-context",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-describe-context/",
+      "title": "redis-di describe-context",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-describe-context.md",
+      "bytes": 1074
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-describe-job",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-describe-job/",
+      "title": "redis-di describe-job",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-describe-job.md",
+      "bytes": 1072
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-describe-secret",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-describe-secret/",
+      "title": "redis-di describe-secret",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-describe-secret.md",
+      "bytes": 1115
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-describe",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-describe/",
+      "title": "redis-di describe",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-describe.md",
+      "bytes": 2900
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-dump-support-package",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-dump-support-package/",
+      "title": "redis-di dump-support-package",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-dump-support-package.md",
+      "bytes": 1849
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-get-dlq",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-get-dlq/",
+      "title": "redis-di get-dlq",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-get-dlq.md",
+      "bytes": 1089
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-get-job",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-get-job/",
+      "title": "redis-di get-job",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-get-job.md",
+      "bytes": 1206
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-get-metric-collection",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-get-metric-collection/",
+      "title": "redis-di get-metric-collection",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-get-metric-collection.md",
+      "bytes": 1402
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-get-secret",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-get-secret/",
+      "title": "redis-di get-secret",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-get-secret.md",
+      "bytes": 1198
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-get",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-get/",
+      "title": "redis-di get",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-get.md",
+      "bytes": 1172
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-info",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-info/",
+      "title": "redis-di info",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-info.md",
+      "bytes": 841
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-contexts",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-contexts/",
+      "title": "redis-di list-contexts",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-contexts.md",
+      "bytes": 1030
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-dlq-records",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-dlq-records/",
+      "title": "redis-di list-dlq-records",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-dlq-records.md",
+      "bytes": 2092
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-dlqs",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-dlqs/",
+      "title": "redis-di list-dlqs",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-dlqs.md",
+      "bytes": 1231
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-jobs",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-jobs/",
+      "title": "redis-di list-jobs",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-jobs.md",
+      "bytes": 1230
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-metric-collections",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-metric-collections/",
+      "title": "redis-di list-metric-collections",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-metric-collections.md",
+      "bytes": 1415
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list-secrets",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list-secrets/",
+      "title": "redis-di list-secrets",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list-secrets.md",
+      "bytes": 1183
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-list",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-list/",
+      "title": "redis-di list",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-list.md",
+      "bytes": 935
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-reset",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-reset/",
+      "title": "redis-di reset",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-reset.md",
+      "bytes": 1263
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-scaffold",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-scaffold/",
+      "title": "redis-di scaffold",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-scaffold.md",
+      "bytes": 1702
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-set-context",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-set-context/",
+      "title": "redis-di set-context",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-set-context.md",
+      "bytes": 2102
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-set-secret",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-set-secret/",
+      "title": "redis-di set-secret",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-set-secret.md",
+      "bytes": 2049
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-start",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-start/",
+      "title": "redis-di start",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-start.md",
+      "bytes": 1197
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-stop",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-stop/",
+      "title": "redis-di stop",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-stop.md",
+      "bytes": 1148
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di-use-context",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di-use-context/",
+      "title": "redis-di use-context",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di-use-context.md",
+      "bytes": 1088
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/cli/redis-di",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/cli/redis-di/",
+      "title": "redis-di",
+      "path": "integrate/redis-data-integration/reference/cli/redis-di.md",
+      "bytes": 6402
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/config-yaml-reference",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/config-yaml-reference/",
+      "title": "Redis Data Integration configuration file",
+      "path": "integrate/redis-data-integration/reference/config-yaml-reference.md",
+      "bytes": 57258
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/",
+      "title": "Data transformation reference",
+      "path": "integrate/redis-data-integration/reference/data-transformation.md",
+      "bytes": 617
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/add_field",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/add_field/",
+      "title": "add_field",
+      "path": "integrate/redis-data-integration/reference/data-transformation/add_field.md",
+      "bytes": 2241
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/filter",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/filter/",
+      "title": "filter",
+      "path": "integrate/redis-data-integration/reference/data-transformation/filter.md",
+      "bytes": 1064
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/lookup",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/lookup/",
+      "title": "redis.lookup",
+      "path": "integrate/redis-data-integration/reference/data-transformation/lookup.md",
+      "bytes": 2733
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/map",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/map/",
+      "title": "map",
+      "path": "integrate/redis-data-integration/reference/data-transformation/map.md",
+      "bytes": 2026
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/remove_field",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/remove_field/",
+      "title": "remove_field",
+      "path": "integrate/redis-data-integration/reference/data-transformation/remove_field.md",
+      "bytes": 1397
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/data-transformation/rename_field",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/data-transformation/rename_field/",
+      "title": "rename_field",
+      "path": "integrate/redis-data-integration/reference/data-transformation/rename_field.md",
+      "bytes": 1670
+    },
+    {
+      "slug": "integrate/redis-data-integration/reference/jmespath-custom-functions",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/reference/jmespath-custom-functions/",
+      "title": "JMESPath custom functions",
+      "path": "integrate/redis-data-integration/reference/jmespath-custom-functions.md",
+      "bytes": 5794
+    },
+    {
+      "slug": "integrate/redis-data-integration/troubleshooting",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/troubleshooting/",
+      "title": "Troubleshooting",
+      "path": "integrate/redis-data-integration/troubleshooting.md",
+      "bytes": 2911
+    },
+    {
+      "slug": "integrate/redis-data-integration/when-to-use",
+      "url": "https://redis.io/docs/latest/integrate/redis-data-integration/when-to-use/",
+      "title": "When to use RDI",
+      "path": "integrate/redis-data-integration/when-to-use.md",
+      "bytes": 11840
+    },
+    {
+      "slug": "integrate/redis-mcp",
+      "url": "https://redis.io/docs/latest/integrate/redis-mcp/",
+      "title": "Redis MCP",
+      "path": "integrate/redis-mcp.md",
+      "bytes": 1775
+    },
+    {
+      "slug": "integrate/redis-mcp/client-conf",
+      "url": "https://redis.io/docs/latest/integrate/redis-mcp/client-conf/",
+      "title": "Configure client apps",
+      "path": "integrate/redis-mcp/client-conf.md",
+      "bytes": 8273
+    },
+    {
+      "slug": "integrate/redis-mcp/install",
+      "url": "https://redis.io/docs/latest/integrate/redis-mcp/install/",
+      "title": "Install",
+      "path": "integrate/redis-mcp/install.md",
+      "bytes": 10616
+    },
+    {
+      "slug": "integrate/redis-py",
+      "url": "https://redis.io/docs/latest/integrate/redis-py/",
+      "title": "Python client for Redis",
+      "path": "integrate/redis-py.md",
+      "bytes": 1661
+    },
+    {
+      "slug": "integrate/redis-rb",
+      "url": "https://redis.io/docs/latest/integrate/redis-rb/",
+      "title": "Ruby client for Redis",
+      "path": "integrate/redis-rb.md",
+      "bytes": 1416
+    },
+    {
+      "slug": "integrate/redisom-for-java",
+      "url": "https://redis.io/docs/latest/integrate/redisom-for-java/",
+      "title": "RedisOM for Java",
+      "path": "integrate/redisom-for-java.md",
+      "bytes": 29345
+    },
+    {
+      "slug": "integrate/redisom-for-net",
+      "url": "https://redis.io/docs/latest/integrate/redisom-for-net/",
+      "title": "RedisOM for .NET",
+      "path": "integrate/redisom-for-net.md",
+      "bytes": 13307
+    },
+    {
+      "slug": "integrate/redisom-for-node-js",
+      "url": "https://redis.io/docs/latest/integrate/redisom-for-node-js/",
+      "title": "RedisOM for Node.js",
+      "path": "integrate/redisom-for-node-js.md",
+      "bytes": 42239
+    },
+    {
+      "slug": "integrate/redisom-for-python",
+      "url": "https://redis.io/docs/latest/integrate/redisom-for-python/",
+      "title": "RedisOM for Python",
+      "path": "integrate/redisom-for-python.md",
+      "bytes": 27503
+    },
+    {
+      "slug": "integrate/redisvl",
+      "url": "https://redis.io/docs/latest/integrate/redisvl/",
+      "title": "RedisVL",
+      "path": "integrate/redisvl.md",
+      "bytes": 1762
+    },
+    {
+      "slug": "integrate/riot",
+      "url": "https://redis.io/docs/latest/integrate/riot/",
+      "title": "RIOT-X",
+      "path": "integrate/riot.md",
+      "bytes": 1083
+    },
+    {
+      "slug": "integrate/riot/docs",
+      "url": "https://redis.io/docs/latest/integrate/riot/docs/",
+      "title": "Documentation",
+      "path": "integrate/riot/docs.md",
+      "bytes": 555
+    },
+    {
+      "slug": "integrate/riot/install",
+      "url": "https://redis.io/docs/latest/integrate/riot/install/",
+      "title": "Install",
+      "path": "integrate/riot/install.md",
+      "bytes": 1130
+    },
+    {
+      "slug": "integrate/riot/quick-start",
+      "url": "https://redis.io/docs/latest/integrate/riot/quick-start/",
+      "title": "Getting started",
+      "path": "integrate/riot/quick-start.md",
+      "bytes": 1005
+    },
+    {
+      "slug": "integrate/rust-redis",
+      "url": "https://redis.io/docs/latest/integrate/rust-redis/",
+      "title": "Rust client for Redis",
+      "path": "integrate/rust-redis.md",
+      "bytes": 1549
+    },
+    {
+      "slug": "integrate/spring-framework-cache",
+      "url": "https://redis.io/docs/latest/integrate/spring-framework-cache/",
+      "title": "Spring Data Redis",
+      "path": "integrate/spring-framework-cache.md",
+      "bytes": 1425
+    },
+    {
+      "slug": "integrate/spring-framework-cache/cache",
+      "url": "https://redis.io/docs/latest/integrate/spring-framework-cache/cache/",
+      "title": "Use Redis with the Spring cache abstraction",
+      "path": "integrate/spring-framework-cache/cache.md",
+      "bytes": 2479
+    },
+    {
+      "slug": "integrate/spring-framework-cache/geo-failover",
+      "url": "https://redis.io/docs/latest/integrate/spring-framework-cache/geo-failover/",
+      "title": "Client-side geographic failover",
+      "path": "integrate/spring-framework-cache/geo-failover.md",
+      "bytes": 13210
+    },
+    {
+      "slug": "integrate/vercel-redis",
+      "url": "https://redis.io/docs/latest/integrate/vercel-redis/",
+      "title": "Redis with Vercel",
+      "path": "integrate/vercel-redis.md",
+      "bytes": 1636
+    },
+    {
+      "slug": "integrate/write-behind/architecture",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/architecture/",
+      "title": "Write-behind architecture",
+      "path": "integrate/write-behind/architecture.md",
+      "bytes": 3939
+    },
+    {
+      "slug": "integrate/write-behind/data-transformation",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/data-transformation/",
+      "title": "Data transformation",
+      "path": "integrate/write-behind/data-transformation.md",
+      "bytes": 1862
+    },
+    {
+      "slug": "integrate/write-behind/data-transformation/data-transformation-pipeline",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/data-transformation/data-transformation-pipeline/",
+      "title": "Data transformation pipeline",
+      "path": "integrate/write-behind/data-transformation/data-transformation-pipeline.md",
+      "bytes": 9144
+    },
+    {
+      "slug": "integrate/write-behind/installation",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/installation/",
+      "title": "Installation",
+      "path": "integrate/write-behind/installation.md",
+      "bytes": 493
+    },
+    {
+      "slug": "integrate/write-behind/installation/install-rdi-cli",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/installation/install-rdi-cli/",
+      "title": "Install Write-behind CLI",
+      "path": "integrate/write-behind/installation/install-rdi-cli.md",
+      "bytes": 1698
+    },
+    {
+      "slug": "integrate/write-behind/installation/install-redis-gears",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/installation/install-redis-gears/",
+      "title": "Install RedisGears for Redis Data Integration",
+      "path": "integrate/write-behind/installation/install-redis-gears.md",
+      "bytes": 2001
+    },
+    {
+      "slug": "integrate/write-behind/reference",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/",
+      "title": "Write-behind reference",
+      "path": "integrate/write-behind/reference.md",
+      "bytes": 528
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/",
+      "title": "CLI",
+      "path": "integrate/write-behind/reference/cli.md",
+      "bytes": 461
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-add-context",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-add-context/",
+      "title": "redis-di add-context",
+      "path": "integrate/write-behind/reference/cli/redis-di-add-context.md",
+      "bytes": 3185
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-configure",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-configure/",
+      "title": "redis-di configure",
+      "path": "integrate/write-behind/reference/cli/redis-di-configure.md",
+      "bytes": 2564
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-create",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-create/",
+      "title": "redis-di create",
+      "path": "integrate/write-behind/reference/cli/redis-di-create.md",
+      "bytes": 4312
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-delete-all-contexts",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-delete-all-contexts/",
+      "title": "redis-di delete-all-contexts",
+      "path": "integrate/write-behind/reference/cli/redis-di-delete-all-contexts.md",
+      "bytes": 1341
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-delete-context",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-delete-context/",
+      "title": "redis-di delete-context",
+      "path": "integrate/write-behind/reference/cli/redis-di-delete-context.md",
+      "bytes": 1406
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-delete",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-delete/",
+      "title": "redis-di delete",
+      "path": "integrate/write-behind/reference/cli/redis-di-delete.md",
+      "bytes": 3866
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-deploy",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-deploy/",
+      "title": "redis-di deploy",
+      "path": "integrate/write-behind/reference/cli/redis-di-deploy.md",
+      "bytes": 2755
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-describe-job",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-describe-job/",
+      "title": "redis-di describe-job",
+      "path": "integrate/write-behind/reference/cli/redis-di-describe-job.md",
+      "bytes": 2619
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-dump-support-package",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-dump-support-package/",
+      "title": "redis-di dump-support-package",
+      "path": "integrate/write-behind/reference/cli/redis-di-dump-support-package.md",
+      "bytes": 3716
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-get-rejected",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-get-rejected/",
+      "title": "redis-di get-rejected",
+      "path": "integrate/write-behind/reference/cli/redis-di-get-rejected.md",
+      "bytes": 3336
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-list-contexts",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-list-contexts/",
+      "title": "redis-di list-contexts",
+      "path": "integrate/write-behind/reference/cli/redis-di-list-contexts.md",
+      "bytes": 871
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-list-jobs",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-list-jobs/",
+      "title": "redis-di list-jobs",
+      "path": "integrate/write-behind/reference/cli/redis-di-list-jobs.md",
+      "bytes": 2498
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-monitor",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-monitor/",
+      "title": "redis-di monitor",
+      "path": "integrate/write-behind/reference/cli/redis-di-monitor.md",
+      "bytes": 3086
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-reset",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-reset/",
+      "title": "redis-di reset",
+      "path": "integrate/write-behind/reference/cli/redis-di-reset.md",
+      "bytes": 2678
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-scaffold",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-scaffold/",
+      "title": "redis-di scaffold",
+      "path": "integrate/write-behind/reference/cli/redis-di-scaffold.md",
+      "bytes": 2494
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-set-context",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-set-context/",
+      "title": "redis-di set-context",
+      "path": "integrate/write-behind/reference/cli/redis-di-set-context.md",
+      "bytes": 1239
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-set-secret",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-set-secret/",
+      "title": "redis-di set-secret",
+      "path": "integrate/write-behind/reference/cli/redis-di-set-secret.md",
+      "bytes": 4054
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-start",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-start/",
+      "title": "redis-di start",
+      "path": "integrate/write-behind/reference/cli/redis-di-start.md",
+      "bytes": 2440
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-status",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-status/",
+      "title": "redis-di status",
+      "path": "integrate/write-behind/reference/cli/redis-di-status.md",
+      "bytes": 3281
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-stop",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-stop/",
+      "title": "redis-di stop",
+      "path": "integrate/write-behind/reference/cli/redis-di-stop.md",
+      "bytes": 2431
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di-trace",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di-trace/",
+      "title": "redis-di trace",
+      "path": "integrate/write-behind/reference/cli/redis-di-trace.md",
+      "bytes": 3325
+    },
+    {
+      "slug": "integrate/write-behind/reference/cli/redis-di",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/cli/redis-di/",
+      "title": "redis-di",
+      "path": "integrate/write-behind/reference/cli/redis-di.md",
+      "bytes": 2407
+    },
+    {
+      "slug": "integrate/write-behind/reference/config-yaml-reference",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/config-yaml-reference/",
+      "title": "Write-behind configuration file",
+      "path": "integrate/write-behind/reference/config-yaml-reference.md",
+      "bytes": 3453
+    },
+    {
+      "slug": "integrate/write-behind/reference/data-types-conversion",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/data-types-conversion/",
+      "title": "Data type conversion",
+      "path": "integrate/write-behind/reference/data-types-conversion.md",
+      "bytes": 24343
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/",
+      "title": "Debezium Server configuration file",
+      "path": "integrate/write-behind/reference/debezium.md",
+      "bytes": 1001
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/cassandra",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/cassandra/",
+      "title": "Write-behind configuration for cassandra",
+      "path": "integrate/write-behind/reference/debezium/cassandra.md",
+      "bytes": 4401
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/mongodb",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/mongodb/",
+      "title": "Write-behind configuration for mongodb",
+      "path": "integrate/write-behind/reference/debezium/mongodb.md",
+      "bytes": 5651
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/mysql",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/mysql/",
+      "title": "Write-behind configuration for mysql",
+      "path": "integrate/write-behind/reference/debezium/mysql.md",
+      "bytes": 6654
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/oracle",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/oracle/",
+      "title": "Write-behind configuration for oracle",
+      "path": "integrate/write-behind/reference/debezium/oracle.md",
+      "bytes": 6911
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/postgresql",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/postgresql/",
+      "title": "Write-behind configuration for postgresql",
+      "path": "integrate/write-behind/reference/debezium/postgresql.md",
+      "bytes": 5964
+    },
+    {
+      "slug": "integrate/write-behind/reference/debezium/sqlserver",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/debezium/sqlserver/",
+      "title": "Write-behind configuration for sqlserver",
+      "path": "integrate/write-behind/reference/debezium/sqlserver.md",
+      "bytes": 5871
+    },
+    {
+      "slug": "integrate/write-behind/reference/jmespath-custom-functions",
+      "url": "https://redis.io/docs/latest/integrate/write-behind/reference/jmespath-custom-functions/",
+      "title": "JMESPath custom functions",
+      "path": "integrate/write-behind/reference/jmespath-custom-functions.md",
+      "bytes": 5333
+    },
+    {
+      "slug": "operate",
+      "url": "https://redis.io/docs/latest/operate/",
+      "title": "Redis products",
+      "path": "operate.md",
+      "bytes": 7504
+    },
+    {
+      "slug": "operate/featureform",
+      "url": "https://redis.io/docs/latest/operate/featureform/",
+      "title": "Redis Feature Form",
+      "path": "operate/featureform.md",
+      "bytes": 2591
+    },
+    {
+      "slug": "operate/featureform/configure-auth",
+      "url": "https://redis.io/docs/latest/operate/featureform/configure-auth/",
+      "title": "Configure authentication and RBAC",
+      "path": "operate/featureform/configure-auth.md",
+      "bytes": 11206
+    },
+    {
+      "slug": "operate/featureform/deploy",
+      "url": "https://redis.io/docs/latest/operate/featureform/deploy/",
+      "title": "Deploy",
+      "path": "operate/featureform/deploy.md",
+      "bytes": 7725
+    },
+    {
+      "slug": "operate/oss_and_stack",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/",
+      "title": "Redis Open Source",
+      "path": "operate/oss_and_stack.md",
+      "bytes": 3757
+    },
+    {
+      "slug": "operate/oss_and_stack/install",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/",
+      "title": "Install Redis Open Source",
+      "path": "operate/oss_and_stack/install.md",
+      "bytes": 1423
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/",
+      "title": "Install Redis Community Edition or Redis Stack",
+      "path": "operate/oss_and_stack/install/archive.md",
+      "bytes": 1385
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-redis",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/",
+      "title": "Install Redis",
+      "path": "operate/oss_and_stack/install/archive/install-redis.md",
+      "bytes": 9351
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-redis/install-redis-from-source",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-from-source/",
+      "title": "Install Redis from Source",
+      "path": "operate/oss_and_stack/install/archive/install-redis/install-redis-from-source.md",
+      "bytes": 2424
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-linux",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-linux/",
+      "title": "Install Redis on Linux",
+      "path": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-linux.md",
+      "bytes": 3605
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-mac-os",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-mac-os/",
+      "title": "Install Redis on macOS",
+      "path": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-mac-os.md",
+      "bytes": 2993
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-windows",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/install-redis-on-windows/",
+      "title": "Install Redis on Windows",
+      "path": "operate/oss_and_stack/install/archive/install-redis/install-redis-on-windows.md",
+      "bytes": 3046
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-stack",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/",
+      "title": "Install Redis Stack",
+      "path": "operate/oss_and_stack/install/archive/install-stack.md",
+      "bytes": 951
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-stack/docker",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/docker/",
+      "title": "Run Redis Stack on Docker",
+      "path": "operate/oss_and_stack/install/archive/install-stack/docker.md",
+      "bytes": 3913
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-stack/linux",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/linux/",
+      "title": "Install Redis Stack on Linux",
+      "path": "operate/oss_and_stack/install/archive/install-stack/linux.md",
+      "bytes": 6090
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-stack/mac-os",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/mac-os/",
+      "title": "Install Redis Stack on macOS",
+      "path": "operate/oss_and_stack/install/archive/install-stack/mac-os.md",
+      "bytes": 4719
+    },
+    {
+      "slug": "operate/oss_and_stack/install/archive/install-stack/windows",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-stack/windows/",
+      "title": "Install Redis Stack on Windows",
+      "path": "operate/oss_and_stack/install/archive/install-stack/windows.md",
+      "bytes": 2098
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/",
+      "title": "Build and run Redis Open Source",
+      "path": "operate/oss_and_stack/install/build-stack.md",
+      "bytes": 876
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/almalinux-rocky-10",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/almalinux-rocky-10/",
+      "title": "Build and run Redis Open Source on AlmaLinux/Rocky Linux 10.1+",
+      "path": "operate/oss_and_stack/install/build-stack/almalinux-rocky-10.md",
+      "bytes": 5074
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/almalinux-rocky-8",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/almalinux-rocky-8/",
+      "title": "Build and run Redis Open Source on AlmaLinux/Rocky Linux 8.10",
+      "path": "operate/oss_and_stack/install/build-stack/almalinux-rocky-8.md",
+      "bytes": 4979
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/almalinux-rocky-9",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/almalinux-rocky-9/",
+      "title": "Build and run Redis Open Source on AlmaLinux/Rocky Linux 9.7+",
+      "path": "operate/oss_and_stack/install/build-stack/almalinux-rocky-9.md",
+      "bytes": 4969
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/alpine",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/alpine/",
+      "title": "Build and run Redis Open Source on Alpine 3.23+",
+      "path": "operate/oss_and_stack/install/build-stack/alpine.md",
+      "bytes": 4269
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/build-flags",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/build-flags/",
+      "title": "Build flags and general notes",
+      "path": "operate/oss_and_stack/install/build-stack/build-flags.md",
+      "bytes": 6860
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/debian-bookworm",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/debian-bookworm/",
+      "title": "Build and run Redis Open Source on Debian 12 (Bookworm) and Debian 13 (Trixie)",
+      "path": "operate/oss_and_stack/install/build-stack/debian-bookworm.md",
+      "bytes": 3851
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/macos-13-14",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/macos-13-14/",
+      "title": "Build and run Redis Open Source on macOS 14 (Sonoma), 15 (Sequoia), and 26 (Tahoe)",
+      "path": "operate/oss_and_stack/install/build-stack/macos-13-14.md",
+      "bytes": 4971
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/ubuntu-jammy",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/ubuntu-jammy/",
+      "title": "Build and run Redis Open Source on Ubuntu 22.04 (Jammy)",
+      "path": "operate/oss_and_stack/install/build-stack/ubuntu-jammy.md",
+      "bytes": 3994
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/ubuntu-noble",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/ubuntu-noble/",
+      "title": "Build and run Redis Open Source on Ubuntu 24.04 (Noble)",
+      "path": "operate/oss_and_stack/install/build-stack/ubuntu-noble.md",
+      "bytes": 3708
+    },
+    {
+      "slug": "operate/oss_and_stack/install/build-stack/ubuntu-resolute",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/build-stack/ubuntu-resolute/",
+      "title": "Build and run Redis Open Source on Ubuntu 26.04 (Resolute)",
+      "path": "operate/oss_and_stack/install/build-stack/ubuntu-resolute.md",
+      "bytes": 4737
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/",
+      "title": "Install Redis Open Source",
+      "path": "operate/oss_and_stack/install/install-stack.md",
+      "bytes": 4183
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack/docker",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/docker/",
+      "title": "Run Redis Open Source on Docker",
+      "path": "operate/oss_and_stack/install/install-stack/docker.md",
+      "bytes": 3036
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack/homebrew",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/homebrew/",
+      "title": "Install Redis Open Source on macOS",
+      "path": "operate/oss_and_stack/install/install-stack/homebrew.md",
+      "bytes": 4690
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack/rpm",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/rpm/",
+      "title": "Install Redis Open Source on Linux",
+      "path": "operate/oss_and_stack/install/install-stack/rpm.md",
+      "bytes": 1465
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack/snap",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/snap/",
+      "title": "Install Redis Open Source on Linux",
+      "path": "operate/oss_and_stack/install/install-stack/snap.md",
+      "bytes": 1146
+    },
+    {
+      "slug": "operate/oss_and_stack/install/install-stack/windows",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/install-stack/windows/",
+      "title": "Run Redis Open Source on Windows using Docker",
+      "path": "operate/oss_and_stack/install/install-stack/windows.md",
+      "bytes": 1289
+    },
+    {
+      "slug": "operate/oss_and_stack/install/version-mgmt",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/install/version-mgmt/",
+      "title": "Redis Open Source version management",
+      "path": "operate/oss_and_stack/install/version-mgmt.md",
+      "bytes": 1571
+    },
+    {
+      "slug": "operate/oss_and_stack/management",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/",
+      "title": "Manage Redis",
+      "path": "operate/oss_and_stack/management.md",
+      "bytes": 527
+    },
+    {
+      "slug": "operate/oss_and_stack/management/admin",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/admin/",
+      "title": "Redis administration",
+      "path": "operate/oss_and_stack/management/admin.md",
+      "bytes": 6999
+    },
+    {
+      "slug": "operate/oss_and_stack/management/config",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/config/",
+      "title": "Redis configuration",
+      "path": "operate/oss_and_stack/management/config.md",
+      "bytes": 6637
+    },
+    {
+      "slug": "operate/oss_and_stack/management/debugging",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/debugging/",
+      "title": "Debugging",
+      "path": "operate/oss_and_stack/management/debugging.md",
+      "bytes": 8524
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/",
+      "title": "Optimizing Redis",
+      "path": "operate/oss_and_stack/management/optimization.md",
+      "bytes": 597
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization/benchmarks",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/",
+      "title": "Redis benchmark",
+      "path": "operate/oss_and_stack/management/optimization/benchmarks.md",
+      "bytes": 20235
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization/cpu-profiling",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/cpu-profiling/",
+      "title": "Redis CPU profiling",
+      "path": "operate/oss_and_stack/management/optimization/cpu-profiling.md",
+      "bytes": 12302
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization/latency-monitor",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/latency-monitor/",
+      "title": "Redis latency monitoring",
+      "path": "operate/oss_and_stack/management/optimization/latency-monitor.md",
+      "bytes": 6868
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization/latency",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/latency/",
+      "title": "Diagnosing latency issues",
+      "path": "operate/oss_and_stack/management/optimization/latency.md",
+      "bytes": 32490
+    },
+    {
+      "slug": "operate/oss_and_stack/management/optimization/memory-optimization",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/memory-optimization/",
+      "title": "Memory optimization",
+      "path": "operate/oss_and_stack/management/optimization/memory-optimization.md",
+      "bytes": 12465
+    },
+    {
+      "slug": "operate/oss_and_stack/management/persistence",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/",
+      "title": "Redis persistence",
+      "path": "operate/oss_and_stack/management/persistence.md",
+      "bytes": 23680
+    },
+    {
+      "slug": "operate/oss_and_stack/management/replication",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/replication/",
+      "title": "Redis replication",
+      "path": "operate/oss_and_stack/management/replication.md",
+      "bytes": 26218
+    },
+    {
+      "slug": "operate/oss_and_stack/management/scaling",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/scaling/",
+      "title": "Scale with Redis Cluster",
+      "path": "operate/oss_and_stack/management/scaling.md",
+      "bytes": 51062
+    },
+    {
+      "slug": "operate/oss_and_stack/management/security",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/security/",
+      "title": "Redis security",
+      "path": "operate/oss_and_stack/management/security.md",
+      "bytes": 9591
+    },
+    {
+      "slug": "operate/oss_and_stack/management/security/acl",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/security/acl/",
+      "title": "ACL",
+      "path": "operate/oss_and_stack/management/security/acl.md",
+      "bytes": 34797
+    },
+    {
+      "slug": "operate/oss_and_stack/management/security/encryption",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/security/encryption/",
+      "title": "TLS",
+      "path": "operate/oss_and_stack/management/security/encryption.md",
+      "bytes": 4622
+    },
+    {
+      "slug": "operate/oss_and_stack/management/sentinel",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/sentinel/",
+      "title": "High availability with Redis Sentinel",
+      "path": "operate/oss_and_stack/management/sentinel.md",
+      "bytes": 74755
+    },
+    {
+      "slug": "operate/oss_and_stack/management/troubleshooting",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/management/troubleshooting/",
+      "title": "Troubleshooting Redis",
+      "path": "operate/oss_and_stack/management/troubleshooting.md",
+      "bytes": 2917
+    },
+    {
+      "slug": "operate/oss_and_stack/reference",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/",
+      "title": "Reference",
+      "path": "operate/oss_and_stack/reference.md",
+      "bytes": 482
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/arm",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/arm/",
+      "title": "ARM support",
+      "path": "operate/oss_and_stack/reference/arm.md",
+      "bytes": 4411
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/cluster-spec",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/cluster-spec/",
+      "title": "Redis cluster specification",
+      "path": "operate/oss_and_stack/reference/cluster-spec.md",
+      "bytes": 83485
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/internals",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/internals/",
+      "title": "Redis internals",
+      "path": "operate/oss_and_stack/reference/internals.md",
+      "bytes": 782
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/internals/internals-rediseventlib",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/internals/internals-rediseventlib/",
+      "title": "Event library",
+      "path": "operate/oss_and_stack/reference/internals/internals-rediseventlib.md",
+      "bytes": 8659
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/internals/internals-sds",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/internals/internals-sds/",
+      "title": "String internals",
+      "path": "operate/oss_and_stack/reference/internals/internals-sds.md",
+      "bytes": 3809
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/internals/internals-vm",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/internals/internals-vm/",
+      "title": "Virtual memory (deprecated)",
+      "path": "operate/oss_and_stack/reference/internals/internals-vm.md",
+      "bytes": 26526
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/internals/rdd",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/internals/rdd/",
+      "title": "Redis design draft #2 (historical)",
+      "path": "operate/oss_and_stack/reference/internals/rdd.md",
+      "bytes": 3902
+    },
+    {
+      "slug": "operate/oss_and_stack/reference/signals",
+      "url": "https://redis.io/docs/latest/operate/oss_and_stack/reference/signals/",
+      "title": "Redis signal handling",
+      "path": "operate/oss_and_stack/reference/signals.md",
+      "bytes": 5572
+    },
+    {
+      "slug": "operate/rc",
+      "url": "https://redis.io/docs/latest/operate/rc/",
+      "title": "Redis Cloud",
+      "path": "operate/rc.md",
+      "bytes": 4862
+    },
+    {
+      "slug": "operate/rc/accounts",
+      "url": "https://redis.io/docs/latest/operate/rc/accounts/",
+      "title": "Manage accounts and settings",
+      "path": "operate/rc/accounts.md",
+      "bytes": 894
+    },
+    {
+      "slug": "operate/rc/accounts/account-settings",
+      "url": "https://redis.io/docs/latest/operate/rc/accounts/account-settings/",
+      "title": "Manage account settings",
+      "path": "operate/rc/accounts/account-settings.md",
+      "bytes": 4697
+    },
+    {
+      "slug": "operate/rc/accounts/user-profile",
+      "url": "https://redis.io/docs/latest/operate/rc/accounts/user-profile/",
+      "title": "Manage user account and profile",
+      "path": "operate/rc/accounts/user-profile.md",
+      "bytes": 3419
+    },
+    {
+      "slug": "operate/rc/api",
+      "url": "https://redis.io/docs/latest/operate/rc/api/",
+      "title": "Redis Cloud REST API",
+      "path": "operate/rc/api.md",
+      "bytes": 1813
+    },
+    {
+      "slug": "operate/rc/api/api-reference",
+      "url": "https://redis.io/docs/latest/operate/rc/api/api-reference/",
+      "title": "Redis Cloud API",
+      "path": "operate/rc/api/api-reference.md",
+      "bytes": 368
+    },
+    {
+      "slug": "operate/rc/api/get-started",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/",
+      "title": "Get started with the REST API",
+      "path": "operate/rc/api/get-started.md",
+      "bytes": 3648
+    },
+    {
+      "slug": "operate/rc/api/get-started/enable-the-api",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/enable-the-api/",
+      "title": "Enable the API",
+      "path": "operate/rc/api/get-started/enable-the-api.md",
+      "bytes": 1938
+    },
+    {
+      "slug": "operate/rc/api/get-started/manage-api-keys",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/manage-api-keys/",
+      "title": "Manage API keys",
+      "path": "operate/rc/api/get-started/manage-api-keys.md",
+      "bytes": 5242
+    },
+    {
+      "slug": "operate/rc/api/get-started/manage-tasks",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/manage-tasks/",
+      "title": "Manage API tasks",
+      "path": "operate/rc/api/get-started/manage-tasks.md",
+      "bytes": 4213
+    },
+    {
+      "slug": "operate/rc/api/get-started/process-lifecycle",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/process-lifecycle/",
+      "title": "The API request lifecycle",
+      "path": "operate/rc/api/get-started/process-lifecycle.md",
+      "bytes": 6403
+    },
+    {
+      "slug": "operate/rc/api/get-started/use-rest-api",
+      "url": "https://redis.io/docs/latest/operate/rc/api/get-started/use-rest-api/",
+      "title": "Use the REST API",
+      "path": "operate/rc/api/get-started/use-rest-api.md",
+      "bytes": 5372
+    },
+    {
+      "slug": "operate/rc/billing-and-payments",
+      "url": "https://redis.io/docs/latest/operate/rc/billing-and-payments/",
+      "title": "Billing & payments",
+      "path": "operate/rc/billing-and-payments.md",
+      "bytes": 6807
+    },
+    {
+      "slug": "operate/rc/billing-and-payments/cost-report",
+      "url": "https://redis.io/docs/latest/operate/rc/billing-and-payments/cost-report/",
+      "title": "Download and analyze cost report",
+      "path": "operate/rc/billing-and-payments/cost-report.md",
+      "bytes": 8249
+    },
+    {
+      "slug": "operate/rc/changelog",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/",
+      "title": "Redis Cloud changelog",
+      "path": "operate/rc/changelog.md",
+      "bytes": 3773
+    },
+    {
+      "slug": "operate/rc/changelog/2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/",
+      "title": "Redis Cloud changelog (2023)",
+      "path": "operate/rc/changelog/2023.md",
+      "bytes": 1879
+    },
+    {
+      "slug": "operate/rc/changelog/2023/april-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/april-2023/",
+      "title": "Redis Cloud changelog (April 2023)",
+      "path": "operate/rc/changelog/2023/april-2023.md",
+      "bytes": 894
+    },
+    {
+      "slug": "operate/rc/changelog/2023/august-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/august-2023/",
+      "title": "Redis Cloud changelog (August 2023)",
+      "path": "operate/rc/changelog/2023/august-2023.md",
+      "bytes": 3061
+    },
+    {
+      "slug": "operate/rc/changelog/2023/december-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/december-2023/",
+      "title": "Redis Cloud changelog (December 2023)",
+      "path": "operate/rc/changelog/2023/december-2023.md",
+      "bytes": 1629
+    },
+    {
+      "slug": "operate/rc/changelog/2023/february-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/february-2023/",
+      "title": "Redis Cloud changelog (February 2023)",
+      "path": "operate/rc/changelog/2023/february-2023.md",
+      "bytes": 925
+    },
+    {
+      "slug": "operate/rc/changelog/2023/january-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/january-2023/",
+      "title": "Redis Cloud changelog (January 2023)",
+      "path": "operate/rc/changelog/2023/january-2023.md",
+      "bytes": 1116
+    },
+    {
+      "slug": "operate/rc/changelog/2023/july-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/july-2023/",
+      "title": "Redis Cloud changelog (July 2023)",
+      "path": "operate/rc/changelog/2023/july-2023.md",
+      "bytes": 1811
+    },
+    {
+      "slug": "operate/rc/changelog/2023/june-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/june-2023/",
+      "title": "Redis Cloud changelog (June 2023)",
+      "path": "operate/rc/changelog/2023/june-2023.md",
+      "bytes": 16965
+    },
+    {
+      "slug": "operate/rc/changelog/2023/march-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/march-2023/",
+      "title": "Redis Cloud changelog (March 2023)",
+      "path": "operate/rc/changelog/2023/march-2023.md",
+      "bytes": 15025
+    },
+    {
+      "slug": "operate/rc/changelog/2023/may-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/may-2023/",
+      "title": "Redis Cloud changelog (May 2023)",
+      "path": "operate/rc/changelog/2023/may-2023.md",
+      "bytes": 1542
+    },
+    {
+      "slug": "operate/rc/changelog/2023/november-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/november-2023/",
+      "title": "Redis Cloud changelog (November 2023)",
+      "path": "operate/rc/changelog/2023/november-2023.md",
+      "bytes": 2330
+    },
+    {
+      "slug": "operate/rc/changelog/2023/october-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/october-2023/",
+      "title": "Redis Cloud changelog (October 2023)",
+      "path": "operate/rc/changelog/2023/october-2023.md",
+      "bytes": 1653
+    },
+    {
+      "slug": "operate/rc/changelog/2023/september-2023",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2023/september-2023/",
+      "title": "Redis Cloud changelog (September 2023)",
+      "path": "operate/rc/changelog/2023/september-2023.md",
+      "bytes": 1597
+    },
+    {
+      "slug": "operate/rc/changelog/2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/",
+      "title": "Redis Cloud changelog (2024)",
+      "path": "operate/rc/changelog/2024.md",
+      "bytes": 1635
+    },
+    {
+      "slug": "operate/rc/changelog/2024/april-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/april-2024/",
+      "title": "Redis Cloud changelog (April 2024)",
+      "path": "operate/rc/changelog/2024/april-2024.md",
+      "bytes": 1699
+    },
+    {
+      "slug": "operate/rc/changelog/2024/december-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/december-2024/",
+      "title": "Redis Cloud changelog (December 2024)",
+      "path": "operate/rc/changelog/2024/december-2024.md",
+      "bytes": 1687
+    },
+    {
+      "slug": "operate/rc/changelog/2024/february-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/february-2024/",
+      "title": "Redis Cloud changelog (February 2024)",
+      "path": "operate/rc/changelog/2024/february-2024.md",
+      "bytes": 1984
+    },
+    {
+      "slug": "operate/rc/changelog/2024/january-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/january-2024/",
+      "title": "Redis Cloud changelog (January 2024)",
+      "path": "operate/rc/changelog/2024/january-2024.md",
+      "bytes": 3010
+    },
+    {
+      "slug": "operate/rc/changelog/2024/july-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/july-2024/",
+      "title": "Redis Cloud changelog (July 2024)",
+      "path": "operate/rc/changelog/2024/july-2024.md",
+      "bytes": 2920
+    },
+    {
+      "slug": "operate/rc/changelog/2024/june-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/june-2024/",
+      "title": "Redis Cloud changelog (June 2024)",
+      "path": "operate/rc/changelog/2024/june-2024.md",
+      "bytes": 1308
+    },
+    {
+      "slug": "operate/rc/changelog/2024/march-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/march-2024/",
+      "title": "Redis Cloud changelog (March 2024)",
+      "path": "operate/rc/changelog/2024/march-2024.md",
+      "bytes": 1220
+    },
+    {
+      "slug": "operate/rc/changelog/2024/may-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/may-2024/",
+      "title": "Redis Cloud changelog (May 2024)",
+      "path": "operate/rc/changelog/2024/may-2024.md",
+      "bytes": 3326
+    },
+    {
+      "slug": "operate/rc/changelog/2024/november-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/november-2024/",
+      "title": "Redis Cloud changelog (November 2024)",
+      "path": "operate/rc/changelog/2024/november-2024.md",
+      "bytes": 1606
+    },
+    {
+      "slug": "operate/rc/changelog/2024/october-2024",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/2024/october-2024/",
+      "title": "Redis Cloud changelog (October 2024)",
+      "path": "operate/rc/changelog/2024/october-2024.md",
+      "bytes": 1460
+    },
+    {
+      "slug": "operate/rc/changelog/april-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/april-2025/",
+      "title": "Redis Cloud changelog (April 2025)",
+      "path": "operate/rc/changelog/april-2025.md",
+      "bytes": 1411
+    },
+    {
+      "slug": "operate/rc/changelog/august-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/august-2025/",
+      "title": "Redis Cloud changelog (August 2025)",
+      "path": "operate/rc/changelog/august-2025.md",
+      "bytes": 942
+    },
+    {
+      "slug": "operate/rc/changelog/december-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/december-2025/",
+      "title": "Redis Cloud changelog (December 2025)",
+      "path": "operate/rc/changelog/december-2025.md",
+      "bytes": 1311
+    },
+    {
+      "slug": "operate/rc/changelog/february-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/february-2025/",
+      "title": "Redis Cloud changelog (February 2025)",
+      "path": "operate/rc/changelog/february-2025.md",
+      "bytes": 884
+    },
+    {
+      "slug": "operate/rc/changelog/january-2026",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/january-2026/",
+      "title": "Redis Cloud changelog (January 2026)",
+      "path": "operate/rc/changelog/january-2026.md",
+      "bytes": 1313
+    },
+    {
+      "slug": "operate/rc/changelog/july-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/july-2025/",
+      "title": "Redis Cloud changelog (July 2025)",
+      "path": "operate/rc/changelog/july-2025.md",
+      "bytes": 2488
+    },
+    {
+      "slug": "operate/rc/changelog/july-2026",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/july-2026/",
+      "title": "Redis Cloud changelog (July 2026)",
+      "path": "operate/rc/changelog/july-2026.md",
+      "bytes": 1888
+    },
+    {
+      "slug": "operate/rc/changelog/june-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/june-2025/",
+      "title": "Redis Cloud changelog (June 2025)",
+      "path": "operate/rc/changelog/june-2025.md",
+      "bytes": 2223
+    },
+    {
+      "slug": "operate/rc/changelog/june-2026",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/june-2026/",
+      "title": "Redis Cloud changelog (June 2026)",
+      "path": "operate/rc/changelog/june-2026.md",
+      "bytes": 1440
+    },
+    {
+      "slug": "operate/rc/changelog/march-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/march-2025/",
+      "title": "Redis Cloud changelog (March 2025)",
+      "path": "operate/rc/changelog/march-2025.md",
+      "bytes": 2561
+    },
+    {
+      "slug": "operate/rc/changelog/march-2026",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/march-2026/",
+      "title": "Redis Cloud changelog (March 2026)",
+      "path": "operate/rc/changelog/march-2026.md",
+      "bytes": 2171
+    },
+    {
+      "slug": "operate/rc/changelog/may-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/may-2025/",
+      "title": "Redis Cloud changelog (May 2025)",
+      "path": "operate/rc/changelog/may-2025.md",
+      "bytes": 1747
+    },
+    {
+      "slug": "operate/rc/changelog/may-2026",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/may-2026/",
+      "title": "Redis Cloud changelog (May 2026)",
+      "path": "operate/rc/changelog/may-2026.md",
+      "bytes": 4368
+    },
+    {
+      "slug": "operate/rc/changelog/november-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/november-2025/",
+      "title": "Redis Cloud changelog (November 2025)",
+      "path": "operate/rc/changelog/november-2025.md",
+      "bytes": 1207
+    },
+    {
+      "slug": "operate/rc/changelog/october-2025",
+      "url": "https://redis.io/docs/latest/operate/rc/changelog/october-2025/",
+      "title": "Redis Cloud changelog (October 2025)",
+      "path": "operate/rc/changelog/october-2025.md",
+      "bytes": 1809
+    },
+    {
+      "slug": "operate/rc/compatibility",
+      "url": "https://redis.io/docs/latest/operate/rc/compatibility/",
+      "title": "Redis Cloud compatibility with Redis Open Source",
+      "path": "operate/rc/compatibility.md",
+      "bytes": 2725
+    },
+    {
+      "slug": "operate/rc/context-engine",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/",
+      "title": "Context Engine on Redis Cloud",
+      "path": "operate/rc/context-engine.md",
+      "bytes": 559
+    },
+    {
+      "slug": "operate/rc/context-engine/agent-memory",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/agent-memory/",
+      "title": "Redis Agent Memory on Redis Cloud",
+      "path": "operate/rc/context-engine/agent-memory.md",
+      "bytes": 2810
+    },
+    {
+      "slug": "operate/rc/context-engine/agent-memory/create-service",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/agent-memory/create-service/",
+      "title": "Create an Agent Memory service",
+      "path": "operate/rc/context-engine/agent-memory/create-service.md",
+      "bytes": 7278
+    },
+    {
+      "slug": "operate/rc/context-engine/agent-memory/use-agent-memory",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/agent-memory/use-agent-memory/",
+      "title": "Redis Cloud Agent Memory REST quickstart",
+      "path": "operate/rc/context-engine/agent-memory/use-agent-memory.md",
+      "bytes": 7233
+    },
+    {
+      "slug": "operate/rc/context-engine/agent-memory/view-service",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/agent-memory/view-service/",
+      "title": "View and manage Agent Memory service",
+      "path": "operate/rc/context-engine/agent-memory/view-service.md",
+      "bytes": 6199
+    },
+    {
+      "slug": "operate/rc/context-engine/context-retriever",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/context-retriever/",
+      "title": "Redis Context Retriever on Redis Cloud",
+      "path": "operate/rc/context-engine/context-retriever.md",
+      "bytes": 2767
+    },
+    {
+      "slug": "operate/rc/context-engine/context-retriever/create-service",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/context-retriever/create-service/",
+      "title": "Create a Context Retriever service",
+      "path": "operate/rc/context-engine/context-retriever/create-service.md",
+      "bytes": 5673
+    },
+    {
+      "slug": "operate/rc/context-engine/context-retriever/view-admin-keys",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/context-retriever/view-admin-keys/",
+      "title": "View and manage Context Retriever admin keys",
+      "path": "operate/rc/context-engine/context-retriever/view-admin-keys.md",
+      "bytes": 3035
+    },
+    {
+      "slug": "operate/rc/context-engine/context-retriever/view-service",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/context-retriever/view-service/",
+      "title": "View and manage Context Retriever service",
+      "path": "operate/rc/context-engine/context-retriever/view-service.md",
+      "bytes": 3431
+    },
+    {
+      "slug": "operate/rc/context-engine/langcache",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/langcache/",
+      "title": "Semantic caching with LangCache on Redis Cloud",
+      "path": "operate/rc/context-engine/langcache.md",
+      "bytes": 3065
+    },
+    {
+      "slug": "operate/rc/context-engine/langcache/create-service",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/langcache/create-service/",
+      "title": "Create a LangCache service",
+      "path": "operate/rc/context-engine/langcache/create-service.md",
+      "bytes": 8252
+    },
+    {
+      "slug": "operate/rc/context-engine/langcache/monitor-cache",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/langcache/monitor-cache/",
+      "title": "Monitor a LangCache service",
+      "path": "operate/rc/context-engine/langcache/monitor-cache.md",
+      "bytes": 2686
+    },
+    {
+      "slug": "operate/rc/context-engine/langcache/use-langcache",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/langcache/use-langcache/",
+      "title": "Use the LangCache API on Redis Cloud",
+      "path": "operate/rc/context-engine/langcache/use-langcache.md",
+      "bytes": 1799
+    },
+    {
+      "slug": "operate/rc/context-engine/langcache/view-edit-cache",
+      "url": "https://redis.io/docs/latest/operate/rc/context-engine/langcache/view-edit-cache/",
+      "title": "View and edit LangCache service",
+      "path": "operate/rc/context-engine/langcache/view-edit-cache.md",
+      "bytes": 5387
+    },
+    {
+      "slug": "operate/rc/logs-reports",
+      "url": "https://redis.io/docs/latest/operate/rc/logs-reports/",
+      "title": "View logs and reports",
+      "path": "operate/rc/logs-reports.md",
+      "bytes": 592
+    },
+    {
+      "slug": "operate/rc/logs-reports/system-logs",
+      "url": "https://redis.io/docs/latest/operate/rc/logs-reports/system-logs/",
+      "title": "System logs",
+      "path": "operate/rc/logs-reports/system-logs.md",
+      "bytes": 1872
+    },
+    {
+      "slug": "operate/rc/logs-reports/usage-reports",
+      "url": "https://redis.io/docs/latest/operate/rc/logs-reports/usage-reports/",
+      "title": "Usage reports",
+      "path": "operate/rc/logs-reports/usage-reports.md",
+      "bytes": 1956
+    },
+    {
+      "slug": "operate/rc/rc-quickstart",
+      "url": "https://redis.io/docs/latest/operate/rc/rc-quickstart/",
+      "title": "Redis Cloud quick start",
+      "path": "operate/rc/rc-quickstart.md",
+      "bytes": 8353
+    },
+    {
+      "slug": "operate/rc/rdi",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/",
+      "title": "Data Integration",
+      "path": "operate/rc/rdi.md",
+      "bytes": 9776
+    },
+    {
+      "slug": "operate/rc/rdi/create-workspace",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/create-workspace/",
+      "title": "Create and manage Data Integration workspace",
+      "path": "operate/rc/rdi/create-workspace.md",
+      "bytes": 3740
+    },
+    {
+      "slug": "operate/rc/rdi/define",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/define/",
+      "title": "Create data pipeline",
+      "path": "operate/rc/rdi/define.md",
+      "bytes": 10759
+    },
+    {
+      "slug": "operate/rc/rdi/quick-start",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/quick-start/",
+      "title": "RDI on Redis Cloud quick start",
+      "path": "operate/rc/rdi/quick-start.md",
+      "bytes": 10050
+    },
+    {
+      "slug": "operate/rc/rdi/rds-proxy",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/rds-proxy/",
+      "title": "RDS Proxy setup for RDI",
+      "path": "operate/rc/rdi/rds-proxy.md",
+      "bytes": 4607
+    },
+    {
+      "slug": "operate/rc/rdi/setup",
+      "url": "https://redis.io/docs/latest/operate/rc/rdi/setup/",
+      "title": "Prepare source database",
+      "path": "operate/rc/rdi/setup.md",
+      "bytes": 31857
+    },
+    {
+      "slug": "operate/rc/resilient-apps",
+      "url": "https://redis.io/docs/latest/operate/rc/resilient-apps/",
+      "title": "Develop highly available and resilient apps with Redis Cloud",
+      "path": "operate/rc/resilient-apps.md",
+      "bytes": 8917
+    },
+    {
+      "slug": "operate/rc/security",
+      "url": "https://redis.io/docs/latest/operate/rc/security/",
+      "title": "Security",
+      "path": "operate/rc/security.md",
+      "bytes": 2790
+    },
+    {
+      "slug": "operate/rc/security/access-control",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/",
+      "title": "Access control",
+      "path": "operate/rc/security/access-control.md",
+      "bytes": 666
+    },
+    {
+      "slug": "operate/rc/security/access-control/access-management",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/access-management/",
+      "title": "Access management",
+      "path": "operate/rc/security/access-control/access-management.md",
+      "bytes": 7593
+    },
+    {
+      "slug": "operate/rc/security/access-control/data-access-control",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/",
+      "title": "Data access control",
+      "path": "operate/rc/security/access-control/data-access-control.md",
+      "bytes": 1921
+    },
+    {
+      "slug": "operate/rc/security/access-control/data-access-control/configure-acls",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/configure-acls/",
+      "title": "Configure permissions with Redis ACLs",
+      "path": "operate/rc/security/access-control/data-access-control/configure-acls.md",
+      "bytes": 6460
+    },
+    {
+      "slug": "operate/rc/security/access-control/data-access-control/create-assign-users",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/create-assign-users/",
+      "title": "Create and edit database users",
+      "path": "operate/rc/security/access-control/data-access-control/create-assign-users.md",
+      "bytes": 2699
+    },
+    {
+      "slug": "operate/rc/security/access-control/data-access-control/default-user",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/default-user/",
+      "title": "Default user",
+      "path": "operate/rc/security/access-control/data-access-control/default-user.md",
+      "bytes": 3129
+    },
+    {
+      "slug": "operate/rc/security/access-control/data-access-control/role-based-access-control",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/data-access-control/role-based-access-control/",
+      "title": "Enable Role-based access control",
+      "path": "operate/rc/security/access-control/data-access-control/role-based-access-control.md",
+      "bytes": 4012
+    },
+    {
+      "slug": "operate/rc/security/access-control/multi-factor-authentication",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/multi-factor-authentication/",
+      "title": "Multi-factor authentication",
+      "path": "operate/rc/security/access-control/multi-factor-authentication.md",
+      "bytes": 5312
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/",
+      "title": "SAML single sign-on",
+      "path": "operate/rc/security/access-control/saml-sso.md",
+      "bytes": 17554
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-auth0",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-auth0/",
+      "title": "Auth0 SAML integration guide",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-auth0.md",
+      "bytes": 7787
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-aws-identity-center",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-aws-identity-center/",
+      "title": "AWS IAM Identity Center SAML integration guide",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-aws-identity-center.md",
+      "bytes": 7142
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-azure-ad",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-azure-ad/",
+      "title": "Microsoft Entra (formerly Azure Active Directory) SAML integration guide",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-azure-ad.md",
+      "bytes": 8124
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-google",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-google/",
+      "title": "Google Workspace SAML integration guide",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-google.md",
+      "bytes": 7087
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-okta-generic",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-okta-generic/",
+      "title": "Okta SAML integration guide (Generic)",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-okta-generic.md",
+      "bytes": 10577
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-okta-org2org",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-okta-org2org/",
+      "title": "Okta SAML integration guide (Org2Org)",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-okta-org2org.md",
+      "bytes": 9942
+    },
+    {
+      "slug": "operate/rc/security/access-control/saml-sso/saml-integration-ping-identity",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/saml-sso/saml-integration-ping-identity/",
+      "title": "PingIdentity SAML integration guide",
+      "path": "operate/rc/security/access-control/saml-sso/saml-integration-ping-identity.md",
+      "bytes": 7609
+    },
+    {
+      "slug": "operate/rc/security/access-control/social-login",
+      "url": "https://redis.io/docs/latest/operate/rc/security/access-control/social-login/",
+      "title": "Social login",
+      "path": "operate/rc/security/access-control/social-login.md",
+      "bytes": 2756
+    },
+    {
+      "slug": "operate/rc/security/aws-privatelink",
+      "url": "https://redis.io/docs/latest/operate/rc/security/aws-privatelink/",
+      "title": "Connect to Amazon Web Services PrivateLink",
+      "path": "operate/rc/security/aws-privatelink.md",
+      "bytes": 12390
+    },
+    {
+      "slug": "operate/rc/security/aws-transit-gateway",
+      "url": "https://redis.io/docs/latest/operate/rc/security/aws-transit-gateway/",
+      "title": "Connect to Amazon Web Services Transit Gateway",
+      "path": "operate/rc/security/aws-transit-gateway.md",
+      "bytes": 8517
+    },
+    {
+      "slug": "operate/rc/security/cidr-whitelist",
+      "url": "https://redis.io/docs/latest/operate/rc/security/cidr-whitelist/",
+      "title": "Configure CIDR allow list",
+      "path": "operate/rc/security/cidr-whitelist.md",
+      "bytes": 2828
+    },
+    {
+      "slug": "operate/rc/security/database-security",
+      "url": "https://redis.io/docs/latest/operate/rc/security/database-security/",
+      "title": "Cloud database security",
+      "path": "operate/rc/security/database-security.md",
+      "bytes": 2729
+    },
+    {
+      "slug": "operate/rc/security/database-security/block-public-endpoints",
+      "url": "https://redis.io/docs/latest/operate/rc/security/database-security/block-public-endpoints/",
+      "title": "Block public endpoints",
+      "path": "operate/rc/security/database-security/block-public-endpoints.md",
+      "bytes": 4820
+    },
+    {
+      "slug": "operate/rc/security/database-security/network-security",
+      "url": "https://redis.io/docs/latest/operate/rc/security/database-security/network-security/",
+      "title": "Network security",
+      "path": "operate/rc/security/database-security/network-security.md",
+      "bytes": 2943
+    },
+    {
+      "slug": "operate/rc/security/database-security/tls-ssl",
+      "url": "https://redis.io/docs/latest/operate/rc/security/database-security/tls-ssl/",
+      "title": "Transport Layer Security (TLS)",
+      "path": "operate/rc/security/database-security/tls-ssl.md",
+      "bytes": 7301
+    },
+    {
+      "slug": "operate/rc/security/encryption-at-rest",
+      "url": "https://redis.io/docs/latest/operate/rc/security/encryption-at-rest/",
+      "title": "Encryption at rest",
+      "path": "operate/rc/security/encryption-at-rest.md",
+      "bytes": 2111
+    },
+    {
+      "slug": "operate/rc/security/private-service-connect",
+      "url": "https://redis.io/docs/latest/operate/rc/security/private-service-connect/",
+      "title": "Enable Google Cloud Private Service Connect",
+      "path": "operate/rc/security/private-service-connect.md",
+      "bytes": 7847
+    },
+    {
+      "slug": "operate/rc/security/shared-responsibility-model",
+      "url": "https://redis.io/docs/latest/operate/rc/security/shared-responsibility-model/",
+      "title": "Redis Cloud shared responsibility model",
+      "path": "operate/rc/security/shared-responsibility-model.md",
+      "bytes": 2757
+    },
+    {
+      "slug": "operate/rc/security/vpc-peering",
+      "url": "https://redis.io/docs/latest/operate/rc/security/vpc-peering/",
+      "title": "Enable VPC peering",
+      "path": "operate/rc/security/vpc-peering.md",
+      "bytes": 6646
+    },
+    {
+      "slug": "operate/rc/subscriptions",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/",
+      "title": "Manage subscriptions",
+      "path": "operate/rc/subscriptions.md",
+      "bytes": 4391
+    },
+    {
+      "slug": "operate/rc/subscriptions/delete-subscription",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/delete-subscription/",
+      "title": "Delete a subscription",
+      "path": "operate/rc/subscriptions/delete-subscription.md",
+      "bytes": 1547
+    },
+    {
+      "slug": "operate/rc/subscriptions/maintenance",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/maintenance/",
+      "title": "Subscription and database maintenance",
+      "path": "operate/rc/subscriptions/maintenance.md",
+      "bytes": 4623
+    },
+    {
+      "slug": "operate/rc/subscriptions/maintenance/set-maintenance-windows",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/maintenance/set-maintenance-windows/",
+      "title": "Set maintenance windows",
+      "path": "operate/rc/subscriptions/maintenance/set-maintenance-windows.md",
+      "bytes": 3612
+    },
+    {
+      "slug": "operate/rc/subscriptions/upgrade-essentials-pro",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/upgrade-essentials-pro/",
+      "title": "Upgrade database from Redis Cloud Essentials to Redis Cloud Pro",
+      "path": "operate/rc/subscriptions/upgrade-essentials-pro.md",
+      "bytes": 8224
+    },
+    {
+      "slug": "operate/rc/subscriptions/view-essentials-subscription",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/view-essentials-subscription/",
+      "title": "View and Upgrade Redis Cloud Essentials plan",
+      "path": "operate/rc/subscriptions/view-essentials-subscription.md",
+      "bytes": 5576
+    },
+    {
+      "slug": "operate/rc/subscriptions/view-essentials-subscription/essentials-plan-details",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/view-essentials-subscription/essentials-plan-details/",
+      "title": "Redis Cloud Essentials plans",
+      "path": "operate/rc/subscriptions/view-essentials-subscription/essentials-plan-details.md",
+      "bytes": 4753
+    },
+    {
+      "slug": "operate/rc/subscriptions/view-pro-subscription",
+      "url": "https://redis.io/docs/latest/operate/rc/subscriptions/view-pro-subscription/",
+      "title": "View and edit Redis Cloud Pro plan",
+      "path": "operate/rc/subscriptions/view-pro-subscription.md",
+      "bytes": 7482
+    },
+    {
+      "slug": "operate/rc/supported-regions",
+      "url": "https://redis.io/docs/latest/operate/rc/supported-regions/",
+      "title": "Supported Cloud providers and regions",
+      "path": "operate/rc/supported-regions.md",
+      "bytes": 5701
+    },
+    {
+      "slug": "operate/rc/troubleshoot",
+      "url": "https://redis.io/docs/latest/operate/rc/troubleshoot/",
+      "title": "Troubleshoot Redis Cloud issues with the Redis Cloud knowledge base",
+      "path": "operate/rc/troubleshoot.md",
+      "bytes": 2701
+    },
+    {
+      "slug": "operate/rdi",
+      "url": "https://redis.io/docs/latest/operate/rdi/",
+      "title": "Redis Data Integration (RDI)",
+      "path": "operate/rdi.md",
+      "bytes": 1159
+    },
+    {
+      "slug": "operate/rs",
+      "url": "https://redis.io/docs/latest/operate/rs/",
+      "title": "Redis Software",
+      "path": "operate/rs.md",
+      "bytes": 4287
+    },
+    {
+      "slug": "operate/rs/clusters",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/",
+      "title": "Manage clusters",
+      "path": "operate/rs/clusters.md",
+      "bytes": 927
+    },
+    {
+      "slug": "operate/rs/clusters/change-node-role",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/change-node-role/",
+      "title": "Change node roles",
+      "path": "operate/rs/clusters/change-node-role.md",
+      "bytes": 3718
+    },
+    {
+      "slug": "operate/rs/clusters/cluster-recovery",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/cluster-recovery/",
+      "title": "Recover a failed cluster",
+      "path": "operate/rs/clusters/cluster-recovery.md",
+      "bytes": 5056
+    },
+    {
+      "slug": "operate/rs/clusters/configure",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/",
+      "title": "Configure clusters",
+      "path": "operate/rs/clusters/configure.md",
+      "bytes": 935
+    },
+    {
+      "slug": "operate/rs/clusters/configure/call-home",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/call-home/",
+      "title": "Call home client",
+      "path": "operate/rs/clusters/configure/call-home.md",
+      "bytes": 3106
+    },
+    {
+      "slug": "operate/rs/clusters/configure/cluster-settings",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/cluster-settings/",
+      "title": "Cluster settings",
+      "path": "operate/rs/clusters/configure/cluster-settings.md",
+      "bytes": 2532
+    },
+    {
+      "slug": "operate/rs/clusters/configure/license-keys",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/license-keys/",
+      "title": "Cluster license keys",
+      "path": "operate/rs/clusters/configure/license-keys.md",
+      "bytes": 5582
+    },
+    {
+      "slug": "operate/rs/clusters/configure/rack-zone-awareness",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/rack-zone-awareness/",
+      "title": "Rack-zone awareness in Redis Software",
+      "path": "operate/rs/clusters/configure/rack-zone-awareness.md",
+      "bytes": 9208
+    },
+    {
+      "slug": "operate/rs/clusters/configure/sch",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/sch/",
+      "title": "Smart client handoffs",
+      "path": "operate/rs/clusters/configure/sch.md",
+      "bytes": 2499
+    },
+    {
+      "slug": "operate/rs/clusters/configure/sync-clocks",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/configure/sync-clocks/",
+      "title": "Synchronize cluster node clocks",
+      "path": "operate/rs/clusters/configure/sync-clocks.md",
+      "bytes": 4339
+    },
+    {
+      "slug": "operate/rs/clusters/logging",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/",
+      "title": "Logging events",
+      "path": "operate/rs/clusters/logging.md",
+      "bytes": 2495
+    },
+    {
+      "slug": "operate/rs/clusters/logging/alerts-events",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/alerts-events/",
+      "title": "Alerts and events",
+      "path": "operate/rs/clusters/logging/alerts-events.md",
+      "bytes": 6804
+    },
+    {
+      "slug": "operate/rs/clusters/logging/diagnostic-logging",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/diagnostic-logging/",
+      "title": "Diagnostic logging",
+      "path": "operate/rs/clusters/logging/diagnostic-logging.md",
+      "bytes": 6568
+    },
+    {
+      "slug": "operate/rs/clusters/logging/log-security",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/log-security/",
+      "title": "Manage logs",
+      "path": "operate/rs/clusters/logging/log-security.md",
+      "bytes": 3539
+    },
+    {
+      "slug": "operate/rs/clusters/logging/redis-slow-log",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/redis-slow-log/",
+      "title": "View and manage Redis slow log",
+      "path": "operate/rs/clusters/logging/redis-slow-log.md",
+      "bytes": 6070
+    },
+    {
+      "slug": "operate/rs/clusters/logging/rsyslog-logging",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/logging/rsyslog-logging/",
+      "title": "rsyslog logging",
+      "path": "operate/rs/clusters/logging/rsyslog-logging.md",
+      "bytes": 11773
+    },
+    {
+      "slug": "operate/rs/clusters/new-cluster-setup",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/new-cluster-setup/",
+      "title": "Set up a new cluster",
+      "path": "operate/rs/clusters/new-cluster-setup.md",
+      "bytes": 3744
+    },
+    {
+      "slug": "operate/rs/clusters/optimize",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/optimize/",
+      "title": "Optimize clusters",
+      "path": "operate/rs/clusters/optimize.md",
+      "bytes": 594
+    },
+    {
+      "slug": "operate/rs/clusters/optimize/disk-sizing-heavy-write-scenarios",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/optimize/disk-sizing-heavy-write-scenarios/",
+      "title": "Disk sizing for heavy write scenarios",
+      "path": "operate/rs/clusters/optimize/disk-sizing-heavy-write-scenarios.md",
+      "bytes": 3559
+    },
+    {
+      "slug": "operate/rs/clusters/optimize/memtier-benchmark",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/optimize/memtier-benchmark/",
+      "title": "Benchmarking Redis Software",
+      "path": "operate/rs/clusters/optimize/memtier-benchmark.md",
+      "bytes": 2438
+    },
+    {
+      "slug": "operate/rs/clusters/optimize/optimization",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/optimize/optimization/",
+      "title": "Cluster environment optimization",
+      "path": "operate/rs/clusters/optimize/optimization.md",
+      "bytes": 2554
+    },
+    {
+      "slug": "operate/rs/clusters/optimize/oss-cluster-api",
+      "url": "https://redis.io/docs/latest/operate/rs/clusters/optimize/oss-cluster-api/",
+      "title": "OSS Cluster API",
+      "path": "operate/rs/clusters/optimize/oss-cluster-api.md",
+      "bytes": 1935
+    },
+    {
+      "slug": "operate/rs/flex",
+      "url": "https://redis.io/docs/latest/operate/rs/flex/",
+      "title": "Flex databases",
+      "path": "operate/rs/flex.md",
+      "bytes": 5044
+    },
+    {
+      "slug": "operate/rs/flex/get-started",
+      "url": "https://redis.io/docs/latest/operate/rs/flex/get-started/",
+      "title": "Get started with Flex databases for Redis Software",
+      "path": "operate/rs/flex/get-started.md",
+      "bytes": 4305
+    },
+    {
+      "slug": "operate/rs/flex/plan",
+      "url": "https://redis.io/docs/latest/operate/rs/flex/plan/",
+      "title": "Plan a Flex deployment for Redis Software",
+      "path": "operate/rs/flex/plan.md",
+      "bytes": 4825
+    },
+    {
+      "slug": "operate/rs/flex/scale",
+      "url": "https://redis.io/docs/latest/operate/rs/flex/scale/",
+      "title": "Scale Flex databases for Redis Software",
+      "path": "operate/rs/flex/scale.md",
+      "bytes": 5863
+    },
+    {
+      "slug": "operate/rs/installing-upgrading",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/",
+      "title": "Install, set up, and upgrade Redis Software",
+      "path": "operate/rs/installing-upgrading.md",
+      "bytes": 3427
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/configuring",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/configuring/",
+      "title": "Additional configuration",
+      "path": "operate/rs/installing-upgrading/configuring.md",
+      "bytes": 637
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/configuring/centos-rhel-firewall",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/configuring/centos-rhel-firewall/",
+      "title": "Configure CentOS/RHEL firewall",
+      "path": "operate/rs/installing-upgrading/configuring/centos-rhel-firewall.md",
+      "bytes": 2379
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/configuring/linux-swap",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/configuring/linux-swap/",
+      "title": "Configure swap for Linux",
+      "path": "operate/rs/installing-upgrading/configuring/linux-swap.md",
+      "bytes": 1940
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/creating-support-package",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/creating-support-package/",
+      "title": "Create a support package",
+      "path": "operate/rs/installing-upgrading/creating-support-package.md",
+      "bytes": 8339
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/",
+      "title": "Install Redis Software",
+      "path": "operate/rs/installing-upgrading/install.md",
+      "bytes": 3397
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/customize-user-and-group",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/customize-user-and-group/",
+      "title": "Customize system user and group",
+      "path": "operate/rs/installing-upgrading/install/customize-user-and-group.md",
+      "bytes": 1924
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/install-on-linux",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/install-on-linux/",
+      "title": "Install Redis Software on Linux",
+      "path": "operate/rs/installing-upgrading/install/install-on-linux.md",
+      "bytes": 6216
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/manage-installation-questions",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/manage-installation-questions/",
+      "title": "Manage installation questions",
+      "path": "operate/rs/installing-upgrading/install/manage-installation-questions.md",
+      "bytes": 5179
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/offline-installation",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/offline-installation/",
+      "title": "Offline installation",
+      "path": "operate/rs/installing-upgrading/install/offline-installation.md",
+      "bytes": 1956
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/plan-deployment",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/plan-deployment/",
+      "title": "Plan Redis Software deployment",
+      "path": "operate/rs/installing-upgrading/install/plan-deployment.md",
+      "bytes": 2747
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/plan-deployment/file-locations",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/plan-deployment/file-locations/",
+      "title": "File locations",
+      "path": "operate/rs/installing-upgrading/install/plan-deployment/file-locations.md",
+      "bytes": 2680
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/plan-deployment/hardware-requirements",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/plan-deployment/hardware-requirements/",
+      "title": "Hardware requirements",
+      "path": "operate/rs/installing-upgrading/install/plan-deployment/hardware-requirements.md",
+      "bytes": 8749
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/plan-deployment/persistent-ephemeral-storage",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/plan-deployment/persistent-ephemeral-storage/",
+      "title": "Persistent and ephemeral node storage",
+      "path": "operate/rs/installing-upgrading/install/plan-deployment/persistent-ephemeral-storage.md",
+      "bytes": 2887
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/plan-deployment/supported-platforms",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/plan-deployment/supported-platforms/",
+      "title": "Supported platforms",
+      "path": "operate/rs/installing-upgrading/install/plan-deployment/supported-platforms.md",
+      "bytes": 10715
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/prepare-install",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/prepare-install/",
+      "title": "Prepare to install Redis Software",
+      "path": "operate/rs/installing-upgrading/install/prepare-install.md",
+      "bytes": 1933
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/prepare-install/download-install-package",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/prepare-install/download-install-package/",
+      "title": "Download a Redis Software installation package",
+      "path": "operate/rs/installing-upgrading/install/prepare-install/download-install-package.md",
+      "bytes": 1298
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/install/prepare-install/port-availability",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/install/prepare-install/port-availability/",
+      "title": "Ensure port availability",
+      "path": "operate/rs/installing-upgrading/install/prepare-install/port-availability.md",
+      "bytes": 2781
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/product-lifecycle",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/product-lifecycle/",
+      "title": "Redis Software product lifecycle",
+      "path": "operate/rs/installing-upgrading/product-lifecycle.md",
+      "bytes": 6255
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/quickstarts",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/quickstarts/",
+      "title": "Redis Software quickstarts",
+      "path": "operate/rs/installing-upgrading/quickstarts.md",
+      "bytes": 1303
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/quickstarts/docker-quickstart",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/quickstarts/docker-quickstart/",
+      "title": "Docker quickstart for Redis Software",
+      "path": "operate/rs/installing-upgrading/quickstarts/docker-quickstart.md",
+      "bytes": 8508
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/uninstalling",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/uninstalling/",
+      "title": "Uninstall Redis Software",
+      "path": "operate/rs/installing-upgrading/uninstalling.md",
+      "bytes": 1379
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/upgrading",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/",
+      "title": "Upgrade an existing Redis Software deployment",
+      "path": "operate/rs/installing-upgrading/upgrading.md",
+      "bytes": 2616
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/upgrading/upgrade-active-active",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-active-active/",
+      "title": "Upgrade an Active-Active database",
+      "path": "operate/rs/installing-upgrading/upgrading/upgrade-active-active.md",
+      "bytes": 8264
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/upgrading/upgrade-cluster",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-cluster/",
+      "title": "Upgrade a Redis Software cluster",
+      "path": "operate/rs/installing-upgrading/upgrading/upgrade-cluster.md",
+      "bytes": 11211
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/upgrading/upgrade-database",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-database/",
+      "title": "Upgrade a Redis Software database",
+      "path": "operate/rs/installing-upgrading/upgrading/upgrade-database.md",
+      "bytes": 8151
+    },
+    {
+      "slug": "operate/rs/installing-upgrading/upgrading/upgrade-os",
+      "url": "https://redis.io/docs/latest/operate/rs/installing-upgrading/upgrading/upgrade-os/",
+      "title": "Upgrade a cluster's operating system",
+      "path": "operate/rs/installing-upgrading/upgrading/upgrade-os.md",
+      "bytes": 5184
+    },
+    {
+      "slug": "operate/rs/monitoring",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/",
+      "title": "Monitoring with metrics and alerts",
+      "path": "operate/rs/monitoring.md",
+      "bytes": 2668
+    },
+    {
+      "slug": "operate/rs/monitoring/db-availability",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/db-availability/",
+      "title": "Check database availability for monitoring and load balancers",
+      "path": "operate/rs/monitoring/db-availability.md",
+      "bytes": 5380
+    },
+    {
+      "slug": "operate/rs/monitoring/get-started",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/get-started/",
+      "title": "Get started with monitoring Redis Software",
+      "path": "operate/rs/monitoring/get-started.md",
+      "bytes": 11795
+    },
+    {
+      "slug": "operate/rs/monitoring/health-report",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/health-report/",
+      "title": "Consolidated health report",
+      "path": "operate/rs/monitoring/health-report.md",
+      "bytes": 5195
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/",
+      "title": "Monitoring v2",
+      "path": "operate/rs/monitoring/metrics_stream_engine.md",
+      "bytes": 10292
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine/alerts-v1-to-v2",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/alerts-v1-to-v2/",
+      "title": "Transition cluster manager alerts to Prometheus alerts",
+      "path": "operate/rs/monitoring/metrics_stream_engine/alerts-v1-to-v2.md",
+      "bytes": 2156
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine/db-tags-in-metrics",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/db-tags-in-metrics/",
+      "title": "Database tags in metrics",
+      "path": "operate/rs/monitoring/metrics_stream_engine/db-tags-in-metrics.md",
+      "bytes": 9585
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine/metrics-configuration",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/metrics-configuration/",
+      "title": "Metrics configuration",
+      "path": "operate/rs/monitoring/metrics_stream_engine/metrics-configuration.md",
+      "bytes": 1898
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v1-to-v2",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v1-to-v2/",
+      "title": "Transition from Prometheus v1 to Prometheus v2",
+      "path": "operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v1-to-v2.md",
+      "bytes": 38081
+    },
+    {
+      "slug": "operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v2",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v2/",
+      "title": "Prometheus metrics v2",
+      "path": "operate/rs/monitoring/metrics_stream_engine/prometheus-metrics-v2.md",
+      "bytes": 38704
+    },
+    {
+      "slug": "operate/rs/monitoring/observability",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/observability/",
+      "title": "Redis Software observability and monitoring guidance",
+      "path": "operate/rs/monitoring/observability.md",
+      "bytes": 41525
+    },
+    {
+      "slug": "operate/rs/monitoring/v1_monitoring",
+      "url": "https://redis.io/docs/latest/operate/rs/monitoring/v1_monitoring/",
+      "title": "Metrics and alerts for monitoring v1",
+      "path": "operate/rs/monitoring/v1_monitoring.md",
+      "bytes": 7083
+    },
+    {
+      "slug": "operate/rs/networking",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/",
+      "title": "Manage networks",
+      "path": "operate/rs/networking.md",
+      "bytes": 562
+    },
+    {
+      "slug": "operate/rs/networking/cluster-dns",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/cluster-dns/",
+      "title": "Configure cluster DNS",
+      "path": "operate/rs/networking/cluster-dns.md",
+      "bytes": 6489
+    },
+    {
+      "slug": "operate/rs/networking/cluster-lba-setup",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/cluster-lba-setup/",
+      "title": "Set up a Redis Software cluster behind a load balancer",
+      "path": "operate/rs/networking/cluster-lba-setup.md",
+      "bytes": 6842
+    },
+    {
+      "slug": "operate/rs/networking/mdns",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/mdns/",
+      "title": "Client prerequisites for mDNS",
+      "path": "operate/rs/networking/mdns.md",
+      "bytes": 1954
+    },
+    {
+      "slug": "operate/rs/networking/multi-ip-ipv6",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/multi-ip-ipv6/",
+      "title": "Manage IP addresses",
+      "path": "operate/rs/networking/multi-ip-ipv6.md",
+      "bytes": 6693
+    },
+    {
+      "slug": "operate/rs/networking/port-configurations",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/port-configurations/",
+      "title": "Network port configurations",
+      "path": "operate/rs/networking/port-configurations.md",
+      "bytes": 8224
+    },
+    {
+      "slug": "operate/rs/networking/private-public-endpoints",
+      "url": "https://redis.io/docs/latest/operate/rs/networking/private-public-endpoints/",
+      "title": "Enable private andÂ public database endpoints",
+      "path": "operate/rs/networking/private-public-endpoints.md",
+      "bytes": 2772
+    },
+    {
+      "slug": "operate/rs/rs-archive",
+      "url": "https://redis.io/docs/latest/operate/rs/rs-archive/",
+      "title": "Archive",
+      "path": "operate/rs/rs-archive.md",
+      "bytes": 1078
+    },
+    {
+      "slug": "operate/rs/security",
+      "url": "https://redis.io/docs/latest/operate/rs/security/",
+      "title": "Security",
+      "path": "operate/rs/security.md",
+      "bytes": 2746
+    },
+    {
+      "slug": "operate/rs/security/access-control",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/",
+      "title": "Access control",
+      "path": "operate/rs/security/access-control.md",
+      "bytes": 2809
+    },
+    {
+      "slug": "operate/rs/security/access-control/create-users",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/create-users/",
+      "title": "Create users",
+      "path": "operate/rs/security/access-control/create-users.md",
+      "bytes": 3342
+    },
+    {
+      "slug": "operate/rs/security/access-control/disable-basic-authentication",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/disable-basic-authentication/",
+      "title": "Disable basic authentication for the REST API",
+      "path": "operate/rs/security/access-control/disable-basic-authentication.md",
+      "bytes": 4618
+    },
+    {
+      "slug": "operate/rs/security/access-control/ldap",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/ldap/",
+      "title": "LDAP authentication",
+      "path": "operate/rs/security/access-control/ldap.md",
+      "bytes": 4341
+    },
+    {
+      "slug": "operate/rs/security/access-control/ldap/certificate-based-authentication",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/ldap/certificate-based-authentication/",
+      "title": "Certificate-based authentication for LDAP",
+      "path": "operate/rs/security/access-control/ldap/certificate-based-authentication.md",
+      "bytes": 3701
+    },
+    {
+      "slug": "operate/rs/security/access-control/ldap/enable-role-based-ldap",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/ldap/enable-role-based-ldap/",
+      "title": "Enable role-based LDAP",
+      "path": "operate/rs/security/access-control/ldap/enable-role-based-ldap.md",
+      "bytes": 4552
+    },
+    {
+      "slug": "operate/rs/security/access-control/ldap/migrate-to-role-based-ldap",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/ldap/migrate-to-role-based-ldap/",
+      "title": "Migrate to role-based LDAP",
+      "path": "operate/rs/security/access-control/ldap/migrate-to-role-based-ldap.md",
+      "bytes": 3298
+    },
+    {
+      "slug": "operate/rs/security/access-control/ldap/update-database-acls",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/ldap/update-database-acls/",
+      "title": "Update database ACLs",
+      "path": "operate/rs/security/access-control/ldap/update-database-acls.md",
+      "bytes": 1924
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-passwords",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-passwords/",
+      "title": "Set password policies",
+      "path": "operate/rs/security/access-control/manage-passwords.md",
+      "bytes": 1746
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-passwords/active-active-admin-credentials",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-passwords/active-active-admin-credentials/",
+      "title": "Update admin credentials for Active-Active databases",
+      "path": "operate/rs/security/access-control/manage-passwords/active-active-admin-credentials.md",
+      "bytes": 2629
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-passwords/password-expiration",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-passwords/password-expiration/",
+      "title": "Configure password expiration",
+      "path": "operate/rs/security/access-control/manage-passwords/password-expiration.md",
+      "bytes": 1884
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-passwords/password-hashing-algorithm",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-passwords/password-hashing-algorithm/",
+      "title": "Change the password hashing algorithm",
+      "path": "operate/rs/security/access-control/manage-passwords/password-hashing-algorithm.md",
+      "bytes": 1948
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-passwords/rotate-passwords",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-passwords/rotate-passwords/",
+      "title": "Rotate passwords",
+      "path": "operate/rs/security/access-control/manage-passwords/rotate-passwords.md",
+      "bytes": 3944
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-users",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-users/",
+      "title": "Manage user security",
+      "path": "operate/rs/security/access-control/manage-users.md",
+      "bytes": 788
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-users/default-user",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-users/default-user/",
+      "title": "Manage default user",
+      "path": "operate/rs/security/access-control/manage-users/default-user.md",
+      "bytes": 2996
+    },
+    {
+      "slug": "operate/rs/security/access-control/manage-users/login-lockout",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/manage-users/login-lockout/",
+      "title": "Manage user login",
+      "path": "operate/rs/security/access-control/manage-users/login-lockout.md",
+      "bytes": 7045
+    },
+    {
+      "slug": "operate/rs/security/access-control/redis-acl-overview",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/redis-acl-overview/",
+      "title": "Overview of Redis ACLs in Redis Software",
+      "path": "operate/rs/security/access-control/redis-acl-overview.md",
+      "bytes": 9489
+    },
+    {
+      "slug": "operate/rs/security/access-control/saml-sso",
+      "url": "https://redis.io/docs/latest/operate/rs/security/access-control/saml-sso/",
+      "title": "SAML single sign-on",
+      "path": "operate/rs/security/access-control/saml-sso.md",
+      "bytes": 18173
+    },
+    {
+      "slug": "operate/rs/security/audit-events",
+      "url": "https://redis.io/docs/latest/operate/rs/security/audit-events/",
+      "title": "Audit database commands and connections",
+      "path": "operate/rs/security/audit-events.md",
+      "bytes": 24559
+    },
+    {
+      "slug": "operate/rs/security/encryption",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/",
+      "title": "Encryption in Redis Software",
+      "path": "operate/rs/security/encryption.md",
+      "bytes": 3242
+    },
+    {
+      "slug": "operate/rs/security/encryption/internode-encryption",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/internode-encryption/",
+      "title": "Internode encryption",
+      "path": "operate/rs/security/encryption/internode-encryption.md",
+      "bytes": 10228
+    },
+    {
+      "slug": "operate/rs/security/encryption/pem-encryption",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/pem-encryption/",
+      "title": "Encrypt private keys",
+      "path": "operate/rs/security/encryption/pem-encryption.md",
+      "bytes": 1948
+    },
+    {
+      "slug": "operate/rs/security/encryption/tls",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/tls/",
+      "title": "Transport Layer Security (TLS)",
+      "path": "operate/rs/security/encryption/tls.md",
+      "bytes": 2280
+    },
+    {
+      "slug": "operate/rs/security/encryption/tls/ciphers",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/tls/ciphers/",
+      "title": "Configure cipher suites",
+      "path": "operate/rs/security/encryption/tls/ciphers.md",
+      "bytes": 6449
+    },
+    {
+      "slug": "operate/rs/security/encryption/tls/enable-tls",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/tls/enable-tls/",
+      "title": "Enable TLS",
+      "path": "operate/rs/security/encryption/tls/enable-tls.md",
+      "bytes": 13574
+    },
+    {
+      "slug": "operate/rs/security/encryption/tls/tls-protocols",
+      "url": "https://redis.io/docs/latest/operate/rs/security/encryption/tls/tls-protocols/",
+      "title": "Configure TLS protocol",
+      "path": "operate/rs/security/encryption/tls/tls-protocols.md",
+      "bytes": 4573
+    },
+    {
+      "slug": "operate/rs/troubleshooting",
+      "url": "https://redis.io/docs/latest/operate/rs/troubleshooting/",
+      "title": "Troubleshooting Redis Software",
+      "path": "operate/rs/troubleshooting.md",
+      "bytes": 3258
+    },
+    {
+      "slug": "tags",
+      "url": "https://redis.io/docs/latest/tags/",
+      "title": "Tags",
+      "path": "tags.md",
+      "bytes": 296
+    },
+    {
+      "slug": "tags/changelog",
+      "url": "https://redis.io/docs/latest/tags/changelog/",
+      "title": "Tags/Changelog",
+      "path": "tags/changelog.md",
+      "bytes": 335
+    },
+    {
+      "slug": "tags/configured",
+      "url": "https://redis.io/docs/latest/tags/configured/",
+      "title": "Tags/Configured",
+      "path": "tags/configured.md",
+      "bytes": 339
+    },
+    {
+      "slug": "tags/non-configured",
+      "url": "https://redis.io/docs/latest/tags/non-configured/",
+      "title": "Tags/Non Configured",
+      "path": "tags/non-configured.md",
+      "bytes": 355
+    },
+    {
+      "slug": "tags/visible",
+      "url": "https://redis.io/docs/latest/tags/visible/",
+      "title": "Tags/Visible",
+      "path": "tags/visible.md",
+      "bytes": 327
+    }
+  ]
+}

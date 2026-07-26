@@ -1,0 +1,49 @@
+{
+  "source": "https://docs.haproxy.org/",
+  "retrieved_at": "2026-07-26T15:55:21+00:00",
+  "page_count": 6,
+  "pages": [
+    {
+      "slug": "2.8/configuration",
+      "url": "https://docs.haproxy.org/2.8/configuration.html",
+      "title": "HAProxy 2.8 Configuration Guide",
+      "path": "2.8/configuration.md",
+      "bytes": 1427257
+    },
+    {
+      "slug": "2.8/intro",
+      "url": "https://docs.haproxy.org/2.8/intro.html",
+      "title": "HAProxy 2.8 Intro Guide",
+      "path": "2.8/intro.md",
+      "bytes": 91712
+    },
+    {
+      "slug": "2.8/management",
+      "url": "https://docs.haproxy.org/2.8/management.html",
+      "title": "HAProxy 2.8 Management Guide",
+      "path": "2.8/management.md",
+      "bytes": 244420
+    },
+    {
+      "slug": "3.0/configuration",
+      "url": "https://docs.haproxy.org/3.0/configuration.html",
+      "title": "HAProxy 3.0 Configuration Guide",
+      "path": "3.0/configuration.md",
+      "bytes": 1540279
+    },
+    {
+      "slug": "3.0/intro",
+      "url": "https://docs.haproxy.org/3.0/intro.html",
+      "title": "HAProxy 3.0 Intro Guide",
+      "path": "3.0/intro.md",
+      "bytes": 91712
+    },
+    {
+      "slug": "3.0/management",
+      "url": "https://docs.haproxy.org/3.0/management.html",
+      "title": "HAProxy 3.0 Management Guide",
+      "path": "3.0/management.md",
+      "bytes": 260227
+    }
+  ]
+}
