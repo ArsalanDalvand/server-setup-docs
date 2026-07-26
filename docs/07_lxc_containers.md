@@ -40,9 +40,26 @@ pct start 102
 ```
 The container is verified to be in `running` state.
 
-#### 2. Database Installation (FDB 7.1/7.3)
-*(Status: Pending Installation)*
-Next steps will execute package installations for Apple FoundationDB clients and server.
+#### 2. Database Installation & Tuning (July 2026)
+Apple FoundationDB **Version 7.3.77** (Latest Stable) was successfully compiled and installed inside `LXC 102`.
+The configuration was tuned for optimal performance under a 32GB host RAM limit:
+*   **Memory Allocations:**
+    *   Host process resident memory (`memory`): **4 GiB** (per process)
+    *   Cache memory (`cache-memory`): **2 GiB** (per process)
+    *   *Rationale:* This prevents the `ERROR: --memory has to be larger than --cache-memory` crash, while ensuring the entire cluster (4 processes) uses at most 16 GB RAM in peak execution.
+*   **Process Layout (`/etc/foundationdb/foundationdb.conf`):**
+    *   `fdbserver.4500` (Class: `storage`)
+    *   `fdbserver.4501` (Class: `storage`)
+    *   `fdbserver.4502` (Class: `stateless`)
+    *   `fdbserver.4503` (Class: `stateless`)
+*   **Storage Engine Migration:**
+    *   The engine was migrated from volatile memory to the Redwood B-Tree storage engine:
+    ```bash
+    fdbcli --exec "configure storage_migration_type=aggressive"
+    fdbcli --exec "configure ssd-redwood-1"
+    ```
+*   **Verified Status:**
+    All 4 processes are running, listening on ports 4500-4503, database configured to `ssd-redwood-1` (Disk-backed SSD optimization), redundancy `single`, and status is `Healthy`.
 
 ---
 
