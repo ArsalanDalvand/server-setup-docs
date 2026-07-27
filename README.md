@@ -18,6 +18,8 @@ To maintain modularity and atomic documentation, the configurations are divided 
     *   *Focus:* Proxmox VE installation settings, host networking, repository setup, and licensing adjustments.
 *   [**06_service_architecture.md**](docs/06_service_architecture.md)
     *   *Focus:* Network design for the Stalwart, FoundationDB, Redis, and MinIO microservices, including NUMA pinning targets.
+*   [**08_datacenter_transition.md**](docs/08_datacenter_transition.md)
+    *   *Focus:* Detailed hardware colocation request specifications and IP configuration modification guides.
 *   [**LXC Runbooks Directory**](docs/lxc-runbooks/)
     *   *Focus:* Atomic, dedicated runbooks for provisioning and managing individual containers:
         *   [**101_stalwart.md**](docs/lxc-runbooks/101_stalwart.md) - Stalwart Mail Server Profile.

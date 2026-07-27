@@ -1,0 +1,2884 @@
+{
+  "source": "https://silo.pigsty.io/",
+  "retrieved_at": "2026-07-26T19:44:53+00:00",
+  "page_count": 411,
+  "pages": [
+    {
+      "slug": "administration/batch-framework-job-expire",
+      "url": "https://silo.pigsty.io/administration/batch-framework-job-expire.html",
+      "title": "Batch Expiration — SILO (MinIO Object Storage)",
+      "path": "administration/batch-framework-job-expire.md",
+      "bytes": 7864
+    },
+    {
+      "slug": "administration/batch-framework-job-keyrotate",
+      "url": "https://silo.pigsty.io/administration/batch-framework-job-keyrotate.html",
+      "title": "Batch Key Rotation — SILO (MinIO Object Storage)",
+      "path": "administration/batch-framework-job-keyrotate.md",
+      "bytes": 5404
+    },
+    {
+      "slug": "administration/batch-framework-job-replicate",
+      "url": "https://silo.pigsty.io/administration/batch-framework-job-replicate.html",
+      "title": "Batch Replication — SILO (MinIO Object Storage)",
+      "path": "administration/batch-framework-job-replicate.md",
+      "bytes": 16895
+    },
+    {
+      "slug": "administration/batch-framework",
+      "url": "https://silo.pigsty.io/administration/batch-framework.html",
+      "title": "Batch Framework — SILO (MinIO Object Storage)",
+      "path": "administration/batch-framework.md",
+      "bytes": 5489
+    },
+    {
+      "slug": "administration/bucket-replication",
+      "url": "https://silo.pigsty.io/administration/bucket-replication.html",
+      "title": "Bucket Replication — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication.md",
+      "bytes": 14938
+    },
+    {
+      "slug": "administration/bucket-replication/bucket-replication-requirements",
+      "url": "https://silo.pigsty.io/administration/bucket-replication/bucket-replication-requirements.html",
+      "title": "Requirements to Set Up Bucket Replication — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication/bucket-replication-requirements.md",
+      "bytes": 11429
+    },
+    {
+      "slug": "administration/bucket-replication/enable-server-side-multi-site-bucket-replication",
+      "url": "https://silo.pigsty.io/administration/bucket-replication/enable-server-side-multi-site-bucket-replication.html",
+      "title": "Enable Multi-Site Server-Side Bucket Replication — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication/enable-server-side-multi-site-bucket-replication.md",
+      "bytes": 12426
+    },
+    {
+      "slug": "administration/bucket-replication/enable-server-side-one-way-bucket-replication",
+      "url": "https://silo.pigsty.io/administration/bucket-replication/enable-server-side-one-way-bucket-replication.html",
+      "title": "Enable One-Way Server-Side Bucket Replication — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication/enable-server-side-one-way-bucket-replication.md",
+      "bytes": 9235
+    },
+    {
+      "slug": "administration/bucket-replication/enable-server-side-two-way-bucket-replication",
+      "url": "https://silo.pigsty.io/administration/bucket-replication/enable-server-side-two-way-bucket-replication.html",
+      "title": "Enable Two-Way Server-Side Bucket Replication — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication/enable-server-side-two-way-bucket-replication.md",
+      "bytes": 11927
+    },
+    {
+      "slug": "administration/bucket-replication/server-side-replication-resynchronize-remote",
+      "url": "https://silo.pigsty.io/administration/bucket-replication/server-side-replication-resynchronize-remote.html",
+      "title": "Resynchronize Bucket from Remote Replica — SILO (MinIO Object Storage)",
+      "path": "administration/bucket-replication/server-side-replication-resynchronize-remote.md",
+      "bytes": 11898
+    },
+    {
+      "slug": "administration/concepts",
+      "url": "https://silo.pigsty.io/administration/concepts.html",
+      "title": "Core Administration Concepts — SILO (MinIO Object Storage)",
+      "path": "administration/concepts.md",
+      "bytes": 11480
+    },
+    {
+      "slug": "administration/console/managing-deployment",
+      "url": "https://silo.pigsty.io/administration/console/managing-deployment.html",
+      "title": "Managing Your Deployment — SILO (MinIO Object Storage)",
+      "path": "administration/console/managing-deployment.md",
+      "bytes": 8035
+    },
+    {
+      "slug": "administration/console/managing-objects",
+      "url": "https://silo.pigsty.io/administration/console/managing-objects.html",
+      "title": "Managing Objects — SILO (MinIO Object Storage)",
+      "path": "administration/console/managing-objects.md",
+      "bytes": 6614
+    },
+    {
+      "slug": "administration/console/security-and-access",
+      "url": "https://silo.pigsty.io/administration/console/security-and-access.html",
+      "title": "Security and Access — SILO (MinIO Object Storage)",
+      "path": "administration/console/security-and-access.md",
+      "bytes": 8274
+    },
+    {
+      "slug": "administration/console/subnet-registration",
+      "url": "https://silo.pigsty.io/administration/console/subnet-registration.html",
+      "title": "SUBNET — SILO (MinIO Object Storage)",
+      "path": "administration/console/subnet-registration.md",
+      "bytes": 5534
+    },
+    {
+      "slug": "administration/identity-access-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management.html",
+      "title": "Identity and Access Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management.md",
+      "bytes": 7746
+    },
+    {
+      "slug": "administration/identity-access-management/ad-ldap-access-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/ad-ldap-access-management.html",
+      "title": "Active Directory / LDAP Access Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/ad-ldap-access-management.md",
+      "bytes": 7135
+    },
+    {
+      "slug": "administration/identity-access-management/minio-group-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/minio-group-management.html",
+      "title": "Group Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/minio-group-management.md",
+      "bytes": 2975
+    },
+    {
+      "slug": "administration/identity-access-management/minio-identity-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/minio-identity-management.html",
+      "title": "MinIO Identity Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/minio-identity-management.md",
+      "bytes": 3386
+    },
+    {
+      "slug": "administration/identity-access-management/minio-user-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/minio-user-management.html",
+      "title": "User Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/minio-user-management.md",
+      "bytes": 9291
+    },
+    {
+      "slug": "administration/identity-access-management/oidc-access-management",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/oidc-access-management.html",
+      "title": "OpenID Connect Access Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/oidc-access-management.md",
+      "bytes": 10520
+    },
+    {
+      "slug": "administration/identity-access-management/pluggable-authentication",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/pluggable-authentication.html",
+      "title": "MinIO External Identity Management Plugin — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/pluggable-authentication.md",
+      "bytes": 4382
+    },
+    {
+      "slug": "administration/identity-access-management/pluggable-authorization",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/pluggable-authorization.html",
+      "title": "MinIO External Access Management Plugin — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/pluggable-authorization.md",
+      "bytes": 4956
+    },
+    {
+      "slug": "administration/identity-access-management/policy-based-access-control",
+      "url": "https://silo.pigsty.io/administration/identity-access-management/policy-based-access-control.html",
+      "title": "Access Management — SILO (MinIO Object Storage)",
+      "path": "administration/identity-access-management/policy-based-access-control.md",
+      "bytes": 42049
+    },
+    {
+      "slug": "administration/minio-console",
+      "url": "https://silo.pigsty.io/administration/minio-console.html",
+      "title": "MinIO Console — SILO (MinIO Object Storage)",
+      "path": "administration/minio-console.md",
+      "bytes": 6860
+    },
+    {
+      "slug": "administration/monitoring",
+      "url": "https://silo.pigsty.io/administration/monitoring.html",
+      "title": "Monitoring Bucket and Object Events — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring.md",
+      "bytes": 3350
+    },
+    {
+      "slug": "administration/monitoring/bucket-notifications",
+      "url": "https://silo.pigsty.io/administration/monitoring/bucket-notifications.html",
+      "title": "Bucket notifications — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/bucket-notifications.md",
+      "bytes": 12104
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-amqp",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-amqp.html",
+      "title": "Publish Events to AMQP (RabbitMQ) — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-amqp.md",
+      "bytes": 15528
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-elasticsearch",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-elasticsearch.html",
+      "title": "Publish Events to Elasticsearch — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-elasticsearch.md",
+      "bytes": 15098
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-kafka",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-kafka.html",
+      "title": "Publish Events to Kafka — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-kafka.md",
+      "bytes": 15321
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-mqtt",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-mqtt.html",
+      "title": "Publish Events to MQTT — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-mqtt.md",
+      "bytes": 16019
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-mysql",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-mysql.html",
+      "title": "Publish Events to MySQL — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-mysql.md",
+      "bytes": 14288
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-nats",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-nats.html",
+      "title": "Publish Events to NATS — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-nats.md",
+      "bytes": 14509
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-nsq",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-nsq.html",
+      "title": "Publish Events to NSQ — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-nsq.md",
+      "bytes": 13026
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-postgresql",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-postgresql.html",
+      "title": "Publish Events to PostgreSQL — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-postgresql.md",
+      "bytes": 15270
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-redis",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-redis.html",
+      "title": "Publish Events to Redis — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-redis.md",
+      "bytes": 13489
+    },
+    {
+      "slug": "administration/monitoring/publish-events-to-webhook",
+      "url": "https://silo.pigsty.io/administration/monitoring/publish-events-to-webhook.html",
+      "title": "Publish Events to Webhook — SILO (MinIO Object Storage)",
+      "path": "administration/monitoring/publish-events-to-webhook.md",
+      "bytes": 13310
+    },
+    {
+      "slug": "administration/object-management",
+      "url": "https://silo.pigsty.io/administration/object-management.html",
+      "title": "Object Management — SILO (MinIO Object Storage)",
+      "path": "administration/object-management.md",
+      "bytes": 16239
+    },
+    {
+      "slug": "administration/object-management/create-lifecycle-management-expiration-rule",
+      "url": "https://silo.pigsty.io/administration/object-management/create-lifecycle-management-expiration-rule.html",
+      "title": "Automatic Object Expiration — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/create-lifecycle-management-expiration-rule.md",
+      "bytes": 6062
+    },
+    {
+      "slug": "administration/object-management/data-compression",
+      "url": "https://silo.pigsty.io/administration/object-management/data-compression.html",
+      "title": "Data Compression — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/data-compression.md",
+      "bytes": 9645
+    },
+    {
+      "slug": "administration/object-management/object-delete",
+      "url": "https://silo.pigsty.io/administration/object-management/object-delete.html",
+      "title": "Object Deletion — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/object-delete.md",
+      "bytes": 11668
+    },
+    {
+      "slug": "administration/object-management/object-lifecycle-management",
+      "url": "https://silo.pigsty.io/administration/object-management/object-lifecycle-management.html",
+      "title": "Object Lifecycle Management — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/object-lifecycle-management.md",
+      "bytes": 11108
+    },
+    {
+      "slug": "administration/object-management/object-retention",
+      "url": "https://silo.pigsty.io/administration/object-management/object-retention.html",
+      "title": "MinIO Object Locking — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/object-retention.md",
+      "bytes": 14429
+    },
+    {
+      "slug": "administration/object-management/object-versioning",
+      "url": "https://silo.pigsty.io/administration/object-management/object-versioning.html",
+      "title": "Bucket Versioning — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/object-versioning.md",
+      "bytes": 17027
+    },
+    {
+      "slug": "administration/object-management/transition-objects-to-azure",
+      "url": "https://silo.pigsty.io/administration/object-management/transition-objects-to-azure.html",
+      "title": "Transition Objects from MinIO to Azure — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/transition-objects-to-azure.md",
+      "bytes": 16452
+    },
+    {
+      "slug": "administration/object-management/transition-objects-to-gcs",
+      "url": "https://silo.pigsty.io/administration/object-management/transition-objects-to-gcs.html",
+      "title": "Transition Objects from MinIO to GCS — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/transition-objects-to-gcs.md",
+      "bytes": 15094
+    },
+    {
+      "slug": "administration/object-management/transition-objects-to-minio",
+      "url": "https://silo.pigsty.io/administration/object-management/transition-objects-to-minio.html",
+      "title": "Transition Objects to Remote MinIO Deployment — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/transition-objects-to-minio.md",
+      "bytes": 16000
+    },
+    {
+      "slug": "administration/object-management/transition-objects-to-s3",
+      "url": "https://silo.pigsty.io/administration/object-management/transition-objects-to-s3.html",
+      "title": "Transition Objects from MinIO to S3 — SILO (MinIO Object Storage)",
+      "path": "administration/object-management/transition-objects-to-s3.md",
+      "bytes": 16172
+    },
+    {
+      "slug": "administration/server-side-encryption",
+      "url": "https://silo.pigsty.io/administration/server-side-encryption.html",
+      "title": "Server-Side Encryption of Objects — SILO (MinIO Object Storage)",
+      "path": "administration/server-side-encryption.md",
+      "bytes": 6875
+    },
+    {
+      "slug": "administration/server-side-encryption/server-side-encryption-sse-c",
+      "url": "https://silo.pigsty.io/administration/server-side-encryption/server-side-encryption-sse-c.html",
+      "title": "Server-Side Encryption with Client-Managed Keys (SSE-C) — SILO (MinIO Object Storage)",
+      "path": "administration/server-side-encryption/server-side-encryption-sse-c.md",
+      "bytes": 7915
+    },
+    {
+      "slug": "administration/server-side-encryption/server-side-encryption-sse-kms",
+      "url": "https://silo.pigsty.io/administration/server-side-encryption/server-side-encryption-sse-kms.html",
+      "title": "Server-Side Encryption with Per-Bucket Keys (SSE-KMS) — SILO (MinIO Object Storage)",
+      "path": "administration/server-side-encryption/server-side-encryption-sse-kms.md",
+      "bytes": 15033
+    },
+    {
+      "slug": "administration/server-side-encryption/server-side-encryption-sse-s3",
+      "url": "https://silo.pigsty.io/administration/server-side-encryption/server-side-encryption-sse-s3.html",
+      "title": "Server-Side Encryption Per-Deployment Key (SSE-S3) — SILO (MinIO Object Storage)",
+      "path": "administration/server-side-encryption/server-side-encryption-sse-s3.md",
+      "bytes": 14076
+    },
+    {
+      "slug": "design",
+      "url": "https://silo.pigsty.io/design.html",
+      "title": "Design Page — SILO (MinIO Object Storage)",
+      "path": "design.md",
+      "bytes": 10158
+    },
+    {
+      "slug": "developers/dotnet/API",
+      "url": "https://silo.pigsty.io/developers/dotnet/API.html",
+      "title": ".NET Client API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/dotnet/API.md",
+      "bytes": 88916
+    },
+    {
+      "slug": "developers/dotnet/minio-dotnet",
+      "url": "https://silo.pigsty.io/developers/dotnet/minio-dotnet.html",
+      "title": ".NET Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/dotnet/minio-dotnet.md",
+      "bytes": 13084
+    },
+    {
+      "slug": "developers/dotnet/quickstart",
+      "url": "https://silo.pigsty.io/developers/dotnet/quickstart.html",
+      "title": "MinIO Client SDK for .NET — SILO (MinIO Object Storage)",
+      "path": "developers/dotnet/quickstart.md",
+      "bytes": 13038
+    },
+    {
+      "slug": "developers/file-transfer-protocol",
+      "url": "https://silo.pigsty.io/developers/file-transfer-protocol.html",
+      "title": "File Transfer Protocol (FTP/SFTP) — SILO (MinIO Object Storage)",
+      "path": "developers/file-transfer-protocol.md",
+      "bytes": 14958
+    },
+    {
+      "slug": "developers/go/API",
+      "url": "https://silo.pigsty.io/developers/go/API.html",
+      "title": "MinIO Go Client API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/go/API.md",
+      "bytes": 88526
+    },
+    {
+      "slug": "developers/go/minio-go",
+      "url": "https://silo.pigsty.io/developers/go/minio-go.html",
+      "title": "Go Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/go/minio-go.md",
+      "bytes": 15466
+    },
+    {
+      "slug": "developers/go/quickstart",
+      "url": "https://silo.pigsty.io/developers/go/quickstart.html",
+      "title": "MinIO Go Client SDK for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/go/quickstart.md",
+      "bytes": 14238
+    },
+    {
+      "slug": "developers/haskell/API",
+      "url": "https://silo.pigsty.io/developers/haskell/API.html",
+      "title": "MinIO Haskell SDK API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/haskell/API.md",
+      "bytes": 29680
+    },
+    {
+      "slug": "developers/haskell/minio-haskell",
+      "url": "https://silo.pigsty.io/developers/haskell/minio-haskell.html",
+      "title": "Haskell Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/haskell/minio-haskell.md",
+      "bytes": 6670
+    },
+    {
+      "slug": "developers/haskell/quickstart",
+      "url": "https://silo.pigsty.io/developers/haskell/quickstart.html",
+      "title": "MinIO Haskell Client SDK for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/haskell/quickstart.md",
+      "bytes": 6698
+    },
+    {
+      "slug": "developers/java/API",
+      "url": "https://silo.pigsty.io/developers/java/API.html",
+      "title": "Java Client API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/java/API.md",
+      "bytes": 71120
+    },
+    {
+      "slug": "developers/java/minio-java",
+      "url": "https://silo.pigsty.io/developers/java/minio-java.html",
+      "title": "Java Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/java/minio-java.md",
+      "bytes": 5056
+    },
+    {
+      "slug": "developers/java/quickstart",
+      "url": "https://silo.pigsty.io/developers/java/quickstart.html",
+      "title": "MinIO Java SDK for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/java/quickstart.md",
+      "bytes": 5083
+    },
+    {
+      "slug": "developers/javascript/API",
+      "url": "https://silo.pigsty.io/developers/javascript/API.html",
+      "title": "JavaScript Client API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/javascript/API.md",
+      "bytes": 50652
+    },
+    {
+      "slug": "developers/javascript/minio-javascript",
+      "url": "https://silo.pigsty.io/developers/javascript/minio-javascript.html",
+      "title": "JavaScript Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/javascript/minio-javascript.md",
+      "bytes": 14868
+    },
+    {
+      "slug": "developers/javascript/quickstart",
+      "url": "https://silo.pigsty.io/developers/javascript/quickstart.html",
+      "title": "MinIO JavaScript Library for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/javascript/quickstart.md",
+      "bytes": 14872
+    },
+    {
+      "slug": "developers/minio-drivers",
+      "url": "https://silo.pigsty.io/developers/minio-drivers.html",
+      "title": "Software Development Kits (SDK) — SILO (MinIO Object Storage)",
+      "path": "developers/minio-drivers.md",
+      "bytes": 4375
+    },
+    {
+      "slug": "developers/python/API",
+      "url": "https://silo.pigsty.io/developers/python/API.html",
+      "title": "Python Client API Reference — SILO (MinIO Object Storage)",
+      "path": "developers/python/API.md",
+      "bytes": 46944
+    },
+    {
+      "slug": "developers/python/minio-py",
+      "url": "https://silo.pigsty.io/developers/python/minio-py.html",
+      "title": "Python Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/python/minio-py.md",
+      "bytes": 5740
+    },
+    {
+      "slug": "developers/python/quickstart",
+      "url": "https://silo.pigsty.io/developers/python/quickstart.html",
+      "title": "MinIO Python Client SDK for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/python/quickstart.md",
+      "bytes": 5788
+    },
+    {
+      "slug": "developers/rust/API",
+      "url": "https://silo.pigsty.io/developers/rust/API.html",
+      "title": "<no title> — SILO (MinIO Object Storage)",
+      "path": "developers/rust/API.md",
+      "bytes": 832
+    },
+    {
+      "slug": "developers/rust/minio-rust",
+      "url": "https://silo.pigsty.io/developers/rust/minio-rust.html",
+      "title": "Rust Quickstart Guide — SILO (MinIO Object Storage)",
+      "path": "developers/rust/minio-rust.md",
+      "bytes": 3720
+    },
+    {
+      "slug": "developers/rust/quickstart",
+      "url": "https://silo.pigsty.io/developers/rust/quickstart.html",
+      "title": "MinIO Rust SDK for Amazon S3 Compatible Cloud Storage — SILO (MinIO Object Storage)",
+      "path": "developers/rust/quickstart.md",
+      "bytes": 3750
+    },
+    {
+      "slug": "developers/security-token-service",
+      "url": "https://silo.pigsty.io/developers/security-token-service.html",
+      "title": "Security Token Service (STS) — SILO (MinIO Object Storage)",
+      "path": "developers/security-token-service.md",
+      "bytes": 2200
+    },
+    {
+      "slug": "developers/security-token-service/AssumeRoleWithCustomToken",
+      "url": "https://silo.pigsty.io/developers/security-token-service/AssumeRoleWithCustomToken.html",
+      "title": "AssumeRoleWithCustomToken — SILO (MinIO Object Storage)",
+      "path": "developers/security-token-service/AssumeRoleWithCustomToken.md",
+      "bytes": 4416
+    },
+    {
+      "slug": "developers/security-token-service/AssumeRoleWithLDAPIdentity",
+      "url": "https://silo.pigsty.io/developers/security-token-service/AssumeRoleWithLDAPIdentity.html",
+      "title": "AssumeRoleWithLDAPIdentity — SILO (MinIO Object Storage)",
+      "path": "developers/security-token-service/AssumeRoleWithLDAPIdentity.md",
+      "bytes": 6249
+    },
+    {
+      "slug": "developers/security-token-service/AssumeRoleWithWebIdentity",
+      "url": "https://silo.pigsty.io/developers/security-token-service/AssumeRoleWithWebIdentity.html",
+      "title": "AssumeRoleWithWebIdentity — SILO (MinIO Object Storage)",
+      "path": "developers/security-token-service/AssumeRoleWithWebIdentity.md",
+      "bytes": 7217
+    },
+    {
+      "slug": "developers/sts-for-operator",
+      "url": "https://silo.pigsty.io/developers/sts-for-operator.html",
+      "title": "Security Token Service (STS) for MinIO Operator — SILO (MinIO Object Storage)",
+      "path": "developers/sts-for-operator.md",
+      "bytes": 9958
+    },
+    {
+      "slug": "developers/transforms-with-object-lambda",
+      "url": "https://silo.pigsty.io/developers/transforms-with-object-lambda.html",
+      "title": "Transforms with Object Lambda — SILO (MinIO Object Storage)",
+      "path": "developers/transforms-with-object-lambda.md",
+      "bytes": 13900
+    },
+    {
+      "slug": "genindex",
+      "url": "https://silo.pigsty.io/genindex.html",
+      "title": "Index — SILO (MinIO Object Storage)",
+      "path": "genindex.md",
+      "bytes": 35477
+    },
+    {
+      "slug": "glossary",
+      "url": "https://silo.pigsty.io/glossary.html",
+      "title": "Glossary — SILO (MinIO Object Storage)",
+      "path": "glossary.md",
+      "bytes": 18747
+    },
+    {
+      "slug": "index",
+      "url": "https://silo.pigsty.io/index.html",
+      "title": "MinIO High Performance Object Storage — SILO (MinIO Object Storage)",
+      "path": "index.md",
+      "bytes": 4977
+    },
+    {
+      "slug": "integrations/aws-cli-with-minio",
+      "url": "https://silo.pigsty.io/integrations/aws-cli-with-minio.html",
+      "title": "AWS CLI with MinIO Server — SILO (MinIO Object Storage)",
+      "path": "integrations/aws-cli-with-minio.md",
+      "bytes": 3197
+    },
+    {
+      "slug": "integrations/disaggregated-spark-and-hadoop-hive-with-minio",
+      "url": "https://silo.pigsty.io/integrations/disaggregated-spark-and-hadoop-hive-with-minio.html",
+      "title": "Disaggregated HDP Spark and Hive with MinIO — SILO (MinIO Object Storage)",
+      "path": "integrations/disaggregated-spark-and-hadoop-hive-with-minio.md",
+      "bytes": 14400
+    },
+    {
+      "slug": "integrations/generate-lets-encrypt-certificate-using-certbot-for-minio",
+      "url": "https://silo.pigsty.io/integrations/generate-lets-encrypt-certificate-using-certbot-for-minio.html",
+      "title": "Generate Let’s Encrypt certificate using Certbot for MinIO — SILO (MinIO Object Storage)",
+      "path": "integrations/generate-lets-encrypt-certificate-using-certbot-for-minio.md",
+      "bytes": 3944
+    },
+    {
+      "slug": "integrations/integrations",
+      "url": "https://silo.pigsty.io/integrations/integrations.html",
+      "title": "Integrations — SILO (MinIO Object Storage)",
+      "path": "integrations/integrations.md",
+      "bytes": 1196
+    },
+    {
+      "slug": "integrations/presigned-put-upload-via-browser",
+      "url": "https://silo.pigsty.io/integrations/presigned-put-upload-via-browser.html",
+      "title": "Upload Files Using Pre-signed URLs — SILO (MinIO Object Storage)",
+      "path": "integrations/presigned-put-upload-via-browser.md",
+      "bytes": 5945
+    },
+    {
+      "slug": "integrations/setup-nginx-proxy-with-minio",
+      "url": "https://silo.pigsty.io/integrations/setup-nginx-proxy-with-minio.html",
+      "title": "Configure NGINX Proxy for MinIO Server — SILO (MinIO Object Storage)",
+      "path": "integrations/setup-nginx-proxy-with-minio.md",
+      "bytes": 8363
+    },
+    {
+      "slug": "integrations/using-minio-with-veeam",
+      "url": "https://silo.pigsty.io/integrations/using-minio-with-veeam.html",
+      "title": "Using MinIO with Veeam — SILO (MinIO Object Storage)",
+      "path": "integrations/using-minio-with-veeam.md",
+      "bytes": 6045
+    },
+    {
+      "slug": "meta/404",
+      "url": "https://silo.pigsty.io/meta/404.html",
+      "title": "Page Not Found — SILO (MinIO Object Storage)",
+      "path": "meta/404.md",
+      "bytes": 888
+    },
+    {
+      "slug": "operations/cert-manager/cert-manager-operator",
+      "url": "https://silo.pigsty.io/operations/cert-manager/cert-manager-operator.html",
+      "title": "cert-manager for Operator — SILO (MinIO Object Storage)",
+      "path": "operations/cert-manager/cert-manager-operator.md",
+      "bytes": 8141
+    },
+    {
+      "slug": "operations/cert-manager/cert-manager-tenants",
+      "url": "https://silo.pigsty.io/operations/cert-manager/cert-manager-tenants.html",
+      "title": "cert-manager for Tenants — SILO (MinIO Object Storage)",
+      "path": "operations/cert-manager/cert-manager-tenants.md",
+      "bytes": 8331
+    },
+    {
+      "slug": "operations/checklists",
+      "url": "https://silo.pigsty.io/operations/checklists.html",
+      "title": "Deployment Checklists — SILO (MinIO Object Storage)",
+      "path": "operations/checklists.md",
+      "bytes": 1863
+    },
+    {
+      "slug": "operations/checklists/hardware",
+      "url": "https://silo.pigsty.io/operations/checklists/hardware.html",
+      "title": "Hardware Checklist — SILO (MinIO Object Storage)",
+      "path": "operations/checklists/hardware.md",
+      "bytes": 22433
+    },
+    {
+      "slug": "operations/checklists/security",
+      "url": "https://silo.pigsty.io/operations/checklists/security.html",
+      "title": "Security Checklist — SILO (MinIO Object Storage)",
+      "path": "operations/checklists/security.md",
+      "bytes": 2964
+    },
+    {
+      "slug": "operations/checklists/software",
+      "url": "https://silo.pigsty.io/operations/checklists/software.html",
+      "title": "Software Checklist — SILO (MinIO Object Storage)",
+      "path": "operations/checklists/software.md",
+      "bytes": 5044
+    },
+    {
+      "slug": "operations/concepts",
+      "url": "https://silo.pigsty.io/operations/concepts.html",
+      "title": "Core Operational Concepts — SILO (MinIO Object Storage)",
+      "path": "operations/concepts.md",
+      "bytes": 15731
+    },
+    {
+      "slug": "operations/concepts/architecture",
+      "url": "https://silo.pigsty.io/operations/concepts/architecture.html",
+      "title": "Deployment Architecture — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/architecture.md",
+      "bytes": 9289
+    },
+    {
+      "slug": "operations/concepts/availability-and-resiliency",
+      "url": "https://silo.pigsty.io/operations/concepts/availability-and-resiliency.html",
+      "title": "Availability and Resiliency — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/availability-and-resiliency.md",
+      "bytes": 11894
+    },
+    {
+      "slug": "operations/concepts/erasure-coding",
+      "url": "https://silo.pigsty.io/operations/concepts/erasure-coding.html",
+      "title": "Erasure Coding — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/erasure-coding.md",
+      "bytes": 8167
+    },
+    {
+      "slug": "operations/concepts/healing",
+      "url": "https://silo.pigsty.io/operations/concepts/healing.html",
+      "title": "Object Healing — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/healing.md",
+      "bytes": 5239
+    },
+    {
+      "slug": "operations/concepts/scanner",
+      "url": "https://silo.pigsty.io/operations/concepts/scanner.html",
+      "title": "Object Scanner — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/scanner.md",
+      "bytes": 5602
+    },
+    {
+      "slug": "operations/concepts/thresholds",
+      "url": "https://silo.pigsty.io/operations/concepts/thresholds.html",
+      "title": "Thresholds and Limits — SILO (MinIO Object Storage)",
+      "path": "operations/concepts/thresholds.md",
+      "bytes": 3860
+    },
+    {
+      "slug": "operations/data-recovery",
+      "url": "https://silo.pigsty.io/operations/data-recovery.html",
+      "title": "Recover after Hardware Failure — SILO (MinIO Object Storage)",
+      "path": "operations/data-recovery.md",
+      "bytes": 4249
+    },
+    {
+      "slug": "operations/data-recovery/recover-after-drive-failure",
+      "url": "https://silo.pigsty.io/operations/data-recovery/recover-after-drive-failure.html",
+      "title": "Drive Failure Recovery — SILO (MinIO Object Storage)",
+      "path": "operations/data-recovery/recover-after-drive-failure.md",
+      "bytes": 6249
+    },
+    {
+      "slug": "operations/data-recovery/recover-after-node-failure",
+      "url": "https://silo.pigsty.io/operations/data-recovery/recover-after-node-failure.html",
+      "title": "Node Failure Recovery — SILO (MinIO Object Storage)",
+      "path": "operations/data-recovery/recover-after-node-failure.md",
+      "bytes": 4971
+    },
+    {
+      "slug": "operations/data-recovery/recover-after-site-failure",
+      "url": "https://silo.pigsty.io/operations/data-recovery/recover-after-site-failure.html",
+      "title": "Site Failure Recovery — SILO (MinIO Object Storage)",
+      "path": "operations/data-recovery/recover-after-site-failure.md",
+      "bytes": 10930
+    },
+    {
+      "slug": "operations/deployments/baremetal-decommission-server-pool",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-decommission-server-pool.html",
+      "title": "Decommission Server Pools — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-decommission-server-pool.md",
+      "bytes": 29577
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-as-a-container",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-as-a-container.html",
+      "title": "Deploy MinIO as a Container — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-as-a-container.md",
+      "bytes": 7670
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-on-macos",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-on-macos.html",
+      "title": "Deploy MinIO on MacOS — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-on-macos.md",
+      "bytes": 11553
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-on-redhat-linux",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-on-redhat-linux.html",
+      "title": "Deploy MinIO on RedHat Linux — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-on-redhat-linux.md",
+      "bytes": 16077
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-on-ubuntu-linux",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-on-ubuntu-linux.html",
+      "title": "Deploy MinIO on Ubuntu Linux — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-on-ubuntu-linux.md",
+      "bytes": 16237
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-on-windows",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-on-windows.html",
+      "title": "Deploy MinIO on Windows — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-on-windows.md",
+      "bytes": 8207
+    },
+    {
+      "slug": "operations/deployments/baremetal-deploy-minio-server",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-deploy-minio-server.html",
+      "title": "Install the MinIO Server — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-deploy-minio-server.md",
+      "bytes": 1072
+    },
+    {
+      "slug": "operations/deployments/baremetal-expand-minio-deployment",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-expand-minio-deployment.html",
+      "title": "Expand a Distributed MinIO Deployment — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-expand-minio-deployment.md",
+      "bytes": 25570
+    },
+    {
+      "slug": "operations/deployments/baremetal-migrate-fs-gateway",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-migrate-fs-gateway.html",
+      "title": "Migrate from Gateway or Filesystem Mode — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-migrate-fs-gateway.md",
+      "bytes": 12365
+    },
+    {
+      "slug": "operations/deployments/baremetal-upgrade-minio-deployment",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal-upgrade-minio-deployment.html",
+      "title": "Upgrade a MinIO Deployment — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal-upgrade-minio-deployment.md",
+      "bytes": 9985
+    },
+    {
+      "slug": "operations/deployments/baremetal",
+      "url": "https://silo.pigsty.io/operations/deployments/baremetal.html",
+      "title": "Deploy MinIO on Baremetal — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/baremetal.md",
+      "bytes": 1689
+    },
+    {
+      "slug": "operations/deployments/installation",
+      "url": "https://silo.pigsty.io/operations/deployments/installation.html",
+      "title": "Installation and Management — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/installation.md",
+      "bytes": 5236
+    },
+    {
+      "slug": "operations/deployments/k8s-delete-minio-tenant-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-delete-minio-tenant-on-kubernetes.html",
+      "title": "Delete a MinIO Tenant — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-delete-minio-tenant-on-kubernetes.md",
+      "bytes": 3004
+    },
+    {
+      "slug": "operations/deployments/k8s-deploy-minio-tenant-helm-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-deploy-minio-tenant-helm-on-kubernetes.html",
+      "title": "Deploy a MinIO Tenant with Helm Charts — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-deploy-minio-tenant-helm-on-kubernetes.md",
+      "bytes": 14764
+    },
+    {
+      "slug": "operations/deployments/k8s-deploy-minio-tenant-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-deploy-minio-tenant-on-kubernetes.html",
+      "title": "Deploy a MinIO Tenant — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-deploy-minio-tenant-on-kubernetes.md",
+      "bytes": 10122
+    },
+    {
+      "slug": "operations/deployments/k8s-deploy-operator-helm-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-deploy-operator-helm-on-kubernetes.html",
+      "title": "Deploy Operator With Helm — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-deploy-operator-helm-on-kubernetes.md",
+      "bytes": 7754
+    },
+    {
+      "slug": "operations/deployments/k8s-expand-minio-tenant-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-expand-minio-tenant-on-kubernetes.html",
+      "title": "Expand a MinIO Tenant — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-expand-minio-tenant-on-kubernetes.md",
+      "bytes": 6279
+    },
+    {
+      "slug": "operations/deployments/k8s-minio-operator",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-minio-operator.html",
+      "title": "MinIO Kubernetes Operator — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-minio-operator.md",
+      "bytes": 7008
+    },
+    {
+      "slug": "operations/deployments/k8s-minio-tenants",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-minio-tenants.html",
+      "title": "MinIO Tenants on Kubernetes — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-minio-tenants.md",
+      "bytes": 7765
+    },
+    {
+      "slug": "operations/deployments/k8s-modify-minio-tenant-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-modify-minio-tenant-on-kubernetes.html",
+      "title": "Modify a MinIO Tenant — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-modify-minio-tenant-on-kubernetes.md",
+      "bytes": 4403
+    },
+    {
+      "slug": "operations/deployments/k8s-upgrade-minio-operator-4.5.7-earlier",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-upgrade-minio-operator-4.5.7-earlier.html",
+      "title": "Upgrade Legacy MinIO Operators — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-upgrade-minio-operator-4.5.7-earlier.md",
+      "bytes": 23827
+    },
+    {
+      "slug": "operations/deployments/k8s-upgrade-minio-operator-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-upgrade-minio-operator-kubernetes.html",
+      "title": "Upgrade MinIO Operator — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-upgrade-minio-operator-kubernetes.md",
+      "bytes": 8192
+    },
+    {
+      "slug": "operations/deployments/k8s-upgrade-minio-tenant-on-kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/k8s-upgrade-minio-tenant-on-kubernetes.html",
+      "title": "Upgrade a MinIO Tenant — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/k8s-upgrade-minio-tenant-on-kubernetes.md",
+      "bytes": 6970
+    },
+    {
+      "slug": "operations/deployments/kubernetes",
+      "url": "https://silo.pigsty.io/operations/deployments/kubernetes.html",
+      "title": "Deploy MinIO on Kubernetes — SILO (MinIO Object Storage)",
+      "path": "operations/deployments/kubernetes.md",
+      "bytes": 2506
+    },
+    {
+      "slug": "operations/external-iam",
+      "url": "https://silo.pigsty.io/operations/external-iam.html",
+      "title": "External Identity Management — SILO (MinIO Object Storage)",
+      "path": "operations/external-iam.md",
+      "bytes": 10931
+    },
+    {
+      "slug": "operations/external-iam/configure-ad-ldap-external-identity-management",
+      "url": "https://silo.pigsty.io/operations/external-iam/configure-ad-ldap-external-identity-management.html",
+      "title": "Configure MinIO for Authentication using Active Directory / LDAP — SILO (MinIO Object Storage)",
+      "path": "operations/external-iam/configure-ad-ldap-external-identity-management.md",
+      "bytes": 14247
+    },
+    {
+      "slug": "operations/external-iam/configure-keycloak-identity-management",
+      "url": "https://silo.pigsty.io/operations/external-iam/configure-keycloak-identity-management.html",
+      "title": "Configure MinIO for Authentication using Keycloak — SILO (MinIO Object Storage)",
+      "path": "operations/external-iam/configure-keycloak-identity-management.md",
+      "bytes": 32912
+    },
+    {
+      "slug": "operations/external-iam/configure-openid-external-identity-management",
+      "url": "https://silo.pigsty.io/operations/external-iam/configure-openid-external-identity-management.html",
+      "title": "Configure MinIO for Authentication using OpenID — SILO (MinIO Object Storage)",
+      "path": "operations/external-iam/configure-openid-external-identity-management.md",
+      "bytes": 7179
+    },
+    {
+      "slug": "operations/monitoring",
+      "url": "https://silo.pigsty.io/operations/monitoring.html",
+      "title": "Monitoring and Alerts — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring.md",
+      "bytes": 3607
+    },
+    {
+      "slug": "operations/monitoring/collect-minio-metrics-using-prometheus",
+      "url": "https://silo.pigsty.io/operations/monitoring/collect-minio-metrics-using-prometheus.html",
+      "title": "Monitoring and Alerting using Prometheus — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/collect-minio-metrics-using-prometheus.md",
+      "bytes": 11347
+    },
+    {
+      "slug": "operations/monitoring/grafana",
+      "url": "https://silo.pigsty.io/operations/monitoring/grafana.html",
+      "title": "Monitor a MinIO Server with Grafana — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/grafana.md",
+      "bytes": 4587
+    },
+    {
+      "slug": "operations/monitoring/healthcheck-probe",
+      "url": "https://silo.pigsty.io/operations/monitoring/healthcheck-probe.html",
+      "title": "Healthcheck API — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/healthcheck-probe.md",
+      "bytes": 6160
+    },
+    {
+      "slug": "operations/monitoring/metrics-and-alerts",
+      "url": "https://silo.pigsty.io/operations/monitoring/metrics-and-alerts.html",
+      "title": "Metrics and alerts — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/metrics-and-alerts.md",
+      "bytes": 31523
+    },
+    {
+      "slug": "operations/monitoring/metrics-v2",
+      "url": "https://silo.pigsty.io/operations/monitoring/metrics-v2.html",
+      "title": "Metrics version 2 — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/metrics-v2.md",
+      "bytes": 34554
+    },
+    {
+      "slug": "operations/monitoring/minio-logging",
+      "url": "https://silo.pigsty.io/operations/monitoring/minio-logging.html",
+      "title": "Publish Server or Audit Logs to an External Service — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/minio-logging.md",
+      "bytes": 15672
+    },
+    {
+      "slug": "operations/monitoring/monitor-and-alert-using-influxdb",
+      "url": "https://silo.pigsty.io/operations/monitoring/monitor-and-alert-using-influxdb.html",
+      "title": "Monitoring and Alerting using InfluxDB — SILO (MinIO Object Storage)",
+      "path": "operations/monitoring/monitor-and-alert-using-influxdb.md",
+      "bytes": 6458
+    },
+    {
+      "slug": "operations/network-encryption",
+      "url": "https://silo.pigsty.io/operations/network-encryption.html",
+      "title": "Network Encryption (TLS) — SILO (MinIO Object Storage)",
+      "path": "operations/network-encryption.md",
+      "bytes": 12144
+    },
+    {
+      "slug": "operations/network-encryption/cert-manager",
+      "url": "https://silo.pigsty.io/operations/network-encryption/cert-manager.html",
+      "title": "cert-manager — SILO (MinIO Object Storage)",
+      "path": "operations/network-encryption/cert-manager.md",
+      "bytes": 3979
+    },
+    {
+      "slug": "operations/network-encryption/enable-minio-tls",
+      "url": "https://silo.pigsty.io/operations/network-encryption/enable-minio-tls.html",
+      "title": "Enable TLS for MinIO — SILO (MinIO Object Storage)",
+      "path": "operations/network-encryption/enable-minio-tls.md",
+      "bytes": 9555
+    },
+    {
+      "slug": "operations/network-encryption/enable-multiple-domain-minio-tls",
+      "url": "https://silo.pigsty.io/operations/network-encryption/enable-multiple-domain-minio-tls.html",
+      "title": "Enable Multiple Domain TLS for MinIO — SILO (MinIO Object Storage)",
+      "path": "operations/network-encryption/enable-multiple-domain-minio-tls.md",
+      "bytes": 10296
+    },
+    {
+      "slug": "operations/replication/multi-site-replication",
+      "url": "https://silo.pigsty.io/operations/replication/multi-site-replication.html",
+      "title": "Site Replication Overview — SILO (MinIO Object Storage)",
+      "path": "operations/replication/multi-site-replication.md",
+      "bytes": 22235
+    },
+    {
+      "slug": "operations/server-side-encryption",
+      "url": "https://silo.pigsty.io/operations/server-side-encryption.html",
+      "title": "Data Encryption (SSE) — SILO (MinIO Object Storage)",
+      "path": "operations/server-side-encryption.md",
+      "bytes": 4287
+    },
+    {
+      "slug": "operations/server-side-encryption/configure-minio-kes",
+      "url": "https://silo.pigsty.io/operations/server-side-encryption/configure-minio-kes.html",
+      "title": "Server-Side Object Encryption with KES — SILO (MinIO Object Storage)",
+      "path": "operations/server-side-encryption/configure-minio-kes.md",
+      "bytes": 17406
+    },
+    {
+      "slug": "operations/troubleshooting",
+      "url": "https://silo.pigsty.io/operations/troubleshooting.html",
+      "title": "Troubleshooting — SILO (MinIO Object Storage)",
+      "path": "operations/troubleshooting.md",
+      "bytes": 3955
+    },
+    {
+      "slug": "operations/troubleshooting/encrypting-files",
+      "url": "https://silo.pigsty.io/operations/troubleshooting/encrypting-files.html",
+      "title": "Encrypting Files — SILO (MinIO Object Storage)",
+      "path": "operations/troubleshooting/encrypting-files.md",
+      "bytes": 2910
+    },
+    {
+      "slug": "reference/baremetal",
+      "url": "https://silo.pigsty.io/reference/baremetal.html",
+      "title": "Baremetal Reference — SILO (MinIO Object Storage)",
+      "path": "reference/baremetal.md",
+      "bytes": 1108
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-bucket-quota",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-bucket-quota.html",
+      "title": "mc admin bucket quota — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-bucket-quota.md",
+      "bytes": 4833
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-bucket-remote",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-bucket-remote.html",
+      "title": "mc admin bucket remote — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-bucket-remote.md",
+      "bytes": 8094
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-console",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-console.html",
+      "title": "mc admin console — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-console.md",
+      "bytes": 2467
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-idp-ldap-policy",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-idp-ldap-policy.html",
+      "title": "mc admin idp ldap policy — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-idp-ldap-policy.md",
+      "bytes": 7175
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-idp-ldap",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-idp-ldap.html",
+      "title": "mc admin idp ldap — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-idp-ldap.md",
+      "bytes": 8363
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-idp-openid",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-idp-openid.html",
+      "title": "mc admin idp openid — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-idp-openid.md",
+      "bytes": 9762
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-profile",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-profile.html",
+      "title": "mc admin profile — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-profile.md",
+      "bytes": 4686
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-speedtest",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-speedtest.html",
+      "title": "mc admin speedtest — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-speedtest.md",
+      "bytes": 2611
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-tier",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-tier.html",
+      "title": "mc admin tier — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-tier.md",
+      "bytes": 12601
+    },
+    {
+      "slug": "reference/deprecated/mc-admin-top",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-admin-top.html",
+      "title": "mc admin top — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-admin-top.md",
+      "bytes": 2021
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-add",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-add.html",
+      "title": "mc ilm add — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-add.md",
+      "bytes": 16002
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-edit",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-edit.html",
+      "title": "mc ilm edit — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-edit.md",
+      "bytes": 13884
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-export",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-export.html",
+      "title": "mc ilm export — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-export.md",
+      "bytes": 3428
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-import",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-import.html",
+      "title": "mc ilm import — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-import.md",
+      "bytes": 3656
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-ls",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-ls.html",
+      "title": "mc ilm ls — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-ls.md",
+      "bytes": 8486
+    },
+    {
+      "slug": "reference/deprecated/mc-ilm-rm",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-ilm-rm.html",
+      "title": "mc ilm rm — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-ilm-rm.md",
+      "bytes": 3762
+    },
+    {
+      "slug": "reference/deprecated/mc-quota-clear",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-quota-clear.html",
+      "title": "mc quota clear — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-quota-clear.md",
+      "bytes": 2534
+    },
+    {
+      "slug": "reference/deprecated/mc-quota-info",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-quota-info.html",
+      "title": "mc quota info — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-quota-info.md",
+      "bytes": 2522
+    },
+    {
+      "slug": "reference/deprecated/mc-quota-set",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-quota-set.html",
+      "title": "mc quota set — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-quota-set.md",
+      "bytes": 3735
+    },
+    {
+      "slug": "reference/deprecated/mc-quota",
+      "url": "https://silo.pigsty.io/reference/deprecated/mc-quota.html",
+      "title": "mc quota — SILO (MinIO Object Storage)",
+      "path": "reference/deprecated/mc-quota.md",
+      "bytes": 2633
+    },
+    {
+      "slug": "reference/kubectl-minio-plugin/kubectl-minio-init",
+      "url": "https://silo.pigsty.io/reference/kubectl-minio-plugin/kubectl-minio-init.html",
+      "title": "kubectl minio init — SILO (MinIO Object Storage)",
+      "path": "reference/kubectl-minio-plugin/kubectl-minio-init.md",
+      "bytes": 5053
+    },
+    {
+      "slug": "reference/kubernetes",
+      "url": "https://silo.pigsty.io/reference/kubernetes.html",
+      "title": "Kubernetes Reference — SILO (MinIO Object Storage)",
+      "path": "reference/kubernetes.md",
+      "bytes": 1184
+    },
+    {
+      "slug": "reference/minio-mc-admin",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin.html",
+      "title": "MinIO Admin Client — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin.md",
+      "bytes": 11321
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-create",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-create.html",
+      "title": "mc admin accesskey create — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-create.md",
+      "bytes": 7878
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-disable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-disable.html",
+      "title": "mc admin accesskey disable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-disable.md",
+      "bytes": 2464
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-edit",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-edit.html",
+      "title": "mc admin user accesskey edit — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-edit.md",
+      "bytes": 5741
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-enable.html",
+      "title": "mc admin accesskey enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-enable.md",
+      "bytes": 2430
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-info.html",
+      "title": "mc admin accesskey info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-info.md",
+      "bytes": 3504
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-list.html",
+      "title": "mc admin accesskey ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-list.md",
+      "bytes": 5622
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey-remove.html",
+      "title": "mc admin accesskey rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey-remove.md",
+      "bytes": 2701
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-accesskey",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-accesskey.html",
+      "title": "mc admin accesskey — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-accesskey.md",
+      "bytes": 5032
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-bucket-export",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-bucket-export.html",
+      "title": "mc admin cluster bucket export — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-bucket-export.md",
+      "bytes": 2506
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-bucket-import",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-bucket-import.html",
+      "title": "mc admin cluster bucket import — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-bucket-import.md",
+      "bytes": 2881
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-bucket",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-bucket.html",
+      "title": "mc admin cluster bucket — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-bucket.md",
+      "bytes": 2760
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-iam-export",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-iam-export.html",
+      "title": "mc admin cluster iam export — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-iam-export.md",
+      "bytes": 3600
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-iam-import",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-iam-import.html",
+      "title": "mc admin cluster iam import — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-iam-import.md",
+      "bytes": 3311
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-cluster-iam",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-cluster-iam.html",
+      "title": "mc admin cluster iam — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-cluster-iam.md",
+      "bytes": 2578
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-config",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-config.html",
+      "title": "mc admin config — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-config.md",
+      "bytes": 2742
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-decommission",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-decommission.html",
+      "title": "mc admin decommission — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-decommission.md",
+      "bytes": 4552
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-group",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-group.html",
+      "title": "mc admin group — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-group.md",
+      "bytes": 11375
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-heal",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-heal.html",
+      "title": "mc admin heal — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-heal.md",
+      "bytes": 3375
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-info.html",
+      "title": "mc admin info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-info.md",
+      "bytes": 2573
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-kms-key",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-kms-key.html",
+      "title": "mc admin kms key — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-kms-key.md",
+      "bytes": 3074
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-logs",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-logs.html",
+      "title": "mc admin logs — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-logs.md",
+      "bytes": 3404
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-attach",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-attach.html",
+      "title": "mc admin policy attach — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-attach.md",
+      "bytes": 4953
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-create",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-create.html",
+      "title": "mc admin policy create — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-create.md",
+      "bytes": 3721
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-detach",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-detach.html",
+      "title": "mc admin policy detach — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-detach.md",
+      "bytes": 4916
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-entities",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-entities.html",
+      "title": "mc admin policy entities — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-entities.md",
+      "bytes": 6551
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-info.html",
+      "title": "mc admin policy info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-info.md",
+      "bytes": 3023
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-list.html",
+      "title": "mc admin policy ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-list.md",
+      "bytes": 2271
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy-remove.html",
+      "title": "mc admin policy rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy-remove.md",
+      "bytes": 2230
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-policy",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-policy.html",
+      "title": "mc admin policy — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-policy.md",
+      "bytes": 3911
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-prometheus-generate",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-prometheus-generate.html",
+      "title": "mc admin prometheus generate — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-prometheus-generate.md",
+      "bytes": 8312
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-prometheus-metrics",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-prometheus-metrics.html",
+      "title": "mc admin prometheus metrics — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-prometheus-metrics.md",
+      "bytes": 6520
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-prometheus",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-prometheus.html",
+      "title": "mc admin prometheus — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-prometheus.md",
+      "bytes": 1811
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-rebalance",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-rebalance.html",
+      "title": "mc admin rebalance — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-rebalance.md",
+      "bytes": 6363
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-replicate",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-replicate.html",
+      "title": "mc admin replicate — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-replicate.md",
+      "bytes": 18940
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-scanner-status",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-scanner-status.html",
+      "title": "mc admin scanner status — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-scanner-status.md",
+      "bytes": 4313
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-scanner-trace",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-scanner-trace.html",
+      "title": "mc admin scanner trace — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-scanner-trace.md",
+      "bytes": 5958
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-scanner",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-scanner.html",
+      "title": "mc admin scanner — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-scanner.md",
+      "bytes": 1894
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-service",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-service.html",
+      "title": "mc admin service — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-service.md",
+      "bytes": 3349
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-trace",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-trace.html",
+      "title": "mc admin trace — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-trace.md",
+      "bytes": 7920
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-update.html",
+      "title": "mc admin update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-update.md",
+      "bytes": 3988
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-add.html",
+      "title": "mc admin user add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-add.md",
+      "bytes": 4856
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-disable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-disable.html",
+      "title": "mc admin user disable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-disable.md",
+      "bytes": 3408
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-enable.html",
+      "title": "mc admin user enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-enable.md",
+      "bytes": 3299
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-info.html",
+      "title": "mc admin user info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-info.md",
+      "bytes": 4909
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-list.html",
+      "title": "mc admin user ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-list.md",
+      "bytes": 3395
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-remove.html",
+      "title": "mc admin user rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-remove.md",
+      "bytes": 3244
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-sts-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-sts-info.html",
+      "title": "mc admin user sts info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-sts-info.md",
+      "bytes": 2900
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-add.html",
+      "title": "mc admin user svcacct add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-add.md",
+      "bytes": 6218
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-disable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-disable.html",
+      "title": "mc admin user svcacct disable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-disable.md",
+      "bytes": 3023
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-edit",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-edit.html",
+      "title": "mc admin user svcacct edit — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-edit.md",
+      "bytes": 4858
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-enable.html",
+      "title": "mc admin user svcacct enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-enable.md",
+      "bytes": 3002
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-info.html",
+      "title": "mc admin user svcacct info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-info.md",
+      "bytes": 5032
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-list.html",
+      "title": "mc admin user svcacct ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-list.md",
+      "bytes": 3500
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct-remove.html",
+      "title": "mc admin user svcacct rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct-remove.md",
+      "bytes": 3231
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user-svcacct",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user-svcacct.html",
+      "title": "mc admin user svcacct — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user-svcacct.md",
+      "bytes": 5442
+    },
+    {
+      "slug": "reference/minio-mc-admin/mc-admin-user",
+      "url": "https://silo.pigsty.io/reference/minio-mc-admin/mc-admin-user.html",
+      "title": "mc admin user — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-admin/mc-admin-user.md",
+      "bytes": 5253
+    },
+    {
+      "slug": "reference/minio-mc-deprecated",
+      "url": "https://silo.pigsty.io/reference/minio-mc-deprecated.html",
+      "title": "Deprecated Commands — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc-deprecated.md",
+      "bytes": 7615
+    },
+    {
+      "slug": "reference/minio-mc",
+      "url": "https://silo.pigsty.io/reference/minio-mc.html",
+      "title": "MinIO Client — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc.md",
+      "bytes": 31781
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias-export",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias-export.html",
+      "title": "mc alias export — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias-export.md",
+      "bytes": 3682
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias-import",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias-import.html",
+      "title": "mc alias import — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias-import.md",
+      "bytes": 3852
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias-list.html",
+      "title": "mc alias list — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias-list.md",
+      "bytes": 2775
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias-remove.html",
+      "title": "mc alias remove — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias-remove.md",
+      "bytes": 2569
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias-set.html",
+      "title": "mc alias set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias-set.md",
+      "bytes": 6603
+    },
+    {
+      "slug": "reference/minio-mc/mc-alias",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-alias.html",
+      "title": "mc alias — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-alias.md",
+      "bytes": 2437
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-get-json",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-get-json.html",
+      "title": "mc anonymous get-json — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-get-json.md",
+      "bytes": 3256
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-get",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-get.html",
+      "title": "mc anonymous get — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-get.md",
+      "bytes": 3434
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-links",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-links.html",
+      "title": "mc anonymous links — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-links.md",
+      "bytes": 3367
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-list.html",
+      "title": "mc anonymous list — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-list.md",
+      "bytes": 3184
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-set-json",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-set-json.html",
+      "title": "mc anonymous set-json — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-set-json.md",
+      "bytes": 4188
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous-set.html",
+      "title": "mc anonymous set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous-set.md",
+      "bytes": 4543
+    },
+    {
+      "slug": "reference/minio-mc/mc-anonymous",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-anonymous.html",
+      "title": "mc anonymous — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-anonymous.md",
+      "bytes": 3470
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-cancel",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-cancel.html",
+      "title": "mc batch cancel — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-cancel.md",
+      "bytes": 2763
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-describe",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-describe.html",
+      "title": "mc batch describe — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-describe.md",
+      "bytes": 3472
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-generate",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-generate.html",
+      "title": "mc batch generate — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-generate.md",
+      "bytes": 12128
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-list.html",
+      "title": "mc batch list — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-list.md",
+      "bytes": 3334
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-start",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-start.html",
+      "title": "mc batch start — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-start.md",
+      "bytes": 3762
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch-status",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch-status.html",
+      "title": "mc batch status — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch-status.md",
+      "bytes": 3490
+    },
+    {
+      "slug": "reference/minio-mc/mc-batch",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-batch.html",
+      "title": "mc batch — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-batch.md",
+      "bytes": 2753
+    },
+    {
+      "slug": "reference/minio-mc/mc-cat",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-cat.html",
+      "title": "mc cat — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-cat.md",
+      "bytes": 9286
+    },
+    {
+      "slug": "reference/minio-mc/mc-cp",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-cp.html",
+      "title": "mc cp — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-cp.md",
+      "bytes": 20306
+    },
+    {
+      "slug": "reference/minio-mc/mc-diff",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-diff.html",
+      "title": "mc diff — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-diff.md",
+      "bytes": 3880
+    },
+    {
+      "slug": "reference/minio-mc/mc-du",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-du.html",
+      "title": "mc du — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-du.md",
+      "bytes": 6484
+    },
+    {
+      "slug": "reference/minio-mc/mc-encrypt-clear",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-encrypt-clear.html",
+      "title": "mc encrypt clear — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-encrypt-clear.md",
+      "bytes": 3094
+    },
+    {
+      "slug": "reference/minio-mc/mc-encrypt-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-encrypt-info.html",
+      "title": "mc encrypt info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-encrypt-info.md",
+      "bytes": 2675
+    },
+    {
+      "slug": "reference/minio-mc/mc-encrypt-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-encrypt-set.html",
+      "title": "mc encrypt set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-encrypt-set.md",
+      "bytes": 5197
+    },
+    {
+      "slug": "reference/minio-mc/mc-encrypt",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-encrypt.html",
+      "title": "mc encrypt — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-encrypt.md",
+      "bytes": 2013
+    },
+    {
+      "slug": "reference/minio-mc/mc-event-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-event-add.html",
+      "title": "mc event add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-event-add.md",
+      "bytes": 8938
+    },
+    {
+      "slug": "reference/minio-mc/mc-event-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-event-list.html",
+      "title": "mc event ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-event-list.md",
+      "bytes": 3424
+    },
+    {
+      "slug": "reference/minio-mc/mc-event-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-event-remove.html",
+      "title": "mc event rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-event-remove.md",
+      "bytes": 6193
+    },
+    {
+      "slug": "reference/minio-mc/mc-event",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-event.html",
+      "title": "mc event — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-event.md",
+      "bytes": 1991
+    },
+    {
+      "slug": "reference/minio-mc/mc-find",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-find.html",
+      "title": "mc find — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-find.md",
+      "bytes": 10983
+    },
+    {
+      "slug": "reference/minio-mc/mc-get",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-get.html",
+      "title": "mc get — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-get.md",
+      "bytes": 4594
+    },
+    {
+      "slug": "reference/minio-mc/mc-head",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-head.html",
+      "title": "mc head — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-head.md",
+      "bytes": 8100
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-create-with-login",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-create-with-login.html",
+      "title": "mc idp ldap accesskey create-with-login — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-create-with-login.md",
+      "bytes": 6758
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-create",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-create.html",
+      "title": "mc idp ldap accesskey create — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-create.md",
+      "bytes": 6964
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-disable",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-disable.html",
+      "title": "mc idp ldap accesskey disable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-disable.md",
+      "bytes": 2924
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-edit",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-edit.html",
+      "title": "mc idp ldap accesskey edit — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-edit.md",
+      "bytes": 4838
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-enable.html",
+      "title": "mc idp ldap accesskey enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-enable.md",
+      "bytes": 2914
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-info.html",
+      "title": "mc idp ldap accesskey info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-info.md",
+      "bytes": 3720
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-ls.html",
+      "title": "mc idp ldap accesskey ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-ls.md",
+      "bytes": 6698
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey-rm.html",
+      "title": "mc idp ldap accesskey rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey-rm.md",
+      "bytes": 3596
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-accesskey",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-accesskey.html",
+      "title": "mc idp ldap accesskey — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-accesskey.md",
+      "bytes": 4283
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-add.html",
+      "title": "mc idp ldap add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-add.md",
+      "bytes": 12934
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-disable",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-disable.html",
+      "title": "mc idp ldap disable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-disable.md",
+      "bytes": 2455
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-enable.html",
+      "title": "mc idp ldap enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-enable.md",
+      "bytes": 2441
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-info.html",
+      "title": "mc idp ldap info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-info.md",
+      "bytes": 2490
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-ls.html",
+      "title": "mc idp ldap ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-ls.md",
+      "bytes": 2547
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-policy-attach",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-policy-attach.html",
+      "title": "mc idp ldap policy attach — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-policy-attach.md",
+      "bytes": 3953
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-policy-detach",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-policy-detach.html",
+      "title": "mc idp ldap policy detach — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-policy-detach.md",
+      "bytes": 3965
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-policy-entities",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-policy-entities.html",
+      "title": "mc idp ldap policy entities — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-policy-entities.md",
+      "bytes": 4808
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-policy",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-policy.html",
+      "title": "mc idp ldap policy — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-policy.md",
+      "bytes": 2312
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-rm.html",
+      "title": "mc idp ldap rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-rm.md",
+      "bytes": 2546
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap-update.html",
+      "title": "mc idp ldap update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap-update.md",
+      "bytes": 12359
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-ldap",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-ldap.html",
+      "title": "mc idp ldap — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-ldap.md",
+      "bytes": 4154
+    },
+    {
+      "slug": "reference/minio-mc/mc-idp-openid",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-idp-openid.html",
+      "title": "mc idp openid — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-idp-openid.md",
+      "bytes": 9627
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-restore",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-restore.html",
+      "title": "mc ilm restore — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-restore.md",
+      "bytes": 5912
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-add.html",
+      "title": "mc ilm rule add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-add.md",
+      "bytes": 20346
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-edit",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-edit.html",
+      "title": "mc ilm rule edit — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-edit.md",
+      "bytes": 14797
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-export",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-export.html",
+      "title": "mc ilm rule export — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-export.md",
+      "bytes": 3622
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-import",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-import.html",
+      "title": "mc ilm rule import — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-import.md",
+      "bytes": 3868
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-ls.html",
+      "title": "mc ilm rule ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-ls.md",
+      "bytes": 9789
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule-rm.html",
+      "title": "mc ilm rule rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule-rm.md",
+      "bytes": 3923
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-rule",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-rule.html",
+      "title": "mc ilm rule — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-rule.md",
+      "bytes": 6383
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-add.html",
+      "title": "mc ilm tier add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-add.md",
+      "bytes": 17112
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-check",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-check.html",
+      "title": "mc ilm tier check — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-check.md",
+      "bytes": 2912
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-info.html",
+      "title": "mc ilm tier info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-info.md",
+      "bytes": 4490
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-ls.html",
+      "title": "mc ilm tier ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-ls.md",
+      "bytes": 2452
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-rm.html",
+      "title": "mc ilm tier rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-rm.md",
+      "bytes": 4277
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier-update.html",
+      "title": "mc ilm tier update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier-update.md",
+      "bytes": 12077
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm-tier",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm-tier.html",
+      "title": "mc ilm tier — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm-tier.md",
+      "bytes": 6247
+    },
+    {
+      "slug": "reference/minio-mc/mc-ilm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ilm.html",
+      "title": "mc ilm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ilm.md",
+      "bytes": 2409
+    },
+    {
+      "slug": "reference/minio-mc/mc-legalhold-clear",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-legalhold-clear.html",
+      "title": "mc legalhold clear — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-legalhold-clear.md",
+      "bytes": 5148
+    },
+    {
+      "slug": "reference/minio-mc/mc-legalhold-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-legalhold-info.html",
+      "title": "mc legalhold info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-legalhold-info.md",
+      "bytes": 5150
+    },
+    {
+      "slug": "reference/minio-mc/mc-legalhold-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-legalhold-set.html",
+      "title": "mc legalhold set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-legalhold-set.md",
+      "bytes": 6204
+    },
+    {
+      "slug": "reference/minio-mc/mc-legalhold",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-legalhold.html",
+      "title": "mc legalhold — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-legalhold.md",
+      "bytes": 2209
+    },
+    {
+      "slug": "reference/minio-mc/mc-license-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-license-info.html",
+      "title": "mc license info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-license-info.md",
+      "bytes": 3120
+    },
+    {
+      "slug": "reference/minio-mc/mc-license-register",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-license-register.html",
+      "title": "mc license register — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-license-register.md",
+      "bytes": 6795
+    },
+    {
+      "slug": "reference/minio-mc/mc-license-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-license-update.html",
+      "title": "mc license update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-license-update.md",
+      "bytes": 2669
+    },
+    {
+      "slug": "reference/minio-mc/mc-license",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-license.html",
+      "title": "mc license — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-license.md",
+      "bytes": 2142
+    },
+    {
+      "slug": "reference/minio-mc/mc-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ls.html",
+      "title": "mc ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ls.md",
+      "bytes": 7366
+    },
+    {
+      "slug": "reference/minio-mc/mc-mb",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-mb.html",
+      "title": "mc mb — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-mb.md",
+      "bytes": 7039
+    },
+    {
+      "slug": "reference/minio-mc/mc-mirror",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-mirror.html",
+      "title": "mc mirror — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-mirror.md",
+      "bytes": 21873
+    },
+    {
+      "slug": "reference/minio-mc/mc-mv",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-mv.html",
+      "title": "mc mv — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-mv.md",
+      "bytes": 16582
+    },
+    {
+      "slug": "reference/minio-mc/mc-od",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-od.html",
+      "title": "mc od — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-od.md",
+      "bytes": 5519
+    },
+    {
+      "slug": "reference/minio-mc/mc-ping",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ping.html",
+      "title": "mc ping — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ping.md",
+      "bytes": 4381
+    },
+    {
+      "slug": "reference/minio-mc/mc-pipe",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-pipe.html",
+      "title": "mc pipe — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-pipe.md",
+      "bytes": 8040
+    },
+    {
+      "slug": "reference/minio-mc/mc-put",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-put.html",
+      "title": "mc put — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-put.md",
+      "bytes": 7829
+    },
+    {
+      "slug": "reference/minio-mc/mc-rb",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-rb.html",
+      "title": "mc rb — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-rb.md",
+      "bytes": 4622
+    },
+    {
+      "slug": "reference/minio-mc/mc-ready",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-ready.html",
+      "title": "mc ready — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-ready.md",
+      "bytes": 3316
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-add",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-add.html",
+      "title": "mc replicate add — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-add.md",
+      "bytes": 23287
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-backlog",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-backlog.html",
+      "title": "mc replicate backlog — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-backlog.md",
+      "bytes": 5699
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-export",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-export.html",
+      "title": "mc replicate export — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-export.md",
+      "bytes": 2927
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-import",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-import.html",
+      "title": "mc replicate import — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-import.md",
+      "bytes": 3134
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-ls",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-ls.html",
+      "title": "mc replicate ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-ls.md",
+      "bytes": 3474
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-resync",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-resync.html",
+      "title": "mc replicate resync — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-resync.md",
+      "bytes": 5818
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-rm.html",
+      "title": "mc replicate rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-rm.md",
+      "bytes": 4995
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-status",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-status.html",
+      "title": "mc replicate status — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-status.md",
+      "bytes": 4060
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate-update.html",
+      "title": "mc replicate update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate-update.md",
+      "bytes": 17652
+    },
+    {
+      "slug": "reference/minio-mc/mc-replicate",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-replicate.html",
+      "title": "mc replicate — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-replicate.md",
+      "bytes": 4480
+    },
+    {
+      "slug": "reference/minio-mc/mc-retention-clear",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-retention-clear.html",
+      "title": "mc retention clear — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-retention-clear.md",
+      "bytes": 7809
+    },
+    {
+      "slug": "reference/minio-mc/mc-retention-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-retention-info.html",
+      "title": "mc retention info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-retention-info.md",
+      "bytes": 8882
+    },
+    {
+      "slug": "reference/minio-mc/mc-retention-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-retention-set.html",
+      "title": "mc retention set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-retention-set.md",
+      "bytes": 13523
+    },
+    {
+      "slug": "reference/minio-mc/mc-retention",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-retention.html",
+      "title": "mc retention — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-retention.md",
+      "bytes": 2779
+    },
+    {
+      "slug": "reference/minio-mc/mc-rm",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-rm.html",
+      "title": "mc rm — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-rm.md",
+      "bytes": 15433
+    },
+    {
+      "slug": "reference/minio-mc/mc-share-download",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-share-download.html",
+      "title": "mc share download — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-share-download.md",
+      "bytes": 5816
+    },
+    {
+      "slug": "reference/minio-mc/mc-share-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-share-list.html",
+      "title": "mc share ls — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-share-list.md",
+      "bytes": 4059
+    },
+    {
+      "slug": "reference/minio-mc/mc-share-upload",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-share-upload.html",
+      "title": "mc share upload — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-share-upload.md",
+      "bytes": 7095
+    },
+    {
+      "slug": "reference/minio-mc/mc-share",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-share.html",
+      "title": "mc share — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-share.md",
+      "bytes": 2162
+    },
+    {
+      "slug": "reference/minio-mc/mc-sql",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-sql.html",
+      "title": "mc sql — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-sql.md",
+      "bytes": 10705
+    },
+    {
+      "slug": "reference/minio-mc/mc-stat",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-stat.html",
+      "title": "mc stat — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-stat.md",
+      "bytes": 9536
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-callhome",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-callhome.html",
+      "title": "mc support callhome — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-callhome.md",
+      "bytes": 3914
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-diag",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-diag.html",
+      "title": "mc support diag — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-diag.md",
+      "bytes": 6565
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-inspect",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-inspect.html",
+      "title": "mc support inspect — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-inspect.md",
+      "bytes": 4506
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-perf",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-perf.html",
+      "title": "mc support perf — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-perf.md",
+      "bytes": 9158
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-profile",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-profile.html",
+      "title": "mc support profile — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-profile.md",
+      "bytes": 4498
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-proxy",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-proxy.html",
+      "title": "mc support proxy — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-proxy.md",
+      "bytes": 2347
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top-api",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top-api.html",
+      "title": "mc support top api — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top-api.md",
+      "bytes": 3234
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top-disk",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top-disk.html",
+      "title": "mc support top disk — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top-disk.md",
+      "bytes": 2458
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top-locks",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top-locks.html",
+      "title": "mc support top locks — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top-locks.md",
+      "bytes": 3113
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top-net",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top-net.html",
+      "title": "mc support top net — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top-net.md",
+      "bytes": 2549
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top-rpc",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top-rpc.html",
+      "title": "mc support top rpc — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top-rpc.md",
+      "bytes": 4514
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-top",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-top.html",
+      "title": "mc support top — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-top.md",
+      "bytes": 2221
+    },
+    {
+      "slug": "reference/minio-mc/mc-support-upload",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support-upload.html",
+      "title": "mc support upload — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support-upload.md",
+      "bytes": 3136
+    },
+    {
+      "slug": "reference/minio-mc/mc-support",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-support.html",
+      "title": "mc support — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-support.md",
+      "bytes": 3524
+    },
+    {
+      "slug": "reference/minio-mc/mc-tag-list",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-tag-list.html",
+      "title": "mc tag list — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-tag-list.md",
+      "bytes": 5321
+    },
+    {
+      "slug": "reference/minio-mc/mc-tag-remove",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-tag-remove.html",
+      "title": "mc tag remove — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-tag-remove.md",
+      "bytes": 5382
+    },
+    {
+      "slug": "reference/minio-mc/mc-tag-set",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-tag-set.html",
+      "title": "mc tag set — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-tag-set.md",
+      "bytes": 6610
+    },
+    {
+      "slug": "reference/minio-mc/mc-tag",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-tag.html",
+      "title": "mc tag — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-tag.md",
+      "bytes": 1682
+    },
+    {
+      "slug": "reference/minio-mc/mc-template",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-template.html",
+      "title": "mc COMMAND — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-template.md",
+      "bytes": 1604
+    },
+    {
+      "slug": "reference/minio-mc/mc-tree",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-tree.html",
+      "title": "mc tree — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-tree.md",
+      "bytes": 4098
+    },
+    {
+      "slug": "reference/minio-mc/mc-undo",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-undo.html",
+      "title": "mc undo — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-undo.md",
+      "bytes": 4574
+    },
+    {
+      "slug": "reference/minio-mc/mc-update",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-update.html",
+      "title": "mc update — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-update.md",
+      "bytes": 1878
+    },
+    {
+      "slug": "reference/minio-mc/mc-version-enable",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-version-enable.html",
+      "title": "mc version enable — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-version-enable.md",
+      "bytes": 3709
+    },
+    {
+      "slug": "reference/minio-mc/mc-version-info",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-version-info.html",
+      "title": "mc version info — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-version-info.md",
+      "bytes": 2644
+    },
+    {
+      "slug": "reference/minio-mc/mc-version-suspend",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-version-suspend.html",
+      "title": "mc version suspend — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-version-suspend.md",
+      "bytes": 2999
+    },
+    {
+      "slug": "reference/minio-mc/mc-version",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-version.html",
+      "title": "mc version — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-version.md",
+      "bytes": 3225
+    },
+    {
+      "slug": "reference/minio-mc/mc-watch",
+      "url": "https://silo.pigsty.io/reference/minio-mc/mc-watch.html",
+      "title": "mc watch — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/mc-watch.md",
+      "bytes": 4194
+    },
+    {
+      "slug": "reference/minio-mc/minio-client-settings",
+      "url": "https://silo.pigsty.io/reference/minio-mc/minio-client-settings.html",
+      "title": "MinIO Client Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-mc/minio-client-settings.md",
+      "bytes": 8324
+    },
+    {
+      "slug": "reference/minio-server/minio-server",
+      "url": "https://silo.pigsty.io/reference/minio-server/minio-server.html",
+      "title": "MinIO Server — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/minio-server.md",
+      "bytes": 11990
+    },
+    {
+      "slug": "reference/minio-server/settings",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings.html",
+      "title": "Settings Overview — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings.md",
+      "bytes": 3103
+    },
+    {
+      "slug": "reference/minio-server/settings/console",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/console.html",
+      "title": "MinIO Console Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/console.md",
+      "bytes": 11813
+    },
+    {
+      "slug": "reference/minio-server/settings/core",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/core.html",
+      "title": "Core Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/core.md",
+      "bytes": 13573
+    },
+    {
+      "slug": "reference/minio-server/settings/deprecated",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/deprecated.html",
+      "title": "Deprecated Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/deprecated.md",
+      "bytes": 5577
+    },
+    {
+      "slug": "reference/minio-server/settings/iam",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/iam.html",
+      "title": "Identity and Access Management Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/iam.md",
+      "bytes": 1688
+    },
+    {
+      "slug": "reference/minio-server/settings/iam/ldap",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/iam/ldap.html",
+      "title": "Active Directory / LDAP Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/iam/ldap.md",
+      "bytes": 14512
+    },
+    {
+      "slug": "reference/minio-server/settings/iam/minio-access-plugin",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/iam/minio-access-plugin.html",
+      "title": "MinIO Access Management Plugin Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/iam/minio-access-plugin.md",
+      "bytes": 4362
+    },
+    {
+      "slug": "reference/minio-server/settings/iam/minio-identity-plugin",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/iam/minio-identity-plugin.html",
+      "title": "MinIO Identity Management Plugin Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/iam/minio-identity-plugin.md",
+      "bytes": 5413
+    },
+    {
+      "slug": "reference/minio-server/settings/iam/openid",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/iam/openid.html",
+      "title": "OpenID Identity Management Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/iam/openid.md",
+      "bytes": 12002
+    },
+    {
+      "slug": "reference/minio-server/settings/ilm",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/ilm.html",
+      "title": "ILM Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/ilm.md",
+      "bytes": 2241
+    },
+    {
+      "slug": "reference/minio-server/settings/kes",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/kes.html",
+      "title": "Key Encryption Service Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/kes.md",
+      "bytes": 7444
+    },
+    {
+      "slug": "reference/minio-server/settings/metrics-and-logging",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/metrics-and-logging.html",
+      "title": "Metrics and Logging Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/metrics-and-logging.md",
+      "bytes": 24080
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications.html",
+      "title": "Bucket Notifications Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications.md",
+      "bytes": 4104
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/amqp",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/amqp.html",
+      "title": "AMQP Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/amqp.md",
+      "bytes": 8342
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/elasticsearch",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/elasticsearch.html",
+      "title": "Elasticsearch Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/elasticsearch.md",
+      "bytes": 8979
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/kafka",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/kafka.html",
+      "title": "Kafka Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/kafka.md",
+      "bytes": 11212
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/mqtt",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/mqtt.html",
+      "title": "MQTT Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/mqtt.md",
+      "bytes": 8520
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/mysql",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/mysql.html",
+      "title": "MySQL Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/mysql.md",
+      "bytes": 8103
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/nats",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/nats.html",
+      "title": "NATS Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/nats.md",
+      "bytes": 11377
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/nsq",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/nsq.html",
+      "title": "NSQ Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/nsq.md",
+      "bytes": 6516
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/postgresql",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/postgresql.html",
+      "title": "PostgreSQL Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/postgresql.md",
+      "bytes": 8800
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/redis",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/redis.html",
+      "title": "Redis Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/redis.md",
+      "bytes": 8165
+    },
+    {
+      "slug": "reference/minio-server/settings/notifications/webhook-service",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/notifications/webhook-service.html",
+      "title": "Webhook Service Notification Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/notifications/webhook-service.md",
+      "bytes": 7810
+    },
+    {
+      "slug": "reference/minio-server/settings/object-lambda",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/object-lambda.html",
+      "title": "Object Lambda function settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/object-lambda.md",
+      "bytes": 6540
+    },
+    {
+      "slug": "reference/minio-server/settings/root-credentials",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/root-credentials.html",
+      "title": "Root Access Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/root-credentials.md",
+      "bytes": 6084
+    },
+    {
+      "slug": "reference/minio-server/settings/storage-class",
+      "url": "https://silo.pigsty.io/reference/minio-server/settings/storage-class.html",
+      "title": "Erasure Code Settings — SILO (MinIO Object Storage)",
+      "path": "reference/minio-server/settings/storage-class.md",
+      "bytes": 7063
+    },
+    {
+      "slug": "reference/operator-chart-values",
+      "url": "https://silo.pigsty.io/reference/operator-chart-values.html",
+      "title": "Operator Helm Charts — SILO (MinIO Object Storage)",
+      "path": "reference/operator-chart-values.md",
+      "bytes": 14016
+    },
+    {
+      "slug": "reference/operator-crd",
+      "url": "https://silo.pigsty.io/reference/operator-crd.html",
+      "title": "MinIO Custom Resource Definition — SILO (MinIO Object Storage)",
+      "path": "reference/operator-crd.md",
+      "bytes": 35405
+    },
+    {
+      "slug": "reference/operator-environment-variables",
+      "url": "https://silo.pigsty.io/reference/operator-environment-variables.html",
+      "title": "MinIO Operator Environment Variables — SILO (MinIO Object Storage)",
+      "path": "reference/operator-environment-variables.md",
+      "bytes": 3912
+    },
+    {
+      "slug": "reference/release-note",
+      "url": "https://silo.pigsty.io/reference/release-note.html",
+      "title": "Release Note — SILO (MinIO Object Storage)",
+      "path": "reference/release-note.md",
+      "bytes": 22847
+    },
+    {
+      "slug": "reference/s3-api-compatibility",
+      "url": "https://silo.pigsty.io/reference/s3-api-compatibility.html",
+      "title": "S3 API Compatibility — SILO (MinIO Object Storage)",
+      "path": "reference/s3-api-compatibility.md",
+      "bytes": 8903
+    },
+    {
+      "slug": "reference/tenant-chart-values",
+      "url": "https://silo.pigsty.io/reference/tenant-chart-values.html",
+      "title": "Tenant Helm Charts — SILO (MinIO Object Storage)",
+      "path": "reference/tenant-chart-values.md",
+      "bytes": 36426
+    },
+    {
+      "slug": "search",
+      "url": "https://silo.pigsty.io/search.html",
+      "title": "— SILO (MinIO Object Storage)",
+      "path": "search.md",
+      "bytes": 566
+    }
+  ]
+}

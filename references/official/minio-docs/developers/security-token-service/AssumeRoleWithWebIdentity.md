@@ -1,0 +1,191 @@
+---
+title: "AssumeRoleWithWebIdentity — SILO (MinIO Object Storage)"
+source: "https://silo.pigsty.io/developers/security-token-service/AssumeRoleWithWebIdentity.html"
+source_format: official-html-to-markdown
+language: "en"
+doc_slug: "developers/security-token-service/AssumeRoleWithWebIdentity"
+category: "developers"
+retrieved_at: "2026-07-26T19:44:53+00:00"
+tags:
+  - minio
+  - s3-storage
+  - object-store
+  - official-documentation
+aliases:
+  - "AssumeRoleWithWebIdentity — SILO (MinIO Object Storage)"
+---
+# AssumeRoleWithWebIdentity
+
+The MinIO Security Token Service (STS) `AssumeRoleWithWebIdentity` API
+endpoint generates temporary access credentials using a
+JSON Web Token (JWT) returned from a
+[[operations/external-iam/configure-openid-external-identity-management#minio-external-identity-management-openid-configure|configured OpenID IDentity Provider (IDP)]]. This page documents the MinIO
+server `AssumeRoleWithWebIdentity` endpoint. For instructions on
+implementing STS using an S3-compatible SDK, defer to the documentation
+for that SDK.
+
+The MinIO STS `AssumeRoleWithWebIdentity` API endpoint is modeled
+after the
+AWS [AssumeRoleWithWebIdentity](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html)
+endpoint and shares certain request/response elements. This page
+documents the MinIO-specific syntax and links out to the AWS reference for
+all shared elements.
+
+## Request Endpoint
+
+The `AssumeRoleWithWebIdentity` endpoint has the following form:
+
+```
+POST https://minio.example.net?Action=AssumeRoleWithWebIdentity[&ARGS]
+```
+
+The following example uses all supported arguments. Replace the
+`minio.example.net` hostname with the appropriate URL for your MinIO
+cluster:
+
+```
+POST https://minio.example.net?Action=AssumeRoleWithWebIdentity
+&WebIdentityToken=TOKEN
+&Version=2011-06-15
+&DurationSeconds=86000
+&Policy={}
+```
+
+### Request Query Parameters
+
+This endpoint supports the following query parameters:
+
+Parameter
+
+Type
+
+Description
+
+`WebIdentityToken`
+
+string
+
+Required
+
+Specify the JSON Web Token (JWT) returned by the
+[[operations/external-iam/configure-openid-external-identity-management#minio-external-identity-management-openid-configure|configured OpenID IDentity Provider]].
+
+`Version`
+
+string
+
+Required
+
+Specify `2011-06-15`.
+
+`DurationSeconds`
+
+integer
+
+Optional
+
+Specify the number of seconds after which the temporary credentials
+expire. Defaults to `3600`.
+
+The minimum value is `900` or 15 minutes.
+
+The maximum value is `604800` or 7 days.
+
+If `DurationSeconds` is omitted, MinIO checks the JWT token for an
+`exp` claim before using the default duration. See
+[RFC 7519 4.1.4: Expiration Time Claim](https://datatracker.ietf.org/doc/html/rfc7519#section-4.1.4)
+for more information on JSON web token expiration.
+
+`Policy`
+
+string
+
+Optional
+
+Specify the URL-encoded JSON-formatted [[administration/identity-access-management/policy-based-access-control#minio-policy|policy]] to
+use as an inline session policy.
+
+The minimum string length is `1`.
+
+The maximum string length is `2048`.
+
+The resulting permissions for the temporary credentials are the
+intersection between the policy specified as part of the [[administration/identity-access-management/oidc-access-management#minio-external-identity-management-openid-access-control|JWT claim]] and the specified inline
+policy. Applications can only perform those operations for which they
+are explicitly authorized.
+
+The inline policy can specify a subset of permissions allowed by the
+policy specified in the JWT claim. Applications can never assume
+more privileges than those specified in the JWT claim policy.
+
+Omit to use only the JWT claim policy.
+
+See [[administration/identity-access-management#minio-access-management|Access Management]] for more information on MinIO
+authentication and authorization.
+
+`RoleArn`
+
+string
+
+Optional
+
+The role Amazon Resource Number (ARN) to use for all user authentication requests.
+If used, there must be a matching OIDC RolePolicy defined for the RoleArn’s provider by the `role_policy` configuration parameter or the `MINIO_IDENTITY_OPENID_ROLE_POLICY` environment variable.
+
+When used, all valid authorization requests assume the same set of permissions provided by the RolePolicy.
+You can use  [[administration/identity-access-management/policy-based-access-control#minio-policy-variables-oidc|OpenID Policy Variables]] to create policies that programmatically manage what each individual user has access to.
+
+If you do not supply a RoleArn, MinIO attempts to authorize through a JWT-based claim.
+
+## Response Elements
+
+The XML response for this API endpoint is similar to the AWS
+[AssumeRoleWithWebIdentity response](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html#API_AssumeRoleWithWebIdentity_ResponseElements).
+Specifically, MinIO returns an `AssumeRoleWithWebIdentityResult` object,
+where the `AssumedRoleUser.Credentials` object contains the temporary
+credentials generated by MinIO:
+
+`AccessKeyId` - The access key applications use for authentication.
+
+`SecretKeyId` - The secret key applications use for authentication.
+
+`Expiration` - The [RFC3339](https://datatracker.ietf.org/doc/html/rfc3339.html)  date and time after which the credentials expire.
+
+`SessionToken` - The session token applications use for authentication. Some
+SDKs may require this field when using temporary credentials.
+
+The following example is similar to the response returned by the MinIO STS
+`AssumeRoleWithWebIdentity` endpoint:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<AssumeRoleWithWebIdentityResponse xmlns="https://sts.amazonaws.com/doc/2011-06-15/">
+<AssumeRoleWithWebIdentityResult>
+   <AssumedRoleUser>
+      <Arn/>
+      <AssumeRoleId/>
+   </AssumedRoleUser>
+   <Credentials>
+      <AccessKeyId>Y4RJU1RNFGK48LGO9I2S</AccessKeyId>
+      <SecretAccessKey>sYLRKS1Z7hSjluf6gEbb9066hnx315wHTiACPAjg</SecretAccessKey>
+      <Expiration>2019-08-08T20:26:12Z</Expiration>
+      <SessionToken>eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NLZXkiOiJZNFJKVTFSTkZHSzQ4TEdPOUkyUyIsImF1ZCI6IlBvRWdYUDZ1Vk80NUlzRU5SbmdEWGo1QXU1WWEiLCJhenAiOiJQb0VnWFA2dVZPNDVJc0VOUm5nRFhqNUF1NVlhIiwiZXhwIjoxNTQxODExMDcxLCJpYXQiOjE1NDE4MDc0NzEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0Ojk0NDMvb2F1dGgyL3Rva2VuIiwianRpIjoiYTBiMjc2MjktZWUxYS00M2JmLTg3MzktZjMzNzRhNGNkYmMwIn0.ewHqKVFTaP-j_kgZrcOEKroNUjk10GEp8bqQjxBbYVovV0nHO985VnRESFbcT6XMDDKHZiWqN2vi_ETX_u3Q-w</SessionToken>
+   </Credentials>
+</AssumeRoleWithWebIdentityResult>
+<ResponseMetadata/>
+</AssumeRoleWithWebIdentityResponse>
+```
+
+## Error Elements
+
+The XML error response for this API endpoint is similar to the AWS
+[AssumeRoleWithWebIdentity response](https://docs.aws.amazon.com/STS/latest/APIReference/API_AssumeRoleWithWebIdentity.html#API_AssumeRoleWithWebIdentity_Errors).
+
+   This work is licensed under a
+   [Creative Commons Attribution 4.0 International License.](http://creativecommons.org/licenses/by/4.0/)
+   2020-Present
+   [](http://creativecommons.org/licenses/by/4.0/)
+
+Your privacy is important to us:
+            We use cookies in order to give you a better experience. If you wish so, you can always review our 
+            [Privacy Policy](https://min.io/privacy-policy).
