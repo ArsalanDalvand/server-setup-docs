@@ -11,29 +11,24 @@ Due to licensing transitions and feature modifications in common S3 engines, a t
 | Storage Engine | License | Web UI Status | Inode Efficiency | Deployment Complexity | Verdict |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **MinIO (Latest)** | AGPLv3 | 🔴 Deprecated | Low (1 file/object) | Low | **Rejected** (CLI-only admin, AGPL constraints) |
-| **Silo (Pigsty)** | AGPLv3 | 🟢 Active | Low (1 file/object) | Low | **Approved (Option A)** |
-| **MinIO (RELEASE.2025-01-01)** | AGPLv3 | 🟢 Active | Low (1 file/object) | Low | **Approved (Option B - Recommended)** |
+| **Silo (Pigsty)** | AGPLv3 | 🟢 Active | Low (1 file/object) | Low | **Approved & Deployed** (Fully open-source community maintained fork) |
 | **SeaweedFS** | Apache 2.0 | 🟡 Basic | 🟢 Extreme (Merged blocks) | High | **Approved for Future Scale-out** |
 
 ### Rationale Behind S3 Engine Selections
 
-#### Option A: Silo (Pigsty Fork)
-*   **The Pros:** Silo is a community-maintained fork of MinIO by the Pigsty project. It explicitly restores the embedded administrative web UI console reference that MinIO Inc. removed from its community editions. It retains 100% S3 API compatibility.
-*   **The Cons:** Being a relatively fresh fork, long-term security patching frequency is dependent on the Pigsty community.
+#### Silo (Pigsty Fork) - Deployed Option
+*   **The Pros:** Silo is the community-maintained fork of MinIO by the Pigsty project (`pgsty/minio`). It explicitly restores the embedded administrative web UI console reference that MinIO Inc. removed from its community editions, and it is actively patched for security vulnerabilities (e.g. CVE-2026-34986, CVE-2026-39883).
+*   **The Verdict:** We are using **Silo (Pigsty Fork) Version RELEASE.2026-03-25T00-00-00Z** (Latest Stable) packaged as a native `.deb`. This provides the newest security patches, a fully unlocked administrative web console, and 100% S3 compatibility without being locked into commercial license tiers.
 
-#### Option B: MinIO pinned to `RELEASE.2025-01-01T16-13-09Z` (Recommended for Home/Testing)
-*   **The Pros:** Relies on the mature, fully tested, upstream MinIO codebase. Pining the installation to a release tag prior to the UI extraction ensures that the fully-featured administrative web GUI remains available and free.
-*   **The Cons:** Pinned versions will not receive subsequent upstream security patches automatically. However, since the storage k8s/LXC interface is locked inside the private virtual bridge (`vmbr0`) and accessible only via local proxied interfaces, external network vulnerability vectors are fully mitigated.
-
-#### Option C: SeaweedFS (Target for Phase 3)
+#### SeaweedFS (Target for Phase 3)
 *   *Why not now:* SeaweedFS requires running multiple daemons (Master, Volume, Filer, and S3 gateway). This introduces configuration complexity during the MVP staging phase.
 *   *Why in the future:* SeaweedFS merges small object writes into large sequential blocks. Since Stalwart writes thousands of small raw email payloads, SeaweedFS prevents **Inode Exhaustion** on the mechanical SAS drive, which is a major long-term failure vector under MinIO/Silo.
 
 ---
 
-## 2. MinIO (Pinned UI) Container Configuration (`storage-s3`)
+## 2. Silo (Pigsty Fork) Container Configuration (`storage-s3`)
 
-We will deploy Option B (pinned stable MinIO) inside an independent LXC container using the dedicated SAS storage pool.
+We deploy Silo inside an independent LXC container using the dedicated SAS storage pool.
 
 ### Container Profile (LXC 104)
 *   **Target Storage Pool:** `sas-storage` (Thinpool configured on `/dev/sda` hardware RAID).
@@ -57,17 +52,13 @@ pct create 104 local:vztmpl/debian-12-standard_12.12-1_amd64.tar.zst \
 pct start 104
 ```
 
-### Step 2: Download & Install Pinned MinIO Binary
+### Step 2: Download & Install Silo (Pigsty Fork) DEB Package
 Execute inside the container (`pct enter 104`):
-
-#### 🔴 Incident: 404 URL Resolution on Upstream Archive
-*   **Context:** Downloading `minio.RELEASE.2025-01-01T16-13-09Z` returned a `404 Not Found` from the official archive server (`dl.min.io`).
-*   **Root Cause:** Exact release tags for directory indices differ based on build times. Checking the upstream listing revealed the correct tag was `minio.RELEASE.2025-01-18T00-31-37Z`.
-*   **Resolution:** Modified the target binary download to the correct tag, set execute permissions, and created the S3 storage directory:
 ```bash
 apt update && apt install -y wget curl
-wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2025-01-18T00-31-37Z -O /usr/local/bin/minio
-chmod +x /usr/local/bin/minio
+wget https://github.com/pgsty/minio/releases/download/RELEASE.2026-03-25T00-00-00Z/minio_20260325000000.0.0_amd64.deb -O /tmp/minio_silo.deb
+dpkg -i /tmp/minio_silo.deb
+rm -f /tmp/minio_silo.deb
 mkdir -p /mnt/s3-data
 ```
 
@@ -80,35 +71,7 @@ MINIO_ROOT_USER="minioadmin"
 MINIO_ROOT_PASSWORD="minioadmin"
 ```
 
-### Step 4: Systemd Service Integration
-Create `/etc/systemd/system/minio.service` to manage the process lifetime, mount `/mnt/s3-data`, and run the daemon under the unprivileged system user:
-```ini
-[Unit]
-Description=MinIO
-Documentation=https://silo.pigsty.io/index.html
-Wants=network-online.target
-After=network-online.target
-AssertFileIsExecutable=/usr/local/bin/minio
-
-[Service]
-WorkingDirectory=/usr/local
-User=minio-user
-Group=minio-user
-ProtectProc=invisible
-EnvironmentFile=-/etc/default/minio
-ExecStartPre=/bin/bash -c "if [ -z \"${MINIO_VOLUMES}\" ]; then echo \"Variable MINIO_VOLUMES not set in /etc/default/minio\"; exit 1; fi"
-ExecStart=/usr/local/bin/minio server $MINIO_OPTS $MINIO_VOLUMES
-Restart=always
-LimitNOFILE=65536
-TasksMax=infinity
-TimeoutStopSec=infinity
-SendSIGKILL=no
-
-[Install]
-WantedBy=multi-user.target
-```
-
-### Step 5: User Setup & Activation
+### Step 4: User Setup & Activation
 ```bash
 groupadd -r minio-user
 useradd -M -r -g minio-user minio-user
@@ -123,7 +86,7 @@ systemctl start minio
 ## 4. Operational Health & Verification
 Running `systemctl status minio` inside LXC 104 returns:
 *   **Service Status:** `active (running)`
-*   **Version:** `RELEASE.2025-01-18T00-31-37Z`
+*   **Version:** `RELEASE.2026-03-25T00-00-00Z (Silo - Community maintained fork of MinIO)`
 *   **API Listener:** `http://192.168.1.104:9000` (S3 active)
 *   **Console UI Web Listener:** `http://192.168.1.104:9001` (Admin Web GUI active and responding)
 
