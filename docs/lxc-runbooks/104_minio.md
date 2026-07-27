@@ -59,11 +59,16 @@ pct start 104
 
 ### Step 2: Download & Install Pinned MinIO Binary
 Execute inside the container (`pct enter 104`):
+
+#### 🔴 Incident: 404 URL Resolution on Upstream Archive
+*   **Context:** Downloading `minio.RELEASE.2025-01-01T16-13-09Z` returned a `404 Not Found` from the official archive server (`dl.min.io`).
+*   **Root Cause:** Exact release tags for directory indices differ based on build times. Checking the upstream listing revealed the correct tag was `minio.RELEASE.2025-01-18T00-31-37Z`.
+*   **Resolution:** Modified the target binary download to the correct tag, set execute permissions, and created the S3 storage directory:
 ```bash
 apt update && apt install -y wget curl
-# Download the specific release binary containing the administrative web UI
-wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2025-01-01T16-13-09Z -O /usr/local/bin/minio
+wget https://dl.min.io/server/minio/release/linux-amd64/archive/minio.RELEASE.2025-01-18T00-31-37Z -O /usr/local/bin/minio
 chmod +x /usr/local/bin/minio
+mkdir -p /mnt/s3-data
 ```
 
 ### Step 3: Configure Environment Variables & Daemon (`/etc/default/minio`)
@@ -72,8 +77,53 @@ Create the configuration file:
 MINIO_VOLUMES="/mnt/s3-data"
 MINIO_OPTS="--address :9000 --console-address :9001"
 MINIO_ROOT_USER="minioadmin"
-MINIO_ROOT_PASSWORD="your_secure_password"
+MINIO_ROOT_PASSWORD="minioadmin"
 ```
 
 ### Step 4: Systemd Service Integration
-Create `/etc/systemd/system/minio.service` to manage the process lifetime, mount `/mnt/s3-data`, and run the daemon under the unprivileged system user.
+Create `/etc/systemd/system/minio.service` to manage the process lifetime, mount `/mnt/s3-data`, and run the daemon under the unprivileged system user:
+```ini
+[Unit]
+Description=MinIO
+Documentation=https://silo.pigsty.io/index.html
+Wants=network-online.target
+After=network-online.target
+AssertFileIsExecutable=/usr/local/bin/minio
+
+[Service]
+WorkingDirectory=/usr/local
+User=minio-user
+Group=minio-user
+ProtectProc=invisible
+EnvironmentFile=-/etc/default/minio
+ExecStartPre=/bin/bash -c "if [ -z \"${MINIO_VOLUMES}\" ]; then echo \"Variable MINIO_VOLUMES not set in /etc/default/minio\"; exit 1; fi"
+ExecStart=/usr/local/bin/minio server $MINIO_OPTS $MINIO_VOLUMES
+Restart=always
+LimitNOFILE=65536
+TasksMax=infinity
+TimeoutStopSec=infinity
+SendSIGKILL=no
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Step 5: User Setup & Activation
+```bash
+groupadd -r minio-user
+useradd -M -r -g minio-user minio-user
+chown -R minio-user:minio-user /mnt/s3-data
+systemctl daemon-reload
+systemctl enable minio
+systemctl start minio
+```
+
+---
+
+## 4. Operational Health & Verification
+Running `systemctl status minio` inside LXC 104 returns:
+*   **Service Status:** `active (running)`
+*   **Version:** `RELEASE.2025-01-18T00-31-37Z`
+*   **API Listener:** `http://192.168.1.104:9000` (S3 active)
+*   **Console UI Web Listener:** `http://192.168.1.104:9001` (Admin Web GUI active and responding)
+
