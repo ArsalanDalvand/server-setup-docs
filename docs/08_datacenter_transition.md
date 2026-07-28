@@ -38,6 +38,24 @@ Copy and submit the following specifications to your datacenter sales/technical 
 
 ---
 
+### 3. Switch Interface Uplink Requirements (SFP+ 10G)
+
+For the server to successfully connect to the datacenter's 10G network backbone via the **HPE Ethernet 10Gb 2-port 562FLR-SFP+ Adapter (Intel X710)**, the physical link must be populated with optical transceivers. 
+
+*   **Total Transceivers Required:** **`2x` SFP+ Modules**
+    *   *Transceiver 1:* Plugged into Port 1 of the server's HPE 562FLR-SFP+ Adapter.
+    *   *Transceiver 2:* Plugged into the corresponding uplink port on the Datacenter's Top-of-Rack (ToR) Switch.
+*   **Target Specifications:**
+    *   **Form Factor:** `SFP+` (10 Gigabit)
+    *   **Standard:** `10GBASE-SR` (Short Range)
+    *   **Wavelength / Media:** `850nm` Multi-Mode Fiber (MMF)
+    *   **Connector Type:** `LC Duplex`
+    *   **Compatibility Encoding:**
+        *   *Server-Side Transceiver:* **HPE Compatible** (P/N: `455883-B21`). The HPE Gen10 firmware rejects generic/non-HP coded modules.
+        *   *Switch-Side Transceiver:* Must match the datacenter's switch vendor code (e.g., Cisco, Juniper, Arista, etc.). Inform the datacenter to provide or confirm their switch-side module vendor compatibility.
+
+---
+
 ## 2. iLO & Proxmox IP Transition Runbook
 
 Once the datacenter allocates the IP addresses, you must update the temporary staging IPs (`192.168.1.x`) to the production datacenter IPs.
