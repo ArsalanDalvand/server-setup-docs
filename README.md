@@ -22,6 +22,7 @@ To maintain modularity and atomic documentation, the configurations are divided 
     *   *Focus:* Detailed hardware colocation request specifications and IP configuration modification guides.
 *   [**LXC Runbooks Directory**](docs/lxc-runbooks/)
     *   *Focus:* Atomic, dedicated runbooks for provisioning and managing individual containers:
+        *   [**100_nats.md**](docs/lxc-runbooks/100_nats.md) - NATS Cluster Coordination Broker.
         *   [**101_stalwart.md**](docs/lxc-runbooks/101_stalwart.md) - Stalwart Mail Server Profile.
         *   [**102_foundationdb.md**](docs/lxc-runbooks/102_foundationdb.md) - FoundationDB Core Database.
         *   [**103_redis.md**](docs/lxc-runbooks/103_redis.md) - Redis Cache Cluster.
