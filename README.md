@@ -25,6 +25,7 @@ To maintain modularity and atomic documentation, the configurations are divided 
         *   [**100_nats.md**](docs/lxc-runbooks/100_nats.md) - NATS Cluster Coordination Broker.
         *   [**101_stalwart.md**](docs/lxc-runbooks/101_stalwart.md) - Stalwart MTA Port 25 Inbound/Outbound.
         *   [**108_stalwart_submit.md**](docs/lxc-runbooks/108_stalwart_submit.md) - Stalwart Authenticated Submissions (Ports 587/465).
+        *   [**105_stalwart_access.md**](docs/lxc-runbooks/105_stalwart_access.md) - Stalwart User Access (IMAP, JMAP, DAV).
         *   [**102_foundationdb.md**](docs/lxc-runbooks/102_foundationdb.md) - FoundationDB Core Database.
         *   [**103_redis.md**](docs/lxc-runbooks/103_redis.md) - Redis Cache Cluster.
         *   [**104_minio.md**](docs/lxc-runbooks/104_minio.md) - MinIO S3 Object Storage.
